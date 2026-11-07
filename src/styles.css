@@ -183,3 +183,10 @@ footer { padding-block: 20px 40px; border-top: 1px solid var(--line); font-size:
 .j-body { display: grid; gap: 3px; min-width: 0 }
 .j-title { font: 700 15px var(--display) }
 .j-text { font-size: 14.5px; color: var(--ink); max-width: 72ch }
+
+/* empty state */
+.dropzone { border: 2px dashed var(--line); border-radius: 14px; background: var(--panel); padding-block: 56px; padding-inline: 24px; display: grid; place-items: center; text-align: center }
+.drop-inner { display: grid; gap: 14px; justify-items: center; max-width: 560px }
+.drop-inner h2 { font-size: 26px }
+.btn.big { padding: 13px 26px; font-size: 16px }
+body.dragging .dropzone, body.dragging .setup { border-color: var(--accent); background: var(--accent-soft) }

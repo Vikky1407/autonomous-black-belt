@@ -29,9 +29,11 @@ Six Sigma analysis takes weeks, depends on scarce Black Belts, and often ends in
 
 ## Run it
 
-Open `index.html` in a browser. That's it: no install, no server, no build.
+In VS Code: open **Run and Debug** and click **Run Autonomous Black Belt**. It opens the app in Chrome.
 
-Or, with Node.js:
+Or open `index.html` in any browser. No install, no server, no build. Then upload a CSV from `data/`, enter the spec limits, and click **Run DMAIC**.
+
+With Node.js:
 
 ```bash
 npm start          # serves the app at http://localhost:5173
@@ -53,7 +55,7 @@ src/engine.js         DMAIC decision logic: test selection, verdicts, scenarios,
 src/charts.js         SVG charts: histogram, control chart, interval plot, scatter, Pareto
 src/app.js            Interface and AI storyboard
 src/styles.css        Design system (light and dark themes)
-src/data.js           Sample invoice dataset generator
+src/data.js           Invoice test-dataset generator (used by tests)
 scripts/              Dataset generator and single-file build
 tests/                Engine tests and SciPy validation
 data/                 Test datasets and answer key
@@ -61,10 +63,10 @@ data/                 Test datasets and answer key
 
 ## Tech
 
-Plain JavaScript with no dependencies. Statistics engine written from first principles: incomplete beta and gamma functions, Anderson-Darling, Levene (Brown-Forsythe), one-way and Welch ANOVA, Kruskal-Wallis, chi-square, Pearson and Spearman correlation, OLS regression, I-MR control charts, bootstrap simulation. AI narrative uses Claude.
+Plain JavaScript with no dependencies. Statistics engine written from first principles: incomplete beta and gamma functions, Anderson-Darling, Levene (Brown-Forsythe), one-way and Welch ANOVA, Kruskal-Wallis, chi-square, Pearson and Spearman correlation, OLS regression, I-MR control charts, bootstrap simulation. AI narrative is optional and runs only where an AI service is connected.
 
 ## Status
 
 Prototype (v1). Supports a continuous output (Y). Next: attribute data (defect counts, pass/fail), DOE analysis, and live data connectors.
 
-Built by Vikas Choudhary with Claude as AI coding partner.
+© 2026 Vikas Choudhary. All rights reserved.

@@ -19,11 +19,19 @@
     <div class="sigma-badge" id="badge" aria-live="polite"></div>
   </header>
 
-  <section class="setup" aria-label="Data and specification">
+  <section class="dropzone" id="drop" aria-label="Upload process data">
+    <div class="drop-inner">
+      <h2>Start with your process data</h2>
+      <p class="muted">A CSV file with one row per case: a measured output (cycle time, weight, accuracy), plus any inputs you want tested (team, channel, shift, machine) and, ideally, a date.</p>
+      <label class="btn primary file-btn big">Upload CSV<input type="file" id="fileIn" accept=".csv,.txt,text/csv"></label>
+      <span class="drop-hint">or drag a file anywhere onto this page · your data stays on this device</span>
+    </div>
+  </section>
+
+  <section class="setup" id="setup" aria-label="Analysis setup" hidden>
     <div class="setup-row">
-      <button class="btn" id="demoBtn" type="button">Load sample data</button>
-      <label class="btn file-btn">Upload CSV<input type="file" id="fileIn" accept=".csv,.txt,text/csv"></label>
       <span class="source" id="source"></span>
+      <label class="btn file-btn">Change file<input type="file" id="fileIn2" accept=".csv,.txt,text/csv"></label>
     </div>
     <div class="setup-row">
       <div class="field f-y"><label for="ySel">Output to improve (Y)</label><select id="ySel"></select></div>
@@ -39,11 +47,11 @@
         <div class="field" style="max-width:260px"><label for="dSel">Date column (for control chart)</label><select id="dSel"></select></div>
       </div>
     </details>
-    <p class="drop-hint">Your data stays in this browser; all statistics run on your device.</p>
+    <p class="drop-hint" id="readyNote">Enter the customer requirement (spec limits), then run.</p>
     <div class="err" id="err" hidden></div>
   </section>
 
-  <nav class="rail" aria-label="DMAIC phases">
+  <nav class="rail" id="rail" aria-label="DMAIC phases" hidden>
     <ol>
       <li><a href="#define" data-p="define"><span class="k">D</span>Define</a></li>
       <li><a href="#measure" data-p="measure"><span class="k">M</span>Measure</a></li>
@@ -58,11 +66,10 @@
 
   <footer>
     <span>Statistics engine validated against SciPy and statsmodels. AI writes the narrative only; it never computes the numbers.</span>
-    <span>Prototype by Vikas Choudhary · Lean Six Sigma Master Black Belt</span>
+    <span>© 2026 Vikas Choudhary · Lean Six Sigma Master Black Belt</span>
   </footer>
 </div>
 <script src="src/stats.js"></script>
-<script src="src/data.js"></script>
 <script src="src/engine.js"></script>
 <script src="src/charts.js"></script>
 <script src="src/app.js"></script>

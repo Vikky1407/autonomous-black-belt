@@ -1,19 +1,22 @@
 // ---------- Autonomous Black Belt: user interface ----------
 (() => {
   const $ = id => document.getElementById(id), esc = Charts.esc, f = BB.f, fp = BB.fp;
-  const st = { rows: null, prof: null, source: "", res: null, xs: new Set(), demo: false, biz: { volume: 60000, cost: 35 } };
+  const st = { rows: null, prof: null, source: "", res: null, xs: new Set(), biz: { volume: 60000, cost: 35 } };
 
   // ---------- data loading ----------
-  function loadRows(rows, source, demo) {
+  function loadRows(rows, source) {
     st.rows = rows.map(r => Object.fromEntries(Object.entries(r).map(([k, v]) => [k, v == null ? "" : String(v)])));
-    st.prof = BB.profile(st.rows); st.source = source; st.demo = demo;
+    st.prof = BB.profile(st.rows); st.source = source; st.res = null;
     const y = BB.suggestY(st.prof);
     if (!y) return showErr("No numeric column found to use as the output (Y). Add a measured value such as cycle time, cost or defects per unit.");
     const ySel = $("ySel"); ySel.innerHTML = st.prof.filter(c => c.type === "continuous").map(c => `<option${c.name === y ? " selected" : ""}>${esc(c.name)}</option>`).join("");
     const dates = st.prof.filter(c => c.type === "date");
     $("dSel").innerHTML = `<option value="">None (use row order)</option>` + dates.map((c, i) => `<option${i === 0 ? " selected" : ""}>${esc(c.name)}</option>`).join("");
-    $("usl").value = demo ? 48 : ""; $("lsl").value = ""; $("unit").value = demo ? "hours" : /hr|hour/i.test(y) ? "hours" : /min/i.test(y) ? "minutes" : /day/i.test(y) ? "days" : "";
-    resetXs(); renderSource(); run();
+    $("usl").value = ""; $("lsl").value = ""; $("unit").value = /hr|hour/i.test(y) ? "hours" : /min/i.test(y) ? "minutes" : /day/i.test(y) ? "days" : /_g$|gram/i.test(y) ? "g" : /pct|percent/i.test(y) ? "%" : "";
+    resetXs(); renderSource();
+    $("drop").hidden = true; $("setup").hidden = false; $("rail").hidden = true; $("out").innerHTML = ""; $("badge").innerHTML = ""; $("readyNote").hidden = false;
+    history.replaceState(null, "", location.pathname + location.search);
+    $("usl").focus();
   }
   function resetXs() {
     const y = $("ySel").value; st.xs = new Set(st.prof.filter(c => c.name !== y && (c.type === "categorical" || c.type === "continuous")).map(c => c.name));
@@ -30,17 +33,22 @@
   }
   function showErr(m) { const e = $("err"); e.textContent = m; e.hidden = !m; }
 
-  $("demoBtn").onclick = () => loadRows(makeDemoData(S), "Sample: accounts-payable invoices (synthetic)", true);
   $("fileIn").onchange = e => readFile(e.target.files[0]);
+  $("fileIn2").onchange = e => readFile(e.target.files[0]);
+  let dragDepth = 0;
+  document.addEventListener("dragenter", e => { e.preventDefault(); dragDepth++; document.body.classList.add("dragging"); });
+  document.addEventListener("dragleave", () => { if (--dragDepth <= 0) { dragDepth = 0; document.body.classList.remove("dragging"); } });
   document.addEventListener("dragover", e => e.preventDefault());
-  document.addEventListener("drop", e => { e.preventDefault(); const fl = e.dataTransfer.files[0]; if (fl) readFile(fl); });
+  document.addEventListener("drop", e => { e.preventDefault(); dragDepth = 0; document.body.classList.remove("dragging"); const fl = e.dataTransfer.files[0]; if (fl) readFile(fl); });
+  ["usl", "lsl", "unit"].forEach(id => $(id).addEventListener("keydown", e => { if (e.key === "Enter") run(); }));
   function readFile(file) {
     if (!file) return;
     const rd = new FileReader();
-    rd.onload = () => { try { showErr(""); loadRows(BB.parseCSV(rd.result), file.name, false); } catch (err) { showErr("Couldn't read that file: " + err.message); } };
+    rd.onload = () => { try { showErr(""); loadRows(BB.parseCSV(rd.result), file.name); } catch (err) { showErr("Couldn't read that file: " + err.message); } };
     rd.readAsText(file);
+    $("fileIn").value = ""; $("fileIn2").value = "";
   }
-  $("ySel").onchange = () => { resetXs(); run(); };
+  $("ySel").onchange = () => { resetXs(); if (st.res) run(); };
   $("xChips").onclick = e => { const b = e.target.closest("[data-x]"); if (!b) return; const x = b.dataset.x; st.xs.has(x) ? st.xs.delete(x) : st.xs.add(x); b.setAttribute("aria-pressed", st.xs.has(x)); };
   $("runBtn").onclick = run;
 
@@ -56,6 +64,8 @@
       st.res = BB.run(st.rows, { y: $("ySel").value, xs: [...st.xs], spec, dateCol: $("dSel").value || null, types });
     } catch (err) { return showErr(err.message); }
     st.unit = $("unit").value.trim();
+    $("rail").hidden = false; $("readyNote").hidden = true;
+    if (location.hash !== "#define") location.hash = "define";
     render();
   }
 
@@ -332,5 +342,4 @@
   }
   addEventListener("hashchange", () => show(false));
 
-  loadRows(makeDemoData(S), "Sample: accounts-payable invoices (synthetic)", true);
 })();

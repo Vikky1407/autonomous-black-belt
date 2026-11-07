@@ -192,6 +192,13 @@ footer { padding-block: 20px 40px; border-top: 1px solid var(--line); font-size:
 .j-body { display: grid; gap: 3px; min-width: 0 }
 .j-title { font: 700 15px var(--display) }
 .j-text { font-size: 14.5px; color: var(--ink); max-width: 72ch }
+
+/* empty state */
+.dropzone { border: 2px dashed var(--line); border-radius: 14px; background: var(--panel); padding-block: 56px; padding-inline: 24px; display: grid; place-items: center; text-align: center }
+.drop-inner { display: grid; gap: 14px; justify-items: center; max-width: 560px }
+.drop-inner h2 { font-size: 26px }
+.btn.big { padding: 13px 26px; font-size: 16px }
+body.dragging .dropzone, body.dragging .setup { border-color: var(--accent); background: var(--accent-soft) }
 </style>
 </head>
 <body>
@@ -205,11 +212,19 @@ footer { padding-block: 20px 40px; border-top: 1px solid var(--line); font-size:
     <div class="sigma-badge" id="badge" aria-live="polite"></div>
   </header>
 
-  <section class="setup" aria-label="Data and specification">
+  <section class="dropzone" id="drop" aria-label="Upload process data">
+    <div class="drop-inner">
+      <h2>Start with your process data</h2>
+      <p class="muted">A CSV file with one row per case: a measured output (cycle time, weight, accuracy), plus any inputs you want tested (team, channel, shift, machine) and, ideally, a date.</p>
+      <label class="btn primary file-btn big">Upload CSV<input type="file" id="fileIn" accept=".csv,.txt,text/csv"></label>
+      <span class="drop-hint">or drag a file anywhere onto this page · your data stays on this device</span>
+    </div>
+  </section>
+
+  <section class="setup" id="setup" aria-label="Analysis setup" hidden>
     <div class="setup-row">
-      <button class="btn" id="demoBtn" type="button">Load sample data</button>
-      <label class="btn file-btn">Upload CSV<input type="file" id="fileIn" accept=".csv,.txt,text/csv"></label>
       <span class="source" id="source"></span>
+      <label class="btn file-btn">Change file<input type="file" id="fileIn2" accept=".csv,.txt,text/csv"></label>
     </div>
     <div class="setup-row">
       <div class="field f-y"><label for="ySel">Output to improve (Y)</label><select id="ySel"></select></div>
@@ -225,11 +240,11 @@ footer { padding-block: 20px 40px; border-top: 1px solid var(--line); font-size:
         <div class="field" style="max-width:260px"><label for="dSel">Date column (for control chart)</label><select id="dSel"></select></div>
       </div>
     </details>
-    <p class="drop-hint">Your data stays in this browser; all statistics run on your device.</p>
+    <p class="drop-hint" id="readyNote">Enter the customer requirement (spec limits), then run.</p>
     <div class="err" id="err" hidden></div>
   </section>
 
-  <nav class="rail" aria-label="DMAIC phases">
+  <nav class="rail" id="rail" aria-label="DMAIC phases" hidden>
     <ol>
       <li><a href="#define" data-p="define"><span class="k">D</span>Define</a></li>
       <li><a href="#measure" data-p="measure"><span class="k">M</span>Measure</a></li>
@@ -244,7 +259,7 @@ footer { padding-block: 20px 40px; border-top: 1px solid var(--line); font-size:
 
   <footer>
     <span>Statistics engine validated against SciPy and statsmodels. AI writes the narrative only; it never computes the numbers.</span>
-    <span>Prototype by Vikas Choudhary · Lean Six Sigma Master Black Belt</span>
+    <span>© 2026 Vikas Choudhary · Lean Six Sigma Master Black Belt</span>
   </footer>
 </div>
 <script>
@@ -451,38 +466,6 @@ const S = (() => {
   return { sum, mean, variance, sd, quantile, median, sorted, normCdf, normSf, normInv, tSf2, tInv975, fSf, chi2Sf, andersonDarling, skewness, levene, anova, welchAnova, kruskal, chiSquare, pearson, spearman, ols, capability, imr, holm, rank, rng };
 })();
 if (typeof module !== "undefined") module.exports = S; else window.S = S;
-</script>
-<script>
-// ---------- Demo dataset: accounts-payable invoice processing (synthetic) ----------
-function makeDemoData(Sx) {
-  const R = Sx.rng(20261107), pick = (arr, w) => { let u = R() * w.reduce((a, b) => a + b, 0); for (let i = 0; i < arr.length; i++) { u -= w[i]; if (u <= 0) return arr[i]; } return arr[arr.length - 1]; };
-  const gauss = () => { let u = 0, v = 0; while (!u) u = R(); while (!v) v = R(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v); };
-  const rows = [], start = new Date(Date.UTC(2026, 6, 1)); // 1 Jul 2026
-  const days = []; for (let d = new Date(start); days.length < 66; d.setUTCDate(d.getUTCDate() + 1)) { const w = d.getUTCDay(); if (w !== 0 && w !== 6) days.push(new Date(d)); }
-  let id = 100000;
-  days.forEach((day, di) => {
-    const nToday = 10 + Math.floor(R() * 5);
-    for (let k = 0; k < nToday; k++) {
-      const channel = pick(["EDI", "Supplier Portal", "Email", "Paper"], [34, 26, 30, 10]);
-      const po = pick(["PO", "Non-PO"], [70, 30]);
-      const team = pick(["Team A", "Team B", "Team C", "Team D"], [27, 25, 24, 24]);
-      const shift = pick(["Day", "Night"], [62, 38]);
-      const region = pick(["North America", "Europe", "LATAM", "APAC"], [35, 30, 20, 15]);
-      const lines = Math.max(1, Math.round(Math.exp(1.7 + 0.7 * gauss())));
-      const value = Math.round(Math.exp(7.6 + 1.1 * gauss()) * 100) / 100;
-      const excP = 0.12 + (channel === "Email" ? 0.10 : 0) + (channel === "Paper" ? 0.16 : 0) + (po === "Non-PO" ? 0.12 : 0);
-      let exc = "None";
-      if (R() < excP) exc = pick(["Price mismatch", "Missing PO reference", "Approval delay", "Vendor master error", "Tax code error", "Duplicate suspected"], [34, 24, 18, 11, 8, 5]);
-      let ct = 14 + { "EDI": 0, "Supplier Portal": 3, "Email": 11, "Paper": 19 }[channel] + (po === "Non-PO" ? 9 : 0) + { "Team A": 0, "Team B": 1.5, "Team C": 8, "Team D": 0.5 }[team] + 0.32 * lines;
-      ct += { "None": 0, "Price mismatch": 13, "Missing PO reference": 15, "Approval delay": 26, "Vendor master error": 11, "Tax code error": 8, "Duplicate suspected": 6 }[exc];
-      if (di >= 46 && di <= 49) ct += 16; // ERP slowdown, special cause
-      ct = Math.max(2, ct * Math.exp(0.22 * gauss()));
-      rows.push({ Invoice_ID: "INV-" + (id++), Received_Date: day.toISOString().slice(0, 10), Region: region, Channel: channel, PO_Type: po, Team: team, Shift: shift, Line_Items: lines, Invoice_Value_USD: value, Exception_Reason: exc, Cycle_Time_Hrs: Math.round(ct * 10) / 10 });
-    }
-  });
-  return rows;
-}
-if (typeof module !== "undefined") module.exports = makeDemoData;
 </script>
 <script>
 // ---------- Autonomous Black Belt: DMAIC analysis engine ----------
@@ -882,19 +865,22 @@ const Charts = (() => {
 // ---------- Autonomous Black Belt: user interface ----------
 (() => {
   const $ = id => document.getElementById(id), esc = Charts.esc, f = BB.f, fp = BB.fp;
-  const st = { rows: null, prof: null, source: "", res: null, xs: new Set(), demo: false, biz: { volume: 60000, cost: 35 } };
+  const st = { rows: null, prof: null, source: "", res: null, xs: new Set(), biz: { volume: 60000, cost: 35 } };
 
   // ---------- data loading ----------
-  function loadRows(rows, source, demo) {
+  function loadRows(rows, source) {
     st.rows = rows.map(r => Object.fromEntries(Object.entries(r).map(([k, v]) => [k, v == null ? "" : String(v)])));
-    st.prof = BB.profile(st.rows); st.source = source; st.demo = demo;
+    st.prof = BB.profile(st.rows); st.source = source; st.res = null;
     const y = BB.suggestY(st.prof);
     if (!y) return showErr("No numeric column found to use as the output (Y). Add a measured value such as cycle time, cost or defects per unit.");
     const ySel = $("ySel"); ySel.innerHTML = st.prof.filter(c => c.type === "continuous").map(c => `<option${c.name === y ? " selected" : ""}>${esc(c.name)}</option>`).join("");
     const dates = st.prof.filter(c => c.type === "date");
     $("dSel").innerHTML = `<option value="">None (use row order)</option>` + dates.map((c, i) => `<option${i === 0 ? " selected" : ""}>${esc(c.name)}</option>`).join("");
-    $("usl").value = demo ? 48 : ""; $("lsl").value = ""; $("unit").value = demo ? "hours" : /hr|hour/i.test(y) ? "hours" : /min/i.test(y) ? "minutes" : /day/i.test(y) ? "days" : "";
-    resetXs(); renderSource(); run();
+    $("usl").value = ""; $("lsl").value = ""; $("unit").value = /hr|hour/i.test(y) ? "hours" : /min/i.test(y) ? "minutes" : /day/i.test(y) ? "days" : /_g$|gram/i.test(y) ? "g" : /pct|percent/i.test(y) ? "%" : "";
+    resetXs(); renderSource();
+    $("drop").hidden = true; $("setup").hidden = false; $("rail").hidden = true; $("out").innerHTML = ""; $("badge").innerHTML = ""; $("readyNote").hidden = false;
+    history.replaceState(null, "", location.pathname + location.search);
+    $("usl").focus();
   }
   function resetXs() {
     const y = $("ySel").value; st.xs = new Set(st.prof.filter(c => c.name !== y && (c.type === "categorical" || c.type === "continuous")).map(c => c.name));
@@ -911,17 +897,22 @@ const Charts = (() => {
   }
   function showErr(m) { const e = $("err"); e.textContent = m; e.hidden = !m; }
 
-  $("demoBtn").onclick = () => loadRows(makeDemoData(S), "Sample: accounts-payable invoices (synthetic)", true);
   $("fileIn").onchange = e => readFile(e.target.files[0]);
+  $("fileIn2").onchange = e => readFile(e.target.files[0]);
+  let dragDepth = 0;
+  document.addEventListener("dragenter", e => { e.preventDefault(); dragDepth++; document.body.classList.add("dragging"); });
+  document.addEventListener("dragleave", () => { if (--dragDepth <= 0) { dragDepth = 0; document.body.classList.remove("dragging"); } });
   document.addEventListener("dragover", e => e.preventDefault());
-  document.addEventListener("drop", e => { e.preventDefault(); const fl = e.dataTransfer.files[0]; if (fl) readFile(fl); });
+  document.addEventListener("drop", e => { e.preventDefault(); dragDepth = 0; document.body.classList.remove("dragging"); const fl = e.dataTransfer.files[0]; if (fl) readFile(fl); });
+  ["usl", "lsl", "unit"].forEach(id => $(id).addEventListener("keydown", e => { if (e.key === "Enter") run(); }));
   function readFile(file) {
     if (!file) return;
     const rd = new FileReader();
-    rd.onload = () => { try { showErr(""); loadRows(BB.parseCSV(rd.result), file.name, false); } catch (err) { showErr("Couldn't read that file: " + err.message); } };
+    rd.onload = () => { try { showErr(""); loadRows(BB.parseCSV(rd.result), file.name); } catch (err) { showErr("Couldn't read that file: " + err.message); } };
     rd.readAsText(file);
+    $("fileIn").value = ""; $("fileIn2").value = "";
   }
-  $("ySel").onchange = () => { resetXs(); run(); };
+  $("ySel").onchange = () => { resetXs(); if (st.res) run(); };
   $("xChips").onclick = e => { const b = e.target.closest("[data-x]"); if (!b) return; const x = b.dataset.x; st.xs.has(x) ? st.xs.delete(x) : st.xs.add(x); b.setAttribute("aria-pressed", st.xs.has(x)); };
   $("runBtn").onclick = run;
 
@@ -937,6 +928,8 @@ const Charts = (() => {
       st.res = BB.run(st.rows, { y: $("ySel").value, xs: [...st.xs], spec, dateCol: $("dSel").value || null, types });
     } catch (err) { return showErr(err.message); }
     st.unit = $("unit").value.trim();
+    $("rail").hidden = false; $("readyNote").hidden = true;
+    if (location.hash !== "#define") location.hash = "define";
     render();
   }
 
@@ -1213,7 +1206,6 @@ const Charts = (() => {
   }
   addEventListener("hashchange", () => show(false));
 
-  loadRows(makeDemoData(S), "Sample: accounts-payable invoices (synthetic)", true);
 })();
 </script>
 </body>
