@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Autonomous Black Belt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <span class="eyebrow">Explainable Six Sigma</span>
+      <h1>Autonomous Black Belt</h1>
+      <p class="tag">Upload process data. It runs a full DMAIC, proves the root causes statistically, and shows the logic behind every conclusion.</p>
+    </div>
+    <div class="sigma-badge" id="badge" aria-live="polite"></div>
+  </header>
+
+  <section class="setup" aria-label="Data and specification">
+    <div class="setup-row">
+      <button class="btn" id="demoBtn" type="button">Load sample data</button>
+      <label class="btn file-btn">Upload CSV<input type="file" id="fileIn" accept=".csv,.txt,text/csv"></label>
+      <span class="source" id="source"></span>
+    </div>
+    <div class="setup-row">
+      <div class="field f-y"><label for="ySel">Output to improve (Y)</label><select id="ySel"></select></div>
+      <div class="field f-s"><label for="lsl">Lower spec (LSL)</label><input type="number" id="lsl" step="any" placeholder="none"></div>
+      <div class="field f-s"><label for="usl">Upper spec (USL)</label><input type="number" id="usl" step="any" placeholder="none"></div>
+      <div class="field f-u"><label for="unit">Unit</label><input type="text" id="unit" placeholder="e.g. hours"></div>
+      <button class="btn primary" id="runBtn" type="button">Run DMAIC</button>
+    </div>
+    <details class="more" id="xsBox">
+      <summary>Inputs to test (Xs) and date column</summary>
+      <div style="display:grid;gap:12px;margin-top:12px">
+        <div class="chips" id="xChips"></div>
+        <div class="field" style="max-width:260px"><label for="dSel">Date column (for control chart)</label><select id="dSel"></select></div>
+      </div>
+    </details>
+    <p class="drop-hint">Your data stays in this browser; all statistics run on your device.</p>
+    <div class="err" id="err" hidden></div>
+  </section>
+
+  <nav class="rail" aria-label="DMAIC phases">
+    <ol>
+      <li><a href="#define" data-p="define"><span class="k">D</span>Define</a></li>
+      <li><a href="#measure" data-p="measure"><span class="k">M</span>Measure</a></li>
+      <li><a href="#analyse" data-p="analyse"><span class="k">A</span>Analyse</a></li>
+      <li><a href="#improve" data-p="improve"><span class="k">I</span>Improve</a></li>
+      <li><a href="#control" data-p="control"><span class="k">C</span>Control</a></li>
+      <li><a href="#story" data-p="story"><span class="k">★</span>Storyboard</a></li>
+    </ol>
+  </nav>
+
+  <main id="out"></main>
+
+  <footer>
+    <span>Statistics engine validated against SciPy and statsmodels. AI writes the narrative only; it never computes the numbers.</span>
+    <span>Prototype by Vikas Choudhary · Lean Six Sigma Master Black Belt</span>
+  </footer>
+</div>
+<script src="src/stats.js"></script>
+<script src="src/data.js"></script>
+<script src="src/engine.js"></script>
+<script src="src/charts.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>

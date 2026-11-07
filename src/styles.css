@@ -1,0 +1,165 @@
+/* Layout: a statistical lab report. Setup bar, sticky DMAIC phase rail, then one column of phase sections. */
+:root {
+  --bg: #EDF0F3; --panel: #FFFFFF; --sunk: #F5F7F9; --ink: #16202A; --muted: #586674; --line: #D3DAE1;
+  --accent: #1D5FA8; --accent-ink: #FFFFFF; --accent-soft: #E1ECF8;
+  --limit: #C24A12; --good: #1C7A4C; --good-soft: #DFF2E8; --warn: #9A6A0C; --warn-soft: #FAF0D6; --bad: #B42318; --bad-soft: #FBE4E1;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif; --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0E141A; --panel: #151E27; --sunk: #111921; --ink: #E4EAF0; --muted: #94A3B1; --line: #26333F;
+  --accent: #6AA7EC; --accent-ink: #0B1520; --accent-soft: #18304A;
+  --limit: #F08A52; --good: #4CC28A; --good-soft: #143426; --warn: #E3B450; --warn-soft: #382C10; --bad: #F2685C; --bad-soft: #3E1A16; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0E141A; --panel: #151E27; --sunk: #111921; --ink: #E4EAF0; --muted: #94A3B1; --line: #26333F;
+  --accent: #6AA7EC; --accent-ink: #0B1520; --accent-soft: #18304A;
+  --limit: #F08A52; --good: #4CC28A; --good-soft: #143426; --warn: #E3B450; --warn-soft: #382C10; --bad: #F2685C; --bad-soft: #3E1A16; color-scheme: dark }
+
+* { box-sizing: border-box }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 var(--body); }
+.wrap { max-width: 1080px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0 }
+h1 { font-size: clamp(26px, 4vw, 38px); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1 }
+h2 { font-size: 22px; font-weight: 700; letter-spacing: -0.01em }
+h3 { font-size: 16px; font-weight: 700 }
+p { margin: 0; max-width: 68ch }
+.muted { color: var(--muted) }
+.mono, .num { font-family: var(--mono); font-variant-numeric: tabular-nums }
+button, select, input { font: inherit; color: inherit }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+
+/* header */
+header.top { padding-block: 28px 18px; display: flex; flex-wrap: wrap; gap: 14px 28px; align-items: end; justify-content: space-between }
+.brand { display: grid; gap: 8px; min-width: 0 }
+.eyebrow { font: 600 11px/1 var(--mono); letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent) }
+.tag { font-size: 15px; color: var(--muted); max-width: 56ch }
+.sigma-badge { display: flex; align-items: baseline; gap: 10px; font-family: var(--display) }
+.sigma-badge b { font-size: 44px; font-weight: 800; letter-spacing: -0.03em; line-height: 1 }
+.sigma-badge span { color: var(--muted); font: 500 12px/1.3 var(--mono); text-transform: uppercase; letter-spacing: 0.08em }
+
+/* setup */
+.setup { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: grid; gap: 14px }
+.setup-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: end }
+.field { display: grid; gap: 4px; min-width: 0 }
+.field label, .lbl { font: 600 11px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted) }
+.field select, .field input[type=number], .field input[type=text] { background: var(--sunk); border: 1px solid var(--line); border-radius: 7px; padding: 8px 10px; min-width: 0; width: 100% }
+.f-y { flex: 2 1 200px } .f-s { flex: 1 1 100px } .f-u { flex: 1 1 110px }
+.btn { border: 1px solid var(--line); background: var(--sunk); border-radius: 8px; padding: 9px 14px; cursor: pointer; font-weight: 600; white-space: nowrap }
+.btn:hover { border-color: var(--accent) }
+.btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent) }
+.btn.primary:hover { filter: brightness(1.08) }
+.btn:disabled { opacity: .55; cursor: default }
+.file-btn { position: relative; overflow: hidden }
+.file-btn input { position: absolute; inset: 0; opacity: 0; cursor: pointer }
+.source { font-size: 13px; color: var(--muted) }
+.source b { color: var(--ink) }
+.chips { display: flex; flex-wrap: wrap; gap: 6px }
+.chip-t { border: 1px solid var(--line); background: var(--sunk); border-radius: 999px; padding: 4px 11px; font-size: 13px; cursor: pointer }
+.chip-t[aria-pressed=true] { background: var(--accent-soft); border-color: var(--accent); color: var(--ink) }
+.chip-t small { color: var(--muted); font-family: var(--mono); font-size: 10.5px; margin-left: 4px }
+details.more summary { cursor: pointer; font-size: 13px; color: var(--accent); font-weight: 600 }
+.drop-hint { font-size: 12.5px; color: var(--muted) }
+.err { background: var(--bad-soft); color: var(--bad); border-radius: 8px; padding: 10px 12px; font-size: 14px }
+
+/* phase rail */
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg) }
+nav.rail { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 12px; margin-top: 18px; border-bottom: 1px solid var(--line) }
+.rail ol { list-style: none; margin: 0; padding: 0; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none }
+.rail a { display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--muted); padding: 6px 12px 6px 6px; border-radius: 999px; white-space: nowrap; font-weight: 600; font-size: 14px }
+.rail a .k { width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; font: 700 12px var(--mono); background: var(--panel); border: 1px solid var(--line); color: var(--ink) }
+.rail a.on { color: var(--ink); background: var(--panel) }
+.rail a.on .k { background: var(--accent); color: var(--accent-ink); border-color: var(--accent) }
+
+/* sections */
+main { display: grid; gap: 40px; padding-block: 26px 60px }
+section.phase { display: grid; gap: 16px; scroll-margin-top: 70px }
+.phase-head { display: grid; gap: 6px }
+.phase-head .eyebrow { color: var(--muted) }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; display: grid; gap: 14px; min-width: 0 }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px }
+.statement { font-size: 17px; line-height: 1.55; max-width: 72ch }
+.statement b { font-weight: 600 }
+
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px }
+.tile { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; display: grid; gap: 4px }
+.tile .v { font: 700 28px/1.1 var(--display); letter-spacing: -0.02em; font-variant-numeric: tabular-nums }
+.tile .l { font: 600 11px/1.3 var(--mono); letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted) }
+.tile .s { font-size: 12.5px; color: var(--muted) }
+.tile.bad .v { color: var(--bad) } .tile.warn .v { color: var(--warn) } .tile.good .v { color: var(--good) }
+
+.tbl-wrap { overflow-x: auto; min-width: 0 }
+table { width: 100%; border-collapse: collapse; font-size: 14px }
+th { text-align: left; font: 600 11px/1.2 var(--mono); letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap }
+td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top }
+td.num, th.num { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap }
+tr:last-child td { border-bottom: 0 }
+tr.hl td { background: var(--accent-soft) }
+
+.pill { display: inline-block; border-radius: 999px; padding: 2px 9px; font: 600 12px/1.6 var(--body); white-space: nowrap }
+.pill.vital { background: var(--bad-soft); color: var(--bad) }
+.pill.contrib { background: var(--warn-soft); color: var(--warn) }
+.pill.none { background: var(--sunk); color: var(--muted); border: 1px solid var(--line) }
+.pill.good { background: var(--good-soft); color: var(--good) }
+.pill.sym { background: var(--accent-soft); color: var(--accent) }
+
+/* logic trail */
+.trail { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-left: 2px solid var(--line); margin-left: 6px }
+.trail li { display: grid; grid-template-columns: 132px 1fr; gap: 12px; padding: 7px 0 7px 16px; position: relative; font-size: 14px }
+.trail li::before { content: ""; position: absolute; left: -6px; top: 13px; width: 10px; height: 10px; border-radius: 50%; background: var(--panel); border: 2px solid var(--accent) }
+.trail li.verdict::before { background: var(--accent) }
+.trail .step { font: 600 11px/1.6 var(--mono); letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); padding-top: 1px }
+@media (max-width: 560px) { .trail li { grid-template-columns: 1fr; gap: 2px } }
+
+details.x { border: 1px solid var(--line); border-radius: var(--r); background: var(--panel) }
+details.x > summary { list-style: none; cursor: pointer; padding: 14px 16px; display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center }
+details.x > summary::-webkit-details-marker { display: none }
+details.x > summary h3 { flex: 1 1 160px; min-width: 0 }
+details.x > summary .meta { font: 500 12.5px var(--mono); color: var(--muted) }
+details.x > summary::after { content: "+"; font: 600 18px var(--mono); color: var(--muted) }
+details.x[open] > summary::after { content: "−" }
+details.x .body { padding: 0 16px 18px; display: grid; gap: 16px }
+
+/* charts */
+.chart { width: 100%; height: auto; display: block; overflow: visible }
+.chart text { font-family: var(--mono); }
+.chart .tick { font-size: 11px; fill: var(--muted) }
+.chart .cat { font-size: 12px; fill: var(--ink); font-family: var(--body) }
+.chart .grid { stroke: var(--line); stroke-width: 1 }
+.chart .axis { stroke: var(--muted); stroke-width: 1 }
+.chart .bar { fill: var(--accent) } .chart .bar-muted { fill: var(--line) }
+.chart .curve { fill: none; stroke: var(--ink); stroke-width: 1.6; opacity: .7 }
+.chart .limit { stroke: var(--limit); stroke-width: 1.6; stroke-dasharray: 5 4 }
+.chart .limit-label { font-size: 11px; fill: var(--limit); font-weight: 600 }
+.chart .centre { stroke: var(--muted); stroke-width: 1.2; stroke-dasharray: 2 3 }
+.chart .centre-label { font-size: 11px; fill: var(--muted) }
+.chart .series { fill: none; stroke: var(--accent); stroke-width: 1.5 }
+.chart .pt { fill: var(--accent) } .chart .pt-bad { fill: var(--bad) } .chart .pt-good { fill: var(--good) }
+.chart .ci { stroke: var(--muted); stroke-width: 2 }
+.chart .dot { fill: var(--accent); opacity: .45 }
+.chart .fit { stroke: var(--limit); stroke-width: 2 }
+.chart .cum { fill: none; stroke: var(--limit); stroke-width: 2 } .chart .cum-pt { fill: var(--limit) }
+.chart-cap { font-size: 13px; color: var(--muted) }
+
+/* callouts */
+.callout { border-radius: var(--r); padding: 14px 16px; background: var(--accent-soft); display: grid; gap: 6px }
+.callout.warn { background: var(--warn-soft) }
+.callout b { font-weight: 600 }
+ul.recs { margin: 0; padding-left: 18px; display: grid; gap: 8px }
+
+/* storyboard */
+.story { display: grid; gap: 10px; font-size: 15px }
+.story h4 { font: 700 15px var(--display); margin: 10px 0 0 }
+.story ul { margin: 0; padding-left: 18px; display: grid; gap: 4px }
+.story p { max-width: 74ch }
+.ai-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center }
+.ask { display: flex; gap: 8px; flex-wrap: wrap }
+.ask input { flex: 1 1 240px; background: var(--sunk); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; min-width: 0 }
+.qa { display: grid; gap: 10px }
+.qa .q { font-weight: 600 }
+.qa .a { white-space: pre-wrap; color: var(--ink); border-left: 2px solid var(--accent); padding-left: 12px }
+
+footer { padding-block: 20px 40px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); display: grid; gap: 6px }
+.busy { opacity: .5; pointer-events: none }
+@media (prefers-reduced-motion: no-preference) { section.phase { animation: rise .35s ease-out both } @keyframes rise { from { transform: translateY(6px) } to { transform: none } } }
+.chart-box { overflow-x: auto; min-width: 0 }
+@media (max-width: 600px) { .chart-box .chart { min-width: 540px } }
