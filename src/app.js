@@ -64,13 +64,61 @@
   const pct = v => (v * 100).toFixed(1) + "%", d2 = v => Number.isFinite(v) ? v.toFixed(2) : "–";
   const pillFor = v => `<span class="pill ${v === "Vital X" ? "vital" : v === "Contributing" ? "contrib" : "none"}">${esc(v)}</span>`;
   const trailHTML = t => `<ol class="trail">${t.map(([k, v]) => `<li class="${k === "Verdict" ? "verdict" : ""}"><span class="step">${esc(k)}</span><span>${esc(v)}</span></li>`).join("")}</ol>`;
-  const phase = (id, letter, name, sub, body) => `<section class="phase" id="${id}"><div class="phase-head"><span class="eyebrow">${letter} · ${name}</span><h2>${sub}</h2></div>${body}</section>`;
+  const ORDER = ["define", "measure", "analyse", "improve", "control", "story"];
+  const NAMES = { define: "Define", measure: "Measure", analyse: "Analyse", improve: "Improve", control: "Control", story: "Storyboard" };
+  const phase = (id, letter, name, sub, body) => {
+    const i = ORDER.indexOf(id), ch = st.chapters[id], prev = ORDER[i - 1], next = ORDER[i + 1];
+    const open = ch ? `<div class="chapter"><span class="eyebrow">Chapter ${i + 1} of ${ORDER.length} · ${esc(ch.title)}</span><p class="chapter-text">${ch.story}</p></div>` : "";
+    const close = ch && ch.handoff ? `<div class="handoff"><span class="lbl">So what</span><p>${ch.handoff}</p></div>` : "";
+    const nav = `<div class="pager">${prev ? `<a class="btn" href="#${prev}">← ${NAMES[prev]}</a>` : "<span></span>"}${next ? `<a class="btn primary" href="#${next}">Next: ${NAMES[next]} →</a>` : `<a class="btn" href="#define">Back to start</a>`}</div>`;
+    return `<section class="phase" id="${id}" hidden><div class="phase-head"><span class="eyebrow">${letter} · ${name}</span><h2>${sub}</h2></div>${open}${body}${close}${nav}</section>`;
+  };
+
+  // ---------- the project story: one chapter per phase, each picking up from the last ----------
+  function chapters(R) {
+    const c = R.cap, y = esc(R.y.replace(/[_ ](hrs?|hours|mins?|minutes|days|pct|percent|usd|g|kg|cp)$/i, "").replace(/_/g, " ").toLowerCase()), u = esc(U()), real = R.scenarios.find(s => s.kind === "realistic");
+    const misses = c ? Math.round(c.observedPct * R.n) : 0, period = R.dates ? ` between ${R.dates.from} and ${R.dates.to}` : "";
+    const req = Number.isFinite(R.spec.usl) && Number.isFinite(R.spec.lsl) ? `between ${f(R.spec.lsl)} and ${f(R.spec.usl)}${u}` : Number.isFinite(R.spec.usl) ? `within ${f(R.spec.usl)}${u}` : Number.isFinite(R.spec.lsl) ? `at least ${f(R.spec.lsl)}${u}` : "";
+    const vital = R.levers.filter(r => r.verdict === "Vital X"), others = R.levers.filter(r => r.verdict !== "Vital X"), ruled = R.results.filter(r => r.verdict === "Not proven"), sym = R.results.filter(r => r.symptom && r.verdict !== "Not proven");
+    const lever = r => r.kind === "categorical" ? `<b>${esc(r.x)}</b> (${esc(r.worst.name)} is ${f(Math.abs(r.gap), 1)}${u} worse than ${esc(r.best.name)})` : `<b>${esc(r.x)}</b> (each unit adds ${f(Math.abs(r.slope), 2)}${u})`;
+    const list = a => a.length < 2 ? a.join("") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1];
+    const ch = {};
+    ch.define = {
+      title: "The problem",
+      story: c ? `The customer expects ${y} ${req}. We looked at <b>${R.n.toLocaleString("en-US")}</b> records${period}, and <b>${misses.toLocaleString("en-US")}</b> of them (${pct(c.observedPct)}) missed that promise. Each miss is a late payment, an unhappy customer or rework. This is the story of finding out why, and fixing it.`
+                 : `We looked at <b>${R.n.toLocaleString("en-US")}</b> records of ${y}${period}. Without a customer requirement we can describe the process but not judge it, so add a spec limit to tell the full story.`,
+      handoff: `Before changing anything, we need to know how bad the problem really is, and whether the process behaves the same way every day. That's the Measure phase.`
+    };
+    ch.measure = {
+      title: "How big, how steady",
+      story: c ? `The process runs at <b>${d2(c.sigmaLevel)} sigma</b>, about ${Math.round(c.dpmo).toLocaleString("en-US")} misses per million. A world-class process runs at 6.` + (R.ad.p < 0.05 ? ` The data is skewed, as time data usually is, so we counted real misses rather than trusting a bell curve.` : "") : `${y.charAt(0).toUpperCase() + y.slice(1)} averages ${f(R.desc.mean, 1)}${u} with a spread (SD) of ${f(R.desc.sd, 1)}.`,
+      handoff: (R.special.length ? `Most days behave alike, but <b>${R.special.length}</b> ${R.dates ? "day" : "point"}${R.special.length > 1 ? "s" : ""} (${esc(R.special.map(s => s.label).join(", "))}) broke out of the control limits. Something unusual happened then, and we'll treat it separately. ` : `The process is stable: no day breaks out of its control limits. `) + `The everyday variation is built into how the process is designed, so the answer must lie in its inputs. Next, Analyse puts each input to the test.`
+    };
+    ch.analyse = {
+      title: "Finding the real causes",
+      story: `We put <b>${R.results.length}</b> suspects on trial and let the statistics decide, not opinions. ` + (vital.length ? `${vital.length > 1 ? "The proven causes are" : "The proven cause is"} ${list(vital.map(lever))}.` : "No single input has a large proven effect.") + (others.length ? ` ${list(others.map(r => "<b>" + esc(r.x) + "</b>"))} ${others.length > 1 ? "also contribute" : "also contributes"}, but less.` : "") + (ruled.length ? ` Just as important, ${list(ruled.map(r => esc(r.x)))} ${ruled.length > 1 ? "were" : "was"} cleared: the evidence says don't waste effort there.` : ""),
+      handoff: (R.model ? `Together the proven causes explain <b>${f(R.model.adjR2 * 100, 0)}%</b> of the variation. ` : "") + (sym.length ? `${list(sym.map(r => esc(r.x)))} shows <i>what</i> went wrong on each case; we'll error-proof those at source. ` : "") + `Now we know where to push. Improve tests what happens when we do.`
+    };
+    ch.improve = {
+      title: "What if we fix it",
+      story: real && real.cap ? `We simulated each fix on every record. Closing just half of each proven gap, a realistic 90-day goal, takes misses from <b>${pct(c.observedPct)}</b> to <b>${pct(real.cap.observedPct)}</b> and the process from ${d2(c.sigmaLevel)}σ to <b>${d2(real.cap.sigmaLevel)}σ</b>.` : `Add a spec limit to simulate the impact of each fix.`,
+      handoff: `Improvements fade when nobody watches them. Control sets up how we keep the gains.`
+    };
+    ch.control = {
+      title: "Keeping the gains",
+      story: `Every proven cause gets a monitor, a limit and a reaction plan, so a slip is caught in days, not at the next quarterly review.` + (R.scDays.length ? ` An alert will also catch a repeat of the special-cause event.` : ""),
+      handoff: `That's the full DMAIC. The storyboard puts the whole story on one page for leadership.`
+    };
+    ch.story = { title: "The whole story", story: `From problem to proof to plan, on one page. Each step below links back to its chapter.`, handoff: "" };
+    return ch;
+  }
 
   function render() {
     const R = st.res;
     $("badge").innerHTML = R.cap ? `<b class="num">${f(R.cap.sigmaLevel, 2)}σ</b><span>baseline<br>sigma level</span>` : "";
+    st.chapters = chapters(R);
     $("out").innerHTML = define(R) + measure(R) + analyse(R) + improve(R) + control(R) + story(R);
-    wireBusiness(); wireAI(); spy();
+    wireBusiness(); wireAI(); show(true);
   }
 
   function define(R) {
@@ -226,7 +274,9 @@
       <h4>Proven root causes</h4><ul>${vital.map(v => `<li>${esc(v.x)}: ${v.kind === "categorical" ? `${esc(v.worst.name)} is ${f(Math.abs(v.gap), 1)}${esc(U())} worse than ${esc(v.best.name)}` : `each unit adds ${f(Math.abs(v.slope), 2)}${esc(U())}`} (${esc(v.method)}, adj. p ${fp(v.pAdj).replace("= ", "")}).</li>`).join("") || "<li>None proven yet.</li>"}</ul>
       ${real && real.cap ? `<h4>Expected impact</h4><p>Closing half of each gap moves the process from ${pct(c.observedPct)} to ${pct(real.cap.observedPct)} out of spec (${d2(c.sigmaLevel)}σ → ${d2(real.cap.sigmaLevel)}σ).</p>` : ""}
     </div>`;
+    const journey = ORDER.slice(0, 5).map((id, i) => `<li><a href="#${id}" class="j-step"><span class="k">${"DMAIC"[i]}</span><span class="j-body"><span class="j-title">${esc(NAMES[id])} · ${esc(st.chapters[id].title)}</span><span class="j-text">${st.chapters[id].story}</span></span></a></li>`).join("");
     return phase("story", "★", "Storyboard", "The one-page story for leadership", `
+      <ol class="journey">${journey}</ol>
       <div class="card"><h3>Auto summary</h3>${auto}</div>
       <div class="card" id="aiCard"><h3>Executive storyboard by AI</h3>
         <p class="muted">AI turns the proven results into a leadership-ready narrative and 30-60-90 day plan. Only the summary statistics are sent, never your raw data.</p>
@@ -273,14 +323,14 @@
     };
   }
 
-  // ---------- phase rail highlight ----------
-  let obs;
-  function spy() {
-    obs && obs.disconnect();
-    const links = [...document.querySelectorAll(".rail a")];
-    obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) links.forEach(a => a.classList.toggle("on", a.dataset.p === e.target.id)); }), { rootMargin: "-30% 0px -60% 0px" });
-    document.querySelectorAll("section.phase").forEach(s => obs.observe(s));
+  // ---------- one phase per page, routed by the address hash ----------
+  function show(initial) {
+    const id = ORDER.includes(location.hash.slice(1)) ? location.hash.slice(1) : "define";
+    document.querySelectorAll("section.phase").forEach(sec => sec.hidden = sec.id !== id);
+    document.querySelectorAll(".rail a").forEach(a => { a.classList.toggle("on", a.dataset.p === id); a.classList.toggle("done", ORDER.indexOf(a.dataset.p) < ORDER.indexOf(id)); a.setAttribute("aria-current", a.dataset.p === id ? "page" : "false"); });
+    if (!initial) { const rail = document.querySelector("nav.rail"); if (rail.getBoundingClientRect().top < 0) rail.scrollIntoView({ block: "start" }); }
   }
+  addEventListener("hashchange", () => show(false));
 
   loadRows(makeDemoData(S), "Sample: accounts-payable invoices (synthetic)", true);
 })();

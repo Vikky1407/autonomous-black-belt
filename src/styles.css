@@ -16,6 +16,7 @@
   --limit: #F08A52; --good: #4CC28A; --good-soft: #143426; --warn: #E3B450; --warn-soft: #382C10; --bad: #F2685C; --bad-soft: #3E1A16; color-scheme: dark }
 
 * { box-sizing: border-box }
+[hidden] { display: none !important }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 var(--body); }
 .wrap { max-width: 1080px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0 }
@@ -163,3 +164,22 @@ footer { padding-block: 20px 40px; border-top: 1px solid var(--line); font-size:
 @media (prefers-reduced-motion: no-preference) { section.phase { animation: rise .35s ease-out both } @keyframes rise { from { transform: translateY(6px) } to { transform: none } } }
 .chart-box { overflow-x: auto; min-width: 0 }
 @media (max-width: 600px) { .chart-box .chart { min-width: 540px } }
+
+/* one phase per page + project story */
+.rail a.done .k { background: var(--accent-soft); border-color: var(--accent); color: var(--accent) }
+.chapter { display: grid; gap: 8px; padding: 18px 20px; border-radius: var(--r); background: var(--accent-soft) }
+.chapter .eyebrow { color: var(--accent) }
+.chapter-text { font-size: 17px; line-height: 1.6; max-width: 70ch }
+.handoff { display: grid; gap: 6px; padding: 14px 0 0; border-top: 1px solid var(--line) }
+.handoff p { font-size: 15.5px; max-width: 72ch }
+.pager { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap }
+.pager a { text-decoration: none; color: inherit }
+.pager a.primary { color: var(--accent-ink) }
+.journey { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-left: 2px solid var(--line); margin-left: 14px }
+.journey li { position: relative }
+.j-step { display: grid; grid-template-columns: 28px 1fr; gap: 14px; padding: 12px 0 12px 0; margin-left: -15px; text-decoration: none; color: inherit; border-radius: 8px }
+.j-step:hover .j-title { color: var(--accent) }
+.j-step .k { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font: 700 12px var(--mono); background: var(--accent); color: var(--accent-ink) }
+.j-body { display: grid; gap: 3px; min-width: 0 }
+.j-title { font: 700 15px var(--display) }
+.j-text { font-size: 14.5px; color: var(--ink); max-width: 72ch }
