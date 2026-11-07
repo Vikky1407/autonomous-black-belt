@@ -1,0 +1,15 @@
+{
+  "name": "autonomous-black-belt",
+  "version": "1.0.0",
+  "description": "Explainable Six Sigma: upload process data, get a statistically proven DMAIC with the logic behind every conclusion.",
+  "author": "Vikas Choudhary",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve -l 5173 .",
+    "build": "node scripts/build.js",
+    "test": "node tests/engine.test.js && node tests/datasets.test.js",
+    "validate": "node tests/val.js > tests/js.json && python3 tests/val.py",
+    "datasets": "python3 scripts/make_datasets.py"
+  }
+}
