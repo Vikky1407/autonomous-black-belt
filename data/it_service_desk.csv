@@ -1,0 +1,664 @@
+Ticket_ID,Opened_Date,Priority,Category,Reassignments,Logged_Via,Region,Delay_Reason,Resolution_Time_Hrs
+INC700001,2026-07-06,P4,Password reset,0,Email,Poland,None,2.2
+INC700002,2026-07-06,P3,Access request,1,Email,India,None,19.2
+INC700003,2026-07-06,P4,Network,1,Portal,Poland,None,13.9
+INC700004,2026-07-06,P4,Access request,2,Portal,India,Vendor dependency,14.0
+INC700005,2026-07-06,P3,Hardware,0,Email,Poland,None,11.8
+INC700006,2026-07-06,P2,Software install,2,Phone,India,Wrong assignment group,13.1
+INC700007,2026-07-06,P3,Network,1,Portal,Poland,None,
+INC700008,2026-07-06,P3,Access request,1,Portal,Poland,None,12.3
+INC700009,2026-07-06,P4,Network,2,Email,Poland,Waiting for user,38.7
+INC700010,2026-07-06,P3,Access request,3,Email,Poland,Waiting for user,21.0
+INC700011,2026-07-06,P2,Access request,3,Phone,Poland,Wrong assignment group,56.1
+INC700012,2026-07-06,P4,Access request,0,Email,India,None,11.4
+INC700013,2026-07-07,P3,Network,1,Email,Mexico,None,16.9
+INC700014,2026-07-07,P4,ERP issue,0,Email,Poland,None,
+INC700015,2026-07-07,P4,ERP issue,0,Email,Poland,Wrong assignment group,20.5
+INC700016,2026-07-07,P3,Access request,2,Phone,Poland,Missing approval,19.3
+INC700017,2026-07-07,P3,Password reset,2,Portal,Mexico,Wrong assignment group,12.4
+INC700018,2026-07-07,P2,Password reset,0,Portal,India,None,0.6
+INC700019,2026-07-07,P2,Access request,1,Portal,India,None,17.8
+INC700020,2026-07-07,P3,Password reset,0,Email,India,None,2.6
+INC700021,2026-07-08,P4,Access request,0,Phone,India,None,8.2
+INC700022,2026-07-08,P3,Hardware,2,Portal,Mexico,Missing approval,13.0
+INC700023,2026-07-08,P4,Network,0,Email,India,None,11.5
+INC700024,2026-07-08,P3,Network,0,Email,India,None,19.1
+INC700025,2026-07-08,P3,Password reset,0,Portal,India,None,3.0
+INC700026,2026-07-08,P2,Network,1,Phone,Poland,None,20.1
+INC700027,2026-07-08,P4,Hardware,2,Email,Mexico,Wrong assignment group,18.5
+INC700028,2026-07-08,P3,Network,0,Phone,India,None,11.2
+INC700029,2026-07-09,P3,Network,0,Phone,Poland,None,12.4
+INC700030,2026-07-09,P3,Password reset,0,Phone,Mexico,None,2.0
+INC700031,2026-07-09,P3,Access request,1,Phone,India,None,16.8
+INC700032,2026-07-09,P4,Access request,0,Email,India,None,16.6
+INC700033,2026-07-09,P3,Password reset,0,Phone,India,None,2.4
+INC700034,2026-07-09,P3,Password reset,3,Portal,Poland,Wrong assignment group,11.3
+INC700035,2026-07-09,P3,Access request,0,Email,India,Waiting for user,10.1
+INC700036,2026-07-09,P2,Software install,0,Portal,India,None,12.3
+INC700037,2026-07-09,P1,Software install,1,Email,Poland,None,9.9
+INC700038,2026-07-09,P2,Access request,3,Portal,Mexico,Waiting for user,22.4
+INC700039,2026-07-10,P3,Password reset,1,Portal,Poland,None,10.6
+INC700040,2026-07-10,P1,Hardware,0,Portal,India,None,14.5
+INC700041,2026-07-10,P3,Password reset,0,Email,Mexico,None,3.4
+INC700042,2026-07-10,P3,Hardware,0,Email,Poland,None,14.3
+INC700043,2026-07-10,P3,Password reset,0,Portal,Mexico,None,3.8
+INC700044,2026-07-10,P4,Password reset,0,Portal,India,None,5.6
+INC700045,2026-07-10,P3,Password reset,3,Portal,Poland,Waiting for user,18.6
+INC700046,2026-07-10,P3,Hardware,1,Email,India,None,18.8
+INC700047,2026-07-10,P3,Network,1,Email,Poland,None,17.0
+INC700048,2026-07-10,P3,Hardware,2,Portal,India,Wrong assignment group,17.8
+INC700049,2026-07-10,P3,Password reset,1,Portal,Poland,None,7.0
+INC700050,2026-07-10,P3,Network,1,Portal,Mexico,None,21.5
+INC700051,2026-07-10,P3,Hardware,2,Portal,Poland,Missing approval,19.6
+INC700052,2026-07-10,P4,ERP issue,0,Email,India,None,18.7
+INC700053,2026-07-13,P1,Network,0,Phone,India,None,3.4
+INC700054,2026-07-13,P4,Access request,0,Phone,Poland,Waiting for user,18.0
+INC700055,2026-07-13,P2,Hardware,4,Email,Poland,Wrong assignment group,13.2
+INC700056,2026-07-13,P4,Software install,0,Portal,India,None,19.0
+INC700057,2026-07-13,P3,Software install,0,Portal,Mexico,None,12.2
+INC700058,2026-07-13,P3,ERP issue,0,Phone,Mexico,None,10.0
+INC700059,2026-07-13,P2,ERP issue,0,Portal,India,None,15.9
+INC700060,2026-07-13,P3,Hardware,0,Email,Mexico,Waiting for user,10.2
+INC700061,2026-07-13,P3,ERP issue,1,Portal,Poland,None,16.5
+INC700062,2026-07-13,P3,Password reset,0,Portal,Poland,None,2.2
+INC700063,2026-07-13,P4,ERP issue,2,Portal,India,Waiting for user,33.1
+INC700064,2026-07-13,P4,Access request,1,Email,Mexico,None,21.3
+INC700065,2026-07-13,P3,Network,0,Email,Poland,Missing approval,11.6
+INC700066,2026-07-13,P4,Password reset,3,Email,Poland,Wrong assignment group,15.0
+INC700067,2026-07-14,P1,Password reset,0,Portal,Mexico,None,0.5
+INC700068,2026-07-14,P3,Software install,0,Portal,Poland,None,13.7
+INC700069,2026-07-14,P2,Software install,0,Phone,Mexico,None,9.5
+INC700070,2026-07-14,P3,Network,1,Portal,Poland,None,15.7
+INC700071,2026-07-14,P3,Access request,0,Portal,Poland,None,6.6
+INC700072,2026-07-14,P4,Password reset,0,Email,Poland,None,7.3
+INC700073,2026-07-14,P3,Access request,2,Portal,India,Wrong assignment group,25.2
+INC700074,2026-07-14,P3,Password reset,0,Portal,Poland,None,2.1
+INC700075,2026-07-14,P3,Network,3,Phone,India,Missing approval,58.3
+INC700076,2026-07-14,P1,Software install,2,Email,Mexico,Wrong assignment group,18.6
+INC700077,2026-07-14,P3,Password reset,3,Email,India,Wrong assignment group,30.0
+INC700078,2026-07-14,P3,Hardware,0,Portal,Poland,None,25.3
+INC700079,2026-07-15,P4,Password reset,1,Portal,Mexico,None,7.6
+INC700080,2026-07-15,P3,Network,2,Phone,India,Waiting for user,35.6
+INC700081,2026-07-15,P3,Access request,0,Phone,Poland,None,20.3
+INC700082,2026-07-15,P4,Password reset,1,Portal,Poland,None,14.7
+INC700083,2026-07-15,P3,Access request,3,Portal,Mexico,Wrong assignment group,42.1
+INC700084,2026-07-15,P1,Password reset,1,Email,Mexico,None,5.5
+INC700085,2026-07-15,P4,Hardware,0,Portal,India,None,16.2
+INC700086,2026-07-15,P3,Password reset,0,Portal,Poland,None,2.3
+INC700087,2026-07-15,P4,Access request,2,Email,Poland,Wrong assignment group,33.9
+INC700088,2026-07-15,P3,Password reset,1,Portal,India,Wrong assignment group,7.3
+INC700089,2026-07-15,P2,Hardware,1,Email,Mexico,None,21.7
+INC700090,2026-07-15,P2,Access request,2,Phone,Mexico,Wrong assignment group,12.8
+INC700091,2026-07-15,P3,Hardware,0,Portal,India,None,12.8
+INC700092,2026-07-15,P3,Hardware,2,Portal,India,Missing approval,32.9
+INC700093,2026-07-16,P4,Password reset,2,Phone,India,Wrong assignment group,28.2
+INC700094,2026-07-16,P2,Access request,0,Email,India,None,7.5
+INC700095,2026-07-16,P2,ERP issue,1,Email,Poland,None,21.2
+INC700096,2026-07-16,P2,Hardware,0,Phone,Mexico,None,13.2
+INC700097,2026-07-16,P2,Software install,1,Email,Mexico,None,13.0
+INC700098,2026-07-16,P4,Software install,1,Phone,Mexico,None,23.4
+INC700099,2026-07-16,P3,Software install,2,Phone,Mexico,Waiting for user,11.5
+INC700100,2026-07-16,P4,Access request,3,Portal,Mexico,Waiting for user,39.6
+INC700101,2026-07-16,P4,Network,0,Email,India,None,11.8
+INC700102,2026-07-16,P2,Password reset,3,Portal,Mexico,Wrong assignment group,18.8
+INC700103,2026-07-16,P3,Password reset,0,Portal,Mexico,None,2.7
+INC700104,2026-07-16,P2,Access request,0,Email,Poland,None,8.6
+INC700105,2026-07-17,P2,Password reset,0,Phone,India,None,0.5
+INC700106,2026-07-17,P1,Access request,2,Phone,Mexico,Wrong assignment group,10.3
+INC700107,2026-07-17,P4,Hardware,0,Email,India,None,37.6
+INC700108,2026-07-17,P3,ERP issue,0,Phone,Poland,None,19.3
+INC700109,2026-07-17,P1,Access request,3,Portal,India,Wrong assignment group,24.5
+INC700110,2026-07-17,P3,Software install,0,Portal,Mexico,None,9.4
+INC700111,2026-07-17,P4,ERP issue,0,Portal,India,None,19.6
+INC700112,2026-07-17,P3,Hardware,2,Portal,Poland,Wrong assignment group,26.1
+INC700113,2026-07-20,P3,Password reset,2,Email,India,Vendor dependency,14.8
+INC700114,2026-07-20,P2,Password reset,0,Phone,Mexico,None,0.5
+INC700115,2026-07-20,P3,Software install,0,Portal,India,None,7.4
+INC700116,2026-07-20,P2,Access request,0,Phone,India,None,7.2
+INC700117,2026-07-20,P2,Access request,3,Email,Mexico,Waiting for user,24.2
+INC700118,2026-07-20,P2,Hardware,1,Portal,Poland,None,21.2
+INC700119,2026-07-20,P4,Hardware,0,Portal,Poland,None,14.2
+INC700120,2026-07-20,P3,Software install,1,Portal,Poland,None,27.1
+INC700121,2026-07-20,P4,Access request,0,Portal,India,None,13.3
+INC700122,2026-07-20,P3,Software install,1,Portal,Mexico,None,16.0
+INC700123,2026-07-20,P3,Network,0,Email,India,None,8.8
+INC700124,2026-07-20,P4,ERP issue,2,Phone,Mexico,Wrong assignment group,42.3
+INC700125,2026-07-20,P3,Network,0,Portal,India,None,16.2
+INC700126,2026-07-21,P3,Password reset,0,Email,India,None,1.3
+INC700127,2026-07-21,P3,Password reset,1,Email,India,None,8.5
+INC700128,2026-07-21,P2,Network,0,Portal,India,None,10.8
+INC700129,2026-07-21,P2,Access request,0,Portal,India,None,7.3
+INC700130,2026-07-21,P2,Hardware,0,Email,India,None,15.7
+INC700131,2026-07-21,P4,Hardware,0,,India,Vendor dependency,16.2
+INC700132,2026-07-21,P2,Software install,1,Email,India,None,9.9
+INC700133,2026-07-21,P3,Access request,0,Phone,India,None,25.4
+INC700134,2026-07-21,P4,ERP issue,0,Portal,India,None,30.5
+INC700135,2026-07-21,P2,Password reset,0,Email,Poland,None,0.5
+INC700136,2026-07-21,P4,Password reset,1,Portal,Poland,None,26.6
+INC700137,2026-07-21,P3,Password reset,0,Phone,Mexico,None,2.4
+INC700138,2026-07-21,P4,Hardware,0,Email,India,None,33.7
+INC700139,2026-07-22,P2,Access request,0,Email,India,None,8.2
+INC700140,2026-07-22,P4,Password reset,0,Email,India,None,6.4
+INC700141,2026-07-22,P4,Access request,3,Portal,India,Wrong assignment group,28.9
+INC700142,2026-07-22,P3,Hardware,3,Portal,Poland,Wrong assignment group,48.4
+INC700143,2026-07-22,P4,Password reset,0,Phone,Mexico,None,4.9
+INC700144,2026-07-22,P3,Hardware,0,Portal,India,None,27.3
+INC700145,2026-07-22,P3,Network,0,Portal,Poland,None,15.7
+INC700146,2026-07-22,P4,Access request,1,Portal,Mexico,None,14.6
+INC700147,2026-07-22,P4,ERP issue,0,Email,India,None,22.8
+INC700148,2026-07-22,P4,Network,2,Portal,Mexico,Wrong assignment group,22.4
+INC700149,2026-07-22,P3,Network,4,Email,Mexico,Vendor dependency,35.6
+INC700150,2026-07-23,P3,Password reset,0,Portal,India,None,4.0
+INC700151,2026-07-23,P3,Software install,2,Email,India,Wrong assignment group,21.7
+INC700152,2026-07-23,P3,Password reset,1,Portal,India,None,7.8
+INC700153,2026-07-23,P4,Password reset,4,Portal,India,Waiting for user,21.8
+INC700154,2026-07-23,P4,Access request,0,Phone,India,None,8.5
+INC700155,2026-07-23,P4,Access request,1,Email,Poland,None,24.0
+INC700156,2026-07-23,P3,Software install,2,Portal,India,Wrong assignment group,31.7
+INC700157,2026-07-23,P3,Hardware,0,Portal,Poland,None,16.9
+INC700158,2026-07-23,P3,Password reset,2,Email,Poland,Wrong assignment group,19.0
+INC700159,2026-07-23,P2,Software install,3,Phone,Poland,Wrong assignment group,16.9
+INC700160,2026-07-24,P3,Password reset,0,Portal,Mexico,None,4.0
+INC700161,2026-07-24,P2,ERP issue,1,Phone,Poland,None,32.8
+INC700162,2026-07-24,P4,Software install,1,Email,India,None,13.1
+INC700163,2026-07-24,P3,Access request,0,Email,India,None,9.5
+INC700164,2026-07-24,P3,Access request,2,Portal,India,Waiting for user,28.3
+INC700165,2026-07-24,P4,ERP issue,0,Portal,India,None,14.3
+INC700166,2026-07-24,P2,Network,4,Phone,Mexico,Wrong assignment group,23.0
+INC700167,2026-07-24,P4,Hardware,1,Phone,Mexico,None,23.0
+INC700168,2026-07-24,P3,Password reset,2,Portal,India,Wrong assignment group,18.0
+INC700169,2026-07-24,P3,Network,3,Portal,India,Waiting for user,26.5
+INC700170,2026-07-24,P3,Password reset,0,Portal,India,None,3.1
+INC700171,2026-07-24,P3,Hardware,3,Portal,Poland,Wrong assignment group,23.9
+INC700172,2026-07-27,P3,Software install,0,Phone,India,None,10.3
+INC700173,2026-07-27,P4,Password reset,3,Phone,India,Wrong assignment group,12.6
+INC700174,2026-07-27,P4,Software install,0,Portal,Mexico,None,15.9
+INC700175,2026-07-27,P2,Access request,1,Email,India,None,23.0
+INC700176,2026-07-27,P1,Hardware,0,Email,India,None,16.0
+INC700177,2026-07-27,P4,ERP issue,1,Portal,India,None,34.6
+INC700178,2026-07-27,P3,Access request,1,Email,Mexico,Wrong assignment group,8.7
+INC700179,2026-07-27,P1,Hardware,0,Portal,Mexico,None,12.4
+INC700180,2026-07-27,P2,Access request,1,Email,India,None,16.3
+INC700181,2026-07-27,P3,Password reset,4,Phone,India,Wrong assignment group,39.9
+INC700182,2026-07-27,P3,Hardware,2,Portal,Poland,Wrong assignment group,25.4
+INC700183,2026-07-27,P3,Password reset,0,Portal,Poland,None,2.6
+INC700184,2026-07-27,P2,Network,4,Portal,Mexico,Vendor dependency,19.7
+INC700185,2026-07-27,P4,Password reset,1,Phone,Poland,None,7.9
+INC700186,2026-07-28,P2,Network,1,Portal,India,None,20.7
+INC700187,2026-07-28,P4,ERP issue,1,Portal,India,None,47.8
+INC700188,2026-07-28,P4,Access request,1,Email,India,None,16.3
+INC700189,2026-07-28,P3,Software install,4,Phone,India,Wrong assignment group,50.7
+INC700190,2026-07-28,P3,Password reset,0,Portal,Poland,None,1.6
+INC700191,2026-07-28,P3,ERP issue,1,Phone,India,None,21.8
+INC700192,2026-07-28,P1,Network,1,Portal,Mexico,None,15.1
+INC700193,2026-07-28,P3,Hardware,0,Email,Mexico,None,16.2
+INC700194,2026-07-28,P4,Access request,0,Portal,Mexico,None,25.4
+INC700195,2026-07-28,P1,Access request,0,Portal,Poland,None,12.7
+INC700196,2026-07-28,P4,Password reset,0,Email,India,None,4.2
+INC700197,2026-07-29,P3,Password reset,0,Portal,India,None,2.1
+INC700198,2026-07-29,P3,Password reset,1,Portal,Poland,None,8.4
+INC700199,2026-07-29,P4,Access request,0,Portal,Mexico,None,7.2
+INC700200,2026-07-29,P4,Software install,0,Portal,Poland,None,23.7
+INC700201,2026-07-29,P2,Hardware,0,Phone,India,None,12.1
+INC700202,2026-07-29,P4,Network,0,Portal,Poland,None,14.8
+INC700203,2026-07-29,P4,Password reset,0,Email,India,None,2.3
+INC700204,2026-07-29,P3,Hardware,3,Phone,India,Wrong assignment group,23.2
+INC700205,2026-07-29,P3,Access request,0,Portal,Mexico,None,8.1
+INC700206,2026-07-29,P3,Hardware,3,Phone,Mexico,Wrong assignment group,19.1
+INC700207,2026-07-29,P3,ERP issue,0,Portal,Poland,None,14.3
+INC700208,2026-07-29,P4,Network,1,Portal,Poland,None,26.1
+INC700209,2026-07-29,P3,Hardware,2,Portal,India,Missing approval,28.0
+INC700210,2026-07-29,P2,Password reset,0,Phone,India,None,0.5
+INC700211,2026-07-30,P3,Password reset,0,Portal,Poland,None,2.2
+INC700212,2026-07-30,P3,Hardware,1,Portal,India,None,25.1
+INC700213,2026-07-30,P1,Access request,3,Email,Mexico,Waiting for user,38.4
+INC700214,2026-07-30,P3,Network,1,Email,Mexico,None,24.8
+INC700215,2026-07-30,P2,ERP issue,3,Portal,Mexico,Wrong assignment group,60.7
+INC700216,2026-07-30,P4,Password reset,2,Phone,India,Wrong assignment group,10.6
+INC700217,2026-07-30,P2,Software install,4,Phone,Poland,Vendor dependency,32.9
+INC700218,2026-07-30,P3,Network,1,Phone,India,None,21.3
+INC700219,2026-07-30,P3,Software install,0,Portal,Mexico,None,16.4
+INC700220,2026-07-30,P3,Password reset,0,Portal,Poland,None,2.0
+INC700221,2026-07-30,P4,Software install,4,Phone,India,Missing approval,62.2
+INC700222,2026-07-31,P3,Network,2,Email,Mexico,Missing approval,18.8
+INC700223,2026-07-31,P3,Password reset,0,Portal,Poland,None,2.1
+INC700224,2026-07-31,P2,Access request,1,Portal,Mexico,None,11.4
+INC700225,2026-07-31,P2,Access request,0,Phone,India,None,12.0
+INC700226,2026-07-31,P4,Network,1,Phone,India,None,17.9
+INC700227,2026-07-31,P2,Access request,1,Portal,Poland,None,6.0
+INC700228,2026-07-31,P2,Software install,0,Portal,India,None,15.7
+INC700229,2026-07-31,P4,Access request,0,Portal,Mexico,None,15.7
+INC700230,2026-07-31,P1,Software install,1,Portal,Mexico,None,23.2
+INC700231,2026-08-03,P2,Access request,2,Portal,Poland,Waiting for user,20.6
+INC700232,2026-08-03,P3,Software install,1,Email,India,None,15.0
+INC700233,2026-08-03,P2,Hardware,0,Portal,India,None,13.9
+INC700234,2026-08-03,P3,Hardware,2,Portal,Poland,Waiting for user,22.1
+INC700235,2026-08-03,P3,Network,3,Phone,Mexico,Wrong assignment group,12.6
+INC700236,2026-08-03,P4,Password reset,1,Portal,India,None,10.5
+INC700237,2026-08-03,P3,Network,1,Email,Mexico,Wrong assignment group,23.4
+INC700238,2026-08-03,P2,Access request,1,Email,Mexico,None,8.5
+INC700239,2026-08-04,P1,Network,0,Portal,Poland,None,7.2
+INC700240,2026-08-04,P3,Software install,1,Portal,India,None,
+INC700241,2026-08-04,P3,Hardware,3,Portal,Mexico,Waiting for user,81.7
+INC700242,2026-08-04,P3,Software install,1,Email,India,None,9.7
+INC700243,2026-08-04,P3,Software install,0,Email,Poland,None,15.0
+INC700244,2026-08-04,P2,Access request,4,Email,Poland,Wrong assignment group,36.1
+INC700245,2026-08-04,P4,Network,0,Portal,Poland,None,17.0
+INC700246,2026-08-04,P4,Password reset,2,Email,India,Wrong assignment group,25.1
+INC700247,2026-08-04,P3,Password reset,1,Email,India,Waiting for user,5.4
+INC700248,2026-08-05,P3,Software install,0,Phone,India,None,7.8
+INC700249,2026-08-05,P3,Hardware,0,Portal,India,None,7.3
+INC700250,2026-08-05,P3,Password reset,1,Portal,Poland,None,11.5
+INC700251,2026-08-05,P3,Hardware,1,Portal,Poland,None,22.9
+INC700252,2026-08-05,P2,Password reset,1,Phone,Poland,None,5.6
+INC700253,2026-08-05,P3,Access request,3,Email,India,Wrong assignment group,24.2
+INC700254,2026-08-05,P3,Password reset,0,Phone,India,None,1.8
+INC700255,2026-08-05,P3,Network,0,Email,Poland,None,6.0
+INC700256,2026-08-05,P1,Software install,0,Portal,India,None,4.3
+INC700257,2026-08-05,P3,Access request,2,Email,India,Missing approval,30.4
+INC700258,2026-08-05,P3,Software install,1,Portal,Poland,None,9.0
+INC700259,2026-08-06,P3,Access request,0,Email,India,None,15.3
+INC700260,2026-08-06,P3,Password reset,3,Email,Mexico,Wrong assignment group,21.8
+INC700261,2026-08-06,P4,Software install,0,Email,India,None,11.8
+INC700262,2026-08-06,P2,Hardware,0,Portal,India,None,16.1
+INC700263,2026-08-06,P3,Software install,1,Portal,Poland,None,17.7
+INC700264,2026-08-06,P4,Network,1,Portal,India,None,15.3
+INC700265,2026-08-06,P3,Access request,2,Portal,Poland,Wrong assignment group,30.5
+INC700266,2026-08-06,P3,Hardware,0,Phone,India,None,13.3
+INC700267,2026-08-06,P4,Network,0,Email,Poland,None,11.8
+INC700268,2026-08-06,P4,Software install,0,Phone,Poland,None,12.7
+INC700269,2026-08-06,P4,Hardware,2,Phone,India,Wrong assignment group,19.6
+INC700270,2026-08-06,P4,Password reset,0,Email,India,None,
+INC700271,2026-08-06,P1,Network,1,Portal,India,None,16.0
+INC700272,2026-08-07,P3,Hardware,1,Phone,Poland,None,20.8
+INC700273,2026-08-07,P2,Access request,0,Phone,Poland,None,15.0
+INC700274,2026-08-07,P3,Access request,0,Email,Poland,None,9.6
+INC700275,2026-08-07,P4,Network,1,Phone,Mexico,None,12.7
+INC700276,2026-08-07,P4,Network,0,Portal,Mexico,Missing approval,15.7
+INC700277,2026-08-07,P3,Software install,0,Portal,India,None,6.8
+INC700278,2026-08-07,P4,Access request,2,Email,Poland,Missing approval,44.5
+INC700279,2026-08-07,P2,Password reset,0,Phone,Mexico,Wrong assignment group,0.5
+INC700280,2026-08-07,P4,Access request,0,Email,India,None,12.2
+INC700281,2026-08-07,P3,Hardware,1,Phone,Poland,None,38.7
+INC700282,2026-08-07,P3,Password reset,2,Portal,India,Vendor dependency,10.7
+INC700283,2026-08-07,P1,Network,1,Email,India,None,8.0
+INC700284,2026-08-10,P2,Access request,0,Portal,India,Wrong assignment group,11.2
+INC700285,2026-08-10,P2,Network,0,Phone,India,Waiting for user,7.1
+INC700286,2026-08-10,P3,Access request,0,Phone,India,None,16.2
+INC700287,2026-08-10,P2,Network,0,Email,India,None,11.1
+INC700288,2026-08-10,P3,Access request,0,Email,Mexico,None,15.1
+INC700289,2026-08-10,P3,Software install,1,Portal,Poland,None,13.9
+INC700290,2026-08-10,P4,ERP issue,0,Portal,India,None,23.7
+INC700291,2026-08-10,P1,Access request,2,Email,Mexico,Missing approval,18.0
+INC700292,2026-08-10,P3,Access request,2,Portal,India,Missing approval,13.8
+INC700293,2026-08-10,P4,Software install,3,Phone,Poland,Wrong assignment group,54.2
+INC700294,2026-08-10,P2,Network,0,Email,Poland,None,4.1
+INC700295,2026-08-11,P2,Software install,0,Phone,Mexico,None,4.3
+INC700296,2026-08-11,P2,Software install,0,Portal,Mexico,None,14.3
+INC700297,2026-08-11,P3,Password reset,4,Email,India,Missing approval,11.9
+INC700298,2026-08-11,P3,Hardware,3,Portal,Mexico,Wrong assignment group,12.9
+INC700299,2026-08-11,P3,ERP issue,0,Email,Poland,None,17.3
+INC700300,2026-08-11,P2,Software install,0,Email,Mexico,None,
+INC700301,2026-08-11,P3,ERP issue,0,Portal,India,None,11.6
+INC700302,2026-08-11,P4,Hardware,0,Portal,India,None,13.5
+INC700303,2026-08-11,P4,Access request,2,Phone,Mexico,Wrong assignment group,19.7
+INC700304,2026-08-11,P4,Network,0,Phone,India,None,9.7
+INC700305,2026-08-11,P4,Network,0,Portal,Poland,None,10.8
+INC700306,2026-08-11,P4,Network,1,Phone,India,None,32.2
+INC700307,2026-08-11,P4,Password reset,0,Email,Mexico,None,3.5
+INC700308,2026-08-12,P3,Password reset,3,Portal,India,Wrong assignment group,23.3
+INC700309,2026-08-12,P3,Software install,0,Portal,Poland,None,6.3
+INC700310,2026-08-12,P4,Network,2,Portal,Mexico,Wrong assignment group,42.0
+INC700311,2026-08-12,P3,Password reset,1,Portal,Mexico,None,7.0
+INC700312,2026-08-12,P3,Password reset,1,Portal,India,None,7.5
+INC700313,2026-08-12,P4,Password reset,0,Email,Mexico,None,3.4
+INC700314,2026-08-12,P2,Hardware,0,Phone,India,None,15.6
+INC700315,2026-08-12,P4,Software install,1,Email,Poland,None,19.9
+INC700316,2026-08-12,P3,Network,1,Phone,India,None,
+INC700317,2026-08-12,P4,Hardware,1,Email,Mexico,None,27.5
+INC700318,2026-08-13,P4,Password reset,1,Portal,Mexico,None,8.8
+INC700319,2026-08-13,P3,Hardware,1,Portal,Poland,None,32.8
+INC700320,2026-08-13,P4,Password reset,2,Portal,India,Missing approval,13.5
+INC700321,2026-08-13,P3,Network,0,Portal,Poland,None,27.0
+INC700322,2026-08-13,P3,Access request,1,Email,India,None,26.2
+INC700323,2026-08-13,P1,Password reset,0,Phone,Mexico,None,0.5
+INC700324,2026-08-13,P3,Software install,2,,India,Wrong assignment group,27.9
+INC700325,2026-08-13,P3,Software install,1,Portal,India,None,13.7
+INC700326,2026-08-13,P3,Software install,0,Phone,India,None,9.1
+INC700327,2026-08-13,P4,Network,0,Email,India,None,11.1
+INC700328,2026-08-14,P3,Hardware,0,Email,Poland,None,18.9
+INC700329,2026-08-14,P3,Password reset,0,Phone,India,None,3.1
+INC700330,2026-08-14,P3,Software install,0,Portal,Mexico,None,11.3
+INC700331,2026-08-14,P4,Password reset,0,Email,Mexico,None,2.0
+INC700332,2026-08-14,P4,Password reset,0,Phone,Poland,None,6.2
+INC700333,2026-08-14,P3,Hardware,0,Portal,Mexico,None,8.4
+INC700334,2026-08-14,P3,Network,3,Email,Poland,Wrong assignment group,22.1
+INC700335,2026-08-14,P4,Hardware,0,Portal,Mexico,None,16.5
+INC700336,2026-08-17,P4,Password reset,0,Portal,India,None,3.2
+INC700337,2026-08-17,P4,Hardware,0,Portal,India,None,11.3
+INC700338,2026-08-17,P3,ERP issue,1,Portal,India,None,18.0
+INC700339,2026-08-17,P4,Password reset,0,Email,India,None,6.0
+INC700340,2026-08-17,P4,Password reset,1,Email,India,None,14.2
+INC700341,2026-08-17,P4,Software install,0,Portal,Poland,None,8.8
+INC700342,2026-08-17,P4,Network,0,Portal,Poland,None,10.9
+INC700343,2026-08-17,P4,Password reset,0,Email,India,None,4.0
+INC700344,2026-08-17,P2,Software install,3,Email,Poland,Missing approval,27.2
+INC700345,2026-08-17,P2,Access request,3,Email,Mexico,Missing approval,29.3
+INC700346,2026-08-18,P3,Access request,0,Portal,India,None,10.7
+INC700347,2026-08-18,P4,Access request,0,Email,India,Wrong assignment group,15.7
+INC700348,2026-08-18,P3,Software install,0,Portal,Poland,None,10.1
+INC700349,2026-08-18,P3,Network,1,Phone,India,None,15.9
+INC700350,2026-08-18,P2,Hardware,0,Phone,India,None,10.9
+INC700351,2026-08-18,P3,Password reset,0,Email,India,None,3.7
+INC700352,2026-08-18,P4,Network,0,Email,Poland,None,18.0
+INC700353,2026-08-18,P2,Access request,1,Portal,India,None,15.3
+INC700354,2026-08-18,P3,Network,0,Phone,Mexico,None,7.7
+INC700355,2026-08-18,P3,Password reset,1,Portal,India,None,9.0
+INC700356,2026-08-18,P3,Access request,0,Portal,India,None,17.0
+INC700357,2026-08-18,P1,ERP issue,0,Phone,India,Wrong assignment group,8.2
+INC700358,2026-08-19,P4,Password reset,0,Email,Poland,None,3.0
+INC700359,2026-08-19,P2,Network,0,Portal,India,None,6.5
+INC700360,2026-08-19,P3,Software install,2,Portal,Poland,Wrong assignment group,28.0
+INC700361,2026-08-19,P2,ERP issue,0,Email,Mexico,None,13.3
+INC700362,2026-08-19,P3,Hardware,0,Email,Poland,None,19.1
+INC700363,2026-08-19,P1,Hardware,2,Phone,Mexico,Waiting for user,20.0
+INC700364,2026-08-19,P3,Hardware,4,Phone,India,Missing approval,21.3
+INC700365,2026-08-19,P3,Network,2,Portal,Poland,Missing approval,15.2
+INC700366,2026-08-19,P3,Access request,0,Portal,Poland,None,18.3
+INC700367,2026-08-20,P4,Hardware,4,Email,Poland,Missing approval,43.3
+INC700368,2026-08-20,P1,Hardware,0,Portal,Poland,None,9.7
+INC700369,2026-08-20,P3,Network,0,Portal,India,None,7.8
+INC700370,2026-08-20,P4,Password reset,0,Portal,Mexico,None,3.7
+INC700371,2026-08-20,P3,Software install,0,Email,India,None,12.1
+INC700372,2026-08-20,P2,Network,0,Email,Poland,Missing approval,14.1
+INC700373,2026-08-20,P4,Password reset,0,Phone,Poland,None,3.4
+INC700374,2026-08-20,P4,Hardware,0,Portal,Poland,None,27.8
+INC700375,2026-08-20,P3,ERP issue,2,Portal,India,Waiting for user,31.8
+INC700376,2026-08-20,P3,Software install,0,Email,India,None,13.5
+INC700377,2026-08-20,P1,Password reset,1,Phone,India,None,7.4
+INC700378,2026-08-20,P4,Password reset,3,Phone,Mexico,Missing approval,30.5
+INC700379,2026-08-21,P3,ERP issue,1,Email,Mexico,Waiting for user,10.8
+INC700380,2026-08-21,P3,Hardware,0,Email,Poland,None,9.9
+INC700381,2026-08-21,P3,ERP issue,0,Portal,Poland,None,14.4
+INC700382,2026-08-21,P2,Access request,0,Email,Poland,None,13.4
+INC700383,2026-08-21,P3,Network,3,Email,India,Wrong assignment group,16.1
+INC700384,2026-08-21,P2,Hardware,0,Phone,India,None,16.5
+INC700385,2026-08-21,P3,Password reset,0,Portal,India,None,1.5
+INC700386,2026-08-21,P3,Password reset,0,Phone,Poland,None,2.3
+INC700387,2026-08-21,P2,Access request,1,Email,India,None,10.9
+INC700388,2026-08-21,P4,Network,1,Email,India,None,22.4
+INC700389,2026-08-21,P4,Access request,1,Email,Poland,None,21.4
+INC700390,2026-08-21,P3,Hardware,0,Portal,Mexico,None,15.1
+INC700391,2026-08-21,P4,Software install,0,Portal,Poland,None,14.0
+INC700392,2026-08-24,P2,Password reset,0,Email,Mexico,None,0.5
+INC700393,2026-08-24,P2,Access request,0,Portal,Mexico,None,6.6
+INC700394,2026-08-24,P3,Software install,0,Portal,Mexico,None,10.4
+INC700395,2026-08-24,P2,Hardware,1,,India,None,12.7
+INC700396,2026-08-24,P2,Access request,0,Email,Mexico,None,8.4
+INC700397,2026-08-24,P4,Password reset,1,Phone,Mexico,None,14.1
+INC700398,2026-08-24,P3,Hardware,0,Portal,Poland,None,17.4
+INC700399,2026-08-24,P3,Password reset,2,Portal,India,Waiting for user,10.4
+INC700400,2026-08-25,P3,Password reset,0,Portal,Poland,None,2.6
+INC700401,2026-08-25,P2,ERP issue,0,Portal,Mexico,None,9.6
+INC700402,2026-08-25,P4,Software install,0,Email,Mexico,None,9.8
+INC700403,2026-08-25,P2,Access request,3,Phone,India,Missing approval,
+INC700404,2026-08-25,P3,Access request,1,Email,India,None,10.0
+INC700405,2026-08-25,P3,Password reset,0,Portal,Poland,None,4.1
+INC700406,2026-08-25,P2,Software install,0,Phone,Poland,None,9.3
+INC700407,2026-08-25,P3,Password reset,2,Portal,India,Waiting for user,21.7
+INC700408,2026-08-25,P3,Software install,0,Portal,Poland,None,8.3
+INC700409,2026-08-25,P3,Access request,0,Phone,Poland,None,7.2
+INC700410,2026-08-25,P3,Software install,1,Portal,Mexico,None,10.6
+INC700411,2026-08-25,P4,ERP issue,0,Portal,Mexico,None,22.8
+INC700412,2026-08-26,P4,Password reset,0,Portal,Mexico,None,5.5
+INC700413,2026-08-26,P2,Access request,0,Email,Poland,None,5.2
+INC700414,2026-08-26,P3,Hardware,0,Email,India,None,12.5
+INC700415,2026-08-26,P2,Software install,0,Phone,Mexico,None,10.4
+INC700416,2026-08-26,P3,Software install,3,Portal,Mexico,Missing approval,24.7
+INC700417,2026-08-26,P2,Password reset,2,Portal,Poland,Waiting for user,12.1
+INC700418,2026-08-26,P3,Access request,0,Portal,India,None,10.1
+INC700419,2026-08-26,P2,Access request,3,Portal,India,Wrong assignment group,18.3
+INC700420,2026-08-26,P3,Access request,0,Portal,Poland,None,13.7
+INC700421,2026-08-26,P1,Software install,0,Phone,Mexico,None,4.2
+INC700422,2026-08-26,P4,Network,0,,Poland,None,7.4
+INC700423,2026-08-26,P3,ERP issue,0,Email,Mexico,None,18.3
+INC700424,2026-08-26,P3,Access request,3,Email,Mexico,Vendor dependency,36.5
+INC700425,2026-08-26,P4,Password reset,3,Email,Poland,Wrong assignment group,21.2
+INC700426,2026-08-27,P1,Password reset,2,Phone,Mexico,Wrong assignment group,5.1
+INC700427,2026-08-27,P3,Password reset,2,Phone,Poland,Vendor dependency,13.2
+INC700428,2026-08-27,P3,Software install,1,Portal,Mexico,None,18.8
+INC700429,2026-08-27,P4,Hardware,1,Phone,India,None,27.9
+INC700430,2026-08-27,P3,Hardware,1,Email,Mexico,None,22.5
+INC700431,2026-08-27,P2,Software install,0,,Mexico,Wrong assignment group,6.4
+INC700432,2026-08-27,P3,Network,0,Email,Poland,None,15.9
+INC700433,2026-08-27,P4,Access request,0,Email,Mexico,None,27.5
+INC700434,2026-08-27,P2,Access request,0,Phone,India,None,
+INC700435,2026-08-28,P4,Password reset,0,Portal,Mexico,None,4.5
+INC700436,2026-08-28,P4,Software install,1,Portal,Poland,Missing approval,13.0
+INC700437,2026-08-28,P4,Password reset,0,Email,India,None,4.3
+INC700438,2026-08-28,P3,Password reset,0,Phone,Mexico,None,2.0
+INC700439,2026-08-28,P3,Software install,3,Email,Poland,Waiting for user,33.4
+INC700440,2026-08-28,P4,Software install,1,Phone,Mexico,None,14.5
+INC700441,2026-08-28,P3,Access request,0,Phone,India,None,18.2
+INC700442,2026-08-28,P2,Password reset,0,Phone,India,None,0.8
+INC700443,2026-08-31,P2,Software install,0,Portal,India,None,6.1
+INC700444,2026-08-31,P3,Hardware,1,Email,India,Waiting for user,23.8
+INC700445,2026-08-31,P4,Hardware,2,Portal,Mexico,Vendor dependency,14.9
+INC700446,2026-08-31,P3,Access request,0,Email,India,None,5.3
+INC700447,2026-08-31,P4,Access request,0,Portal,India,Wrong assignment group,10.0
+INC700448,2026-08-31,P3,Software install,2,Phone,Mexico,Missing approval,28.7
+INC700449,2026-08-31,P4,Password reset,3,Email,Poland,Vendor dependency,15.4
+INC700450,2026-08-31,P3,Software install,0,Email,Mexico,None,8.3
+INC700451,2026-08-31,P2,Software install,0,Portal,India,None,9.7
+INC700452,2026-08-31,P4,Network,0,Phone,India,None,12.7
+INC700453,2026-08-31,P3,Software install,1,Phone,Poland,None,17.7
+INC700454,2026-08-31,P4,Password reset,0,Phone,Poland,None,3.1
+INC700455,2026-08-31,P2,Hardware,0,Portal,Poland,None,6.6
+INC700456,2026-09-01,P3,Software install,0,Portal,India,None,17.0
+INC700457,2026-09-01,P3,Password reset,1,Phone,Poland,None,8.5
+INC700458,2026-09-01,P4,Password reset,0,Portal,India,None,4.2
+INC700459,2026-09-01,P3,Hardware,0,Portal,Poland,None,17.3
+INC700460,2026-09-01,P4,Software install,3,Portal,India,Waiting for user,21.8
+INC700461,2026-09-01,P4,Password reset,0,Email,India,None,4.2
+INC700462,2026-09-01,P2,Network,3,Portal,India,Waiting for user,31.6
+INC700463,2026-09-01,P2,Password reset,0,Email,India,None,0.5
+INC700464,2026-09-01,P3,Software install,0,Email,India,None,8.7
+INC700465,2026-09-01,P3,ERP issue,2,Email,India,Wrong assignment group,39.4
+INC700466,2026-09-01,P4,Network,2,Phone,India,Waiting for user,24.7
+INC700467,2026-09-01,P4,Access request,0,Email,India,None,11.7
+INC700468,2026-09-01,P4,Access request,0,Email,Mexico,None,13.4
+INC700469,2026-09-01,P3,Hardware,1,Phone,Mexico,None,62.1
+INC700470,2026-09-02,P3,Password reset,2,Email,Poland,Waiting for user,7.8
+INC700471,2026-09-02,P2,ERP issue,1,Email,Poland,None,15.5
+INC700472,2026-09-02,P4,Software install,0,,Poland,Wrong assignment group,16.3
+INC700473,2026-09-02,P2,Access request,0,Portal,India,None,9.7
+INC700474,2026-09-02,P2,Password reset,0,Portal,Mexico,None,0.5
+INC700475,2026-09-02,P4,ERP issue,2,Email,Mexico,Wrong assignment group,35.6
+INC700476,2026-09-02,P3,Hardware,0,Portal,Mexico,None,26.3
+INC700477,2026-09-02,P3,Hardware,1,Portal,India,None,15.9
+INC700478,2026-09-02,P2,Network,1,Email,Poland,Vendor dependency,18.6
+INC700479,2026-09-02,P3,Software install,0,Portal,Poland,None,9.6
+INC700480,2026-09-02,P3,Access request,2,Portal,India,Missing approval,17.7
+INC700481,2026-09-02,P3,Hardware,4,Portal,Mexico,Waiting for user,30.3
+INC700482,2026-09-02,P3,Hardware,0,Phone,Poland,None,11.4
+INC700483,2026-09-03,P3,ERP issue,0,Email,India,None,7.1
+INC700484,2026-09-03,P4,ERP issue,0,Phone,Mexico,None,26.1
+INC700485,2026-09-03,P4,Password reset,0,,India,None,9.0
+INC700486,2026-09-03,P1,Software install,3,Email,Poland,Wrong assignment group,27.5
+INC700487,2026-09-03,P3,Password reset,2,Portal,Poland,Missing approval,9.9
+INC700488,2026-09-03,P3,Access request,3,Email,India,Wrong assignment group,25.2
+INC700489,2026-09-03,P3,Password reset,1,Portal,India,None,10.3
+INC700490,2026-09-03,P3,Access request,3,Portal,Poland,Vendor dependency,33.6
+INC700491,2026-09-03,P3,Network,2,Phone,Poland,Wrong assignment group,16.8
+INC700492,2026-09-03,P3,Hardware,0,Portal,India,None,10.1
+INC700493,2026-09-04,P4,ERP issue,2,Email,Poland,Waiting for user,30.3
+INC700494,2026-09-04,P1,Access request,0,Email,Mexico,None,7.6
+INC700495,2026-09-04,P3,Password reset,0,Email,India,Waiting for user,2.5
+INC700496,2026-09-04,P3,Hardware,0,Phone,Mexico,None,14.1
+INC700497,2026-09-04,P3,ERP issue,0,Phone,Poland,None,18.7
+INC700498,2026-09-04,P4,Software install,0,Portal,India,None,14.0
+INC700499,2026-09-04,P3,Software install,0,Phone,Poland,None,10.9
+INC700500,2026-09-04,P2,Software install,2,Portal,India,Wrong assignment group,23.4
+INC700501,2026-09-04,P4,Software install,0,Email,India,None,9.3
+INC700502,2026-09-07,P2,Password reset,0,Phone,Poland,None,0.5
+INC700503,2026-09-07,P3,Access request,4,Portal,Mexico,Wrong assignment group,49.1
+INC700504,2026-09-07,P3,ERP issue,1,Portal,India,None,28.3
+INC700505,2026-09-07,P3,Password reset,0,Portal,India,None,3.7
+INC700506,2026-09-07,P4,Network,1,Email,India,None,20.7
+INC700507,2026-09-07,P2,Software install,0,Phone,Poland,None,5.8
+INC700508,2026-09-07,P4,Network,0,Portal,India,None,12.2
+INC700509,2026-09-07,P4,Software install,3,Phone,India,Wrong assignment group,36.9
+INC700510,2026-09-07,P2,Hardware,0,Phone,India,None,10.9
+INC700511,2026-09-07,P3,Network,1,Phone,Mexico,None,12.3
+INC700512,2026-09-07,P3,Software install,1,Portal,India,None,13.7
+INC700513,2026-09-07,P3,Access request,1,Phone,India,None,19.0
+INC700514,2026-09-08,P3,Password reset,0,Portal,Mexico,None,2.7
+INC700515,2026-09-08,P4,Access request,1,Portal,India,None,
+INC700516,2026-09-08,P2,Hardware,0,Email,India,None,10.8
+INC700517,2026-09-08,P3,Software install,1,Phone,India,None,22.2
+INC700518,2026-09-08,P2,Password reset,0,Email,Poland,None,0.7
+INC700519,2026-09-08,P3,Network,1,Phone,Poland,None,21.7
+INC700520,2026-09-08,P1,Password reset,2,Email,India,Missing approval,5.4
+INC700521,2026-09-08,P3,Password reset,2,Portal,India,Wrong assignment group,26.5
+INC700522,2026-09-08,P3,Password reset,0,Portal,India,Wrong assignment group,1.6
+INC700523,2026-09-08,P3,Hardware,0,Email,India,None,16.0
+INC700524,2026-09-08,P2,Network,2,Portal,India,Vendor dependency,11.6
+INC700525,2026-09-08,P4,Password reset,0,Phone,India,None,4.0
+INC700526,2026-09-08,P3,Software install,1,Portal,India,None,17.3
+INC700527,2026-09-09,P3,Hardware,0,Email,India,None,13.6
+INC700528,2026-09-09,P3,Software install,0,Email,Mexico,None,10.7
+INC700529,2026-09-09,P3,Software install,1,Portal,India,None,15.3
+INC700530,2026-09-09,P1,Software install,1,Email,India,None,9.4
+INC700531,2026-09-09,P3,Hardware,1,Phone,Mexico,None,28.4
+INC700532,2026-09-09,P1,Password reset,0,Email,India,None,0.5
+INC700533,2026-09-09,P3,Password reset,1,Portal,India,None,6.6
+INC700534,2026-09-09,P3,Password reset,0,Email,India,None,3.0
+INC700535,2026-09-09,P4,Software install,0,Portal,India,None,5.4
+INC700536,2026-09-09,P4,Network,1,Email,India,None,23.0
+INC700537,2026-09-09,P3,Password reset,0,Portal,Mexico,None,2.2
+INC700538,2026-09-10,P3,Network,0,Phone,India,None,6.8
+INC700539,2026-09-10,P4,Network,0,Phone,Mexico,None,16.4
+INC700540,2026-09-10,P3,Access request,3,Email,Mexico,Vendor dependency,33.9
+INC700541,2026-09-10,P3,Software install,2,Phone,India,Vendor dependency,15.2
+INC700542,2026-09-10,P4,Password reset,0,Email,India,None,5.1
+INC700543,2026-09-10,P3,Network,0,Phone,Poland,None,13.0
+INC700544,2026-09-10,P4,Hardware,1,Portal,Poland,None,11.0
+INC700545,2026-09-10,P2,Network,0,Portal,India,None,13.5
+INC700546,2026-09-10,P4,ERP issue,0,Phone,India,Wrong assignment group,16.2
+INC700547,2026-09-11,P3,ERP issue,0,Email,Poland,None,18.3
+INC700548,2026-09-11,P1,Access request,0,Portal,Mexico,None,11.8
+INC700549,2026-09-11,P3,Access request,1,Portal,India,None,14.9
+INC700550,2026-09-11,P3,Password reset,0,,Mexico,None,3.3
+INC700551,2026-09-11,P3,Access request,0,Email,Poland,None,12.6
+INC700552,2026-09-11,P3,Software install,0,Portal,Mexico,None,9.5
+INC700553,2026-09-11,P2,Hardware,0,Portal,Poland,None,38.1
+INC700554,2026-09-11,P3,Password reset,2,Phone,Poland,Wrong assignment group,10.9
+INC700555,2026-09-14,P3,ERP issue,1,Portal,India,None,41.0
+INC700556,2026-09-14,P3,ERP issue,0,Portal,India,None,25.7
+INC700557,2026-09-14,P4,Access request,2,Email,India,Waiting for user,26.5
+INC700558,2026-09-14,P3,Password reset,4,Email,Poland,Missing approval,20.1
+INC700559,2026-09-14,P4,Software install,0,Email,India,None,11.7
+INC700560,2026-09-14,P2,Password reset,0,Email,Poland,None,0.5
+INC700561,2026-09-14,P3,Hardware,3,Portal,India,Wrong assignment group,47.8
+INC700562,2026-09-14,P3,Hardware,0,Email,Mexico,None,12.9
+INC700563,2026-09-14,P4,Password reset,3,Portal,India,Wrong assignment group,12.1
+INC700564,2026-09-14,P4,Software install,0,Portal,India,None,10.1
+INC700565,2026-09-14,P4,Password reset,1,Email,Mexico,None,17.9
+INC700566,2026-09-14,P4,Access request,2,Portal,Poland,Wrong assignment group,27.7
+INC700567,2026-09-14,P4,Software install,4,Email,India,Wrong assignment group,29.2
+INC700568,2026-09-14,P2,Access request,1,Portal,Poland,None,8.2
+INC700569,2026-09-15,P3,Access request,1,Portal,Mexico,None,15.5
+INC700570,2026-09-15,P2,Password reset,0,Portal,Mexico,Vendor dependency,0.5
+INC700571,2026-09-15,P4,Hardware,2,Email,Poland,Wrong assignment group,32.4
+INC700572,2026-09-15,P3,Password reset,2,Portal,Poland,Waiting for user,29.1
+INC700573,2026-09-15,P3,Hardware,0,Portal,Poland,None,15.0
+INC700574,2026-09-15,P3,Network,0,Phone,India,None,8.3
+INC700575,2026-09-15,P4,Access request,0,,Mexico,None,8.9
+INC700576,2026-09-15,P3,Access request,0,Portal,India,None,15.2
+INC700577,2026-09-15,P3,Password reset,0,Portal,Poland,None,1.7
+INC700578,2026-09-16,P3,Software install,2,Email,India,Wrong assignment group,13.5
+INC700579,2026-09-16,P4,Network,0,Portal,India,None,14.0
+INC700580,2026-09-16,P4,Password reset,1,Portal,India,None,
+INC700581,2026-09-16,P3,Access request,2,Portal,India,Waiting for user,23.8
+INC700582,2026-09-16,P3,Software install,2,Portal,Mexico,Wrong assignment group,20.6
+INC700583,2026-09-16,P3,Access request,1,Phone,India,None,25.0
+INC700584,2026-09-16,P3,Password reset,0,Email,Poland,None,2.0
+INC700585,2026-09-16,P2,Password reset,2,Email,India,Wrong assignment group,7.9
+INC700586,2026-09-16,P3,Password reset,0,Portal,Mexico,None,2.2
+INC700587,2026-09-16,P2,Software install,0,Email,India,None,14.1
+INC700588,2026-09-16,P4,Password reset,0,Portal,Mexico,None,7.1
+INC700589,2026-09-16,P3,Password reset,2,Portal,Mexico,Wrong assignment group,12.2
+INC700590,2026-09-16,P3,Access request,2,Phone,India,Waiting for user,37.0
+INC700591,2026-09-17,P3,Hardware,0,Portal,India,None,16.1
+INC700592,2026-09-17,P4,Network,2,Email,Poland,Missing approval,36.7
+INC700593,2026-09-17,P2,Hardware,0,Portal,Poland,None,14.1
+INC700594,2026-09-17,P3,Password reset,4,Phone,Mexico,Wrong assignment group,18.5
+INC700595,2026-09-17,P3,ERP issue,0,Portal,Poland,None,24.4
+INC700596,2026-09-17,P3,Access request,0,Email,India,None,13.8
+INC700597,2026-09-17,P3,Hardware,1,Email,Poland,None,18.4
+INC700598,2026-09-17,P3,Password reset,0,Phone,Mexico,None,3.2
+INC700599,2026-09-17,P3,ERP issue,1,Portal,India,None,21.3
+INC700600,2026-09-18,P3,Hardware,2,Portal,Poland,Waiting for user,42.8
+INC700601,2026-09-18,P2,Access request,1,Phone,Mexico,None,7.7
+INC700602,2026-09-18,P3,ERP issue,2,Phone,Poland,Wrong assignment group,32.0
+INC700603,2026-09-18,P3,Access request,1,Portal,India,None,18.9
+INC700604,2026-09-18,P2,Password reset,3,Portal,Poland,Vendor dependency,23.7
+INC700605,2026-09-18,P3,Network,1,Phone,Mexico,None,16.9
+INC700606,2026-09-18,P2,ERP issue,0,Phone,India,None,18.8
+INC700607,2026-09-18,P4,Password reset,0,Email,Poland,None,2.7
+INC700608,2026-09-21,P3,Hardware,4,Portal,Poland,Vendor dependency,37.0
+INC700609,2026-09-21,P3,Password reset,0,Portal,Mexico,None,2.4
+INC700610,2026-09-21,P3,Hardware,1,Email,Poland,None,16.1
+INC700611,2026-09-21,P3,Software install,0,Email,Poland,Wrong assignment group,13.8
+INC700612,2026-09-21,P3,Access request,1,Portal,India,None,29.6
+INC700613,2026-09-21,P2,Software install,1,Portal,Mexico,None,28.8
+INC700614,2026-09-21,P3,Access request,2,Email,India,Wrong assignment group,15.4
+INC700615,2026-09-21,P4,Hardware,0,Phone,India,None,21.4
+INC700616,2026-09-21,P2,Access request,0,Portal,Poland,Missing approval,13.0
+INC700617,2026-09-21,P4,Software install,0,Portal,Mexico,None,11.6
+INC700618,2026-09-21,P3,Software install,2,Email,India,Waiting for user,15.1
+INC700619,2026-09-21,P2,Hardware,0,Email,Poland,None,13.5
+INC700620,2026-09-21,P4,Access request,0,Portal,India,None,19.3
+INC700621,2026-09-21,P3,Password reset,1,Portal,India,Waiting for user,6.8
+INC700622,2026-09-22,P3,Hardware,1,Portal,Mexico,None,42.8
+INC700623,2026-09-22,P3,Network,1,Portal,Mexico,None,7.8
+INC700624,2026-09-22,P4,Password reset,1,Portal,India,None,9.0
+INC700625,2026-09-22,P3,Access request,1,Portal,Poland,None,17.9
+INC700626,2026-09-22,P3,Password reset,1,Phone,India,None,8.2
+INC700627,2026-09-22,P2,ERP issue,0,Email,Mexico,None,10.5
+INC700628,2026-09-22,P2,Software install,0,Portal,Poland,None,8.0
+INC700629,2026-09-22,P4,Access request,4,,India,Wrong assignment group,26.3
+INC700630,2026-09-22,P2,Access request,1,Portal,Poland,None,21.8
+INC700631,2026-09-23,P3,Access request,3,Portal,India,Wrong assignment group,39.5
+INC700632,2026-09-23,P2,Password reset,0,Portal,India,None,0.5
+INC700633,2026-09-23,P3,Software install,0,Email,India,None,13.5
+INC700634,2026-09-23,P3,Hardware,1,Portal,Mexico,None,25.9
+INC700635,2026-09-23,P4,Access request,1,Phone,Poland,Wrong assignment group,23.7
+INC700636,2026-09-23,P3,Password reset,1,Phone,Poland,None,8.1
+INC700637,2026-09-23,P3,Password reset,2,Email,India,Waiting for user,10.0
+INC700638,2026-09-23,P4,Hardware,0,Phone,Poland,None,16.6
+INC700639,2026-09-23,P4,Password reset,0,Portal,Poland,None,5.0
+INC700640,2026-09-23,P3,Network,3,Email,Poland,Wrong assignment group,15.8
+INC700641,2026-09-23,P3,Hardware,1,Phone,India,None,12.3
+INC700642,2026-09-24,P3,Hardware,2,Portal,India,Waiting for user,30.2
+INC700643,2026-09-24,P4,Hardware,3,Portal,Poland,Waiting for user,43.5
+INC700644,2026-09-24,P3,Software install,0,Portal,India,Waiting for user,13.0
+INC700645,2026-09-24,P3,Network,0,Portal,India,None,12.1
+INC700646,2026-09-24,P3,Password reset,0,Portal,Poland,None,1.9
+INC700647,2026-09-24,P3,Software install,0,Email,Mexico,None,10.7
+INC700648,2026-09-24,P3,Password reset,4,Phone,India,Wrong assignment group,21.9
+INC700649,2026-09-24,P3,Software install,0,Email,Poland,None,9.7
+INC700650,2026-09-24,P2,Access request,2,Portal,Poland,Missing approval,17.7
+INC700651,2026-09-24,P3,Password reset,1,Email,Mexico,None,6.8
+INC700652,2026-09-24,P3,Access request,2,Email,Poland,Wrong assignment group,15.3
+INC700653,2026-09-25,P4,Software install,1,Portal,India,None,25.9
+INC700654,2026-09-25,P4,Password reset,0,Portal,Mexico,None,4.0
+INC700655,2026-09-25,P2,Password reset,2,Portal,India,Wrong assignment group,12.9
+INC700656,2026-09-25,P3,Password reset,0,Email,Poland,None,2.0
+INC700657,2026-09-25,P1,Software install,1,Email,India,None,16.6
+INC700658,2026-09-25,P1,Password reset,3,Portal,India,Waiting for user,14.3
+INC700659,2026-09-25,P3,Hardware,0,Portal,Mexico,None,15.2
+INC700660,2026-09-25,P3,ERP issue,2,Email,Mexico,Waiting for user,27.0
+INC700661,2026-09-25,P3,Hardware,3,Phone,India,Wrong assignment group,22.2
+INC700662,2026-09-25,P3,Password reset,1,Phone,India,None,10.8
+INC700663,2026-09-25,P2,Access request,1,Portal,Poland,None,20.1

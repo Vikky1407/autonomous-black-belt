@@ -1,0 +1,995 @@
+Call_ID,Call_Date,Call_Type,Agent_Tenure,Shift,Language,Knowledge_Base_Used,Transfers,Customer_Tier,Handle_Time_Min
+C50001,2026-08-03,Cancellation,Over 24 months,Evening,English,No,0,Standard,7.41
+C50002,2026-08-03,Order status,6-24 months,Evening,English,Yes,0,Standard,4.38
+C50003,2026-08-03,Billing dispute,6-24 months,Morning,English,No,1,Standard,8.39
+C50004,2026-08-03,Technical issue,Over 24 months,Morning,English,Yes,0,Silver,4.57
+C50005,2026-08-03,Order status,Under 6 months,Morning,English,No,0,Standard,5.45
+C50006,2026-08-03,Technical issue,Under 6 months,Morning,English,Yes,0,Gold,7.01
+C50007,2026-08-03,Order status,Over 24 months,Afternoon,English,Yes,2,Standard,8.26
+C50008,2026-08-03,Order status,6-24 months,Morning,English,Yes,0,Standard,5.08
+C50009,2026-08-03,Order status,Over 24 months,Morning,English,Yes,0,Standard,3.2
+C50010,2026-08-03,Address change,6-24 months,Evening,English,Yes,0,Standard,4.5
+C50011,2026-08-03,Cancellation,6-24 months,Afternoon,English,No,0,Gold,9.43
+C50012,2026-08-03,Order status,6-24 months,Evening,English,Yes,1,Gold,10.75
+C50013,2026-08-03,Order status,6-24 months,Afternoon,Spanish,Yes,0,Gold,4.49
+C50014,2026-08-03,Billing dispute,6-24 months,Afternoon,Spanish,Yes,0,Gold,7.12
+C50015,2026-08-03,Technical issue,6-24 months,Morning,English,No,0,Silver,7.53
+C50016,2026-08-03,Order status,Over 24 months,Evening,English,Yes,0,Silver,4.23
+C50017,2026-08-03,Cancellation,Over 24 months,Morning,English,Yes,0,Standard,4.51
+C50018,2026-08-03,Address change,Under 6 months,Morning,English,Yes,0,Silver,4.89
+C50019,2026-08-03,Cancellation,Under 6 months,Afternoon,Hindi,Yes,0,Standard,6.42
+C50020,2026-08-03,Cancellation,6-24 months,Morning,English,Yes,0,Gold,7.49
+C50021,2026-08-03,Order status,6-24 months,Morning,Hindi,Yes,0,Standard,4.07
+C50022,2026-08-03,Order status,Over 24 months,Afternoon,English,Yes,0,Standard,4.42
+C50023,2026-08-03,Cancellation,Under 6 months,Morning,English,Yes,0,Gold,6.75
+C50024,2026-08-03,Order status,Under 6 months,Evening,English,Yes,0,Silver,5.51
+C50025,2026-08-03,Billing dispute,6-24 months,Morning,Hindi,Yes,0,Gold,7.39
+C50026,2026-08-04,Order status,Under 6 months,Morning,English,Yes,1,Standard,8.38
+C50027,2026-08-04,Technical issue,6-24 months,Afternoon,Spanish,No,0,Standard,7.63
+C50028,2026-08-04,Cancellation,6-24 months,Morning,English,Yes,0,Standard,5.23
+C50029,2026-08-04,Address change,Over 24 months,Morning,English,No,0,Silver,6.05
+C50030,2026-08-04,Technical issue,6-24 months,Evening,English,Yes,1,Gold,9.27
+C50031,2026-08-04,Order status,Over 24 months,Evening,English,Yes,1,Gold,4.87
+C50032,2026-08-04,Billing dispute,Under 6 months,Morning,English,No,0,Standard,10.2
+C50033,2026-08-04,Billing dispute,6-24 months,Morning,English,No,1,Gold,13.93
+C50034,2026-08-04,Order status,6-24 months,Morning,English,No,0,Standard,6.06
+C50035,2026-08-04,Technical issue,6-24 months,Morning,Hindi,No,0,Standard,8.97
+C50036,2026-08-04,Order status,6-24 months,Morning,English,No,2,Standard,6.37
+C50037,2026-08-04,Address change,Over 24 months,Evening,English,Yes,1,Standard,5.64
+C50038,2026-08-04,Order status,Over 24 months,Afternoon,Spanish,No,3,Silver,13.32
+C50039,2026-08-04,Cancellation,Over 24 months,Afternoon,English,Yes,0,Gold,4.21
+C50040,2026-08-04,Address change,Under 6 months,Morning,Spanish,No,0,Gold,8.36
+C50041,2026-08-04,Order status,6-24 months,Afternoon,Hindi,No,1,Gold,6.72
+C50042,2026-08-04,Order status,6-24 months,Afternoon,English,Yes,1,Standard,4.14
+C50043,2026-08-04,Technical issue,6-24 months,Evening,Hindi,Yes,1,Silver,8.62
+C50044,2026-08-04,Technical issue,Under 6 months,Afternoon,English,Yes,0,Standard,7.44
+C50045,2026-08-04,Technical issue,6-24 months,Morning,English,No,0,Silver,6.15
+C50046,2026-08-04,Cancellation,Over 24 months,Morning,English,Yes,0,Standard,5.28
+C50047,2026-08-04,Cancellation,6-24 months,Morning,Spanish,Yes,0,Gold,4.29
+C50048,2026-08-04,Order status,Under 6 months,Morning,English,No,0,Gold,6.14
+C50049,2026-08-04,Address change,Under 6 months,Afternoon,English,Yes,0,Silver,6.44
+C50050,2026-08-04,Technical issue,Under 6 months,Afternoon,English,Yes,1,Standard,11.59
+C50051,2026-08-05,Order status,Over 24 months,Evening,English,No,2,Standard,8.17
+C50052,2026-08-05,Cancellation,Under 6 months,Morning,English,Yes,1,Standard,10.16
+C50053,2026-08-05,Billing dispute,Over 24 months,Morning,English,Yes,0,Standard,6.91
+C50054,2026-08-05,Cancellation,Under 6 months,Afternoon,English,Yes,1,Gold,8.53
+C50055,2026-08-05,Order status,Under 6 months,Morning,English,Yes,0,Silver,5.07
+C50056,2026-08-05,Address change,Over 24 months,Morning,Hindi,No,0,Silver,5.38
+C50057,2026-08-05,Address change,6-24 months,Morning,Spanish,Yes,0,Standard,3.53
+C50058,2026-08-05,Order status,6-24 months,Morning,English,No,0,Silver,7.21
+C50059,2026-08-05,Order status,Over 24 months,Afternoon,English,No,1,Silver,8.59
+C50060,2026-08-05,Cancellation,Over 24 months,Afternoon,Spanish,Yes,2,Standard,6.58
+C50061,2026-08-05,Billing dispute,Over 24 months,Afternoon,Spanish,No,1,Gold,10.44
+C50062,2026-08-05,Billing dispute,6-24 months,Afternoon,English,Yes,0,Silver,5.6
+C50063,2026-08-05,Cancellation,6-24 months,Morning,Hindi,Yes,1,Standard,5.89
+C50064,2026-08-05,Address change,Over 24 months,Afternoon,Spanish,No,0,Silver,5.01
+C50065,2026-08-05,Billing dispute,Under 6 months,Evening,English,Yes,0,Silver,10.28
+C50066,2026-08-05,Cancellation,6-24 months,Evening,English,No,1,Standard,9.63
+C50067,2026-08-05,Address change,Under 6 months,Afternoon,English,No,0,Gold,6.91
+C50068,2026-08-05,Cancellation,6-24 months,Morning,English,Yes,0,Standard,5.91
+C50069,2026-08-05,Technical issue,6-24 months,Morning,English,No,0,Standard,9.27
+C50070,2026-08-05,Billing dispute,Over 24 months,Evening,Hindi,No,0,Gold,8.8
+C50071,2026-08-06,Billing dispute,6-24 months,Afternoon,English,No,0,Standard,6.12
+C50072,2026-08-06,Address change,6-24 months,Afternoon,English,Yes,1,Gold,5.45
+C50073,2026-08-06,Technical issue,Under 6 months,Afternoon,English,Yes,1,Standard,8.21
+C50074,2026-08-06,Technical issue,Over 24 months,Morning,English,No,1,Standard,9.25
+C50075,2026-08-06,Address change,6-24 months,Afternoon,English,Yes,0,Standard,4.01
+C50076,2026-08-06,Order status,Under 6 months,Evening,English,No,2,Gold,8.81
+C50077,2026-08-06,Order status,6-24 months,Morning,English,No,0,Standard,6.08
+C50078,2026-08-06,Technical issue,6-24 months,Morning,Spanish,Yes,0,Standard,6.29
+C50079,2026-08-06,Order status,Under 6 months,Afternoon,English,No,1,Standard,9.64
+C50080,2026-08-06,Billing dispute,6-24 months,Afternoon,Spanish,No,0,Standard,8.22
+C50081,2026-08-06,Billing dispute,6-24 months,Afternoon,English,Yes,2,Standard,11.11
+C50082,2026-08-06,Order status,Over 24 months,Afternoon,English,Yes,0,Silver,4.35
+C50083,2026-08-06,Address change,Over 24 months,Morning,English,Yes,0,Standard,3.17
+C50084,2026-08-06,Technical issue,Over 24 months,Afternoon,Spanish,No,2,Silver,12.91
+C50085,2026-08-06,Billing dispute,6-24 months,Morning,English,No,2,Silver,12.12
+C50086,2026-08-06,Billing dispute,Under 6 months,Afternoon,Spanish,Yes,1,Standard,12.57
+C50087,2026-08-06,Order status,Over 24 months,Afternoon,English,No,0,Standard,7.31
+C50088,2026-08-06,Technical issue,Over 24 months,Evening,English,Yes,0,Gold,5.98
+C50089,2026-08-06,Address change,Over 24 months,Afternoon,English,Yes,1,Silver,6.25
+C50090,2026-08-06,Address change,6-24 months,Morning,Hindi,No,0,Standard,7.71
+C50091,2026-08-06,Technical issue,6-24 months,Evening,English,No,1,Standard,11.14
+C50092,2026-08-07,Address change,Over 24 months,Afternoon,Spanish,No,1,Standard,6.28
+C50093,2026-08-07,Billing dispute,6-24 months,Morning,English,Yes,1,Silver,10.71
+C50094,2026-08-07,Order status,Over 24 months,Morning,English,Yes,0,Standard,4.16
+C50095,2026-08-07,Order status,Under 6 months,Morning,English,Yes,0,Silver,6.67
+C50096,2026-08-07,Order status,Over 24 months,Morning,English,Yes,0,Gold,4.09
+C50097,2026-08-07,Address change,6-24 months,Evening,Hindi,Yes,1,Silver,5.05
+C50098,2026-08-07,Technical issue,Over 24 months,Morning,Hindi,Yes,0,Standard,5.91
+C50099,2026-08-07,Billing dispute,6-24 months,Morning,English,Yes,0,Silver,9.89
+C50100,2026-08-07,Billing dispute,Over 24 months,Morning,English,No,1,Silver,9.94
+C50101,2026-08-07,Order status,Over 24 months,Afternoon,English,Yes,1,Standard,6.45
+C50102,2026-08-07,Order status,Over 24 months,Morning,English,No,1,Standard,7.26
+C50103,2026-08-07,Order status,6-24 months,Morning,Spanish,Yes,2,Silver,5.61
+C50104,2026-08-07,Cancellation,Under 6 months,Afternoon,English,No,0,Gold,7.57
+C50105,2026-08-07,Address change,6-24 months,Afternoon,English,Yes,0,Standard,4.11
+C50106,2026-08-07,Order status,6-24 months,Evening,English,Yes,3,Gold,10.88
+C50107,2026-08-07,Billing dispute,Over 24 months,Evening,Spanish,Yes,0,Silver,6.83
+C50108,2026-08-07,Technical issue,6-24 months,Morning,English,Yes,0,Silver,6.44
+C50109,2026-08-07,Technical issue,Under 6 months,Afternoon,Spanish,Yes,1,Silver,7.64
+C50110,2026-08-07,Address change,Under 6 months,Afternoon,Spanish,Yes,0,Gold,8.78
+C50111,2026-08-07,Billing dispute,Over 24 months,Morning,English,Yes,0,Gold,7.11
+C50112,2026-08-07,Cancellation,6-24 months,Afternoon,Spanish,Yes,1,Silver,7.99
+C50113,2026-08-07,Billing dispute,6-24 months,Evening,English,Yes,0,Standard,6.49
+C50114,2026-08-07,Order status,6-24 months,Morning,English,Yes,1,Silver,3.82
+C50115,2026-08-07,Address change,Over 24 months,Afternoon,English,Yes,0,Silver,3.96
+C50116,2026-08-10,Technical issue,Under 6 months,Afternoon,Hindi,No,3,Standard,9.44
+C50117,2026-08-10,Order status,6-24 months,Morning,English,No,0,Standard,5.4
+C50118,2026-08-10,Order status,Over 24 months,Morning,English,Yes,1,Silver,5.75
+C50119,2026-08-10,Order status,Over 24 months,Morning,Hindi,Yes,1,Gold,6.38
+C50120,2026-08-10,Technical issue,6-24 months,Morning,English,No,0,Standard,7.34
+C50121,2026-08-10,Billing dispute,6-24 months,Afternoon,Spanish,No,2,Standard,13.35
+C50122,2026-08-10,Technical issue,6-24 months,Afternoon,English,No,0,Silver,8.09
+C50123,2026-08-10,Order status,6-24 months,Morning,Spanish,Yes,0,Standard,4.87
+C50124,2026-08-10,Address change,6-24 months,Morning,Spanish,Yes,0,Standard,6.67
+C50125,2026-08-10,Technical issue,6-24 months,Afternoon,Spanish,Yes,2,Gold,6.29
+C50126,2026-08-10,Order status,Over 24 months,Afternoon,English,Yes,0,Standard,4.59
+C50127,2026-08-10,Order status,6-24 months,Evening,Spanish,Yes,0,Silver,4.18
+C50128,2026-08-10,Address change,Under 6 months,Afternoon,English,No,3,Standard,15.84
+C50129,2026-08-10,Technical issue,6-24 months,Evening,English,No,2,Silver,14.59
+C50130,2026-08-10,Technical issue,Under 6 months,Morning,English,No,0,Silver,9.69
+C50131,2026-08-10,Order status,Over 24 months,Morning,English,Yes,0,Silver,3.87
+C50132,2026-08-10,Billing dispute,6-24 months,Morning,English,Yes,1,Silver,11.89
+C50133,2026-08-10,Billing dispute,6-24 months,Morning,Spanish,Yes,1,Standard,9.57
+C50134,2026-08-10,Order status,6-24 months,Morning,English,No,2,Standard,6.46
+C50135,2026-08-10,Technical issue,6-24 months,Morning,Spanish,Yes,2,Standard,11.91
+C50136,2026-08-11,Cancellation,Over 24 months,Evening,English,Yes,1,Gold,6.35
+C50137,2026-08-11,Order status,6-24 months,Afternoon,Spanish,No,0,Silver,6.87
+C50138,2026-08-11,Technical issue,Over 24 months,Morning,Hindi,Yes,0,Standard,6.54
+C50139,2026-08-11,Order status,6-24 months,Afternoon,English,Yes,3,Standard,7.33
+C50140,2026-08-11,Order status,Under 6 months,Morning,Spanish,No,0,Silver,8.78
+C50141,2026-08-11,Order status,6-24 months,Afternoon,Spanish,Yes,2,Silver,7.97
+C50142,2026-08-11,Cancellation,6-24 months,Afternoon,English,Yes,0,Standard,5.78
+C50143,2026-08-11,Address change,6-24 months,Evening,English,Yes,1,Standard,5.31
+C50144,2026-08-11,Order status,6-24 months,Afternoon,Spanish,Yes,0,Standard,3.93
+C50145,2026-08-11,Order status,6-24 months,Afternoon,Spanish,Yes,0,Standard,4.57
+C50146,2026-08-11,Cancellation,Under 6 months,Afternoon,English,Yes,0,Silver,7.4
+C50147,2026-08-11,Order status,Over 24 months,Evening,English,Yes,2,Gold,5.71
+C50148,2026-08-11,Billing dispute,Under 6 months,Afternoon,English,Yes,1,Standard,9.64
+C50149,2026-08-11,Order status,Over 24 months,Evening,Spanish,Yes,0,Gold,4.87
+C50150,2026-08-11,Billing dispute,6-24 months,Morning,English,Yes,3,Standard,14.89
+C50151,2026-08-11,Cancellation,Under 6 months,Evening,English,Yes,1,Silver,10.02
+C50152,2026-08-11,Order status,6-24 months,Evening,Spanish,Yes,0,Standard,4.96
+C50153,2026-08-11,Order status,Under 6 months,Morning,English,Yes,0,Standard,4.27
+C50154,2026-08-11,Technical issue,Under 6 months,Morning,English,Yes,1,Standard,10.39
+C50155,2026-08-11,Cancellation,6-24 months,Morning,Spanish,No,0,Silver,5.72
+C50156,2026-08-11,Billing dispute,Under 6 months,Morning,English,Yes,0,Silver,11.42
+C50157,2026-08-11,Billing dispute,6-24 months,Morning,English,No,1,Standard,11.58
+C50158,2026-08-12,Cancellation,6-24 months,Afternoon,English,Yes,1,Standard,6.56
+C50159,2026-08-12,Order status,Under 6 months,Morning,Spanish,Yes,1,Gold,7.93
+C50160,2026-08-12,Cancellation,Over 24 months,Morning,English,Yes,2,Standard,7.27
+C50161,2026-08-12,Technical issue,6-24 months,Morning,English,Yes,0,Silver,6.95
+C50162,2026-08-12,Billing dispute,Over 24 months,Morning,English,Yes,0,Silver,8.55
+C50163,2026-08-12,Cancellation,Over 24 months,Morning,English,Yes,0,Silver,5.99
+C50164,2026-08-12,Technical issue,Under 6 months,Afternoon,English,No,1,Standard,13.08
+C50165,2026-08-12,Address change,6-24 months,Morning,Spanish,Yes,2,Silver,6.15
+C50166,2026-08-12,Address change,Under 6 months,Afternoon,English,No,0,Standard,7.25
+C50167,2026-08-12,Order status,Over 24 months,Morning,Spanish,Yes,2,Silver,7.67
+C50168,2026-08-12,Address change,Over 24 months,Morning,Spanish,No,0,Silver,7.38
+C50169,2026-08-12,Cancellation,Over 24 months,Morning,Spanish,Yes,2,Silver,9.04
+C50170,2026-08-12,Address change,Over 24 months,Morning,English,Yes,0,Silver,3.53
+C50171,2026-08-12,Address change,Over 24 months,Morning,Spanish,No,0,Silver,4.46
+C50172,2026-08-12,Order status,Under 6 months,Morning,English,Yes,1,Silver,10.77
+C50173,2026-08-12,Billing dispute,Over 24 months,Afternoon,English,Yes,1,Gold,7.92
+C50174,2026-08-12,Technical issue,Under 6 months,Afternoon,Hindi,Yes,0,Standard,7.02
+C50175,2026-08-12,Order status,6-24 months,Evening,English,No,1,Standard,10.61
+C50176,2026-08-12,Order status,Under 6 months,Morning,English,Yes,1,Gold,9.15
+C50177,2026-08-12,Order status,Under 6 months,Afternoon,English,Yes,1,Standard,8.21
+C50178,2026-08-12,Technical issue,6-24 months,Evening,Spanish,Yes,1,Standard,6.77
+C50179,2026-08-12,Cancellation,Over 24 months,Afternoon,English,No,0,Standard,7.82
+C50180,2026-08-12,Billing dispute,6-24 months,Afternoon,English,Yes,0,Silver,6.38
+C50181,2026-08-13,Billing dispute,Over 24 months,Morning,Hindi,Yes,2,Standard,10.46
+C50182,2026-08-13,Order status,Over 24 months,Morning,English,Yes,0,Silver,5.25
+C50183,2026-08-13,Technical issue,Over 24 months,Morning,English,Yes,1,Silver,7.99
+C50184,2026-08-13,Technical issue,6-24 months,Morning,Hindi,No,0,Standard,5.44
+C50185,2026-08-13,Order status,6-24 months,Evening,Spanish,Yes,1,Gold,4.49
+C50186,2026-08-13,Order status,6-24 months,Morning,Spanish,No,1,Silver,9.85
+C50187,2026-08-13,Order status,6-24 months,Afternoon,Spanish,No,0,Standard,6.04
+C50188,2026-08-13,Cancellation,Over 24 months,Evening,English,Yes,0,Standard,7.41
+C50189,2026-08-13,Order status,6-24 months,Afternoon,English,Yes,0,Gold,5.14
+C50190,2026-08-13,Address change,6-24 months,Morning,Spanish,Yes,0,Standard,5.47
+C50191,2026-08-13,Billing dispute,Under 6 months,Afternoon,Spanish,Yes,0,Silver,8.18
+C50192,2026-08-13,Order status,6-24 months,Afternoon,Hindi,Yes,1,Gold,5.93
+C50193,2026-08-13,Cancellation,Over 24 months,Afternoon,English,Yes,1,Silver,6.57
+C50194,2026-08-13,Cancellation,Under 6 months,Morning,English,Yes,1,Standard,9.15
+C50195,2026-08-13,Technical issue,6-24 months,Evening,English,Yes,1,Standard,8.62
+C50196,2026-08-13,Billing dispute,Over 24 months,Morning,English,No,0,Standard,6.5
+C50197,2026-08-13,Technical issue,Under 6 months,Morning,English,No,1,Standard,9.57
+C50198,2026-08-13,Order status,Under 6 months,Morning,English,Yes,0,Silver,6.72
+C50199,2026-08-13,Billing dispute,Under 6 months,Morning,English,Yes,0,Standard,11.02
+C50200,2026-08-13,Address change,Over 24 months,Morning,English,Yes,0,Standard,3.9
+C50201,2026-08-13,Billing dispute,6-24 months,Evening,English,No,0,Silver,9.99
+C50202,2026-08-13,Cancellation,Over 24 months,Morning,Spanish,No,0,Standard,4.77
+C50203,2026-08-14,Order status,6-24 months,Afternoon,English,No,2,Standard,8.03
+C50204,2026-08-14,Technical issue,6-24 months,Morning,English,No,0,Standard,6.94
+C50205,2026-08-14,Technical issue,6-24 months,Afternoon,Hindi,Yes,1,Gold,6.21
+C50206,2026-08-14,Billing dispute,Over 24 months,Afternoon,Hindi,No,0,Silver,9.42
+C50207,2026-08-14,Cancellation,Under 6 months,Afternoon,Hindi,No,0,Standard,9.42
+C50208,2026-08-14,Address change,6-24 months,Evening,Spanish,No,0,Silver,8.6
+C50209,2026-08-14,Address change,6-24 months,Afternoon,English,Yes,2,Standard,7.56
+C50210,2026-08-14,Address change,6-24 months,Evening,Spanish,Yes,1,Silver,6.65
+C50211,2026-08-14,Cancellation,Over 24 months,Morning,Spanish,Yes,0,Standard,5.41
+C50212,2026-08-14,Order status,Under 6 months,Afternoon,Hindi,Yes,1,Gold,8.03
+C50213,2026-08-14,Cancellation,Under 6 months,Afternoon,English,No,2,Gold,11.7
+C50214,2026-08-14,Billing dispute,6-24 months,Afternoon,English,No,0,Gold,8.26
+C50215,2026-08-14,Order status,Over 24 months,Afternoon,English,Yes,0,Gold,5.78
+C50216,2026-08-14,Cancellation,Over 24 months,Morning,English,No,0,Gold,9.18
+C50217,2026-08-14,Technical issue,6-24 months,Evening,English,No,0,Standard,6.59
+C50218,2026-08-14,Order status,6-24 months,Morning,Spanish,Yes,2,Standard,8.05
+C50219,2026-08-14,Billing dispute,Over 24 months,Morning,English,Yes,1,Silver,7.17
+C50220,2026-08-14,Billing dispute,Over 24 months,Afternoon,English,Yes,1,Silver,7.47
+C50221,2026-08-17,Technical issue,Over 24 months,Afternoon,English,Yes,0,Standard,7.81
+C50222,2026-08-17,Billing dispute,Under 6 months,Morning,English,No,0,Standard,13.61
+C50223,2026-08-17,Cancellation,Over 24 months,Morning,English,No,1,Silver,8.63
+C50224,2026-08-17,Technical issue,Under 6 months,Evening,English,Yes,0,Silver,8.48
+C50225,2026-08-17,Technical issue,Under 6 months,Evening,English,Yes,3,Standard,10.22
+C50226,2026-08-17,Technical issue,Over 24 months,Evening,English,Yes,0,Standard,4.45
+C50227,2026-08-17,Technical issue,Over 24 months,Evening,English,No,1,Gold,10.87
+C50228,2026-08-17,Billing dispute,6-24 months,Morning,English,No,2,Standard,11.64
+C50229,2026-08-17,Cancellation,Over 24 months,Morning,English,Yes,3,Silver,8.83
+C50230,2026-08-17,Billing dispute,6-24 months,Afternoon,Hindi,Yes,0,Standard,7.4
+C50231,2026-08-17,Order status,Under 6 months,Morning,English,Yes,2,Gold,9.95
+C50232,2026-08-17,Technical issue,Over 24 months,Evening,English,No,0,Standard,6.15
+C50233,2026-08-17,Order status,Over 24 months,Afternoon,Hindi,Yes,0,Silver,3.67
+C50234,2026-08-17,Address change,Over 24 months,Morning,English,Yes,0,Standard,3.36
+C50235,2026-08-17,Billing dispute,Over 24 months,Evening,Hindi,Yes,3,Gold,10.22
+C50236,2026-08-17,Technical issue,Under 6 months,Morning,Spanish,Yes,0,Silver,7.72
+C50237,2026-08-17,Technical issue,6-24 months,Morning,English,Yes,0,Standard,5.76
+C50238,2026-08-17,Technical issue,Over 24 months,Evening,English,Yes,0,Silver,5.68
+C50239,2026-08-17,Address change,6-24 months,Morning,Hindi,Yes,0,Standard,4.12
+C50240,2026-08-17,Address change,Under 6 months,Morning,English,No,0,Standard,6.59
+C50241,2026-08-18,Order status,Under 6 months,Evening,English,Yes,0,Silver,6.75
+C50242,2026-08-18,Technical issue,Under 6 months,Morning,English,No,1,Standard,9.26
+C50243,2026-08-18,Address change,6-24 months,Afternoon,Hindi,Yes,1,Standard,7.38
+C50244,2026-08-18,Order status,Over 24 months,Morning,Spanish,No,0,Silver,6.36
+C50245,2026-08-18,Technical issue,Over 24 months,Afternoon,English,No,0,Silver,7.79
+C50246,2026-08-18,Billing dispute,Under 6 months,Morning,English,Yes,1,Standard,8.76
+C50247,2026-08-18,Technical issue,6-24 months,Afternoon,Hindi,Yes,0,Silver,5.43
+C50248,2026-08-18,Billing dispute,6-24 months,Evening,English,No,0,Gold,14.08
+C50249,2026-08-18,Billing dispute,6-24 months,Morning,Spanish,No,2,Gold,9.19
+C50250,2026-08-18,Address change,Under 6 months,Morning,English,Yes,0,Silver,6.07
+C50251,2026-08-18,Technical issue,6-24 months,Afternoon,English,Yes,0,Standard,7.02
+C50252,2026-08-18,Billing dispute,Over 24 months,Afternoon,English,Yes,0,Silver,6.07
+C50253,2026-08-18,Order status,Over 24 months,Afternoon,Hindi,Yes,1,Standard,4.46
+C50254,2026-08-18,Billing dispute,6-24 months,Morning,English,Yes,1,Standard,9.97
+C50255,2026-08-18,Order status,Over 24 months,Evening,Spanish,Yes,0,Standard,3.99
+C50256,2026-08-18,Order status,Over 24 months,Afternoon,English,Yes,0,Gold,4.59
+C50257,2026-08-18,Address change,6-24 months,Evening,Spanish,No,2,Silver,8.35
+C50258,2026-08-18,Cancellation,Over 24 months,Morning,English,Yes,0,Silver,4.44
+C50259,2026-08-18,Order status,Under 6 months,Morning,English,Yes,0,Standard,6.27
+C50260,2026-08-18,Order status,Over 24 months,Afternoon,Spanish,No,1,Silver,8.45
+C50261,2026-08-18,Technical issue,Over 24 months,Morning,Spanish,No,0,Silver,11.17
+C50262,2026-08-18,Billing dispute,6-24 months,Afternoon,English,No,2,Silver,13.94
+C50263,2026-08-18,Order status,Over 24 months,Evening,English,Yes,2,Standard,6.74
+C50264,2026-08-19,Order status,6-24 months,Evening,English,Yes,0,Gold,4.53
+C50265,2026-08-19,Billing dispute,Under 6 months,Afternoon,English,No,3,Standard,22.51
+C50266,2026-08-19,Order status,Over 24 months,Evening,English,Yes,2,Gold,6.57
+C50267,2026-08-19,Order status,Over 24 months,Evening,English,Yes,2,Silver,7.45
+C50268,2026-08-19,Order status,Under 6 months,Morning,English,Yes,2,Standard,8.78
+C50269,2026-08-19,Technical issue,Over 24 months,Morning,Spanish,No,0,Gold,8.51
+C50270,2026-08-19,Cancellation,Under 6 months,Evening,English,Yes,0,Gold,6.74
+C50271,2026-08-19,Order status,6-24 months,Morning,Hindi,No,1,Silver,7.62
+C50272,2026-08-19,Billing dispute,Under 6 months,Morning,Spanish,Yes,0,Silver,8.61
+C50273,2026-08-19,Order status,6-24 months,Evening,English,No,0,Silver,5.56
+C50274,2026-08-19,Order status,6-24 months,Morning,English,Yes,2,Standard,9.37
+C50275,2026-08-19,Technical issue,6-24 months,Afternoon,Spanish,Yes,0,Silver,6.24
+C50276,2026-08-19,Order status,Under 6 months,Afternoon,English,Yes,1,Gold,8.3
+C50277,2026-08-19,Technical issue,Under 6 months,Evening,English,No,0,Standard,13.18
+C50278,2026-08-19,Order status,Over 24 months,Afternoon,Hindi,Yes,2,Gold,8.15
+C50279,2026-08-19,Cancellation,Over 24 months,Morning,English,Yes,0,Gold,6.24
+C50280,2026-08-19,Technical issue,Under 6 months,Morning,Spanish,Yes,0,Silver,7.58
+C50281,2026-08-19,Order status,Under 6 months,Afternoon,English,No,0,Standard,10.08
+C50282,2026-08-19,Cancellation,Under 6 months,Afternoon,English,No,3,Gold,9.81
+C50283,2026-08-20,Order status,Under 6 months,Afternoon,Hindi,Yes,0,Gold,4.85
+C50284,2026-08-20,Order status,Under 6 months,Evening,English,Yes,1,Gold,6.88
+C50285,2026-08-20,Billing dispute,6-24 months,Afternoon,Spanish,Yes,1,Silver,10.96
+C50286,2026-08-20,Order status,Over 24 months,Afternoon,English,No,0,Gold,5.7
+C50287,2026-08-20,Order status,Under 6 months,Evening,English,No,0,Standard,9.19
+C50288,2026-08-20,Billing dispute,Under 6 months,Morning,English,Yes,0,Standard,9.34
+C50289,2026-08-20,Billing dispute,6-24 months,Afternoon,English,No,0,Silver,7.38
+C50290,2026-08-20,Billing dispute,6-24 months,Evening,Spanish,No,0,Standard,12.46
+C50291,2026-08-20,Order status,6-24 months,Morning,English,No,0,Gold,7.46
+C50292,2026-08-20,Cancellation,6-24 months,Morning,English,Yes,1,Silver,9.28
+C50293,2026-08-20,Cancellation,6-24 months,Afternoon,English,Yes,0,Silver,5.03
+C50294,2026-08-20,Order status,6-24 months,Evening,English,Yes,1,Silver,6.22
+C50295,2026-08-20,Order status,Over 24 months,Evening,English,Yes,1,Silver,5.83
+C50296,2026-08-20,Technical issue,Over 24 months,Morning,Spanish,Yes,0,Silver,5.08
+C50297,2026-08-20,Billing dispute,Under 6 months,Evening,English,Yes,1,Standard,12.5
+C50298,2026-08-20,Address change,Over 24 months,Evening,English,No,0,Silver,3.43
+C50299,2026-08-20,Cancellation,Under 6 months,Evening,Hindi,Yes,0,Standard,7.89
+C50300,2026-08-20,Order status,6-24 months,Evening,English,Yes,3,Gold,7.09
+C50301,2026-08-20,Technical issue,Over 24 months,Morning,Spanish,No,1,Standard,10.92
+C50302,2026-08-20,Address change,Over 24 months,Afternoon,English,Yes,2,Silver,8.1
+C50303,2026-08-20,Billing dispute,Under 6 months,Afternoon,English,Yes,1,Silver,10.98
+C50304,2026-08-20,Billing dispute,Under 6 months,Afternoon,Hindi,Yes,1,Silver,13.74
+C50305,2026-08-20,Cancellation,Over 24 months,Afternoon,English,Yes,2,Silver,5.71
+C50306,2026-08-21,Cancellation,Under 6 months,Morning,Spanish,Yes,1,Silver,6.43
+C50307,2026-08-21,Order status,Over 24 months,Evening,English,Yes,0,Standard,3.68
+C50308,2026-08-21,Cancellation,6-24 months,Evening,Hindi,Yes,2,Gold,9.48
+C50309,2026-08-21,Billing dispute,6-24 months,Afternoon,Hindi,Yes,1,Standard,10.43
+C50310,2026-08-21,Billing dispute,Under 6 months,Evening,English,Yes,0,Gold,6.28
+C50311,2026-08-21,Cancellation,Over 24 months,Morning,English,Yes,2,Gold,7.71
+C50312,2026-08-21,Cancellation,Over 24 months,Evening,English,Yes,0,Gold,7.16
+C50313,2026-08-21,Billing dispute,6-24 months,Morning,Spanish,No,3,Silver,9.85
+C50314,2026-08-21,Cancellation,6-24 months,Morning,English,Yes,0,Silver,5.82
+C50315,2026-08-21,Billing dispute,Over 24 months,Afternoon,Hindi,No,1,Standard,10.46
+C50316,2026-08-21,Cancellation,6-24 months,Evening,Spanish,Yes,0,Standard,6.61
+C50317,2026-08-21,Address change,Over 24 months,Morning,English,Yes,0,Silver,4.28
+C50318,2026-08-21,Billing dispute,Under 6 months,Afternoon,English,Yes,2,Standard,12.97
+C50319,2026-08-21,Technical issue,6-24 months,Evening,Spanish,No,1,Gold,6.88
+C50320,2026-08-21,Order status,Under 6 months,Evening,English,Yes,0,Silver,6.34
+C50321,2026-08-21,Order status,6-24 months,Morning,Spanish,Yes,0,Silver,4.64
+C50322,2026-08-21,Billing dispute,Under 6 months,Morning,Hindi,Yes,2,Standard,9.54
+C50323,2026-08-21,Billing dispute,6-24 months,Evening,Spanish,Yes,0,Silver,7.31
+C50324,2026-08-21,Billing dispute,6-24 months,Afternoon,English,Yes,1,Gold,8.52
+C50325,2026-08-21,Address change,6-24 months,Morning,Hindi,No,0,Silver,8.23
+C50326,2026-08-21,Cancellation,Over 24 months,Evening,Hindi,Yes,0,Standard,5.42
+C50327,2026-08-21,Order status,Under 6 months,Morning,English,Yes,0,Gold,6.18
+C50328,2026-08-21,Order status,6-24 months,Morning,Spanish,Yes,0,Gold,4.87
+C50329,2026-08-21,Technical issue,6-24 months,Afternoon,Spanish,Yes,0,Standard,4.93
+C50330,2026-08-21,Order status,Under 6 months,Morning,English,No,1,Gold,11.36
+C50331,2026-08-21,Order status,6-24 months,Morning,English,No,0,Standard,5.75
+C50332,2026-08-24,Address change,Over 24 months,Evening,English,Yes,2,Silver,8.23
+C50333,2026-08-24,Billing dispute,6-24 months,Evening,Spanish,Yes,0,Gold,5.95
+C50334,2026-08-24,Order status,6-24 months,Afternoon,English,No,0,Standard,4.7
+C50335,2026-08-24,Billing dispute,Over 24 months,Evening,Spanish,Yes,0,Standard,5.36
+C50336,2026-08-24,Technical issue,Over 24 months,Afternoon,Spanish,Yes,0,Silver,5.87
+C50337,2026-08-24,Technical issue,6-24 months,Afternoon,English,No,0,Gold,9.98
+C50338,2026-08-24,Technical issue,Under 6 months,Morning,English,No,0,Gold,8.48
+C50339,2026-08-24,Cancellation,6-24 months,Morning,English,Yes,0,Gold,5.27
+C50340,2026-08-24,Technical issue,Under 6 months,Evening,Spanish,Yes,2,Silver,11.42
+C50341,2026-08-24,Address change,Under 6 months,Afternoon,Hindi,No,0,Standard,7.55
+C50342,2026-08-24,Address change,6-24 months,Afternoon,English,Yes,0,Silver,5.34
+C50343,2026-08-24,Technical issue,6-24 months,Evening,English,No,0,Silver,6.84
+C50344,2026-08-24,Order status,6-24 months,Morning,English,No,2,Silver,9.68
+C50345,2026-08-24,Billing dispute,6-24 months,Evening,English,Yes,0,Gold,7.29
+C50346,2026-08-24,Cancellation,Over 24 months,Afternoon,Hindi,No,1,Standard,9.78
+C50347,2026-08-24,Technical issue,6-24 months,Morning,English,Yes,1,Standard,10.22
+C50348,2026-08-24,Technical issue,Over 24 months,Afternoon,English,No,2,Standard,11.66
+C50349,2026-08-24,Cancellation,6-24 months,Afternoon,Hindi,Yes,0,Gold,6.86
+C50350,2026-08-24,Order status,Over 24 months,Morning,Spanish,Yes,0,Standard,5.9
+C50351,2026-08-24,Address change,6-24 months,Evening,Hindi,No,2,Standard,6.47
+C50352,2026-08-24,Billing dispute,Under 6 months,Evening,English,Yes,1,Standard,7.03
+C50353,2026-08-25,Billing dispute,6-24 months,Morning,English,Yes,1,Gold,11.38
+C50354,2026-08-25,Order status,Over 24 months,Afternoon,English,Yes,2,Standard,7.38
+C50355,2026-08-25,Technical issue,Over 24 months,Afternoon,English,No,0,Silver,9.02
+C50356,2026-08-25,Order status,6-24 months,Morning,Hindi,Yes,0,Standard,4.84
+C50357,2026-08-25,Technical issue,Under 6 months,Afternoon,English,Yes,1,Gold,8.04
+C50358,2026-08-25,Technical issue,Over 24 months,Morning,English,Yes,0,Silver,4.75
+C50359,2026-08-25,Order status,6-24 months,Afternoon,Spanish,No,0,Silver,7.42
+C50360,2026-08-25,Technical issue,Under 6 months,Morning,Hindi,No,0,Standard,10.29
+C50361,2026-08-25,Technical issue,Under 6 months,Afternoon,English,Yes,0,Standard,7.5
+C50362,2026-08-25,Address change,6-24 months,Morning,English,Yes,1,Silver,5.96
+C50363,2026-08-25,Cancellation,Under 6 months,Evening,English,No,2,Silver,8.99
+C50364,2026-08-25,Technical issue,Under 6 months,Evening,English,No,2,Standard,14.49
+C50365,2026-08-25,Order status,6-24 months,Afternoon,English,Yes,3,Standard,11.41
+C50366,2026-08-25,Billing dispute,Under 6 months,Afternoon,English,Yes,0,Standard,10.92
+C50367,2026-08-25,Technical issue,6-24 months,Afternoon,English,No,2,Standard,10.66
+C50368,2026-08-25,Order status,6-24 months,Afternoon,English,Yes,1,Standard,7.06
+C50369,2026-08-25,Order status,Over 24 months,Morning,English,Yes,0,Silver,3.52
+C50370,2026-08-25,Technical issue,6-24 months,Afternoon,Spanish,Yes,0,Gold,4.69
+C50371,2026-08-25,Technical issue,6-24 months,Afternoon,Hindi,No,0,Standard,7.77
+C50372,2026-08-25,Order status,6-24 months,Morning,English,Yes,1,Silver,6.19
+C50373,2026-08-25,Address change,Over 24 months,Evening,English,Yes,1,Standard,6.52
+C50374,2026-08-25,Technical issue,6-24 months,Morning,English,No,0,Silver,7.08
+C50375,2026-08-26,Billing dispute,Over 24 months,Afternoon,Spanish,Yes,1,Standard,8.36
+C50376,2026-08-26,Order status,6-24 months,Afternoon,Spanish,Yes,0,Gold,5.51
+C50377,2026-08-26,Billing dispute,Under 6 months,Afternoon,English,No,2,Silver,15.94
+C50378,2026-08-26,Technical issue,Under 6 months,Morning,English,Yes,0,Silver,7.35
+C50379,2026-08-26,Billing dispute,Under 6 months,Morning,English,Yes,2,Silver,8.11
+C50380,2026-08-26,Billing dispute,6-24 months,Afternoon,English,Yes,2,Standard,10.87
+C50381,2026-08-26,Billing dispute,Under 6 months,Evening,English,No,1,Gold,15.73
+C50382,2026-08-26,Address change,6-24 months,Afternoon,English,No,2,Gold,7.92
+C50383,2026-08-26,Order status,Under 6 months,Afternoon,English,No,0,Gold,6.03
+C50384,2026-08-26,Order status,Under 6 months,Afternoon,English,Yes,2,Gold,11.99
+C50385,2026-08-26,Billing dispute,Under 6 months,Afternoon,English,No,0,Standard,14.25
+C50386,2026-08-26,Cancellation,6-24 months,Afternoon,Spanish,Yes,2,Standard,9.36
+C50387,2026-08-26,Order status,6-24 months,Afternoon,English,Yes,0,Silver,5.14
+C50388,2026-08-26,Order status,Under 6 months,Evening,Spanish,Yes,2,Silver,5.88
+C50389,2026-08-26,Address change,6-24 months,Evening,English,Yes,0,Silver,4.88
+C50390,2026-08-26,Order status,6-24 months,Morning,English,No,2,Silver,11.26
+C50391,2026-08-26,Order status,Under 6 months,Morning,English,Yes,1,Standard,6.92
+C50392,2026-08-26,Order status,Under 6 months,Evening,Spanish,Yes,0,Standard,6.47
+C50393,2026-08-27,Billing dispute,6-24 months,Morning,English,Yes,0,Standard,6.39
+C50394,2026-08-27,Address change,6-24 months,Afternoon,English,No,0,Silver,7.4
+C50395,2026-08-27,Order status,Over 24 months,Morning,English,No,0,Standard,5.53
+C50396,2026-08-27,Order status,Under 6 months,Evening,English,No,0,Silver,8.62
+C50397,2026-08-27,Order status,6-24 months,Afternoon,Spanish,Yes,0,Silver,4.77
+C50398,2026-08-27,Order status,Under 6 months,Afternoon,English,Yes,1,Silver,7.46
+C50399,2026-08-27,Technical issue,6-24 months,Morning,Hindi,Yes,0,Standard,4.78
+C50400,2026-08-27,Technical issue,Under 6 months,Afternoon,English,No,0,Gold,14.23
+C50401,2026-08-27,Billing dispute,Under 6 months,Afternoon,English,No,0,Silver,15.62
+C50402,2026-08-27,Address change,6-24 months,Afternoon,English,Yes,0,Standard,3.35
+C50403,2026-08-27,Technical issue,6-24 months,Morning,English,No,1,Standard,10.34
+C50404,2026-08-27,Billing dispute,6-24 months,Morning,Spanish,Yes,0,Silver,8.03
+C50405,2026-08-27,Address change,Over 24 months,Morning,English,Yes,0,Standard,5.19
+C50406,2026-08-27,Technical issue,6-24 months,Morning,English,Yes,0,Silver,7.87
+C50407,2026-08-27,Technical issue,Under 6 months,Morning,Hindi,Yes,0,Standard,6.34
+C50408,2026-08-27,Billing dispute,Under 6 months,Morning,Spanish,No,3,Standard,14.38
+C50409,2026-08-27,Cancellation,Under 6 months,Evening,English,Yes,0,Gold,7.74
+C50410,2026-08-27,Billing dispute,Under 6 months,Afternoon,English,No,1,Silver,18.05
+C50411,2026-08-27,Billing dispute,6-24 months,Afternoon,English,Yes,1,Gold,8.66
+C50412,2026-08-27,Billing dispute,6-24 months,Afternoon,Hindi,Yes,0,Standard,6.51
+C50413,2026-08-27,Order status,6-24 months,Evening,English,Yes,0,Gold,5.61
+C50414,2026-08-27,Order status,Under 6 months,Afternoon,Spanish,No,0,Gold,9.72
+C50415,2026-08-27,Order status,6-24 months,Morning,English,No,1,Standard,7.41
+C50416,2026-08-27,Order status,Over 24 months,Evening,Hindi,No,1,Gold,8.8
+C50417,2026-08-28,Order status,Over 24 months,Afternoon,English,Yes,0,Standard,3.04
+C50418,2026-08-28,Cancellation,6-24 months,Morning,English,Yes,0,Standard,6.56
+C50419,2026-08-28,Technical issue,Over 24 months,Morning,English,Yes,0,Gold,5.69
+C50420,2026-08-28,Billing dispute,6-24 months,Morning,English,Yes,0,Standard,6.46
+C50421,2026-08-28,Billing dispute,6-24 months,Morning,English,Yes,0,Gold,8.77
+C50422,2026-08-28,Technical issue,Under 6 months,Afternoon,English,No,0,Gold,10.18
+C50423,2026-08-28,Order status,Over 24 months,Afternoon,Spanish,Yes,0,Standard,3.55
+C50424,2026-08-28,Cancellation,Over 24 months,Afternoon,English,No,0,Silver,8.86
+C50425,2026-08-28,Address change,Over 24 months,Evening,English,Yes,1,Silver,4.34
+C50426,2026-08-28,Billing dispute,Over 24 months,Morning,Spanish,Yes,0,Silver,5.95
+C50427,2026-08-28,Address change,6-24 months,Evening,Spanish,No,0,Silver,6.39
+C50428,2026-08-28,Order status,Over 24 months,Evening,English,No,0,Gold,7.88
+C50429,2026-08-28,Billing dispute,6-24 months,Afternoon,English,Yes,2,Standard,11.32
+C50430,2026-08-28,Order status,6-24 months,Afternoon,English,Yes,0,Standard,4.63
+C50431,2026-08-28,Cancellation,Over 24 months,Afternoon,English,No,0,Silver,6.95
+C50432,2026-08-28,Cancellation,6-24 months,Morning,Spanish,Yes,0,Standard,7.08
+C50433,2026-08-28,Order status,Under 6 months,Morning,Hindi,Yes,1,Standard,8.73
+C50434,2026-08-28,Address change,6-24 months,Afternoon,English,No,1,Silver,6.89
+C50435,2026-08-28,Technical issue,6-24 months,Morning,Hindi,No,0,Standard,9.15
+C50436,2026-08-28,Cancellation,Over 24 months,Afternoon,English,No,1,Standard,8.11
+C50437,2026-08-28,Address change,Over 24 months,Evening,Hindi,Yes,0,Silver,3.71
+C50438,2026-08-28,Technical issue,6-24 months,Afternoon,English,No,0,Standard,6.59
+C50439,2026-08-28,Address change,Over 24 months,Afternoon,English,Yes,0,Gold,2.93
+C50440,2026-08-31,Cancellation,Over 24 months,Evening,English,Yes,3,Gold,10.2
+C50441,2026-08-31,Address change,6-24 months,Morning,English,No,0,Silver,5.87
+C50442,2026-08-31,Cancellation,Over 24 months,Afternoon,English,Yes,0,Gold,5.77
+C50443,2026-08-31,Cancellation,Over 24 months,Morning,Spanish,Yes,1,Silver,5.42
+C50444,2026-08-31,Order status,6-24 months,Afternoon,English,Yes,0,Gold,4.15
+C50445,2026-08-31,Technical issue,Under 6 months,Evening,English,No,1,Standard,10.47
+C50446,2026-08-31,Billing dispute,Under 6 months,Afternoon,Spanish,No,0,Gold,8.74
+C50447,2026-08-31,Technical issue,6-24 months,Morning,English,Yes,1,Silver,7.09
+C50448,2026-08-31,Billing dispute,Over 24 months,Afternoon,English,Yes,2,Silver,7.9
+C50449,2026-08-31,Billing dispute,Over 24 months,Morning,English,No,1,Silver,12.26
+C50450,2026-08-31,Billing dispute,Under 6 months,Afternoon,English,Yes,1,Standard,6.05
+C50451,2026-08-31,Order status,6-24 months,Morning,English,Yes,0,Standard,4.02
+C50452,2026-08-31,Address change,Under 6 months,Afternoon,English,Yes,0,Standard,9.22
+C50453,2026-08-31,Cancellation,6-24 months,Morning,English,Yes,1,Standard,6.64
+C50454,2026-08-31,Technical issue,6-24 months,Afternoon,English,No,0,Standard,5.54
+C50455,2026-08-31,Order status,Over 24 months,Afternoon,English,No,1,Standard,8.32
+C50456,2026-08-31,Order status,6-24 months,Morning,English,No,0,Standard,5.51
+C50457,2026-08-31,Address change,Under 6 months,Morning,English,Yes,1,Silver,8.86
+C50458,2026-08-31,Order status,Over 24 months,Evening,Spanish,Yes,0,Silver,3.41
+C50459,2026-08-31,Billing dispute,Over 24 months,Morning,English,No,0,Gold,5.48
+C50460,2026-08-31,Address change,Under 6 months,Afternoon,Spanish,Yes,0,Silver,8.8
+C50461,2026-08-31,Order status,6-24 months,Morning,English,Yes,0,Silver,4.1
+C50462,2026-08-31,Cancellation,Over 24 months,Afternoon,English,Yes,0,Gold,4.49
+C50463,2026-08-31,Order status,6-24 months,Afternoon,English,No,2,Standard,9.52
+C50464,2026-09-01,Cancellation,Under 6 months,Evening,English,No,0,Silver,10.13
+C50465,2026-09-01,Order status,Under 6 months,Afternoon,Spanish,Yes,1,Silver,7.15
+C50466,2026-09-01,Technical issue,6-24 months,Morning,English,Yes,0,Standard,6.62
+C50467,2026-09-01,Order status,Over 24 months,Evening,English,Yes,3,Gold,7.12
+C50468,2026-09-01,Technical issue,6-24 months,Morning,English,No,3,Silver,12.18
+C50469,2026-09-01,Technical issue,Over 24 months,Evening,English,Yes,0,Standard,4.75
+C50470,2026-09-01,Order status,6-24 months,Evening,Hindi,Yes,0,Standard,6.4
+C50471,2026-09-01,Technical issue,6-24 months,Evening,English,Yes,0,Standard,5.96
+C50472,2026-09-01,Order status,6-24 months,Morning,English,No,1,Silver,7.3
+C50473,2026-09-01,Billing dispute,6-24 months,Morning,English,Yes,0,Standard,8.03
+C50474,2026-09-01,Cancellation,6-24 months,Evening,English,Yes,3,Standard,6.28
+C50475,2026-09-01,Technical issue,6-24 months,Morning,English,Yes,3,Silver,10.68
+C50476,2026-09-01,Technical issue,Over 24 months,Afternoon,Spanish,No,0,Standard,6.11
+C50477,2026-09-01,Address change,Under 6 months,Morning,English,Yes,1,Silver,7.91
+C50478,2026-09-01,Technical issue,Over 24 months,Evening,English,No,1,Silver,9.39
+C50479,2026-09-01,Order status,6-24 months,Morning,English,Yes,1,Silver,6.48
+C50480,2026-09-01,Address change,6-24 months,Afternoon,English,Yes,0,Standard,4.63
+C50481,2026-09-01,Billing dispute,6-24 months,Evening,English,Yes,0,Standard,7.97
+C50482,2026-09-01,Technical issue,Under 6 months,Evening,English,Yes,1,Standard,10.5
+C50483,2026-09-02,Cancellation,6-24 months,Morning,English,Yes,1,Silver,6.97
+C50484,2026-09-02,Order status,Over 24 months,Morning,English,Yes,1,Standard,6.08
+C50485,2026-09-02,Address change,Over 24 months,Afternoon,English,No,1,Silver,8.69
+C50486,2026-09-02,Technical issue,Under 6 months,Afternoon,English,No,2,Gold,11.32
+C50487,2026-09-02,Billing dispute,6-24 months,Afternoon,English,No,0,Standard,7.29
+C50488,2026-09-02,Technical issue,Under 6 months,Evening,Hindi,Yes,0,Silver,7.78
+C50489,2026-09-02,Technical issue,6-24 months,Morning,English,Yes,0,Silver,6.52
+C50490,2026-09-02,Order status,Under 6 months,Afternoon,English,Yes,0,Standard,5.95
+C50491,2026-09-02,Technical issue,6-24 months,Afternoon,English,Yes,0,Standard,6.1
+C50492,2026-09-02,Technical issue,6-24 months,Morning,English,No,0,Standard,7.21
+C50493,2026-09-02,Address change,Under 6 months,Afternoon,English,No,3,Gold,6.59
+C50494,2026-09-02,Order status,6-24 months,Evening,English,No,1,Standard,8.03
+C50495,2026-09-02,Technical issue,6-24 months,Afternoon,Spanish,Yes,1,Silver,7.25
+C50496,2026-09-02,Cancellation,6-24 months,Morning,English,Yes,0,Standard,5.63
+C50497,2026-09-02,Order status,Over 24 months,Evening,English,Yes,0,Standard,4.54
+C50498,2026-09-02,Cancellation,6-24 months,Morning,English,No,0,Silver,7.49
+C50499,2026-09-02,Cancellation,Under 6 months,Afternoon,English,Yes,0,Standard,5.47
+C50500,2026-09-02,Technical issue,Under 6 months,Morning,English,Yes,2,Silver,9.73
+C50501,2026-09-02,Order status,Under 6 months,Morning,English,Yes,0,Silver,5.16
+C50502,2026-09-02,Address change,Over 24 months,Afternoon,English,Yes,3,Silver,8.97
+C50503,2026-09-03,Technical issue,Over 24 months,Morning,English,Yes,1,Gold,4.45
+C50504,2026-09-03,Cancellation,6-24 months,Morning,English,Yes,0,Gold,8.97
+C50505,2026-09-03,Technical issue,Over 24 months,Morning,English,No,3,Standard,12.92
+C50506,2026-09-03,Billing dispute,Over 24 months,Evening,English,Yes,0,Standard,4.7
+C50507,2026-09-03,Order status,Under 6 months,Afternoon,English,Yes,0,Silver,5.41
+C50508,2026-09-03,Order status,Under 6 months,Morning,English,No,0,Standard,8.32
+C50509,2026-09-03,Order status,6-24 months,Morning,Spanish,Yes,0,Gold,7.28
+C50510,2026-09-03,Order status,6-24 months,Morning,Spanish,Yes,1,Standard,6.38
+C50511,2026-09-03,Cancellation,Under 6 months,Afternoon,English,Yes,0,Silver,9.51
+C50512,2026-09-03,Cancellation,6-24 months,Morning,Spanish,Yes,1,Silver,5.9
+C50513,2026-09-03,Technical issue,Under 6 months,Afternoon,English,No,2,Gold,13.97
+C50514,2026-09-03,Billing dispute,Over 24 months,Morning,English,No,1,Standard,10.76
+C50515,2026-09-03,Order status,6-24 months,Evening,Spanish,No,0,Silver,6.14
+C50516,2026-09-03,Billing dispute,Over 24 months,Afternoon,English,Yes,1,Standard,8.72
+C50517,2026-09-03,Order status,6-24 months,Morning,Spanish,Yes,1,Silver,5.02
+C50518,2026-09-03,Technical issue,Over 24 months,Morning,English,Yes,0,Standard,5.48
+C50519,2026-09-03,Cancellation,6-24 months,Morning,Spanish,No,1,Standard,10.34
+C50520,2026-09-03,Technical issue,Under 6 months,Afternoon,English,Yes,0,Silver,9.52
+C50521,2026-09-03,Address change,6-24 months,Morning,Spanish,Yes,0,Silver,4.8
+C50522,2026-09-03,Address change,6-24 months,Afternoon,English,Yes,1,Silver,7.09
+C50523,2026-09-03,Address change,6-24 months,Evening,English,Yes,0,Standard,5.65
+C50524,2026-09-03,Order status,6-24 months,Afternoon,English,No,0,Standard,4.87
+C50525,2026-09-03,Order status,Over 24 months,Morning,English,Yes,0,Standard,3.41
+C50526,2026-09-03,Order status,6-24 months,Afternoon,English,No,0,Silver,6.79
+C50527,2026-09-04,Billing dispute,Over 24 months,Morning,English,Yes,0,Silver,5.91
+C50528,2026-09-04,Cancellation,Under 6 months,Evening,English,No,3,Gold,13.02
+C50529,2026-09-04,Cancellation,Under 6 months,Evening,English,Yes,2,Silver,8.74
+C50530,2026-09-04,Order status,6-24 months,Morning,English,Yes,1,Gold,4.6
+C50531,2026-09-04,Order status,Under 6 months,Evening,Spanish,Yes,0,Standard,6.13
+C50532,2026-09-04,Cancellation,Under 6 months,Afternoon,Hindi,Yes,0,Standard,6.16
+C50533,2026-09-04,Order status,Over 24 months,Evening,English,Yes,0,Silver,4.28
+C50534,2026-09-04,Billing dispute,6-24 months,Morning,English,Yes,0,Gold,5.9
+C50535,2026-09-04,Order status,6-24 months,Afternoon,English,No,0,Standard,7.95
+C50536,2026-09-04,Billing dispute,Over 24 months,Afternoon,English,Yes,2,Standard,8.5
+C50537,2026-09-04,Order status,6-24 months,Afternoon,English,Yes,0,Standard,4.48
+C50538,2026-09-04,Billing dispute,Over 24 months,Evening,Spanish,Yes,3,Standard,12.15
+C50539,2026-09-04,Cancellation,Over 24 months,Morning,English,Yes,0,Gold,6.07
+C50540,2026-09-04,Address change,Under 6 months,Evening,English,Yes,0,Gold,6.45
+C50541,2026-09-04,Technical issue,Under 6 months,Morning,English,Yes,0,Standard,9.66
+C50542,2026-09-04,Billing dispute,Under 6 months,Evening,English,Yes,1,Silver,10.04
+C50543,2026-09-04,Address change,6-24 months,Morning,English,No,1,Gold,7.87
+C50544,2026-09-04,Order status,Under 6 months,Afternoon,English,Yes,0,Gold,6.61
+C50545,2026-09-04,Address change,Under 6 months,Afternoon,English,Yes,0,Silver,5.47
+C50546,2026-09-04,Order status,Over 24 months,Morning,English,Yes,1,Silver,7.57
+C50547,2026-09-04,Order status,Under 6 months,Afternoon,English,No,2,Silver,13.66
+C50548,2026-09-04,Order status,6-24 months,Morning,English,Yes,1,Gold,6.2
+C50549,2026-09-07,Billing dispute,6-24 months,Morning,English,No,0,Gold,8.89
+C50550,2026-09-07,Cancellation,Over 24 months,Afternoon,English,Yes,2,Gold,9.52
+C50551,2026-09-07,Billing dispute,6-24 months,Morning,English,Yes,1,Silver,7.78
+C50552,2026-09-07,Technical issue,Under 6 months,Morning,English,Yes,1,Standard,11.7
+C50553,2026-09-07,Technical issue,Over 24 months,Afternoon,English,No,3,Silver,10.2
+C50554,2026-09-07,Order status,6-24 months,Afternoon,English,No,2,Gold,10.46
+C50555,2026-09-07,Technical issue,Over 24 months,Morning,English,Yes,0,Standard,4.82
+C50556,2026-09-07,Technical issue,Under 6 months,Afternoon,English,Yes,1,Standard,9.28
+C50557,2026-09-07,Order status,6-24 months,Morning,English,Yes,0,Standard,4.74
+C50558,2026-09-07,Technical issue,Under 6 months,Afternoon,Hindi,No,0,Standard,10.88
+C50559,2026-09-07,Billing dispute,Over 24 months,Afternoon,English,No,0,Gold,11.33
+C50560,2026-09-07,Address change,Under 6 months,Afternoon,English,No,1,Silver,10.3
+C50561,2026-09-07,Address change,Under 6 months,Morning,English,Yes,0,Standard,6.99
+C50562,2026-09-07,Address change,Over 24 months,Morning,English,Yes,1,Silver,4.25
+C50563,2026-09-07,Cancellation,Under 6 months,Morning,Spanish,Yes,1,Standard,8.9
+C50564,2026-09-07,Cancellation,6-24 months,Afternoon,Spanish,Yes,1,Standard,6.25
+C50565,2026-09-07,Technical issue,Over 24 months,Afternoon,Hindi,Yes,0,Silver,4.72
+C50566,2026-09-07,Cancellation,Over 24 months,Afternoon,English,Yes,0,Standard,4.09
+C50567,2026-09-07,Technical issue,Over 24 months,Morning,English,No,0,Silver,6.81
+C50568,2026-09-07,Address change,6-24 months,Evening,Spanish,Yes,0,Standard,3.72
+C50569,2026-09-07,Address change,Under 6 months,Morning,English,Yes,0,Silver,5.44
+C50570,2026-09-07,Order status,Under 6 months,Afternoon,English,Yes,1,Standard,10.75
+C50571,2026-09-07,Technical issue,6-24 months,Afternoon,English,Yes,0,Silver,5.39
+C50572,2026-09-07,Technical issue,Under 6 months,Afternoon,Spanish,No,0,Standard,9.88
+C50573,2026-09-08,Technical issue,Over 24 months,Morning,Hindi,Yes,0,Standard,6.86
+C50574,2026-09-08,Technical issue,Over 24 months,Evening,English,No,0,Silver,7.53
+C50575,2026-09-08,Cancellation,Under 6 months,Morning,English,Yes,0,Silver,6.25
+C50576,2026-09-08,Address change,Over 24 months,Morning,Hindi,Yes,0,Standard,3.48
+C50577,2026-09-08,Order status,6-24 months,Afternoon,Spanish,No,1,Silver,7.1
+C50578,2026-09-08,Order status,Under 6 months,Afternoon,Spanish,Yes,0,Standard,6.55
+C50579,2026-09-08,Technical issue,6-24 months,Morning,English,Yes,1,Silver,6.81
+C50580,2026-09-08,Billing dispute,Under 6 months,Morning,Spanish,Yes,0,Standard,8.15
+C50581,2026-09-08,Cancellation,Under 6 months,Morning,English,Yes,1,Silver,10.94
+C50582,2026-09-08,Billing dispute,Under 6 months,Morning,English,No,0,Standard,12.4
+C50583,2026-09-08,Technical issue,6-24 months,Afternoon,English,No,0,Silver,9.64
+C50584,2026-09-08,Cancellation,Under 6 months,Afternoon,Hindi,No,0,Standard,8.14
+C50585,2026-09-08,Order status,6-24 months,Afternoon,English,Yes,2,Gold,7.55
+C50586,2026-09-08,Technical issue,6-24 months,Afternoon,Hindi,Yes,0,Standard,8.25
+C50587,2026-09-08,Technical issue,6-24 months,Afternoon,English,Yes,0,Silver,7.59
+C50588,2026-09-08,Billing dispute,6-24 months,Afternoon,English,Yes,0,Standard,7.13
+C50589,2026-09-08,Billing dispute,6-24 months,Morning,English,Yes,1,Silver,10.02
+C50590,2026-09-08,Address change,6-24 months,Afternoon,Hindi,Yes,3,Silver,7.21
+C50591,2026-09-08,Order status,Under 6 months,Morning,English,Yes,1,Silver,8.4
+C50592,2026-09-08,Address change,Under 6 months,Morning,English,Yes,0,Gold,5.04
+C50593,2026-09-08,Billing dispute,Over 24 months,Afternoon,English,No,2,Gold,9.74
+C50594,2026-09-08,Technical issue,Under 6 months,Morning,English,Yes,0,Standard,8.38
+C50595,2026-09-08,Technical issue,Over 24 months,Afternoon,English,Yes,2,Standard,7.6
+C50596,2026-09-08,Order status,6-24 months,Evening,English,Yes,1,Standard,6.87
+C50597,2026-09-08,Billing dispute,Over 24 months,Afternoon,Spanish,No,3,Standard,15.3
+C50598,2026-09-08,Cancellation,Under 6 months,Afternoon,English,Yes,2,Gold,10.62
+C50599,2026-09-09,Order status,6-24 months,Evening,Hindi,No,0,Gold,5.68
+C50600,2026-09-09,Technical issue,Over 24 months,Morning,English,No,1,Gold,12.84
+C50601,2026-09-09,Order status,6-24 months,Evening,English,Yes,0,Silver,6.07
+C50602,2026-09-09,Cancellation,6-24 months,Morning,Spanish,Yes,1,Standard,8.3
+C50603,2026-09-09,Address change,6-24 months,Afternoon,Hindi,Yes,2,Gold,7.71
+C50604,2026-09-09,Order status,6-24 months,Afternoon,English,No,0,Gold,6.68
+C50605,2026-09-09,Technical issue,Over 24 months,Morning,English,Yes,0,Gold,5.39
+C50606,2026-09-09,Technical issue,Over 24 months,Morning,English,No,2,Silver,12.22
+C50607,2026-09-09,Address change,6-24 months,Afternoon,English,Yes,2,Standard,7.91
+C50608,2026-09-09,Order status,Over 24 months,Evening,English,Yes,0,Silver,4.09
+C50609,2026-09-09,Technical issue,Under 6 months,Morning,English,No,1,Gold,13.36
+C50610,2026-09-09,Order status,6-24 months,Evening,English,Yes,1,Silver,7.34
+C50611,2026-09-09,Order status,Over 24 months,Evening,English,Yes,0,Standard,4.49
+C50612,2026-09-09,Billing dispute,6-24 months,Afternoon,English,Yes,0,Silver,9.06
+C50613,2026-09-09,Order status,6-24 months,Morning,English,Yes,0,Gold,4.58
+C50614,2026-09-09,Address change,Over 24 months,Morning,English,No,0,Silver,5.37
+C50615,2026-09-09,Address change,Over 24 months,Afternoon,English,No,0,Silver,6.46
+C50616,2026-09-09,Order status,Over 24 months,Morning,Spanish,Yes,0,Gold,4.32
+C50617,2026-09-10,Billing dispute,Over 24 months,Morning,Hindi,Yes,0,Standard,6.17
+C50618,2026-09-10,Address change,6-24 months,Morning,English,Yes,0,Standard,5.83
+C50619,2026-09-10,Technical issue,Under 6 months,Evening,English,Yes,0,Silver,9.82
+C50620,2026-09-10,Technical issue,Over 24 months,Afternoon,English,No,0,Gold,6.36
+C50621,2026-09-10,Cancellation,Over 24 months,Afternoon,Spanish,Yes,1,Standard,6.63
+C50622,2026-09-10,Technical issue,Over 24 months,Morning,Hindi,Yes,1,Standard,10.77
+C50623,2026-09-10,Cancellation,Over 24 months,Evening,English,Yes,3,Standard,8.07
+C50624,2026-09-10,Billing dispute,Over 24 months,Evening,English,No,0,Standard,7.51
+C50625,2026-09-10,Billing dispute,6-24 months,Afternoon,English,Yes,0,Standard,6.26
+C50626,2026-09-10,Technical issue,Over 24 months,Morning,Spanish,Yes,0,Standard,4.12
+C50627,2026-09-10,Order status,6-24 months,Afternoon,English,Yes,0,Standard,4.6
+C50628,2026-09-10,Address change,Under 6 months,Afternoon,English,Yes,0,Gold,6.86
+C50629,2026-09-10,Technical issue,Under 6 months,Afternoon,English,Yes,1,Standard,8.72
+C50630,2026-09-10,Billing dispute,6-24 months,Morning,Spanish,No,1,Standard,8.53
+C50631,2026-09-10,Order status,Under 6 months,Morning,English,No,0,Standard,8.48
+C50632,2026-09-10,Billing dispute,Under 6 months,Morning,English,Yes,1,Silver,12.47
+C50633,2026-09-10,Technical issue,Over 24 months,Afternoon,English,Yes,1,Standard,7.4
+C50634,2026-09-10,Order status,Under 6 months,Morning,Spanish,No,1,Silver,8.85
+C50635,2026-09-10,Order status,Under 6 months,Evening,Hindi,Yes,1,Standard,7.01
+C50636,2026-09-10,Technical issue,Over 24 months,Evening,English,No,0,Silver,6.5
+C50637,2026-09-10,Order status,6-24 months,Morning,English,No,1,Silver,7.47
+C50638,2026-09-10,Cancellation,Over 24 months,Afternoon,Hindi,No,0,Silver,6.56
+C50639,2026-09-10,Order status,6-24 months,Afternoon,English,Yes,0,Standard,5.07
+C50640,2026-09-10,Cancellation,Under 6 months,Morning,Hindi,No,0,Gold,9.97
+C50641,2026-09-10,Address change,Under 6 months,Evening,English,Yes,2,Silver,6.74
+C50642,2026-09-11,Billing dispute,Under 6 months,Afternoon,English,Yes,0,Gold,8.32
+C50643,2026-09-11,Technical issue,Over 24 months,Afternoon,English,No,1,Silver,8.84
+C50644,2026-09-11,Order status,Under 6 months,Afternoon,English,Yes,0,Gold,5.66
+C50645,2026-09-11,Order status,Over 24 months,Evening,English,No,2,Gold,9.42
+C50646,2026-09-11,Technical issue,Over 24 months,Morning,Spanish,No,1,Standard,9.75
+C50647,2026-09-11,Cancellation,Over 24 months,Afternoon,Hindi,No,1,Standard,7.85
+C50648,2026-09-11,Order status,6-24 months,Afternoon,Hindi,No,1,Standard,6.6
+C50649,2026-09-11,Order status,Over 24 months,Evening,English,No,0,Silver,7.04
+C50650,2026-09-11,Billing dispute,Under 6 months,Afternoon,Hindi,No,1,Gold,11.43
+C50651,2026-09-11,Order status,6-24 months,Afternoon,Spanish,No,1,Standard,11.38
+C50652,2026-09-11,Technical issue,6-24 months,Morning,English,No,1,Standard,9.3
+C50653,2026-09-11,Address change,Under 6 months,Afternoon,English,No,1,Gold,9.6
+C50654,2026-09-11,Cancellation,Under 6 months,Morning,Spanish,No,2,Silver,13.02
+C50655,2026-09-11,Cancellation,6-24 months,Evening,English,Yes,0,Standard,6.35
+C50656,2026-09-11,Order status,Over 24 months,Afternoon,English,No,0,Gold,5.18
+C50657,2026-09-11,Address change,6-24 months,Evening,English,No,0,Gold,6.53
+C50658,2026-09-11,Billing dispute,6-24 months,Morning,Spanish,No,2,Silver,13.52
+C50659,2026-09-11,Address change,6-24 months,Afternoon,English,Yes,0,Silver,3.69
+C50660,2026-09-11,Technical issue,Over 24 months,Morning,English,No,0,Standard,8.23
+C50661,2026-09-11,Billing dispute,Over 24 months,Afternoon,Hindi,No,1,Silver,8.25
+C50662,2026-09-11,Technical issue,Over 24 months,Afternoon,English,No,0,Standard,9.33
+C50663,2026-09-11,Address change,Under 6 months,Afternoon,Hindi,Yes,0,Standard,7.35
+C50664,2026-09-11,Cancellation,6-24 months,Morning,English,Yes,0,Silver,5.52
+C50665,2026-09-14,Billing dispute,6-24 months,Evening,Spanish,Yes,0,Standard,7.17
+C50666,2026-09-14,Technical issue,Under 6 months,Afternoon,Spanish,Yes,0,Gold,6.23
+C50667,2026-09-14,Address change,6-24 months,Afternoon,English,No,1,Standard,7.08
+C50668,2026-09-14,Billing dispute,Under 6 months,Afternoon,English,Yes,0,Silver,9.95
+C50669,2026-09-14,Technical issue,6-24 months,Morning,English,Yes,2,Standard,6.85
+C50670,2026-09-14,Technical issue,6-24 months,Afternoon,Spanish,No,0,Gold,8.68
+C50671,2026-09-14,Technical issue,6-24 months,Morning,English,No,1,Gold,10.09
+C50672,2026-09-14,Cancellation,Over 24 months,Morning,Spanish,Yes,0,Standard,5.01
+C50673,2026-09-14,Address change,Over 24 months,Evening,English,Yes,0,Silver,3.79
+C50674,2026-09-14,Billing dispute,Under 6 months,Afternoon,English,Yes,0,Silver,11.08
+C50675,2026-09-14,Address change,6-24 months,Afternoon,Spanish,Yes,0,Silver,4.53
+C50676,2026-09-14,Order status,6-24 months,Evening,English,Yes,0,Gold,4.36
+C50677,2026-09-14,Technical issue,Under 6 months,Afternoon,English,No,1,Silver,8.42
+C50678,2026-09-14,Order status,Over 24 months,Morning,English,Yes,2,Standard,6.73
+C50679,2026-09-14,Billing dispute,6-24 months,Morning,English,Yes,0,Gold,7.39
+C50680,2026-09-14,Address change,6-24 months,Afternoon,English,Yes,3,Silver,10.57
+C50681,2026-09-14,Address change,6-24 months,Morning,English,Yes,0,Standard,4.95
+C50682,2026-09-14,Billing dispute,Over 24 months,Morning,English,Yes,0,Standard,5.49
+C50683,2026-09-14,Technical issue,Over 24 months,Morning,English,No,0,Standard,6.81
+C50684,2026-09-14,Address change,Under 6 months,Morning,English,Yes,2,Gold,9.55
+C50685,2026-09-14,Cancellation,Under 6 months,Morning,Spanish,Yes,0,Standard,5.71
+C50686,2026-09-14,Order status,6-24 months,Morning,Hindi,Yes,3,Gold,6.4
+C50687,2026-09-14,Order status,Over 24 months,Evening,English,Yes,0,Silver,5.68
+C50688,2026-09-14,Technical issue,6-24 months,Afternoon,Spanish,Yes,0,Silver,5.49
+C50689,2026-09-14,Order status,Over 24 months,Afternoon,English,Yes,0,Silver,5.09
+C50690,2026-09-15,Cancellation,Under 6 months,Afternoon,English,No,0,Silver,11.1
+C50691,2026-09-15,Billing dispute,6-24 months,Morning,English,Yes,1,Silver,8.31
+C50692,2026-09-15,Billing dispute,6-24 months,Morning,English,No,3,Silver,11.95
+C50693,2026-09-15,Order status,6-24 months,Evening,English,Yes,0,Gold,4.13
+C50694,2026-09-15,Order status,Under 6 months,Morning,Spanish,No,1,Gold,8.67
+C50695,2026-09-15,Order status,6-24 months,Afternoon,English,Yes,1,Standard,5.39
+C50696,2026-09-15,Order status,6-24 months,Morning,English,No,0,Silver,9.33
+C50697,2026-09-15,Address change,6-24 months,Morning,English,Yes,1,Standard,6.08
+C50698,2026-09-15,Technical issue,6-24 months,Evening,English,Yes,0,Standard,6.11
+C50699,2026-09-15,Billing dispute,Over 24 months,Evening,English,No,0,Gold,8.29
+C50700,2026-09-15,Technical issue,6-24 months,Evening,English,Yes,0,Standard,7.39
+C50701,2026-09-15,Order status,Over 24 months,Afternoon,English,Yes,0,Silver,2.83
+C50702,2026-09-15,Billing dispute,Under 6 months,Morning,English,Yes,0,Gold,10.92
+C50703,2026-09-15,Technical issue,Under 6 months,Morning,Spanish,No,0,Silver,9.41
+C50704,2026-09-15,Cancellation,Under 6 months,Afternoon,English,Yes,2,Standard,12.78
+C50705,2026-09-15,Billing dispute,6-24 months,Morning,English,Yes,0,Standard,6.18
+C50706,2026-09-15,Cancellation,6-24 months,Afternoon,English,No,2,Standard,7.78
+C50707,2026-09-15,Technical issue,6-24 months,Morning,English,No,1,Gold,7.31
+C50708,2026-09-16,Address change,Over 24 months,Morning,English,No,1,Standard,6.69
+C50709,2026-09-16,Order status,Over 24 months,Afternoon,English,No,0,Silver,6.35
+C50710,2026-09-16,Order status,Over 24 months,Morning,English,Yes,0,Standard,5.57
+C50711,2026-09-16,Cancellation,Over 24 months,Afternoon,English,Yes,2,Gold,7.82
+C50712,2026-09-16,Order status,Over 24 months,Evening,English,Yes,0,Gold,5.45
+C50713,2026-09-16,Technical issue,6-24 months,Morning,English,No,0,Silver,9.51
+C50714,2026-09-16,Order status,Over 24 months,Morning,Hindi,Yes,1,Standard,4.17
+C50715,2026-09-16,Technical issue,Under 6 months,Morning,Spanish,No,0,Standard,8.56
+C50716,2026-09-16,Address change,Over 24 months,Morning,English,Yes,0,Silver,3.88
+C50717,2026-09-16,Address change,6-24 months,Morning,English,Yes,0,Silver,4.97
+C50718,2026-09-16,Cancellation,Under 6 months,Evening,English,No,0,Silver,9.38
+C50719,2026-09-16,Technical issue,6-24 months,Evening,English,Yes,0,Standard,5.66
+C50720,2026-09-16,Billing dispute,6-24 months,Evening,English,Yes,0,Silver,5.87
+C50721,2026-09-16,Cancellation,6-24 months,Afternoon,English,No,0,Standard,6.34
+C50722,2026-09-16,Order status,Over 24 months,Afternoon,Spanish,No,1,Gold,9.21
+C50723,2026-09-16,Technical issue,Over 24 months,Afternoon,English,Yes,1,Gold,6.71
+C50724,2026-09-16,Technical issue,Over 24 months,Evening,English,Yes,0,Standard,4.75
+C50725,2026-09-16,Billing dispute,6-24 months,Afternoon,Spanish,No,0,Standard,9.07
+C50726,2026-09-16,Address change,Over 24 months,Morning,English,No,2,Standard,9.19
+C50727,2026-09-16,Order status,6-24 months,Morning,English,Yes,2,Standard,6.94
+C50728,2026-09-17,Order status,Under 6 months,Evening,English,Yes,0,Gold,5.84
+C50729,2026-09-17,Billing dispute,6-24 months,Evening,Spanish,Yes,1,Standard,9.17
+C50730,2026-09-17,Address change,Under 6 months,Evening,Spanish,No,0,Standard,7.48
+C50731,2026-09-17,Address change,6-24 months,Morning,Hindi,Yes,0,Standard,3.26
+C50732,2026-09-17,Order status,Over 24 months,Morning,Hindi,Yes,0,Standard,4.21
+C50733,2026-09-17,Address change,Over 24 months,Afternoon,Spanish,Yes,0,Gold,2.78
+C50734,2026-09-17,Technical issue,Under 6 months,Morning,English,Yes,2,Standard,9.04
+C50735,2026-09-17,Order status,6-24 months,Afternoon,Spanish,No,3,Standard,8.23
+C50736,2026-09-17,Order status,6-24 months,Afternoon,Spanish,Yes,1,Standard,5.94
+C50737,2026-09-17,Technical issue,6-24 months,Afternoon,Spanish,No,2,Standard,10.93
+C50738,2026-09-17,Address change,Over 24 months,Morning,English,No,0,Silver,4.89
+C50739,2026-09-17,Order status,Under 6 months,Afternoon,English,Yes,0,Silver,6.6
+C50740,2026-09-17,Technical issue,6-24 months,Morning,English,Yes,1,Silver,8.14
+C50741,2026-09-17,Address change,Under 6 months,Evening,Hindi,Yes,1,Gold,9.32
+C50742,2026-09-17,Order status,Under 6 months,Morning,English,No,0,Gold,8.17
+C50743,2026-09-17,Cancellation,6-24 months,Morning,English,Yes,0,Gold,6.37
+C50744,2026-09-17,Billing dispute,Over 24 months,Morning,English,Yes,0,Gold,11.26
+C50745,2026-09-17,Technical issue,6-24 months,Afternoon,English,No,2,Standard,12.13
+C50746,2026-09-17,Cancellation,Under 6 months,Afternoon,English,No,0,Silver,7.9
+C50747,2026-09-17,Cancellation,Under 6 months,Evening,English,Yes,0,Silver,8.95
+C50748,2026-09-17,Technical issue,6-24 months,Afternoon,English,Yes,1,Silver,8.79
+C50749,2026-09-17,Billing dispute,6-24 months,Afternoon,English,Yes,0,Standard,7.11
+C50750,2026-09-17,Cancellation,6-24 months,Morning,English,No,2,Silver,11.13
+C50751,2026-09-17,Technical issue,6-24 months,Morning,English,Yes,0,Standard,6.35
+C50752,2026-09-17,Address change,6-24 months,Afternoon,Hindi,No,0,Standard,5.86
+C50753,2026-09-18,Order status,6-24 months,Afternoon,English,Yes,0,Silver,6.62
+C50754,2026-09-18,Technical issue,Under 6 months,Afternoon,English,No,0,Gold,11.28
+C50755,2026-09-18,Cancellation,6-24 months,Evening,English,Yes,1,Gold,9.41
+C50756,2026-09-18,Order status,Over 24 months,Evening,Spanish,No,0,Gold,6.19
+C50757,2026-09-18,Cancellation,Under 6 months,Morning,Hindi,Yes,0,Silver,7.8
+C50758,2026-09-18,Technical issue,6-24 months,Afternoon,Spanish,No,0,Standard,9.95
+C50759,2026-09-18,Billing dispute,Under 6 months,Afternoon,Spanish,No,1,Gold,7.29
+C50760,2026-09-18,Billing dispute,6-24 months,Evening,English,Yes,3,Standard,13.32
+C50761,2026-09-18,Order status,Over 24 months,Morning,English,No,0,Gold,4.64
+C50762,2026-09-18,Technical issue,6-24 months,Morning,English,No,0,Gold,7.29
+C50763,2026-09-18,Order status,6-24 months,Afternoon,English,No,0,Standard,7.14
+C50764,2026-09-18,Technical issue,Over 24 months,Morning,English,No,1,Silver,10.66
+C50765,2026-09-18,Order status,Under 6 months,Evening,English,No,1,Standard,9.31
+C50766,2026-09-18,Order status,Over 24 months,Morning,English,No,0,Gold,6.71
+C50767,2026-09-18,Order status,Over 24 months,Morning,English,Yes,0,Silver,3.25
+C50768,2026-09-18,Order status,6-24 months,Morning,Hindi,Yes,0,Silver,7.13
+C50769,2026-09-18,Order status,6-24 months,Morning,English,Yes,0,Gold,4.29
+C50770,2026-09-18,Address change,6-24 months,Evening,English,Yes,1,Gold,7.47
+C50771,2026-09-18,Address change,Over 24 months,Morning,Hindi,Yes,0,Silver,4.22
+C50772,2026-09-18,Order status,Over 24 months,Morning,English,No,1,Silver,6.12
+C50773,2026-09-18,Technical issue,Over 24 months,Evening,English,Yes,1,Silver,7.06
+C50774,2026-09-18,Address change,6-24 months,Afternoon,English,No,0,Standard,5.87
+C50775,2026-09-18,Address change,6-24 months,Morning,English,No,3,Standard,11.81
+C50776,2026-09-18,Order status,Under 6 months,Afternoon,English,Yes,3,Gold,8.25
+C50777,2026-09-21,Order status,Under 6 months,Evening,Spanish,Yes,1,Gold,12.98
+C50778,2026-09-21,Order status,Under 6 months,Morning,English,Yes,0,Standard,6.23
+C50779,2026-09-21,Cancellation,6-24 months,Morning,English,No,0,Silver,5.5
+C50780,2026-09-21,Billing dispute,6-24 months,Evening,English,Yes,2,Silver,10.11
+C50781,2026-09-21,Technical issue,6-24 months,Afternoon,Spanish,No,1,Standard,10.13
+C50782,2026-09-21,Technical issue,Under 6 months,Morning,English,No,0,Silver,8.83
+C50783,2026-09-21,Technical issue,Over 24 months,Morning,English,No,0,Standard,7.2
+C50784,2026-09-21,Cancellation,Under 6 months,Morning,English,No,0,Silver,8.81
+C50785,2026-09-21,Billing dispute,Over 24 months,Afternoon,English,Yes,1,Gold,9.29
+C50786,2026-09-21,Address change,6-24 months,Afternoon,English,No,1,Standard,7.9
+C50787,2026-09-21,Billing dispute,Under 6 months,Afternoon,Hindi,Yes,2,Standard,14.92
+C50788,2026-09-21,Order status,Under 6 months,Evening,Spanish,Yes,1,Standard,6.99
+C50789,2026-09-21,Billing dispute,Under 6 months,Afternoon,English,No,1,Gold,11.07
+C50790,2026-09-21,Order status,6-24 months,Morning,English,No,0,Silver,6.38
+C50791,2026-09-21,Billing dispute,Under 6 months,Morning,Spanish,Yes,0,Gold,13.76
+C50792,2026-09-21,Cancellation,6-24 months,Afternoon,English,No,0,Standard,5.01
+C50793,2026-09-21,Billing dispute,Over 24 months,Evening,English,Yes,0,Standard,5.79
+C50794,2026-09-21,Technical issue,6-24 months,Morning,English,Yes,0,Gold,6.47
+C50795,2026-09-21,Cancellation,6-24 months,Morning,English,No,1,Standard,9.63
+C50796,2026-09-21,Cancellation,Over 24 months,Afternoon,English,Yes,1,Gold,6.85
+C50797,2026-09-22,Cancellation,Under 6 months,Evening,English,No,1,Standard,8.71
+C50798,2026-09-22,Cancellation,6-24 months,Evening,Spanish,Yes,0,Silver,5.49
+C50799,2026-09-22,Billing dispute,6-24 months,Afternoon,English,No,1,Silver,9.13
+C50800,2026-09-22,Technical issue,Over 24 months,Evening,Hindi,No,0,Standard,6.45
+C50801,2026-09-22,Address change,Under 6 months,Morning,Hindi,Yes,0,Standard,4.13
+C50802,2026-09-22,Order status,Under 6 months,Afternoon,Spanish,No,0,Silver,7.48
+C50803,2026-09-22,Order status,Over 24 months,Evening,English,No,0,Standard,5.81
+C50804,2026-09-22,Technical issue,6-24 months,Evening,English,Yes,0,Silver,6.25
+C50805,2026-09-22,Order status,Under 6 months,Morning,English,Yes,0,Standard,4.19
+C50806,2026-09-22,Cancellation,Under 6 months,Morning,English,Yes,0,Standard,7.98
+C50807,2026-09-22,Order status,Under 6 months,Afternoon,Hindi,No,0,Standard,6.36
+C50808,2026-09-22,Order status,Over 24 months,Morning,English,Yes,0,Gold,3.79
+C50809,2026-09-22,Order status,Over 24 months,Afternoon,English,No,0,Silver,4.44
+C50810,2026-09-22,Order status,6-24 months,Morning,English,No,0,Standard,5.93
+C50811,2026-09-22,Billing dispute,6-24 months,Afternoon,Hindi,Yes,2,Silver,14.91
+C50812,2026-09-22,Technical issue,Under 6 months,Morning,English,Yes,1,Standard,10.56
+C50813,2026-09-22,Technical issue,6-24 months,Morning,English,Yes,0,Silver,7.63
+C50814,2026-09-22,Order status,6-24 months,Afternoon,English,Yes,2,Silver,7.48
+C50815,2026-09-22,Technical issue,6-24 months,Afternoon,English,No,0,Standard,10.63
+C50816,2026-09-23,Order status,Under 6 months,Morning,Spanish,No,0,Silver,7.02
+C50817,2026-09-23,Cancellation,Under 6 months,Morning,English,No,2,Silver,15.54
+C50818,2026-09-23,Address change,Over 24 months,Afternoon,English,No,2,Standard,8.81
+C50819,2026-09-23,Billing dispute,Over 24 months,Morning,English,Yes,0,Silver,7.51
+C50820,2026-09-23,Technical issue,Under 6 months,Afternoon,English,Yes,1,Standard,11.32
+C50821,2026-09-23,Order status,Under 6 months,Morning,Spanish,No,0,Silver,8.16
+C50822,2026-09-23,Billing dispute,6-24 months,Morning,Hindi,No,2,Gold,13.29
+C50823,2026-09-23,Billing dispute,Under 6 months,Morning,English,Yes,2,Standard,12.26
+C50824,2026-09-23,Order status,Over 24 months,Afternoon,English,Yes,1,Silver,5.48
+C50825,2026-09-23,Technical issue,Over 24 months,Morning,English,Yes,0,Standard,5.1
+C50826,2026-09-23,Technical issue,Under 6 months,Afternoon,English,Yes,0,Standard,6.8
+C50827,2026-09-23,Technical issue,Under 6 months,Evening,English,No,0,Silver,11.93
+C50828,2026-09-23,Technical issue,6-24 months,Afternoon,Spanish,Yes,0,Gold,6.86
+C50829,2026-09-23,Billing dispute,Over 24 months,Evening,English,Yes,1,Silver,6.3
+C50830,2026-09-23,Order status,Under 6 months,Afternoon,Hindi,No,0,Silver,5.99
+C50831,2026-09-23,Billing dispute,Under 6 months,Morning,English,Yes,1,Standard,12.08
+C50832,2026-09-23,Order status,Under 6 months,Morning,English,Yes,2,Standard,9.75
+C50833,2026-09-23,Technical issue,6-24 months,Evening,English,Yes,1,Gold,7.5
+C50834,2026-09-24,Technical issue,Over 24 months,Morning,English,No,0,Silver,10.02
+C50835,2026-09-24,Technical issue,6-24 months,Morning,Spanish,No,1,Standard,10.17
+C50836,2026-09-24,Order status,Under 6 months,Morning,English,No,0,Gold,5.04
+C50837,2026-09-24,Technical issue,Over 24 months,Morning,Hindi,No,0,Silver,6.83
+C50838,2026-09-24,Technical issue,Over 24 months,Morning,English,No,0,Silver,6.49
+C50839,2026-09-24,Technical issue,Over 24 months,Morning,English,Yes,0,Gold,5.76
+C50840,2026-09-24,Address change,Under 6 months,Evening,Hindi,No,0,Standard,7.2
+C50841,2026-09-24,Address change,Over 24 months,Afternoon,Spanish,Yes,0,Standard,4.51
+C50842,2026-09-24,Order status,6-24 months,Morning,Hindi,Yes,0,Standard,4.77
+C50843,2026-09-24,Cancellation,Over 24 months,Evening,English,No,0,Standard,5.57
+C50844,2026-09-24,Cancellation,6-24 months,Afternoon,English,Yes,1,Standard,8.15
+C50845,2026-09-24,Order status,6-24 months,Morning,English,Yes,0,Standard,6.26
+C50846,2026-09-24,Cancellation,6-24 months,Evening,English,No,0,Silver,6.32
+C50847,2026-09-24,Cancellation,Under 6 months,Evening,English,Yes,0,Standard,9.0
+C50848,2026-09-24,Billing dispute,Over 24 months,Afternoon,Hindi,Yes,0,Standard,8.71
+C50849,2026-09-24,Cancellation,Over 24 months,Afternoon,Hindi,Yes,1,Gold,8.7
+C50850,2026-09-24,Order status,Under 6 months,Evening,Spanish,Yes,3,Standard,8.93
+C50851,2026-09-24,Address change,Under 6 months,Evening,English,Yes,2,Gold,9.52
+C50852,2026-09-24,Address change,6-24 months,Afternoon,English,No,0,Standard,7.35
+C50853,2026-09-25,Technical issue,Over 24 months,Afternoon,English,No,0,Gold,7.59
+C50854,2026-09-25,Technical issue,Over 24 months,Morning,English,Yes,0,Silver,5.32
+C50855,2026-09-25,Cancellation,6-24 months,Afternoon,English,Yes,1,Silver,8.42
+C50856,2026-09-25,Order status,Over 24 months,Evening,English,Yes,0,Standard,3.24
+C50857,2026-09-25,Order status,Under 6 months,Evening,English,Yes,1,Standard,8.64
+C50858,2026-09-25,Order status,6-24 months,Morning,Hindi,Yes,0,Standard,3.32
+C50859,2026-09-25,Billing dispute,Over 24 months,Morning,Spanish,No,0,Silver,7.89
+C50860,2026-09-25,Billing dispute,Under 6 months,Morning,English,Yes,0,Silver,8.55
+C50861,2026-09-25,Order status,Over 24 months,Morning,English,Yes,0,Silver,5.69
+C50862,2026-09-25,Cancellation,Over 24 months,Morning,Hindi,Yes,0,Standard,5.91
+C50863,2026-09-25,Order status,Over 24 months,Morning,English,Yes,0,Silver,3.98
+C50864,2026-09-25,Order status,Under 6 months,Afternoon,English,No,0,Silver,10.16
+C50865,2026-09-25,Order status,6-24 months,Morning,Hindi,No,1,Standard,6.23
+C50866,2026-09-25,Address change,6-24 months,Afternoon,Spanish,Yes,1,Silver,6.17
+C50867,2026-09-25,Address change,6-24 months,Morning,English,Yes,0,Silver,3.23
+C50868,2026-09-25,Technical issue,Over 24 months,Afternoon,English,No,1,Silver,11.02
+C50869,2026-09-25,Order status,Under 6 months,Afternoon,English,Yes,3,Silver,7.87
+C50870,2026-09-25,Cancellation,6-24 months,Afternoon,Hindi,Yes,2,Standard,9.16
+C50871,2026-09-25,Technical issue,6-24 months,Evening,English,Yes,0,Silver,6.77
+C50872,2026-09-25,Technical issue,6-24 months,Evening,English,Yes,0,Standard,5.94
+C50873,2026-09-25,Cancellation,Over 24 months,Afternoon,Spanish,No,0,Silver,6.51
+C50874,2026-09-25,Billing dispute,Under 6 months,Morning,English,No,1,Standard,11.98
+C50875,2026-09-25,Order status,Over 24 months,Morning,Spanish,Yes,0,Silver,5.46
+C50876,2026-09-25,Order status,Over 24 months,Morning,English,Yes,0,Silver,4.89
+C50877,2026-09-28,Technical issue,6-24 months,Afternoon,Spanish,No,0,Silver,9.22
+C50878,2026-09-28,Order status,6-24 months,Evening,English,Yes,0,Silver,5.61
+C50879,2026-09-28,Billing dispute,Over 24 months,Evening,English,No,0,Silver,12.76
+C50880,2026-09-28,Order status,6-24 months,Evening,English,Yes,1,Silver,6.12
+C50881,2026-09-28,Cancellation,Over 24 months,Morning,English,No,0,Standard,5.12
+C50882,2026-09-28,Address change,6-24 months,Morning,Hindi,No,1,Silver,6.95
+C50883,2026-09-28,Billing dispute,Under 6 months,Morning,English,No,0,Silver,11.78
+C50884,2026-09-28,Order status,Over 24 months,Morning,English,Yes,0,Gold,4.02
+C50885,2026-09-28,Technical issue,6-24 months,Afternoon,English,Yes,0,Silver,7.43
+C50886,2026-09-28,Address change,Over 24 months,Afternoon,Hindi,No,0,Gold,4.22
+C50887,2026-09-28,Order status,Under 6 months,Morning,English,Yes,0,Silver,6.36
+C50888,2026-09-28,Order status,Under 6 months,Afternoon,English,No,1,Silver,9.55
+C50889,2026-09-28,Address change,Under 6 months,Afternoon,Spanish,Yes,0,Standard,5.29
+C50890,2026-09-28,Billing dispute,Over 24 months,Morning,English,Yes,0,Gold,6.2
+C50891,2026-09-28,Address change,6-24 months,Morning,English,Yes,2,Standard,6.51
+C50892,2026-09-28,Cancellation,Over 24 months,Morning,English,No,0,Silver,5.87
+C50893,2026-09-28,Technical issue,6-24 months,Evening,English,Yes,0,Gold,6.66
+C50894,2026-09-28,Cancellation,Over 24 months,Morning,English,No,2,Silver,8.9
+C50895,2026-09-28,Address change,6-24 months,Afternoon,English,Yes,0,Standard,4.42
+C50896,2026-09-28,Billing dispute,Over 24 months,Evening,English,No,0,Silver,8.58
+C50897,2026-09-28,Order status,Under 6 months,Evening,English,Yes,0,Silver,7.16
+C50898,2026-09-28,Order status,6-24 months,Afternoon,English,Yes,0,Standard,4.46
+C50899,2026-09-28,Cancellation,Under 6 months,Evening,English,Yes,0,Standard,6.22
+C50900,2026-09-28,Order status,6-24 months,Afternoon,English,Yes,0,Silver,3.79
+C50901,2026-09-28,Order status,6-24 months,Afternoon,English,Yes,0,Standard,5.99
+C50902,2026-09-29,Address change,Over 24 months,Evening,Spanish,Yes,0,Standard,4.29
+C50903,2026-09-29,Technical issue,6-24 months,Afternoon,English,Yes,2,Gold,8.69
+C50904,2026-09-29,Order status,Over 24 months,Morning,English,No,1,Silver,12.82
+C50905,2026-09-29,Address change,Over 24 months,Afternoon,English,Yes,0,Gold,3.87
+C50906,2026-09-29,Cancellation,Over 24 months,Evening,English,Yes,0,Standard,4.55
+C50907,2026-09-29,Cancellation,Over 24 months,Morning,Spanish,Yes,0,Gold,7.33
+C50908,2026-09-29,Order status,Over 24 months,Morning,English,No,0,Standard,5.72
+C50909,2026-09-29,Address change,6-24 months,Morning,English,Yes,0,Standard,5.31
+C50910,2026-09-29,Cancellation,Over 24 months,Morning,Spanish,Yes,1,Gold,8.1
+C50911,2026-09-29,Technical issue,Over 24 months,Afternoon,English,Yes,0,Standard,6.5
+C50912,2026-09-29,Cancellation,Over 24 months,Afternoon,English,Yes,0,Standard,5.89
+C50913,2026-09-29,Technical issue,Over 24 months,Afternoon,English,No,2,Standard,10.33
+C50914,2026-09-29,Order status,Over 24 months,Morning,English,Yes,0,Standard,3.46
+C50915,2026-09-29,Billing dispute,Under 6 months,Afternoon,English,Yes,0,Silver,10.26
+C50916,2026-09-29,Billing dispute,Over 24 months,Morning,Spanish,Yes,0,Standard,11.06
+C50917,2026-09-29,Order status,6-24 months,Morning,Spanish,Yes,1,Silver,6.55
+C50918,2026-09-29,Order status,Over 24 months,Morning,English,Yes,0,Gold,4.17
+C50919,2026-09-29,Technical issue,Under 6 months,Evening,English,Yes,3,Standard,10.44
+C50920,2026-09-29,Billing dispute,Over 24 months,Afternoon,English,Yes,0,Silver,6.54
+C50921,2026-09-29,Cancellation,Over 24 months,Morning,English,No,3,Gold,11.53
+C50922,2026-09-29,Billing dispute,Over 24 months,Morning,English,No,1,Gold,9.31
+C50923,2026-09-29,Cancellation,Under 6 months,Afternoon,Spanish,Yes,1,Silver,6.99
+C50924,2026-09-29,Address change,6-24 months,Morning,English,Yes,1,Silver,3.65
+C50925,2026-09-30,Billing dispute,Over 24 months,Evening,English,Yes,0,Standard,8.7
+C50926,2026-09-30,Technical issue,Over 24 months,Afternoon,English,No,1,Standard,8.64
+C50927,2026-09-30,Address change,Over 24 months,Afternoon,English,Yes,0,Standard,6.12
+C50928,2026-09-30,Billing dispute,6-24 months,Evening,English,No,2,Silver,12.64
+C50929,2026-09-30,Technical issue,Under 6 months,Morning,English,Yes,2,Gold,15.08
+C50930,2026-09-30,Billing dispute,Over 24 months,Afternoon,Spanish,No,0,Standard,8.23
+C50931,2026-09-30,Order status,6-24 months,Morning,English,No,0,Gold,7.18
+C50932,2026-09-30,Order status,Under 6 months,Morning,English,Yes,0,Silver,7.66
+C50933,2026-09-30,Order status,6-24 months,Morning,English,Yes,1,Standard,7.17
+C50934,2026-09-30,Address change,Under 6 months,Evening,English,Yes,0,Standard,6.91
+C50935,2026-09-30,Address change,Over 24 months,Afternoon,Spanish,Yes,0,Silver,3.25
+C50936,2026-09-30,Address change,6-24 months,Morning,Hindi,Yes,0,Gold,5.43
+C50937,2026-09-30,Billing dispute,6-24 months,Morning,English,Yes,0,Gold,7.26
+C50938,2026-09-30,Cancellation,Under 6 months,Evening,English,No,1,Silver,9.65
+C50939,2026-09-30,Billing dispute,6-24 months,Evening,Hindi,Yes,0,Standard,5.77
+C50940,2026-09-30,Order status,6-24 months,Afternoon,English,Yes,2,Silver,6.45
+C50941,2026-09-30,Cancellation,6-24 months,Evening,English,Yes,1,Gold,6.65
+C50942,2026-09-30,Technical issue,Under 6 months,Evening,English,Yes,0,Silver,8.35
+C50943,2026-09-30,Address change,Over 24 months,Afternoon,Spanish,No,0,Standard,6.11
+C50944,2026-09-30,Order status,Over 24 months,Afternoon,English,No,0,Silver,4.4
+C50945,2026-09-30,Technical issue,Under 6 months,Morning,English,Yes,1,Gold,7.01
+C50946,2026-09-30,Cancellation,Over 24 months,Afternoon,English,Yes,0,Silver,4.0
+C50947,2026-10-01,Order status,Under 6 months,Morning,Hindi,No,0,Silver,11.02
+C50948,2026-10-01,Billing dispute,Over 24 months,Afternoon,Hindi,No,1,Standard,9.99
+C50949,2026-10-01,Billing dispute,6-24 months,Afternoon,English,Yes,0,Standard,9.26
+C50950,2026-10-01,Order status,Over 24 months,Evening,English,Yes,0,Gold,4.49
+C50951,2026-10-01,Order status,6-24 months,Morning,English,No,2,Silver,13.64
+C50952,2026-10-01,Address change,6-24 months,Afternoon,English,No,3,Standard,13.01
+C50953,2026-10-01,Order status,6-24 months,Evening,English,Yes,1,Standard,6.23
+C50954,2026-10-01,Order status,6-24 months,Afternoon,English,Yes,0,Standard,3.8
+C50955,2026-10-01,Order status,Under 6 months,Evening,English,Yes,0,Standard,5.77
+C50956,2026-10-01,Address change,6-24 months,Morning,Spanish,No,0,Silver,5.78
+C50957,2026-10-01,Cancellation,6-24 months,Morning,English,Yes,1,Standard,7.38
+C50958,2026-10-01,Address change,Under 6 months,Morning,English,Yes,1,Standard,5.76
+C50959,2026-10-01,Order status,Under 6 months,Morning,Spanish,Yes,3,Standard,9.16
+C50960,2026-10-01,Order status,6-24 months,Morning,English,Yes,1,Silver,6.5
+C50961,2026-10-01,Technical issue,Over 24 months,Afternoon,Spanish,Yes,1,Standard,6.53
+C50962,2026-10-01,Order status,Over 24 months,Afternoon,Spanish,Yes,3,Standard,8.03
+C50963,2026-10-01,Billing dispute,6-24 months,Afternoon,English,Yes,0,Standard,7.19
+C50964,2026-10-01,Order status,6-24 months,Afternoon,English,Yes,2,Silver,8.0
+C50965,2026-10-01,Order status,6-24 months,Afternoon,Spanish,Yes,0,Standard,4.19
+C50966,2026-10-01,Cancellation,Over 24 months,Afternoon,Spanish,Yes,0,Silver,4.58
+C50967,2026-10-01,Address change,Over 24 months,Morning,English,No,0,Standard,3.74
+C50968,2026-10-01,Technical issue,Under 6 months,Afternoon,English,Yes,0,Standard,8.47
+C50969,2026-10-01,Order status,Under 6 months,Evening,English,Yes,0,Silver,7.31
+C50970,2026-10-01,Technical issue,Over 24 months,Afternoon,English,Yes,1,Standard,6.65
+C50971,2026-10-01,Technical issue,Under 6 months,Afternoon,English,No,0,Gold,11.47
+C50972,2026-10-01,Order status,Under 6 months,Afternoon,English,No,0,Silver,8.38
+C50973,2026-10-02,Order status,Over 24 months,Afternoon,Spanish,No,0,Standard,4.75
+C50974,2026-10-02,Address change,Over 24 months,Afternoon,English,Yes,0,Silver,2.83
+C50975,2026-10-02,Order status,6-24 months,Afternoon,English,No,0,Gold,6.75
+C50976,2026-10-02,Technical issue,6-24 months,Morning,Hindi,No,0,Standard,9.6
+C50977,2026-10-02,Technical issue,6-24 months,Afternoon,English,Yes,0,Gold,4.95
+C50978,2026-10-02,Cancellation,Under 6 months,Evening,English,Yes,1,Silver,9.65
+C50979,2026-10-02,Address change,6-24 months,Morning,Spanish,Yes,0,Standard,4.37
+C50980,2026-10-02,Address change,6-24 months,Morning,English,Yes,2,Silver,7.29
+C50981,2026-10-02,Address change,Over 24 months,Afternoon,English,No,3,Silver,7.08
+C50982,2026-10-02,Order status,Over 24 months,Afternoon,English,No,0,Standard,4.59
+C50983,2026-10-02,Order status,6-24 months,Afternoon,English,Yes,0,Gold,4.31
+C50984,2026-10-02,Technical issue,Under 6 months,Afternoon,English,No,0,Standard,11.04
+C50985,2026-10-02,Cancellation,Over 24 months,Morning,English,Yes,0,Gold,5.21
+C50986,2026-10-02,Billing dispute,6-24 months,Afternoon,English,Yes,0,Silver,7.07
+C50987,2026-10-02,Order status,6-24 months,Morning,Spanish,Yes,1,Silver,6.13
+C50988,2026-10-02,Address change,Over 24 months,Afternoon,English,No,1,Gold,6.85
+C50989,2026-10-02,Order status,Under 6 months,Afternoon,English,No,1,Silver,7.71
+C50990,2026-10-02,Order status,6-24 months,Evening,English,No,0,Silver,5.2
+C50991,2026-10-02,Order status,6-24 months,Evening,English,Yes,0,Silver,4.05
+C50992,2026-10-02,Technical issue,6-24 months,Afternoon,Spanish,Yes,0,Silver,9.65
+C50993,2026-10-02,Order status,6-24 months,Afternoon,Spanish,Yes,2,Standard,8.21
+C50994,2026-10-02,Order status,6-24 months,Evening,English,Yes,1,Gold,5.15

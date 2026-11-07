@@ -1,0 +1,650 @@
+Claim_ID,Processed_Date,Claim_Type,Processing_Mode,Adjuster_Training,Site,Claim_Value_USD,Accuracy_Pct
+CLM90001,2026-06-01,Health,Manual,Certified,Pune,4968.71,97.87
+CLM90002,2026-06-01,Health,Auto-adjudicated,Not certified,Manila,1467.23,98.12
+CLM90003,2026-06-01,Health,Manual,Not certified,Pune,5632.99,97.09
+CLM90004,2026-06-01,Motor,Manual,Certified,Manila,6485.67,98.14
+CLM90005,2026-06-01,Property,Auto-adjudicated,Certified,Pune,5321.62,99.12
+CLM90006,2026-06-01,Motor,Manual,Not certified,Manila,5524.82,98.75
+CLM90007,2026-06-01,Health,Manual,Not certified,Pune,762.81,97.96
+CLM90008,2026-06-01,Health,Manual,Not certified,Manila,6899.11,97.77
+CLM90009,2026-06-01,Health,Manual,Not certified,Pune,2332.29,98.29
+CLM90010,2026-06-01,Motor,Manual,Certified,Pune,1485.87,97.64
+CLM90011,2026-06-01,Property,Manual,Certified,Pune,4175.04,97.53
+CLM90012,2026-06-01,Health,Manual,Not certified,Pune,1198.2,97.12
+CLM90013,2026-06-01,Property,Manual,Certified,Pune,580.3,96.97
+CLM90014,2026-06-02,Motor,Auto-adjudicated,Not certified,Manila,1958.33,98.05
+CLM90015,2026-06-02,Property,Auto-adjudicated,Not certified,Manila,4140.68,97.78
+CLM90016,2026-06-02,Property,Manual,Certified,Pune,3155.93,97.25
+CLM90017,2026-06-02,Health,Manual,Not certified,Manila,4035.5,97.78
+CLM90018,2026-06-02,Health,Auto-adjudicated,Certified,Pune,594.41,98.39
+CLM90019,2026-06-02,Property,Manual,Certified,Pune,2099.71,96.69
+CLM90020,2026-06-02,Health,Manual,Certified,Pune,7476.57,98.12
+CLM90021,2026-06-02,Property,Auto-adjudicated,Certified,Pune,1584.58,98.05
+CLM90022,2026-06-02,Motor,Manual,Not certified,Manila,7667.63,98.47
+CLM90023,2026-06-02,Health,Manual,Certified,Manila,2111.55,99.08
+CLM90024,2026-06-03,Motor,Auto-adjudicated,Certified,Pune,2940.6,99.6
+CLM90025,2026-06-03,Health,Manual,Certified,Pune,2703.58,97.99
+CLM90026,2026-06-03,Health,Auto-adjudicated,Not certified,Manila,4532.61,97.93
+CLM90027,2026-06-03,Motor,Manual,Certified,Manila,1718.35,96.95
+CLM90028,2026-06-03,Health,Auto-adjudicated,Certified,Pune,5268.89,99.2
+CLM90029,2026-06-03,Motor,Auto-adjudicated,Not certified,Manila,461.65,98.57
+CLM90030,2026-06-03,Motor,Auto-adjudicated,Certified,Pune,915.65,97.89
+CLM90031,2026-06-03,Property,Manual,Certified,Pune,2140.03,98.3
+CLM90032,2026-06-03,Property,Manual,Certified,Pune,9235.09,97.49
+CLM90033,2026-06-03,Property,Manual,Certified,Pune,983.78,97.43
+CLM90034,2026-06-03,Motor,Manual,Not certified,Pune,6051.03,97.11
+CLM90035,2026-06-03,Motor,Manual,Certified,Pune,2020.59,98.13
+CLM90036,2026-06-03,Health,Auto-adjudicated,Not certified,Manila,11052.89,98.5
+CLM90037,2026-06-04,Property,Auto-adjudicated,Certified,Pune,3106.7,99.34
+CLM90038,2026-06-04,Health,Manual,Certified,Pune,460.49,97.55
+CLM90039,2026-06-04,Property,Manual,Not certified,Pune,4410.16,97.38
+CLM90040,2026-06-04,Motor,Manual,Certified,Pune,18012.17,97.32
+CLM90041,2026-06-04,Motor,Manual,Certified,Manila,1194.39,98.52
+CLM90042,2026-06-04,Motor,Auto-adjudicated,Not certified,Pune,2846.44,98.17
+CLM90043,2026-06-04,Motor,Manual,Not certified,Manila,8494.18,98.14
+CLM90044,2026-06-04,Health,Manual,Certified,Manila,1292.95,98.01
+CLM90045,2026-06-04,Health,Manual,Not certified,Pune,2653.44,98.07
+CLM90046,2026-06-04,Health,Manual,Certified,Pune,6133.78,98.19
+CLM90047,2026-06-04,Property,Manual,Certified,Pune,2702.32,96.85
+CLM90048,2026-06-04,Motor,Auto-adjudicated,Not certified,Pune,3254.89,98.23
+CLM90049,2026-06-04,Motor,Manual,Certified,Pune,4374.98,97.77
+CLM90050,2026-06-04,Motor,Manual,Certified,Pune,2257.35,97.92
+CLM90051,2026-06-04,Property,Manual,Not certified,Manila,2490.37,97.36
+CLM90052,2026-06-05,Health,Manual,Certified,Pune,3068.59,98.43
+CLM90053,2026-06-05,Motor,Manual,Not certified,Pune,5021.2,97.45
+CLM90054,2026-06-05,Health,Auto-adjudicated,Certified,Manila,1734.35,99.78
+CLM90055,2026-06-05,Motor,Manual,Certified,Pune,2743.54,98.66
+CLM90056,2026-06-05,Property,Auto-adjudicated,Not certified,Pune,1232.42,98.34
+CLM90057,2026-06-05,Motor,Auto-adjudicated,Not certified,Manila,218.36,98.58
+CLM90058,2026-06-05,Health,Manual,Certified,Pune,2677.6,99.36
+CLM90059,2026-06-05,Health,Auto-adjudicated,Not certified,Manila,12757.28,98.25
+CLM90060,2026-06-05,Motor,Auto-adjudicated,Certified,Manila,21170.29,98.6
+CLM90061,2026-06-05,Motor,Auto-adjudicated,Not certified,Pune,1810.79,98.01
+CLM90062,2026-06-05,Motor,Manual,Certified,Manila,1680.9,98.48
+CLM90063,2026-06-05,Property,Auto-adjudicated,Not certified,Pune,26719.16,98.25
+CLM90064,2026-06-08,Property,Manual,Certified,Manila,1298.43,97.55
+CLM90065,2026-06-08,Motor,Auto-adjudicated,Certified,Manila,7048.23,98.95
+CLM90066,2026-06-08,Motor,Manual,Certified,Pune,355.37,97.69
+CLM90067,2026-06-08,Property,Auto-adjudicated,Certified,Pune,12025.2,99.53
+CLM90068,2026-06-08,Health,Manual,Certified,Pune,5733.13,98.95
+CLM90069,2026-06-08,Motor,Auto-adjudicated,Certified,Manila,3851.72,99.0
+CLM90070,2026-06-08,Health,Auto-adjudicated,Not certified,Pune,18997.95,98.38
+CLM90071,2026-06-08,Motor,Auto-adjudicated,Not certified,Pune,1149.05,99.6
+CLM90072,2026-06-08,Motor,Manual,Not certified,Pune,2602.33,97.61
+CLM90073,2026-06-08,Health,Manual,Not certified,Pune,5955.28,96.68
+CLM90074,2026-06-08,Property,Auto-adjudicated,Not certified,Pune,7949.91,98.22
+CLM90075,2026-06-08,Motor,Auto-adjudicated,Certified,Manila,6315.33,99.78
+CLM90076,2026-06-08,Health,Auto-adjudicated,Certified,Pune,244.48,99.54
+CLM90077,2026-06-09,Motor,Auto-adjudicated,Not certified,Pune,593.08,97.59
+CLM90078,2026-06-09,Property,Auto-adjudicated,Certified,Manila,7196.59,98.08
+CLM90079,2026-06-09,Property,Auto-adjudicated,Not certified,Manila,2095.75,98.88
+CLM90080,2026-06-09,Health,Manual,Not certified,Pune,2845.56,97.71
+CLM90081,2026-06-09,Health,Manual,Certified,Pune,851.6,98.1
+CLM90082,2026-06-09,Health,Auto-adjudicated,Certified,Manila,2076.69,99.73
+CLM90083,2026-06-09,Property,Auto-adjudicated,Not certified,Manila,1091.54,98.26
+CLM90084,2026-06-09,Motor,Manual,Certified,Pune,1969.17,97.75
+CLM90085,2026-06-09,Property,Auto-adjudicated,Not certified,Pune,3826.65,98.19
+CLM90086,2026-06-09,Motor,Manual,Certified,Pune,4169.63,98.09
+CLM90087,2026-06-09,Health,Manual,Certified,Manila,3048.31,98.77
+CLM90088,2026-06-09,Health,Auto-adjudicated,Certified,Manila,1659.87,98.69
+CLM90089,2026-06-09,Health,Manual,Certified,Pune,6345.1,97.26
+CLM90090,2026-06-09,Health,Manual,Not certified,Manila,4805.25,96.92
+CLM90091,2026-06-09,Health,Manual,Not certified,Manila,650.33,97.75
+CLM90092,2026-06-10,Motor,Auto-adjudicated,Certified,Manila,2591.1,98.19
+CLM90093,2026-06-10,Property,Manual,Not certified,Manila,629.39,97.65
+CLM90094,2026-06-10,Property,Manual,Not certified,Manila,473.79,97.32
+CLM90095,2026-06-10,Motor,Auto-adjudicated,Not certified,Pune,1005.68,97.47
+CLM90096,2026-06-10,Property,Manual,Certified,Pune,6268.05,98.41
+CLM90097,2026-06-10,Property,Manual,Certified,Manila,1816.73,98.14
+CLM90098,2026-06-10,Motor,Manual,Certified,Manila,6416.39,97.91
+CLM90099,2026-06-10,Property,Auto-adjudicated,Certified,Pune,370.4,99.46
+CLM90100,2026-06-10,Motor,Manual,Certified,Pune,1914.83,97.81
+CLM90101,2026-06-10,Motor,Auto-adjudicated,Certified,Manila,956.62,98.51
+CLM90102,2026-06-10,Health,Manual,Not certified,Pune,9143.52,97.1
+CLM90103,2026-06-10,Health,Manual,Certified,Manila,1838.01,98.08
+CLM90104,2026-06-10,Motor,Auto-adjudicated,Certified,Pune,975.46,99.16
+CLM90105,2026-06-10,Health,Auto-adjudicated,Certified,Pune,2258.17,99.74
+CLM90106,2026-06-10,Motor,Auto-adjudicated,Certified,Manila,1461.76,99.12
+CLM90107,2026-06-10,Health,Manual,Certified,Manila,3032.88,98.99
+CLM90108,2026-06-11,Motor,Manual,Not certified,Pune,3439.67,96.88
+CLM90109,2026-06-11,Motor,Manual,Certified,Manila,2635.35,98.15
+CLM90110,2026-06-11,Motor,Manual,Certified,Pune,274.07,98.51
+CLM90111,2026-06-11,Motor,Auto-adjudicated,Certified,Manila,3355.62,99.53
+CLM90112,2026-06-11,Health,Auto-adjudicated,Certified,Manila,5383.57,99.42
+CLM90113,2026-06-11,Health,Manual,Certified,Pune,904.1,97.14
+CLM90114,2026-06-11,Motor,Auto-adjudicated,Certified,Manila,14106.98,99.26
+CLM90115,2026-06-11,Motor,Manual,Not certified,Pune,7864.74,98.42
+CLM90116,2026-06-11,Health,Manual,Certified,Pune,5075.74,98.11
+CLM90117,2026-06-11,Health,Auto-adjudicated,Not certified,Manila,883.48,97.68
+CLM90118,2026-06-12,Motor,Manual,Certified,Manila,2775.28,98.13
+CLM90119,2026-06-12,Health,Auto-adjudicated,Certified,Manila,1435.7,99.53
+CLM90120,2026-06-12,Motor,Auto-adjudicated,Certified,Pune,4020.72,99.84
+CLM90121,2026-06-12,Health,Manual,Certified,Manila,2932.43,98.94
+CLM90122,2026-06-12,Health,Manual,Certified,Pune,1247.87,97.53
+CLM90123,2026-06-12,Motor,Manual,Certified,Pune,719.38,99.99
+CLM90124,2026-06-12,Property,Auto-adjudicated,Not certified,Manila,1465.85,97.87
+CLM90125,2026-06-12,Motor,Manual,Certified,Manila,2620.02,98.81
+CLM90126,2026-06-12,Motor,Auto-adjudicated,Certified,Pune,297.24,98.86
+CLM90127,2026-06-12,Motor,Auto-adjudicated,Certified,Pune,1394.66,99.08
+CLM90128,2026-06-12,Property,Manual,Certified,Pune,1679.92,98.46
+CLM90129,2026-06-15,Motor,Auto-adjudicated,Certified,Pune,6738.86,99.1
+CLM90130,2026-06-15,Motor,Auto-adjudicated,Not certified,Pune,3502.92,98.94
+CLM90131,2026-06-15,Motor,Manual,Certified,Pune,1176.6,98.01
+CLM90132,2026-06-15,Property,Auto-adjudicated,Certified,Pune,579.86,98.84
+CLM90133,2026-06-15,Health,Manual,Not certified,Pune,4026.45,97.59
+CLM90134,2026-06-15,Health,Auto-adjudicated,Certified,Manila,9663.42,99.84
+CLM90135,2026-06-15,Health,Manual,Certified,Manila,2901.76,97.79
+CLM90136,2026-06-15,Property,Auto-adjudicated,Not certified,Manila,10835.05,98.08
+CLM90137,2026-06-15,Property,Manual,Certified,Pune,3033.06,97.73
+CLM90138,2026-06-15,Health,Auto-adjudicated,Not certified,Pune,1332.23,97.3
+CLM90139,2026-06-16,Property,Manual,Certified,Manila,9467.07,97.11
+CLM90140,2026-06-16,Motor,Auto-adjudicated,Certified,Manila,7103.25,99.63
+CLM90141,2026-06-16,Health,Auto-adjudicated,Not certified,Manila,4989.93,98.46
+CLM90142,2026-06-16,Health,Auto-adjudicated,Certified,Manila,17057.2,98.74
+CLM90143,2026-06-16,Motor,Manual,Not certified,Pune,2632.79,97.44
+CLM90144,2026-06-16,Motor,Manual,Certified,Pune,2127.18,98.56
+CLM90145,2026-06-16,Motor,Manual,Certified,Pune,6336.75,98.13
+CLM90146,2026-06-16,Motor,Manual,Certified,Manila,3601.36,98.16
+CLM90147,2026-06-16,Health,Manual,Certified,Pune,2598.86,98.47
+CLM90148,2026-06-16,Property,Manual,Not certified,Pune,4725.02,97.04
+CLM90149,2026-06-17,Health,Auto-adjudicated,Not certified,Manila,3445.79,97.67
+CLM90150,2026-06-17,Motor,Auto-adjudicated,Certified,Pune,1692.53,98.48
+CLM90151,2026-06-17,Property,Manual,Certified,Pune,4734.09,97.48
+CLM90152,2026-06-17,Health,Manual,Certified,Manila,3307.52,97.42
+CLM90153,2026-06-17,Motor,Manual,Not certified,Manila,4199.57,96.55
+CLM90154,2026-06-17,Health,Manual,Certified,Manila,1038.77,98.4
+CLM90155,2026-06-17,Health,Auto-adjudicated,Certified,Pune,1487.51,99.04
+CLM90156,2026-06-17,Health,Manual,Certified,Manila,602.54,98.42
+CLM90157,2026-06-17,Motor,Manual,Certified,Pune,1735.57,97.89
+CLM90158,2026-06-17,Property,Auto-adjudicated,Not certified,Pune,997.06,98.08
+CLM90159,2026-06-17,Motor,Auto-adjudicated,Certified,Pune,6206.94,99.41
+CLM90160,2026-06-17,Property,Manual,Certified,Manila,3647.14,98.28
+CLM90161,2026-06-18,Health,Auto-adjudicated,Certified,Manila,4587.65,98.42
+CLM90162,2026-06-18,Property,Auto-adjudicated,Certified,Pune,5461.16,97.91
+CLM90163,2026-06-18,Motor,Manual,Certified,Pune,818.06,98.16
+CLM90164,2026-06-18,Motor,Manual,Not certified,Pune,2712.38,97.77
+CLM90165,2026-06-18,Property,Manual,Certified,Pune,4423.28,97.38
+CLM90166,2026-06-18,Motor,Auto-adjudicated,Certified,Manila,6078.72,99.1
+CLM90167,2026-06-18,Health,Manual,Certified,Pune,3793.09,97.17
+CLM90168,2026-06-18,Motor,Auto-adjudicated,Certified,Manila,6011.45,99.15
+CLM90169,2026-06-18,Health,Auto-adjudicated,Certified,Manila,4438.17,98.38
+CLM90170,2026-06-18,Motor,Auto-adjudicated,Not certified,Manila,996.1,98.41
+CLM90171,2026-06-18,Motor,Auto-adjudicated,Not certified,Manila,8049.08,98.01
+CLM90172,2026-06-18,Health,Manual,Certified,Pune,12967.94,97.94
+CLM90173,2026-06-19,Motor,Manual,Not certified,Manila,2173.14,97.33
+CLM90174,2026-06-19,Property,Manual,Certified,Manila,2437.94,98.43
+CLM90175,2026-06-19,Property,Auto-adjudicated,Certified,Manila,1409.16,98.77
+CLM90176,2026-06-19,Property,Auto-adjudicated,Not certified,Manila,8161.18,97.45
+CLM90177,2026-06-19,Health,Manual,Certified,Manila,955.92,99.11
+CLM90178,2026-06-19,Motor,Auto-adjudicated,Certified,Pune,1565.23,98.19
+CLM90179,2026-06-19,Motor,Manual,Certified,Manila,1956.0,98.09
+CLM90180,2026-06-19,Health,Auto-adjudicated,Certified,Pune,4608.0,98.92
+CLM90181,2026-06-19,Motor,Manual,Not certified,Manila,3885.6,98.25
+CLM90182,2026-06-19,Motor,Auto-adjudicated,Certified,Pune,1998.51,97.87
+CLM90183,2026-06-19,Motor,Auto-adjudicated,Certified,Manila,1514.75,99.68
+CLM90184,2026-06-19,Property,Manual,Not certified,Pune,5066.84,96.12
+CLM90185,2026-06-19,Health,Auto-adjudicated,Certified,Manila,8414.11,99.34
+CLM90186,2026-06-19,Property,Manual,Not certified,Pune,2378.43,96.8
+CLM90187,2026-06-19,Property,Auto-adjudicated,Certified,Manila,6917.06,98.98
+CLM90188,2026-06-22,Motor,Manual,Not certified,Pune,4679.47,97.7
+CLM90189,2026-06-22,Motor,Auto-adjudicated,Certified,Manila,1869.44,98.62
+CLM90190,2026-06-22,Property,Manual,Not certified,Pune,5662.18,97.95
+CLM90191,2026-06-22,Health,Manual,Certified,Manila,922.11,98.37
+CLM90192,2026-06-22,Motor,Manual,Certified,Manila,12272.03,98.24
+CLM90193,2026-06-22,Health,Manual,Certified,Manila,34094.38,97.81
+CLM90194,2026-06-22,Motor,Auto-adjudicated,Certified,Manila,2143.6,99.43
+CLM90195,2026-06-22,Property,Auto-adjudicated,Not certified,Manila,2183.6,97.64
+CLM90196,2026-06-22,Motor,Auto-adjudicated,Certified,Pune,2725.03,99.31
+CLM90197,2026-06-22,Health,Auto-adjudicated,Not certified,Manila,1025.1,98.29
+CLM90198,2026-06-22,Health,Manual,Not certified,Pune,3913.67,97.41
+CLM90199,2026-06-22,Property,Auto-adjudicated,Certified,Pune,1396.18,97.93
+CLM90200,2026-06-22,Health,Auto-adjudicated,Certified,Manila,3084.3,99.38
+CLM90201,2026-06-22,Health,Auto-adjudicated,Not certified,Pune,4771.53,98.39
+CLM90202,2026-06-22,Motor,Manual,Not certified,Manila,13266.02,97.2
+CLM90203,2026-06-22,Health,Auto-adjudicated,Certified,Manila,1783.78,99.57
+CLM90204,2026-06-23,Health,Manual,Not certified,Pune,4095.67,98.08
+CLM90205,2026-06-23,Health,Auto-adjudicated,Certified,Pune,7774.39,98.97
+CLM90206,2026-06-23,Motor,Auto-adjudicated,Not certified,Manila,2294.46,97.58
+CLM90207,2026-06-23,Health,Manual,Certified,Pune,2550.81,98.37
+CLM90208,2026-06-23,Health,Manual,Certified,Pune,1970.51,98.75
+CLM90209,2026-06-23,Health,Auto-adjudicated,Not certified,Manila,1275.92,99.26
+CLM90210,2026-06-23,Health,Auto-adjudicated,Certified,Pune,463.3,99.75
+CLM90211,2026-06-23,Property,Manual,Certified,Manila,1296.01,98.35
+CLM90212,2026-06-23,Property,Manual,Not certified,Manila,4802.36,96.83
+CLM90213,2026-06-23,Motor,Manual,Not certified,Manila,13093.12,97.59
+CLM90214,2026-06-24,Health,Manual,Certified,Pune,1116.12,98.13
+CLM90215,2026-06-24,Motor,Manual,Certified,Manila,8452.94,100
+CLM90216,2026-06-24,Health,Manual,Certified,Manila,1529.08,98.25
+CLM90217,2026-06-24,Health,Auto-adjudicated,Not certified,Pune,940.53,98.69
+CLM90218,2026-06-24,Motor,Auto-adjudicated,Certified,Manila,517.04,99.88
+CLM90219,2026-06-24,Motor,Manual,Not certified,Pune,4356.11,98.1
+CLM90220,2026-06-24,Health,Auto-adjudicated,Not certified,Pune,825.07,98.07
+CLM90221,2026-06-24,Health,Auto-adjudicated,Not certified,Manila,1108.67,98.02
+CLM90222,2026-06-24,Property,Auto-adjudicated,Certified,Manila,6320.73,98.63
+CLM90223,2026-06-24,Health,Auto-adjudicated,Certified,Manila,5973.8,97.91
+CLM90224,2026-06-24,Property,Auto-adjudicated,Not certified,Pune,1713.14,98.31
+CLM90225,2026-06-24,Health,Manual,Not certified,Pune,6724.73,98.44
+CLM90226,2026-06-24,Health,Auto-adjudicated,Not certified,Pune,3198.64,97.95
+CLM90227,2026-06-24,Motor,Auto-adjudicated,Not certified,Manila,8413.62,99.07
+CLM90228,2026-06-24,Health,Manual,Certified,Manila,714.38,98.31
+CLM90229,2026-06-24,Health,Auto-adjudicated,Certified,Manila,17899.43,98.25
+CLM90230,2026-06-25,Motor,Manual,Not certified,Pune,1141.15,97.23
+CLM90231,2026-06-25,Property,Manual,Certified,Pune,5080.44,97.55
+CLM90232,2026-06-25,Motor,Manual,Certified,Pune,1922.76,98.63
+CLM90233,2026-06-25,Property,Auto-adjudicated,Certified,Manila,9385.78,99.12
+CLM90234,2026-06-25,Property,Manual,Certified,Pune,10150.34,97.88
+CLM90235,2026-06-25,Health,Auto-adjudicated,Certified,Pune,1931.81,99.57
+CLM90236,2026-06-25,Health,Manual,Certified,Pune,8487.64,97.59
+CLM90237,2026-06-25,Health,Manual,Certified,Pune,2686.67,98.57
+CLM90238,2026-06-25,Health,Manual,Not certified,Manila,5682.55,97.71
+CLM90239,2026-06-25,Motor,Manual,Certified,Manila,2698.32,97.28
+CLM90240,2026-06-25,Property,Manual,Not certified,Manila,1371.01,97.2
+CLM90241,2026-06-25,Health,Manual,Not certified,Manila,2413.55,97.21
+CLM90242,2026-06-25,Health,Auto-adjudicated,Certified,Manila,5121.45,99.73
+CLM90243,2026-06-25,Health,Auto-adjudicated,Certified,Pune,5191.38,97.94
+CLM90244,2026-06-25,Health,Manual,Certified,Pune,4072.46,98.15
+CLM90245,2026-06-26,Motor,Auto-adjudicated,Not certified,Manila,1267.12,97.67
+CLM90246,2026-06-26,Motor,Manual,Certified,Manila,6109.02,98.21
+CLM90247,2026-06-26,Motor,Manual,Certified,Pune,1127.95,98.54
+CLM90248,2026-06-26,Motor,Manual,Certified,Manila,1582.9,97.61
+CLM90249,2026-06-26,Health,Auto-adjudicated,Certified,Manila,3282.71,98.67
+CLM90250,2026-06-26,Motor,Auto-adjudicated,Certified,Pune,601.53,99.87
+CLM90251,2026-06-26,Health,Auto-adjudicated,Certified,Manila,1144.1,99.26
+CLM90252,2026-06-26,Health,Manual,Not certified,Manila,7659.75,97.01
+CLM90253,2026-06-26,Health,Auto-adjudicated,Certified,Manila,1499.97,98.46
+CLM90254,2026-06-26,Health,Manual,Certified,Pune,13280.22,98.41
+CLM90255,2026-06-26,Motor,Manual,Certified,Pune,5988.28,98.98
+CLM90256,2026-06-26,Health,Manual,Certified,Manila,3520.92,98.91
+CLM90257,2026-06-29,Health,Auto-adjudicated,Certified,Manila,2483.03,99.7
+CLM90258,2026-06-29,Property,Manual,Certified,Manila,3863.32,97.24
+CLM90259,2026-06-29,Health,Manual,Not certified,Pune,11174.22,96.95
+CLM90260,2026-06-29,Motor,Auto-adjudicated,Not certified,Pune,2622.84,97.43
+CLM90261,2026-06-29,Property,Manual,Certified,Manila,2060.68,98.41
+CLM90262,2026-06-29,Motor,Auto-adjudicated,Certified,Pune,12566.2,98.47
+CLM90263,2026-06-29,Motor,Manual,Not certified,Manila,6577.02,96.86
+CLM90264,2026-06-29,Property,Manual,Not certified,Manila,6392.61,96.45
+CLM90265,2026-06-29,Motor,Manual,Not certified,Pune,836.05,97.87
+CLM90266,2026-06-29,Health,Auto-adjudicated,Not certified,Manila,12012.15,97.95
+CLM90267,2026-06-29,Motor,Manual,Certified,Manila,2497.48,100
+CLM90268,2026-06-29,Health,Auto-adjudicated,Certified,Pune,14935.42,99.92
+CLM90269,2026-06-29,Health,Auto-adjudicated,Certified,Pune,988.97,98.77
+CLM90270,2026-06-29,Health,Auto-adjudicated,Certified,Pune,457.91,98.86
+CLM90271,2026-06-30,Property,Auto-adjudicated,Not certified,Pune,18586.42,98.13
+CLM90272,2026-06-30,Motor,Manual,Not certified,Pune,3267.51,97.07
+CLM90273,2026-06-30,Health,Manual,Certified,Manila,3973.91,98.38
+CLM90274,2026-06-30,Motor,Auto-adjudicated,Certified,Manila,8869.97,99.58
+CLM90275,2026-06-30,Property,Manual,Not certified,Pune,2597.01,96.74
+CLM90276,2026-06-30,Health,Auto-adjudicated,Certified,Pune,4781.57,98.57
+CLM90277,2026-06-30,Health,Manual,Not certified,Manila,6872.08,96.5
+CLM90278,2026-06-30,Health,Manual,Certified,Manila,2628.54,97.55
+CLM90279,2026-06-30,Health,Auto-adjudicated,Not certified,Manila,7268.5,97.94
+CLM90280,2026-06-30,Health,Auto-adjudicated,Not certified,Pune,933.17,97.63
+CLM90281,2026-06-30,Property,Auto-adjudicated,Not certified,Pune,4748.72,98.28
+CLM90282,2026-06-30,Motor,Manual,Not certified,Manila,1669.22,97.75
+CLM90283,2026-06-30,Motor,Auto-adjudicated,Not certified,Pune,1077.26,100
+CLM90284,2026-06-30,Health,Manual,Certified,Pune,4765.98,98.78
+CLM90285,2026-06-30,Health,Auto-adjudicated,Certified,Manila,4518.21,98.82
+CLM90286,2026-07-01,Property,Manual,Not certified,Manila,1905.49,97.47
+CLM90287,2026-07-01,Motor,Auto-adjudicated,Certified,Pune,2608.01,98.19
+CLM90288,2026-07-01,Health,Manual,Not certified,Manila,1796.43,96.52
+CLM90289,2026-07-01,Motor,Manual,Not certified,Manila,508.32,96.77
+CLM90290,2026-07-01,Health,Auto-adjudicated,Not certified,Manila,1879.95,98.4
+CLM90291,2026-07-01,Property,Manual,Not certified,Pune,2729.7,97.74
+CLM90292,2026-07-01,Health,Auto-adjudicated,Not certified,Pune,17800.2,97.44
+CLM90293,2026-07-01,Health,Auto-adjudicated,Not certified,Pune,4911.87,99.26
+CLM90294,2026-07-01,Motor,Manual,Certified,Pune,9587.04,98.25
+CLM90295,2026-07-01,Health,Manual,Not certified,Manila,4305.21,97.11
+CLM90296,2026-07-01,Motor,Auto-adjudicated,Not certified,Pune,3992.67,98.83
+CLM90297,2026-07-02,Motor,Auto-adjudicated,Certified,Manila,832.77,98.74
+CLM90298,2026-07-02,Motor,Auto-adjudicated,Certified,Manila,826.15,98.57
+CLM90299,2026-07-02,Health,Auto-adjudicated,Certified,Manila,2765.79,98.76
+CLM90300,2026-07-02,Health,Manual,Not certified,Manila,312.7,96.83
+CLM90301,2026-07-02,Property,Manual,Not certified,Manila,946.26,96.89
+CLM90302,2026-07-02,Property,Auto-adjudicated,Not certified,Pune,1742.38,97.6
+CLM90303,2026-07-02,Motor,Manual,Certified,Pune,1400.66,97.84
+CLM90304,2026-07-02,Motor,Manual,Certified,Pune,2077.43,98.97
+CLM90305,2026-07-02,Health,Manual,Certified,Pune,1513.52,98.38
+CLM90306,2026-07-02,Motor,Manual,Certified,Manila,2179.92,98.33
+CLM90307,2026-07-02,Health,Auto-adjudicated,Certified,Pune,5002.19,99.04
+CLM90308,2026-07-02,Property,Manual,Certified,Manila,2080.45,97.96
+CLM90309,2026-07-02,Health,Manual,Certified,Pune,1186.22,98.61
+CLM90310,2026-07-02,Motor,Auto-adjudicated,Certified,Pune,1484.5,99.86
+CLM90311,2026-07-02,Health,Manual,Certified,Manila,1444.91,97.81
+CLM90312,2026-07-02,Motor,Manual,Certified,Pune,3692.34,97.68
+CLM90313,2026-07-03,Property,Manual,Not certified,Manila,7744.61,96.74
+CLM90314,2026-07-03,Health,Manual,Not certified,Pune,2692.96,96.49
+CLM90315,2026-07-03,Property,Manual,Not certified,Pune,3502.7,97.09
+CLM90316,2026-07-03,Motor,Auto-adjudicated,Not certified,Pune,2317.92,98.04
+CLM90317,2026-07-03,Health,Auto-adjudicated,Certified,Manila,1818.11,98.28
+CLM90318,2026-07-03,Property,Auto-adjudicated,Not certified,Pune,12347.29,97.64
+CLM90319,2026-07-03,Motor,Manual,Certified,Manila,424.69,98.39
+CLM90320,2026-07-03,Motor,Auto-adjudicated,Not certified,Manila,3137.07,98.31
+CLM90321,2026-07-03,Property,Auto-adjudicated,Not certified,Manila,1714.09,97.52
+CLM90322,2026-07-03,Property,Auto-adjudicated,Not certified,Manila,2112.63,97.77
+CLM90323,2026-07-03,Motor,Manual,Certified,Pune,2830.24,98.4
+CLM90324,2026-07-03,Health,Manual,Not certified,Manila,7812.05,97.69
+CLM90325,2026-07-03,Motor,Auto-adjudicated,Certified,Pune,249.46,97.96
+CLM90326,2026-07-06,Property,Auto-adjudicated,Certified,Manila,1503.89,98.24
+CLM90327,2026-07-06,Health,Manual,Certified,Pune,3826.15,98.44
+CLM90328,2026-07-06,Motor,Auto-adjudicated,Not certified,Manila,1318.55,98.34
+CLM90329,2026-07-06,Motor,Auto-adjudicated,Certified,Pune,6226.39,99.17
+CLM90330,2026-07-06,Motor,Manual,Certified,Manila,5882.33,98.59
+CLM90331,2026-07-06,Health,Manual,Certified,Pune,6021.59,97.65
+CLM90332,2026-07-06,Motor,Auto-adjudicated,Certified,Pune,8698.78,99.65
+CLM90333,2026-07-06,Motor,Auto-adjudicated,Certified,Manila,8817.26,98.73
+CLM90334,2026-07-06,Motor,Auto-adjudicated,Certified,Manila,3294.18,99.34
+CLM90335,2026-07-06,Health,Manual,Certified,Manila,1035.57,98.76
+CLM90336,2026-07-06,Motor,Auto-adjudicated,Certified,Pune,955.58,99.35
+CLM90337,2026-07-07,Motor,Manual,Certified,Pune,862.74,97.43
+CLM90338,2026-07-07,Health,Auto-adjudicated,Certified,Pune,5497.58,98.67
+CLM90339,2026-07-07,Property,Manual,Not certified,Manila,4232.99,96.49
+CLM90340,2026-07-07,Motor,Auto-adjudicated,Not certified,Pune,2038.09,99.19
+CLM90341,2026-07-07,Property,Auto-adjudicated,Not certified,Pune,1460.91,97.59
+CLM90342,2026-07-07,Health,Auto-adjudicated,Certified,Pune,6504.76,99.68
+CLM90343,2026-07-07,Health,Auto-adjudicated,Certified,Pune,3934.2,98.91
+CLM90344,2026-07-07,Health,Auto-adjudicated,Certified,Manila,563.98,98.79
+CLM90345,2026-07-07,Motor,Auto-adjudicated,Not certified,Pune,1099.96,98.78
+CLM90346,2026-07-07,Motor,Auto-adjudicated,Certified,Manila,5359.46,99.58
+CLM90347,2026-07-07,Health,Manual,Certified,Pune,1378.6,98.38
+CLM90348,2026-07-07,Property,Manual,Not certified,Manila,1009.91,96.98
+CLM90349,2026-07-07,Property,Auto-adjudicated,Certified,Manila,6076.4,99.21
+CLM90350,2026-07-07,Health,Auto-adjudicated,Certified,Pune,2099.94,98.43
+CLM90351,2026-07-08,Property,Auto-adjudicated,Certified,Pune,12386.21,98.38
+CLM90352,2026-07-08,Motor,Manual,Certified,Manila,1604.79,97.99
+CLM90353,2026-07-08,Health,Manual,Certified,Pune,1958.56,98.01
+CLM90354,2026-07-08,Property,Auto-adjudicated,Certified,Pune,4284.67,97.5
+CLM90355,2026-07-08,Health,Manual,Certified,Pune,6931.28,98.29
+CLM90356,2026-07-08,Motor,Auto-adjudicated,Certified,Pune,4628.17,99.53
+CLM90357,2026-07-08,Motor,Auto-adjudicated,Not certified,Pune,9797.76,98.97
+CLM90358,2026-07-08,Health,Auto-adjudicated,Certified,Pune,2497.39,99.25
+CLM90359,2026-07-08,Motor,Manual,Certified,Pune,1966.13,98.52
+CLM90360,2026-07-08,Motor,Manual,Not certified,Manila,3353.31,97.42
+CLM90361,2026-07-08,Property,Auto-adjudicated,Certified,Pune,2629.67,98.68
+CLM90362,2026-07-08,Motor,Auto-adjudicated,Not certified,Pune,2703.75,99.32
+CLM90363,2026-07-09,Motor,Auto-adjudicated,Certified,Pune,2213.78,98.3
+CLM90364,2026-07-09,Health,Auto-adjudicated,Certified,Manila,3660.53,98.78
+CLM90365,2026-07-09,Property,Manual,Not certified,Pune,3518.15,97.13
+CLM90366,2026-07-09,Motor,Manual,Not certified,Manila,11957.52,96.79
+CLM90367,2026-07-09,Property,Auto-adjudicated,Not certified,Pune,1926.31,96.68
+CLM90368,2026-07-09,Property,Auto-adjudicated,Certified,Manila,3601.09,98.82
+CLM90369,2026-07-09,Property,Manual,Certified,Pune,5150.9,97.85
+CLM90370,2026-07-09,Health,Auto-adjudicated,Not certified,Pune,1755.01,97.38
+CLM90371,2026-07-09,Health,Auto-adjudicated,Not certified,Pune,1177.7,98.83
+CLM90372,2026-07-09,Motor,Manual,Certified,Pune,8332.52,98.59
+CLM90373,2026-07-09,Property,Manual,Certified,Pune,10966.45,98.78
+CLM90374,2026-07-09,Property,Auto-adjudicated,Not certified,Manila,4638.98,98.58
+CLM90375,2026-07-09,Motor,Auto-adjudicated,Certified,Pune,458.52,99.28
+CLM90376,2026-07-09,Property,Auto-adjudicated,Certified,Manila,7586.73,99.6
+CLM90377,2026-07-09,Property,Manual,Certified,Manila,2334.85,97.33
+CLM90378,2026-07-10,Health,Auto-adjudicated,Not certified,Manila,10305.15,97.8
+CLM90379,2026-07-10,Property,Auto-adjudicated,Not certified,Manila,1668.12,98.1
+CLM90380,2026-07-10,Motor,Manual,Certified,Manila,3333.9,98.27
+CLM90381,2026-07-10,Health,Auto-adjudicated,Certified,Manila,1383.17,98.63
+CLM90382,2026-07-10,Health,Auto-adjudicated,Not certified,Pune,1995.99,98.08
+CLM90383,2026-07-10,Motor,Auto-adjudicated,Not certified,Pune,4098.51,98.53
+CLM90384,2026-07-10,Motor,Auto-adjudicated,Certified,Pune,5478.84,98.11
+CLM90385,2026-07-10,Property,Auto-adjudicated,Certified,Manila,12448.65,98.82
+CLM90386,2026-07-10,Property,Manual,Certified,Manila,2579.42,96.76
+CLM90387,2026-07-10,Property,Auto-adjudicated,Certified,Pune,3326.21,99.02
+CLM90388,2026-07-10,Property,Manual,Certified,Manila,2283.24,98.11
+CLM90389,2026-07-10,Motor,Auto-adjudicated,Not certified,Pune,3181.51,98.18
+CLM90390,2026-07-10,Motor,Auto-adjudicated,Not certified,Manila,1061.23,97.19
+CLM90391,2026-07-13,Motor,Auto-adjudicated,Certified,Pune,1436.2,99.41
+CLM90392,2026-07-13,Health,Auto-adjudicated,Certified,Pune,6859.71,98.99
+CLM90393,2026-07-13,Health,Auto-adjudicated,Not certified,Pune,4063.2,99.01
+CLM90394,2026-07-13,Health,Manual,Certified,Pune,2235.32,98.05
+CLM90395,2026-07-13,Motor,Manual,Certified,Manila,11821.53,98.0
+CLM90396,2026-07-13,Property,Manual,Certified,Pune,813.62,96.14
+CLM90397,2026-07-13,Health,Manual,Certified,Manila,2020.26,98.47
+CLM90398,2026-07-13,Motor,Auto-adjudicated,Certified,Pune,10015.02,99.57
+CLM90399,2026-07-13,Motor,Auto-adjudicated,Certified,Pune,1200.17,97.84
+CLM90400,2026-07-13,Motor,Manual,Not certified,Manila,3170.42,97.58
+CLM90401,2026-07-13,Health,Manual,Not certified,Pune,2620.13,97.94
+CLM90402,2026-07-13,Motor,Manual,Certified,Pune,7297.78,98.15
+CLM90403,2026-07-13,Health,Manual,Not certified,Pune,314.11,98.4
+CLM90404,2026-07-13,Property,Manual,Not certified,Manila,6169.78,96.86
+CLM90405,2026-07-13,Health,Manual,Certified,Manila,894.7,97.98
+CLM90406,2026-07-14,Property,Manual,Certified,Pune,1285.33,97.34
+CLM90407,2026-07-14,Property,Auto-adjudicated,Certified,Manila,4198.11,98.04
+CLM90408,2026-07-14,Motor,Manual,Not certified,Manila,1781.48,97.86
+CLM90409,2026-07-14,Health,Manual,Certified,Manila,2645.0,97.5
+CLM90410,2026-07-14,Motor,Manual,Not certified,Manila,2438.1,97.14
+CLM90411,2026-07-14,Health,Manual,Not certified,Manila,2590.3,98.23
+CLM90412,2026-07-14,Motor,Manual,Certified,Pune,8221.83,98.7
+CLM90413,2026-07-14,Motor,Manual,Certified,Manila,848.26,97.95
+CLM90414,2026-07-14,Health,Manual,Not certified,Pune,976.9,97.4
+CLM90415,2026-07-14,Property,Auto-adjudicated,Certified,Pune,1232.12,98.52
+CLM90416,2026-07-14,Motor,Manual,Certified,Pune,3957.21,97.76
+CLM90417,2026-07-14,Motor,Auto-adjudicated,Certified,Pune,2631.48,98.36
+CLM90418,2026-07-14,Motor,Auto-adjudicated,Certified,Pune,2352.64,98.87
+CLM90419,2026-07-14,Property,Auto-adjudicated,Not certified,Pune,935.31,98.25
+CLM90420,2026-07-15,Property,Auto-adjudicated,Not certified,Manila,664.96,97.5
+CLM90421,2026-07-15,Health,Auto-adjudicated,Certified,Manila,2308.07,98.61
+CLM90422,2026-07-15,Property,Manual,Not certified,Manila,3868.97,97.35
+CLM90423,2026-07-15,Motor,Auto-adjudicated,Certified,Pune,2509.41,98.65
+CLM90424,2026-07-15,Health,Manual,Certified,Pune,3530.0,97.03
+CLM90425,2026-07-15,Property,Auto-adjudicated,Not certified,Manila,2578.66,97.67
+CLM90426,2026-07-15,Property,Manual,Certified,Pune,739.89,97.84
+CLM90427,2026-07-15,Motor,Auto-adjudicated,Certified,Pune,1152.24,98.67
+CLM90428,2026-07-15,Health,Auto-adjudicated,Certified,Manila,2777.94,99.44
+CLM90429,2026-07-15,Motor,Manual,Not certified,Pune,1440.12,97.03
+CLM90430,2026-07-15,Health,Auto-adjudicated,Certified,Manila,3065.86,100
+CLM90431,2026-07-15,Property,Manual,Certified,Pune,1037.54,96.94
+CLM90432,2026-07-15,Property,Manual,Certified,Pune,3897.63,96.77
+CLM90433,2026-07-15,Motor,Auto-adjudicated,Certified,Pune,888.77,99.56
+CLM90434,2026-07-15,Health,Manual,Not certified,Pune,2351.9,97.58
+CLM90435,2026-07-15,Health,Manual,Certified,Pune,8795.3,98.51
+CLM90436,2026-07-16,Motor,Auto-adjudicated,Certified,Manila,6288.22,99.17
+CLM90437,2026-07-16,Health,Manual,Not certified,Pune,2619.27,97.37
+CLM90438,2026-07-16,Health,Auto-adjudicated,Certified,Pune,1026.89,98.51
+CLM90439,2026-07-16,Health,Auto-adjudicated,Not certified,Pune,10661.38,97.07
+CLM90440,2026-07-16,Motor,Manual,Certified,Manila,668.31,98.29
+CLM90441,2026-07-16,Property,Auto-adjudicated,Not certified,Manila,3181.7,98.05
+CLM90442,2026-07-16,Health,Manual,Not certified,Pune,3473.58,97.81
+CLM90443,2026-07-16,Motor,Auto-adjudicated,Certified,Manila,2380.05,98.97
+CLM90444,2026-07-16,Motor,Manual,Certified,Pune,12049.0,97.96
+CLM90445,2026-07-16,Motor,Auto-adjudicated,Certified,Pune,1368.73,98.53
+CLM90446,2026-07-17,Motor,Auto-adjudicated,Certified,Manila,5118.78,98.62
+CLM90447,2026-07-17,Property,Manual,Certified,Pune,3943.93,97.79
+CLM90448,2026-07-17,Health,Manual,Certified,Pune,1749.85,98.59
+CLM90449,2026-07-17,Motor,Auto-adjudicated,Certified,Manila,3018.29,99.64
+CLM90450,2026-07-17,Motor,Auto-adjudicated,Not certified,Manila,1172.21,98.35
+CLM90451,2026-07-17,Health,Manual,Certified,Pune,7518.24,98.33
+CLM90452,2026-07-17,Health,Manual,Certified,Manila,635.15,97.55
+CLM90453,2026-07-17,Motor,Auto-adjudicated,Certified,Pune,877.34,98.92
+CLM90454,2026-07-17,Motor,Auto-adjudicated,Not certified,Pune,2600.5,98.3
+CLM90455,2026-07-17,Health,Manual,Not certified,Pune,7441.0,96.92
+CLM90456,2026-07-17,Motor,Auto-adjudicated,Certified,Manila,2192.95,98.44
+CLM90457,2026-07-17,Motor,Auto-adjudicated,Certified,Manila,4536.56,99.16
+CLM90458,2026-07-17,Property,Manual,Certified,Pune,1651.18,98.26
+CLM90459,2026-07-17,Property,Manual,Certified,Manila,6150.73,97.75
+CLM90460,2026-07-17,Motor,Manual,Certified,Pune,2838.7,97.5
+CLM90461,2026-07-20,Property,Manual,Certified,Manila,1672.82,97.11
+CLM90462,2026-07-20,Health,Manual,Not certified,Pune,1830.42,98.41
+CLM90463,2026-07-20,Motor,Manual,Certified,Pune,8180.24,98.35
+CLM90464,2026-07-20,Property,Auto-adjudicated,Certified,Pune,1095.22,99.0
+CLM90465,2026-07-20,Motor,Auto-adjudicated,Certified,Pune,359.38,98.95
+CLM90466,2026-07-20,Motor,Manual,Certified,Manila,4661.09,99.33
+CLM90467,2026-07-20,Health,Auto-adjudicated,Certified,Pune,5458.93,99.3
+CLM90468,2026-07-20,Motor,Manual,Certified,Pune,3455.09,98.58
+CLM90469,2026-07-20,Motor,Auto-adjudicated,Certified,Pune,5119.63,99.7
+CLM90470,2026-07-20,Motor,Auto-adjudicated,Certified,Manila,1927.57,98.57
+CLM90471,2026-07-20,Health,Manual,Not certified,Pune,562.17,97.68
+CLM90472,2026-07-20,Motor,Auto-adjudicated,Certified,Manila,5318.26,98.57
+CLM90473,2026-07-20,Health,Auto-adjudicated,Not certified,Manila,2632.49,99.79
+CLM90474,2026-07-20,Property,Manual,Certified,Pune,8616.94,97.74
+CLM90475,2026-07-21,Property,Manual,Certified,Pune,3935.11,97.53
+CLM90476,2026-07-21,Health,Auto-adjudicated,Not certified,Pune,27320.9,98.03
+CLM90477,2026-07-21,Motor,Manual,Certified,Manila,11422.38,98.36
+CLM90478,2026-07-21,Motor,Auto-adjudicated,Certified,Pune,738.97,99.24
+CLM90479,2026-07-21,Property,Auto-adjudicated,Not certified,Pune,574.01,98.09
+CLM90480,2026-07-21,Property,Auto-adjudicated,Certified,Manila,2813.44,99.17
+CLM90481,2026-07-21,Motor,Auto-adjudicated,Not certified,Pune,1600.65,97.67
+CLM90482,2026-07-21,Motor,Manual,Certified,Pune,4322.69,98.47
+CLM90483,2026-07-21,Health,Auto-adjudicated,Certified,Pune,1716.34,98.63
+CLM90484,2026-07-21,Health,Manual,Certified,Pune,2393.77,98.27
+CLM90485,2026-07-21,Health,Manual,Not certified,Manila,7014.33,97.31
+CLM90486,2026-07-21,Motor,Manual,Certified,Pune,40115.61,98.52
+CLM90487,2026-07-22,Health,Manual,Certified,Pune,6760.93,99.13
+CLM90488,2026-07-22,Health,Auto-adjudicated,Certified,Pune,905.66,98.65
+CLM90489,2026-07-22,Motor,Manual,Certified,Pune,1750.36,99.21
+CLM90490,2026-07-22,Motor,Auto-adjudicated,Not certified,Pune,6526.33,98.5
+CLM90491,2026-07-22,Property,Manual,Not certified,Pune,1178.02,96.77
+CLM90492,2026-07-22,Motor,Manual,Not certified,Pune,4686.27,96.41
+CLM90493,2026-07-22,Motor,Auto-adjudicated,Not certified,Manila,1192.4,98.51
+CLM90494,2026-07-22,Health,Auto-adjudicated,Not certified,Pune,4694.41,98.36
+CLM90495,2026-07-22,Motor,Manual,Certified,Manila,6998.31,98.04
+CLM90496,2026-07-22,Health,Manual,Not certified,Pune,2404.18,97.59
+CLM90497,2026-07-22,Health,Auto-adjudicated,Certified,Pune,9368.1,99.9
+CLM90498,2026-07-22,Property,Auto-adjudicated,Not certified,Pune,2247.44,98.48
+CLM90499,2026-07-22,Motor,Manual,Not certified,Pune,1630.88,97.95
+CLM90500,2026-07-22,Motor,Manual,Not certified,Manila,3099.72,97.78
+CLM90501,2026-07-23,Health,Manual,Certified,Manila,5276.69,98.07
+CLM90502,2026-07-23,Health,Auto-adjudicated,Certified,Pune,1655.68,99.87
+CLM90503,2026-07-23,Health,Manual,Certified,Pune,1900.95,98.32
+CLM90504,2026-07-23,Property,Manual,Certified,Pune,1408.54,98.19
+CLM90505,2026-07-23,Health,Manual,Not certified,Pune,2210.36,96.33
+CLM90506,2026-07-23,Motor,Auto-adjudicated,Certified,Manila,6111.58,99.33
+CLM90507,2026-07-23,Health,Manual,Certified,Pune,7659.01,97.78
+CLM90508,2026-07-23,Health,Auto-adjudicated,Not certified,Pune,510.19,97.34
+CLM90509,2026-07-23,Health,Manual,Certified,Manila,3281.87,97.99
+CLM90510,2026-07-23,Property,Manual,Certified,Manila,4471.49,98.23
+CLM90511,2026-07-23,Motor,Manual,Certified,Pune,3977.39,97.76
+CLM90512,2026-07-23,Property,Auto-adjudicated,Not certified,Pune,2884.0,97.86
+CLM90513,2026-07-23,Health,Auto-adjudicated,Certified,Pune,2284.22,97.93
+CLM90514,2026-07-23,Property,Auto-adjudicated,Certified,Manila,7761.86,98.94
+CLM90515,2026-07-23,Property,Manual,Certified,Manila,604.24,97.66
+CLM90516,2026-07-24,Health,Manual,Not certified,Pune,19925.79,97.75
+CLM90517,2026-07-24,Property,Auto-adjudicated,Certified,Manila,1512.5,99.58
+CLM90518,2026-07-24,Health,Manual,Not certified,Manila,17573.41,98.04
+CLM90519,2026-07-24,Motor,Manual,Not certified,Pune,4244.11,97.06
+CLM90520,2026-07-24,Motor,Manual,Certified,Pune,1988.26,98.74
+CLM90521,2026-07-24,Motor,Manual,Certified,Pune,5413.54,98.58
+CLM90522,2026-07-24,Health,Manual,Not certified,Pune,13017.1,97.44
+CLM90523,2026-07-24,Property,Manual,Not certified,Pune,1269.85,96.29
+CLM90524,2026-07-24,Property,Manual,Not certified,Pune,7757.01,97.52
+CLM90525,2026-07-24,Motor,Manual,Certified,Manila,1188.75,98.06
+CLM90526,2026-07-24,Property,Manual,Certified,Pune,1739.33,98.18
+CLM90527,2026-07-24,Motor,Auto-adjudicated,Certified,Pune,299.41,98.52
+CLM90528,2026-07-24,Motor,Manual,Certified,Manila,11731.97,97.54
+CLM90529,2026-07-24,Motor,Manual,Certified,Pune,7163.83,99.49
+CLM90530,2026-07-24,Health,Manual,Certified,Manila,27951.75,98.56
+CLM90531,2026-07-27,Health,Manual,Certified,Pune,18988.22,98.86
+CLM90532,2026-07-27,Health,Auto-adjudicated,Not certified,Pune,898.29,98.97
+CLM90533,2026-07-27,Health,Manual,Not certified,Pune,1028.34,97.4
+CLM90534,2026-07-27,Health,Auto-adjudicated,Certified,Manila,1858.78,98.36
+CLM90535,2026-07-27,Health,Manual,Not certified,Manila,5948.62,96.66
+CLM90536,2026-07-27,Health,Manual,Not certified,Manila,4593.36,98.32
+CLM90537,2026-07-27,Property,Auto-adjudicated,Certified,Manila,1669.23,99.07
+CLM90538,2026-07-27,Motor,Auto-adjudicated,Certified,Manila,2063.72,99.1
+CLM90539,2026-07-27,Motor,Auto-adjudicated,Not certified,Manila,1209.76,97.46
+CLM90540,2026-07-27,Health,Auto-adjudicated,Certified,Manila,2550.48,98.74
+CLM90541,2026-07-27,Property,Manual,Certified,Manila,9715.65,97.92
+CLM90542,2026-07-27,Motor,Manual,Certified,Manila,1359.33,98.88
+CLM90543,2026-07-28,Motor,Manual,Certified,Manila,1324.25,98.32
+CLM90544,2026-07-28,Motor,Auto-adjudicated,Certified,Manila,3245.1,99.06
+CLM90545,2026-07-28,Property,Auto-adjudicated,Not certified,Pune,2116.35,98.24
+CLM90546,2026-07-28,Health,Manual,Certified,Pune,2663.51,98.06
+CLM90547,2026-07-28,Health,Auto-adjudicated,Not certified,Pune,885.98,98.62
+CLM90548,2026-07-28,Motor,Manual,Certified,Manila,2747.31,99.14
+CLM90549,2026-07-28,Property,Auto-adjudicated,Certified,Manila,2242.07,98.75
+CLM90550,2026-07-28,Motor,Manual,Certified,Pune,5663.3,98.76
+CLM90551,2026-07-28,Motor,Auto-adjudicated,Certified,Manila,876.51,100
+CLM90552,2026-07-28,Health,Manual,Certified,Manila,2200.42,98.35
+CLM90553,2026-07-28,Property,Auto-adjudicated,Certified,Manila,17138.48,98.99
+CLM90554,2026-07-28,Health,Manual,Certified,Manila,5128.91,98.58
+CLM90555,2026-07-28,Health,Auto-adjudicated,Not certified,Pune,1815.66,97.64
+CLM90556,2026-07-28,Motor,Auto-adjudicated,Not certified,Pune,1453.6,97.95
+CLM90557,2026-07-29,Health,Auto-adjudicated,Certified,Pune,4386.92,98.47
+CLM90558,2026-07-29,Motor,Auto-adjudicated,Certified,Manila,1888.84,99.41
+CLM90559,2026-07-29,Motor,Auto-adjudicated,Certified,Manila,2698.09,99.42
+CLM90560,2026-07-29,Property,Auto-adjudicated,Certified,Manila,1282.34,98.58
+CLM90561,2026-07-29,Health,Auto-adjudicated,Certified,Pune,1457.0,99.65
+CLM90562,2026-07-29,Health,Manual,Certified,Manila,3703.52,98.18
+CLM90563,2026-07-29,Motor,Auto-adjudicated,Certified,Manila,534.94,98.96
+CLM90564,2026-07-29,Health,Manual,Not certified,Pune,2994.0,97.93
+CLM90565,2026-07-29,Motor,Auto-adjudicated,Certified,Pune,1875.57,99.9
+CLM90566,2026-07-29,Property,Auto-adjudicated,Certified,Manila,5807.56,98.8
+CLM90567,2026-07-29,Property,Manual,Not certified,Manila,2072.44,96.56
+CLM90568,2026-07-29,Property,Manual,Certified,Pune,3975.01,97.99
+CLM90569,2026-07-29,Motor,Manual,Certified,Manila,16599.87,97.83
+CLM90570,2026-07-29,Motor,Manual,Not certified,Manila,1332.01,97.13
+CLM90571,2026-07-30,Motor,Manual,Certified,Pune,1097.34,97.78
+CLM90572,2026-07-30,Health,Auto-adjudicated,Not certified,Manila,3038.33,98.83
+CLM90573,2026-07-30,Motor,Manual,Not certified,Pune,2141.59,98.07
+CLM90574,2026-07-30,Motor,Auto-adjudicated,Certified,Manila,665.07,99.74
+CLM90575,2026-07-30,Health,Auto-adjudicated,Not certified,Manila,10509.06,98.54
+CLM90576,2026-07-30,Property,Manual,Certified,Manila,2217.57,96.97
+CLM90577,2026-07-30,Motor,Auto-adjudicated,Not certified,Manila,2676.71,98.51
+CLM90578,2026-07-30,Property,Manual,Certified,Manila,3807.43,98.0
+CLM90579,2026-07-30,Motor,Manual,Certified,Manila,1948.25,97.7
+CLM90580,2026-07-30,Motor,Auto-adjudicated,Certified,Pune,6487.72,99.13
+CLM90581,2026-07-31,Health,Manual,Certified,Manila,6804.14,98.56
+CLM90582,2026-07-31,Motor,Auto-adjudicated,Certified,Pune,1087.49,98.43
+CLM90583,2026-07-31,Motor,Manual,Not certified,Manila,1998.59,96.16
+CLM90584,2026-07-31,Property,Manual,Certified,Pune,4255.06,97.65
+CLM90585,2026-07-31,Health,Manual,Certified,Manila,7740.82,98.57
+CLM90586,2026-07-31,Health,Auto-adjudicated,Certified,Pune,4211.09,99.33
+CLM90587,2026-07-31,Motor,Manual,Not certified,Manila,1063.95,96.66
+CLM90588,2026-07-31,Motor,Manual,Certified,Pune,1841.43,97.84
+CLM90589,2026-07-31,Health,Manual,Certified,Manila,5767.19,98.75
+CLM90590,2026-07-31,Property,Manual,Certified,Pune,1035.59,97.92
+CLM90591,2026-07-31,Health,Manual,Certified,Pune,2405.73,97.87
+CLM90592,2026-07-31,Health,Manual,Certified,Pune,3127.71,97.63
+CLM90593,2026-08-03,Motor,Auto-adjudicated,Certified,Pune,8068.58,99.26
+CLM90594,2026-08-03,Motor,Auto-adjudicated,Not certified,Pune,5617.95,98.04
+CLM90595,2026-08-03,Health,Manual,Certified,Pune,1933.59,98.61
+CLM90596,2026-08-03,Motor,Auto-adjudicated,Not certified,Pune,2429.49,98.37
+CLM90597,2026-08-03,Property,Manual,Not certified,Pune,2514.56,96.87
+CLM90598,2026-08-03,Motor,Auto-adjudicated,Certified,Pune,1803.37,99.44
+CLM90599,2026-08-03,Property,Auto-adjudicated,Certified,Manila,1738.9,99.26
+CLM90600,2026-08-03,Motor,Manual,Certified,Manila,5782.33,98.18
+CLM90601,2026-08-03,Property,Auto-adjudicated,Not certified,Manila,3902.43,97.89
+CLM90602,2026-08-03,Health,Auto-adjudicated,Certified,Manila,1170.85,99.58
+CLM90603,2026-08-03,Property,Auto-adjudicated,Certified,Manila,2743.73,97.95
+CLM90604,2026-08-04,Motor,Manual,Certified,Pune,2031.79,98.04
+CLM90605,2026-08-04,Property,Auto-adjudicated,Certified,Pune,2338.55,99.01
+CLM90606,2026-08-04,Motor,Auto-adjudicated,Certified,Pune,7207.15,98.93
+CLM90607,2026-08-04,Motor,Auto-adjudicated,Certified,Manila,4012.38,99.76
+CLM90608,2026-08-04,Property,Auto-adjudicated,Certified,Manila,2250.99,99.11
+CLM90609,2026-08-04,Motor,Manual,Certified,Manila,14028.56,97.86
+CLM90610,2026-08-04,Health,Manual,Certified,Manila,778.81,97.26
+CLM90611,2026-08-04,Motor,Manual,Not certified,Manila,1818.59,97.76
+CLM90612,2026-08-04,Health,Auto-adjudicated,Not certified,Manila,1818.13,99.54
+CLM90613,2026-08-04,Health,Manual,Not certified,Manila,3483.3,97.69
+CLM90614,2026-08-04,Motor,Auto-adjudicated,Not certified,Manila,4532.14,98.25
+CLM90615,2026-08-05,Health,Auto-adjudicated,Not certified,Pune,1230.73,97.69
+CLM90616,2026-08-05,Health,Auto-adjudicated,Certified,Pune,1596.19,99.07
+CLM90617,2026-08-05,Health,Auto-adjudicated,Not certified,Pune,6601.91,98.81
+CLM90618,2026-08-05,Motor,Manual,Certified,Manila,1750.1,98.43
+CLM90619,2026-08-05,Property,Auto-adjudicated,Certified,Pune,6264.83,97.93
+CLM90620,2026-08-05,Health,Auto-adjudicated,Not certified,Pune,4400.62,97.46
+CLM90621,2026-08-05,Motor,Manual,Not certified,Manila,9367.82,97.14
+CLM90622,2026-08-05,Health,Manual,Not certified,Manila,5440.39,97.15
+CLM90623,2026-08-05,Motor,Auto-adjudicated,Not certified,Pune,439.41,98.2
+CLM90624,2026-08-05,Health,Auto-adjudicated,Not certified,Pune,680.29,98.58
+CLM90625,2026-08-05,Health,Auto-adjudicated,Certified,Pune,4396.25,99.43
+CLM90626,2026-08-05,Motor,Manual,Not certified,Manila,509.46,96.74
+CLM90627,2026-08-05,Motor,Auto-adjudicated,Not certified,Manila,6145.38,98.31
+CLM90628,2026-08-05,Property,Manual,Not certified,Pune,3606.37,97.18
+CLM90629,2026-08-06,Motor,Auto-adjudicated,Certified,Pune,5608.64,99.85
+CLM90630,2026-08-06,Health,Manual,Not certified,Pune,1818.47,96.79
+CLM90631,2026-08-06,Health,Auto-adjudicated,Not certified,Manila,2612.04,99.48
+CLM90632,2026-08-06,Motor,Manual,Not certified,Manila,602.54,97.53
+CLM90633,2026-08-06,Motor,Manual,Not certified,Pune,3625.96,98.83
+CLM90634,2026-08-06,Motor,Manual,Certified,Manila,3446.93,97.74
+CLM90635,2026-08-06,Health,Manual,Certified,Manila,2987.02,98.73
+CLM90636,2026-08-06,Property,Auto-adjudicated,Certified,Manila,954.9,98.88
+CLM90637,2026-08-06,Motor,Manual,Certified,Manila,6026.41,98.21
+CLM90638,2026-08-06,Motor,Auto-adjudicated,Certified,Pune,1087.8,99.28
+CLM90639,2026-08-06,Property,Auto-adjudicated,Not certified,Manila,71150.96,97.85
+CLM90640,2026-08-07,Property,Auto-adjudicated,Certified,Pune,9667.41,98.19
+CLM90641,2026-08-07,Health,Auto-adjudicated,Not certified,Manila,2835.76,98.19
+CLM90642,2026-08-07,Property,Manual,Not certified,Pune,3077.65,96.48
+CLM90643,2026-08-07,Motor,Manual,Certified,Manila,5823.13,97.91
+CLM90644,2026-08-07,Health,Auto-adjudicated,Not certified,Manila,10223.38,97.89
+CLM90645,2026-08-07,Property,Auto-adjudicated,Certified,Manila,2105.27,98.51
+CLM90646,2026-08-07,Property,Auto-adjudicated,Certified,Pune,5834.6,97.79
+CLM90647,2026-08-07,Health,Manual,Not certified,Manila,613.69,96.29
+CLM90648,2026-08-07,Motor,Auto-adjudicated,Not certified,Pune,4112.34,98.57
+CLM90649,2026-08-07,Health,Auto-adjudicated,Certified,Pune,7822.95,99.63

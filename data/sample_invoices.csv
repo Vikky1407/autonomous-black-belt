@@ -1,0 +1,792 @@
+Invoice_ID,Received_Date,Region,Channel,PO_Type,Team,Shift,Line_Items,Invoice_Value_USD,Exception_Reason,Cycle_Time_Hrs
+INV-100000,2026-07-01,LATAM,Paper,Non-PO,Team C,Day,7,1343.48,None,43.3
+INV-100001,2026-07-01,North America,Email,PO,Team B,Night,2,2325.12,None,34.6
+INV-100002,2026-07-01,North America,Supplier Portal,PO,Team C,Day,27,4714.33,None,45.1
+INV-100003,2026-07-01,Europe,Email,PO,Team B,Day,3,426.32,None,36.2
+INV-100004,2026-07-01,APAC,EDI,PO,Team D,Day,8,1125.25,None,26.5
+INV-100005,2026-07-01,LATAM,Email,PO,Team A,Day,4,331.56,None,28.8
+INV-100006,2026-07-01,North America,Supplier Portal,PO,Team D,Day,7,45033.17,None,19.3
+INV-100007,2026-07-01,North America,Supplier Portal,PO,Team D,Day,5,1778.97,None,12.2
+INV-100008,2026-07-01,North America,Email,Non-PO,Team A,Night,11,1449.31,None,35.5
+INV-100009,2026-07-01,North America,EDI,Non-PO,Team A,Day,6,571.64,None,16.3
+INV-100010,2026-07-01,North America,Supplier Portal,Non-PO,Team A,Day,5,2111.44,None,30.3
+INV-100011,2026-07-01,North America,Email,PO,Team B,Night,3,1979.4,None,19.8
+INV-100012,2026-07-02,Europe,Email,Non-PO,Team C,Day,10,6267.14,None,43.8
+INV-100013,2026-07-02,Europe,Supplier Portal,Non-PO,Team B,Day,6,549.16,Vendor master error,42.2
+INV-100014,2026-07-02,North America,Supplier Portal,PO,Team D,Day,10,811.25,None,20.1
+INV-100015,2026-07-02,APAC,Email,PO,Team D,Night,1,649.32,None,23.5
+INV-100016,2026-07-02,North America,EDI,PO,Team C,Day,3,1556.11,None,15.1
+INV-100017,2026-07-02,Europe,Supplier Portal,PO,Team C,Night,7,213.49,None,22.5
+INV-100018,2026-07-02,APAC,EDI,PO,Team A,Day,2,3214,None,16.7
+INV-100019,2026-07-02,LATAM,Paper,PO,Team B,Day,3,3248.5,Missing PO reference,55.9
+INV-100020,2026-07-02,APAC,Supplier Portal,PO,Team D,Night,7,5496.8,Tax code error,22.8
+INV-100021,2026-07-02,Europe,Supplier Portal,PO,Team A,Night,8,1508.48,None,12.4
+INV-100022,2026-07-02,APAC,Email,PO,Team C,Night,3,264.15,None,31
+INV-100023,2026-07-02,APAC,EDI,PO,Team D,Day,5,178.39,None,22.3
+INV-100024,2026-07-02,LATAM,Email,Non-PO,Team B,Day,4,2681.46,None,30.6
+INV-100025,2026-07-03,LATAM,Email,PO,Team D,Day,12,1286,Price mismatch,31.9
+INV-100026,2026-07-03,Europe,Paper,PO,Team B,Day,8,3147.8,Price mismatch,33.2
+INV-100027,2026-07-03,North America,Email,PO,Team A,Night,4,2624.02,None,24.4
+INV-100028,2026-07-03,North America,Paper,PO,Team C,Day,8,675.53,None,52.9
+INV-100029,2026-07-03,Europe,Supplier Portal,PO,Team D,Night,6,2479.03,Approval delay,42.5
+INV-100030,2026-07-03,Europe,EDI,PO,Team C,Night,8,7368.75,None,18.6
+INV-100031,2026-07-03,North America,Paper,Non-PO,Team D,Night,7,8808.55,Price mismatch,34.1
+INV-100032,2026-07-03,APAC,Email,PO,Team C,Night,7,4633.18,None,30.3
+INV-100033,2026-07-03,Europe,Supplier Portal,PO,Team A,Night,2,2989.71,None,15.8
+INV-100034,2026-07-03,Europe,Supplier Portal,PO,Team D,Night,2,718.36,None,23.6
+INV-100035,2026-07-03,North America,Email,PO,Team C,Night,20,206.77,None,26.5
+INV-100036,2026-07-06,Europe,Paper,PO,Team A,Day,5,5362.52,None,37
+INV-100037,2026-07-06,LATAM,Email,Non-PO,Team B,Day,19,762.24,None,50.9
+INV-100038,2026-07-06,Europe,Email,PO,Team A,Night,10,481.92,None,36
+INV-100039,2026-07-06,LATAM,EDI,PO,Team A,Day,2,8589.36,None,13.1
+INV-100040,2026-07-06,Europe,Supplier Portal,Non-PO,Team B,Day,14,1652.79,None,28.8
+INV-100041,2026-07-06,LATAM,EDI,Non-PO,Team D,Day,1,5026.43,None,30.5
+INV-100042,2026-07-06,North America,EDI,PO,Team C,Day,3,1401.03,Price mismatch,47
+INV-100043,2026-07-06,LATAM,EDI,Non-PO,Team A,Night,22,1048.06,Missing PO reference,50.3
+INV-100044,2026-07-06,Europe,Paper,PO,Team D,Day,9,1417.83,None,60.6
+INV-100045,2026-07-06,APAC,Email,PO,Team C,Day,5,1836.29,None,30.2
+INV-100046,2026-07-06,North America,EDI,Non-PO,Team A,Day,8,322.88,None,25.2
+INV-100047,2026-07-07,Europe,Email,PO,Team D,Day,4,2465.99,None,21.4
+INV-100048,2026-07-07,North America,Email,Non-PO,Team A,Day,9,5347.33,Price mismatch,35.1
+INV-100049,2026-07-07,APAC,Email,PO,Team A,Night,6,2064.02,None,41.4
+INV-100050,2026-07-07,North America,EDI,PO,Team B,Night,2,1094.27,None,14
+INV-100051,2026-07-07,North America,Email,PO,Team D,Day,6,842.65,None,30.8
+INV-100052,2026-07-07,LATAM,Paper,PO,Team D,Day,5,7324.76,None,26
+INV-100053,2026-07-07,North America,EDI,Non-PO,Team C,Night,4,5593.16,None,22.4
+INV-100054,2026-07-07,North America,Email,Non-PO,Team B,Day,4,254.21,Price mismatch,56.6
+INV-100055,2026-07-07,Europe,Supplier Portal,PO,Team B,Night,2,1650.45,None,23.4
+INV-100056,2026-07-07,Europe,Email,Non-PO,Team A,Day,10,2881.18,None,28.1
+INV-100057,2026-07-07,North America,EDI,PO,Team B,Night,4,77.87,None,12.1
+INV-100058,2026-07-08,North America,Email,PO,Team D,Day,4,9244.74,None,34.9
+INV-100059,2026-07-08,North America,Email,Non-PO,Team B,Night,8,6776.67,Price mismatch,44
+INV-100060,2026-07-08,Europe,Email,PO,Team D,Day,6,623.85,None,28.1
+INV-100061,2026-07-08,Europe,EDI,PO,Team A,Day,2,2308.64,None,18.4
+INV-100062,2026-07-08,North America,EDI,PO,Team B,Night,3,1321.63,None,14.6
+INV-100063,2026-07-08,Europe,Supplier Portal,PO,Team C,Day,10,1791.52,None,22.9
+INV-100064,2026-07-08,Europe,EDI,Non-PO,Team A,Day,18,1638.44,None,23.4
+INV-100065,2026-07-08,Europe,Paper,PO,Team B,Night,5,3901.82,None,50.3
+INV-100066,2026-07-08,APAC,Email,PO,Team B,Night,16,1014.78,None,23.5
+INV-100067,2026-07-08,LATAM,EDI,Non-PO,Team D,Day,16,320.99,Price mismatch,30.7
+INV-100068,2026-07-08,LATAM,Paper,Non-PO,Team D,Day,12,7095.94,Missing PO reference,65
+INV-100069,2026-07-08,North America,EDI,PO,Team D,Day,6,1695.88,None,13.9
+INV-100070,2026-07-08,North America,EDI,Non-PO,Team A,Night,6,8210.62,Missing PO reference,38.4
+INV-100071,2026-07-09,North America,EDI,PO,Team B,Night,6,22821.57,None,14.6
+INV-100072,2026-07-09,Europe,EDI,PO,Team B,Night,8,1387.81,None,15.6
+INV-100073,2026-07-09,Europe,Paper,PO,Team D,Night,4,2511.76,Tax code error,46.7
+INV-100074,2026-07-09,APAC,Supplier Portal,PO,Team A,Day,2,20808.89,None,20.2
+INV-100075,2026-07-09,APAC,Supplier Portal,Non-PO,Team D,Day,2,1218.27,None,31.9
+INV-100076,2026-07-09,APAC,EDI,Non-PO,Team B,Night,9,325.36,None,37.2
+INV-100077,2026-07-09,North America,EDI,PO,Team A,Night,8,743.78,None,18
+INV-100078,2026-07-09,Europe,Email,PO,Team B,Night,11,1166.8,Price mismatch,51.4
+INV-100079,2026-07-09,North America,Supplier Portal,Non-PO,Team C,Night,7,917.84,None,51
+INV-100080,2026-07-09,North America,Supplier Portal,Non-PO,Team C,Day,5,180.73,None,43.9
+INV-100081,2026-07-09,North America,Email,PO,Team D,Day,16,281.62,Duplicate suspected,37.8
+INV-100082,2026-07-10,North America,EDI,PO,Team B,Night,9,4322.85,Price mismatch,37.9
+INV-100083,2026-07-10,LATAM,Supplier Portal,Non-PO,Team C,Day,3,3404.65,None,36.6
+INV-100084,2026-07-10,LATAM,EDI,Non-PO,Team C,Day,5,574.8,None,26.5
+INV-100085,2026-07-10,North America,Paper,Non-PO,Team C,Night,13,1948.85,None,46.3
+INV-100086,2026-07-10,Europe,EDI,PO,Team C,Day,6,7766.22,None,27.3
+INV-100087,2026-07-10,Europe,Supplier Portal,Non-PO,Team C,Day,4,402.52,None,28.6
+INV-100088,2026-07-10,Europe,Supplier Portal,PO,Team D,Day,11,725.11,None,18.7
+INV-100089,2026-07-10,LATAM,Email,PO,Team C,Night,6,845.5,Price mismatch,40.5
+INV-100090,2026-07-10,North America,Email,PO,Team D,Day,8,535.99,Vendor master error,65.7
+INV-100091,2026-07-10,LATAM,Supplier Portal,PO,Team B,Day,2,1207.4,Missing PO reference,41.8
+INV-100092,2026-07-10,LATAM,Email,PO,Team A,Night,5,2432.87,None,29.4
+INV-100093,2026-07-10,Europe,Email,PO,Team C,Day,12,23188.09,Approval delay,67.5
+INV-100094,2026-07-10,APAC,EDI,PO,Team D,Day,3,2531.89,None,14.2
+INV-100095,2026-07-10,North America,Supplier Portal,Non-PO,Team A,Night,14,1893.61,None,42.6
+INV-100096,2026-07-13,North America,Supplier Portal,PO,Team D,Day,64,6820.02,None,33.5
+INV-100097,2026-07-13,Europe,Email,PO,Team D,Day,3,5654.54,None,28.4
+INV-100098,2026-07-13,North America,Supplier Portal,PO,Team D,Day,6,339.55,None,36.1
+INV-100099,2026-07-13,Europe,Paper,Non-PO,Team A,Day,10,12540.99,None,58.8
+INV-100100,2026-07-13,North America,EDI,PO,Team D,Day,14,9042.2,None,14.5
+INV-100101,2026-07-13,North America,Email,PO,Team A,Day,3,784.97,None,22.9
+INV-100102,2026-07-13,APAC,Paper,PO,Team C,Night,2,5766.45,Vendor master error,72
+INV-100103,2026-07-13,Europe,EDI,Non-PO,Team B,Night,5,386.06,None,23.2
+INV-100104,2026-07-13,North America,EDI,PO,Team B,Night,5,1260.42,Price mismatch,35.1
+INV-100105,2026-07-13,Europe,EDI,Non-PO,Team A,Day,9,1578.71,Vendor master error,30.1
+INV-100106,2026-07-13,APAC,EDI,PO,Team D,Day,4,5800.89,None,15.1
+INV-100107,2026-07-13,Europe,Supplier Portal,PO,Team A,Day,3,5009.92,None,16.1
+INV-100108,2026-07-13,North America,EDI,PO,Team A,Night,2,4425.76,None,12.9
+INV-100109,2026-07-13,Europe,Supplier Portal,PO,Team D,Day,7,546.56,None,23.7
+INV-100110,2026-07-14,Europe,EDI,PO,Team B,Day,3,1180.5,None,17.6
+INV-100111,2026-07-14,APAC,Email,Non-PO,Team A,Day,4,5682.02,Price mismatch,56
+INV-100112,2026-07-14,North America,Email,PO,Team B,Day,4,9311.2,None,25.4
+INV-100113,2026-07-14,APAC,Email,PO,Team D,Night,12,1664.4,None,31.7
+INV-100114,2026-07-14,LATAM,Email,PO,Team A,Day,2,605.24,None,19.9
+INV-100115,2026-07-14,North America,Email,PO,Team C,Day,1,556.61,None,23.3
+INV-100116,2026-07-14,LATAM,Supplier Portal,Non-PO,Team C,Day,4,1164.92,None,48.3
+INV-100117,2026-07-14,North America,Paper,PO,Team D,Night,5,5919.22,None,30.7
+INV-100118,2026-07-14,Europe,EDI,Non-PO,Team A,Night,3,1571.53,None,27.6
+INV-100119,2026-07-14,LATAM,Email,Non-PO,Team D,Night,3,17108.17,Price mismatch,52.7
+INV-100120,2026-07-14,Europe,Supplier Portal,Non-PO,Team A,Day,6,1211.01,None,30.6
+INV-100121,2026-07-14,Europe,Email,PO,Team B,Day,6,2037.19,None,36.1
+INV-100122,2026-07-14,North America,EDI,PO,Team C,Day,4,398.39,None,23.1
+INV-100123,2026-07-15,Europe,Email,PO,Team D,Night,11,10942.78,Approval delay,46.4
+INV-100124,2026-07-15,Europe,Supplier Portal,PO,Team C,Day,29,2930.67,None,16.2
+INV-100125,2026-07-15,Europe,Email,PO,Team C,Night,10,4521.29,None,31.5
+INV-100126,2026-07-15,LATAM,EDI,PO,Team A,Night,4,650.34,None,18.1
+INV-100127,2026-07-15,LATAM,Email,PO,Team C,Night,7,7305.03,None,26.3
+INV-100128,2026-07-15,North America,EDI,PO,Team B,Night,6,2172.35,None,19.5
+INV-100129,2026-07-15,Europe,Email,PO,Team A,Day,8,16581.62,None,32
+INV-100130,2026-07-15,LATAM,Email,PO,Team C,Day,15,850.54,None,32
+INV-100131,2026-07-15,Europe,EDI,PO,Team A,Day,7,1531.81,None,13.3
+INV-100132,2026-07-15,North America,EDI,PO,Team A,Night,6,63.4,None,20.8
+INV-100133,2026-07-15,North America,EDI,PO,Team D,Day,10,1040.18,None,19.7
+INV-100134,2026-07-15,North America,EDI,Non-PO,Team A,Night,6,2217.74,None,21.2
+INV-100135,2026-07-15,North America,Email,Non-PO,Team C,Night,7,105.33,Duplicate suspected,51.7
+INV-100136,2026-07-16,North America,Supplier Portal,PO,Team C,Night,4,135.02,None,22.5
+INV-100137,2026-07-16,North America,EDI,PO,Team D,Night,7,2062.71,None,19.5
+INV-100138,2026-07-16,Europe,Supplier Portal,PO,Team B,Day,8,454.57,None,26.6
+INV-100139,2026-07-16,Europe,Supplier Portal,Non-PO,Team D,Day,4,209.55,None,32.5
+INV-100140,2026-07-16,APAC,Supplier Portal,PO,Team B,Day,4,526.19,None,20
+INV-100141,2026-07-16,Europe,Supplier Portal,PO,Team A,Day,8,6720.67,Vendor master error,38.8
+INV-100142,2026-07-16,North America,EDI,Non-PO,Team A,Night,6,1724.86,None,26.3
+INV-100143,2026-07-16,LATAM,Supplier Portal,PO,Team A,Day,9,201.15,None,14.6
+INV-100144,2026-07-16,APAC,Paper,Non-PO,Team A,Day,3,12535.52,None,35.1
+INV-100145,2026-07-16,North America,EDI,PO,Team B,Night,10,2207.08,None,17.9
+INV-100146,2026-07-16,APAC,Supplier Portal,PO,Team D,Night,4,8231.48,None,13.3
+INV-100147,2026-07-16,Europe,Email,Non-PO,Team C,Day,8,3955.94,None,45.6
+INV-100148,2026-07-16,North America,Supplier Portal,PO,Team A,Day,2,1307.37,Price mismatch,49
+INV-100149,2026-07-17,Europe,Supplier Portal,PO,Team D,Day,13,876.25,None,21.2
+INV-100150,2026-07-17,North America,Email,Non-PO,Team D,Night,4,5704.72,Duplicate suspected,60.4
+INV-100151,2026-07-17,Europe,EDI,PO,Team B,Day,7,15038.95,Missing PO reference,27.2
+INV-100152,2026-07-17,Europe,Email,PO,Team D,Night,9,4068.33,None,28.4
+INV-100153,2026-07-17,Europe,Email,PO,Team A,Night,10,6376.65,Price mismatch,29.9
+INV-100154,2026-07-17,Europe,Supplier Portal,PO,Team C,Day,6,2678.53,Tax code error,28.4
+INV-100155,2026-07-17,LATAM,Email,PO,Team A,Night,3,1129.3,None,27.7
+INV-100156,2026-07-17,Europe,Email,PO,Team B,Day,11,416.87,None,26.8
+INV-100157,2026-07-17,LATAM,Email,PO,Team C,Night,6,4839.49,None,30.5
+INV-100158,2026-07-17,Europe,Email,PO,Team D,Night,9,3531.74,None,34.4
+INV-100159,2026-07-17,APAC,Paper,Non-PO,Team B,Night,5,2138.89,Missing PO reference,60.2
+INV-100160,2026-07-17,North America,EDI,Non-PO,Team D,Night,12,589.39,None,55.7
+INV-100161,2026-07-17,LATAM,Paper,PO,Team B,Day,3,1100.91,Vendor master error,41.9
+INV-100162,2026-07-17,Europe,Email,PO,Team D,Night,5,3410.18,None,29.8
+INV-100163,2026-07-20,Europe,Paper,PO,Team D,Day,4,3435.3,None,38.6
+INV-100164,2026-07-20,North America,Supplier Portal,PO,Team C,Day,12,597.61,None,32.4
+INV-100165,2026-07-20,North America,EDI,PO,Team B,Day,4,3445.75,None,18.2
+INV-100166,2026-07-20,North America,Supplier Portal,PO,Team C,Day,8,528.88,None,24
+INV-100167,2026-07-20,LATAM,EDI,Non-PO,Team B,Day,3,8181.74,None,38.6
+INV-100168,2026-07-20,APAC,EDI,Non-PO,Team A,Day,3,120.17,None,25.3
+INV-100169,2026-07-20,LATAM,EDI,PO,Team D,Day,9,328.76,None,12
+INV-100170,2026-07-20,APAC,Email,PO,Team A,Night,13,1600.39,None,43.2
+INV-100171,2026-07-20,APAC,Supplier Portal,PO,Team D,Day,5,342.54,None,26
+INV-100172,2026-07-20,North America,Paper,PO,Team A,Day,17,10237.94,None,25.1
+INV-100173,2026-07-20,North America,Supplier Portal,PO,Team D,Day,2,2769.35,None,20
+INV-100174,2026-07-20,APAC,Supplier Portal,PO,Team B,Night,3,5185.09,None,15.7
+INV-100175,2026-07-20,Europe,Email,PO,Team C,Night,30,918.62,None,32.5
+INV-100176,2026-07-21,APAC,EDI,PO,Team C,Night,17,620.54,None,28.9
+INV-100177,2026-07-21,North America,Paper,PO,Team A,Night,25,769.62,None,44.1
+INV-100178,2026-07-21,Europe,Supplier Portal,Non-PO,Team A,Day,2,1641.74,None,15
+INV-100179,2026-07-21,APAC,EDI,PO,Team A,Day,5,10159.57,None,15.3
+INV-100180,2026-07-21,LATAM,Email,Non-PO,Team C,Night,4,868.1,None,44.7
+INV-100181,2026-07-21,Europe,Supplier Portal,PO,Team D,Day,6,1068.56,None,19.9
+INV-100182,2026-07-21,APAC,Email,PO,Team A,Day,5,286.07,None,27
+INV-100183,2026-07-21,North America,EDI,PO,Team A,Day,11,3462.81,None,29
+INV-100184,2026-07-21,Europe,Paper,Non-PO,Team C,Day,11,2065.24,None,65.6
+INV-100185,2026-07-21,LATAM,EDI,Non-PO,Team B,Night,7,4678.93,Missing PO reference,34.9
+INV-100186,2026-07-21,LATAM,EDI,PO,Team C,Day,4,1761.81,None,23.2
+INV-100187,2026-07-21,LATAM,Supplier Portal,PO,Team A,Day,6,458.44,Tax code error,31.5
+INV-100188,2026-07-21,LATAM,EDI,PO,Team A,Day,3,11456.04,None,15.4
+INV-100189,2026-07-22,Europe,EDI,PO,Team D,Night,3,8435.92,None,14.1
+INV-100190,2026-07-22,LATAM,Email,Non-PO,Team C,Night,3,1827.33,None,56
+INV-100191,2026-07-22,Europe,EDI,Non-PO,Team C,Day,6,5708.09,Vendor master error,44.5
+INV-100192,2026-07-22,LATAM,Supplier Portal,PO,Team C,Night,9,8182.82,None,30.2
+INV-100193,2026-07-22,LATAM,Supplier Portal,PO,Team C,Day,13,213.59,None,20.1
+INV-100194,2026-07-22,LATAM,EDI,PO,Team B,Night,5,3063.35,None,16.8
+INV-100195,2026-07-22,North America,EDI,PO,Team A,Day,12,15667.74,None,11.8
+INV-100196,2026-07-22,APAC,Supplier Portal,Non-PO,Team C,Day,5,23535.73,None,33.2
+INV-100197,2026-07-22,Europe,Supplier Portal,Non-PO,Team B,Day,1,7088.57,None,22.8
+INV-100198,2026-07-22,Europe,EDI,Non-PO,Team B,Night,14,7653.71,None,34.8
+INV-100199,2026-07-22,Europe,EDI,PO,Team B,Night,1,545.67,None,22.7
+INV-100200,2026-07-22,APAC,Paper,PO,Team B,Night,13,1798.21,None,34.7
+INV-100201,2026-07-23,Europe,Supplier Portal,PO,Team D,Day,2,3280.56,None,13
+INV-100202,2026-07-23,North America,EDI,PO,Team B,Night,4,8159.2,None,20.8
+INV-100203,2026-07-23,Europe,Email,PO,Team D,Day,18,1186.62,None,41.6
+INV-100204,2026-07-23,Europe,Supplier Portal,PO,Team C,Day,11,11223.23,None,25.6
+INV-100205,2026-07-23,LATAM,Email,Non-PO,Team D,Night,2,740.96,Price mismatch,56.3
+INV-100206,2026-07-23,North America,EDI,PO,Team B,Night,3,8325.81,None,15.9
+INV-100207,2026-07-23,LATAM,Supplier Portal,PO,Team A,Day,5,1347.1,None,21.4
+INV-100208,2026-07-23,North America,EDI,Non-PO,Team D,Day,3,13349.21,None,24
+INV-100209,2026-07-23,Europe,Email,PO,Team B,Night,10,980.06,None,29.4
+INV-100210,2026-07-23,APAC,EDI,PO,Team A,Day,2,1183.8,None,12.6
+INV-100211,2026-07-23,APAC,Email,PO,Team B,Day,11,1526.52,None,20.6
+INV-100212,2026-07-23,Europe,Email,PO,Team D,Day,16,2203.47,None,35.1
+INV-100213,2026-07-24,APAC,EDI,PO,Team B,Day,2,8648.96,Price mismatch,40.1
+INV-100214,2026-07-24,North America,EDI,Non-PO,Team D,Night,2,994.99,None,21.1
+INV-100215,2026-07-24,North America,Supplier Portal,PO,Team A,Day,5,2687.62,Approval delay,51.7
+INV-100216,2026-07-24,APAC,Supplier Portal,Non-PO,Team B,Day,43,599.27,None,52.9
+INV-100217,2026-07-24,Europe,EDI,PO,Team A,Night,3,3701.1,None,13
+INV-100218,2026-07-24,North America,Paper,PO,Team B,Night,18,1637.8,None,36.1
+INV-100219,2026-07-24,North America,Supplier Portal,Non-PO,Team A,Day,2,1440.51,None,31.2
+INV-100220,2026-07-24,APAC,Supplier Portal,PO,Team C,Night,7,456.33,Approval delay,53.2
+INV-100221,2026-07-24,North America,EDI,PO,Team D,Day,7,3674.56,None,16
+INV-100222,2026-07-24,North America,EDI,PO,Team D,Day,5,1720.64,None,29.9
+INV-100223,2026-07-24,Europe,EDI,PO,Team A,Night,7,362.13,None,9.7
+INV-100224,2026-07-27,LATAM,Email,Non-PO,Team B,Night,6,464.51,None,29.3
+INV-100225,2026-07-27,Europe,EDI,Non-PO,Team C,Night,6,922.08,None,33.4
+INV-100226,2026-07-27,North America,EDI,PO,Team B,Night,13,6157.16,None,21.2
+INV-100227,2026-07-27,North America,EDI,PO,Team B,Night,3,3350.26,None,14.2
+INV-100228,2026-07-27,APAC,Paper,PO,Team C,Day,5,21696.29,None,34.1
+INV-100229,2026-07-27,Europe,EDI,PO,Team A,Day,2,2963.59,None,17.5
+INV-100230,2026-07-27,North America,Email,Non-PO,Team B,Day,5,661.54,Approval delay,48.4
+INV-100231,2026-07-27,North America,EDI,PO,Team C,Day,8,11607.66,Missing PO reference,38
+INV-100232,2026-07-27,Europe,Supplier Portal,PO,Team C,Night,3,3185.57,None,22.3
+INV-100233,2026-07-27,North America,Supplier Portal,PO,Team B,Day,9,2511.26,None,34.6
+INV-100234,2026-07-27,LATAM,Email,PO,Team C,Night,3,767.44,None,34.1
+INV-100235,2026-07-27,APAC,EDI,PO,Team A,Night,3,55870.5,None,19.1
+INV-100236,2026-07-28,North America,Supplier Portal,Non-PO,Team A,Day,9,1430.99,None,33.2
+INV-100237,2026-07-28,North America,Email,Non-PO,Team A,Night,9,1470.15,None,47.6
+INV-100238,2026-07-28,North America,Supplier Portal,PO,Team A,Day,5,165.01,None,22.4
+INV-100239,2026-07-28,APAC,EDI,PO,Team C,Night,4,3196.59,None,21.1
+INV-100240,2026-07-28,APAC,Email,PO,Team B,Day,12,8590.25,None,37.5
+INV-100241,2026-07-28,LATAM,Email,Non-PO,Team D,Day,5,3363.44,None,57.2
+INV-100242,2026-07-28,Europe,Supplier Portal,PO,Team B,Night,5,2837.82,None,25.2
+INV-100243,2026-07-28,Europe,EDI,PO,Team C,Day,7,871.09,None,17.7
+INV-100244,2026-07-28,Europe,Supplier Portal,Non-PO,Team C,Night,5,809.96,None,39
+INV-100245,2026-07-28,APAC,Email,PO,Team B,Night,10,6324.1,Approval delay,51.3
+INV-100246,2026-07-28,Europe,EDI,Non-PO,Team A,Night,29,588.17,None,22.1
+INV-100247,2026-07-29,Europe,Paper,Non-PO,Team A,Day,2,6408.63,None,48.1
+INV-100248,2026-07-29,APAC,Supplier Portal,PO,Team A,Day,6,12839.33,None,20
+INV-100249,2026-07-29,LATAM,Supplier Portal,PO,Team B,Day,5,271.26,None,24
+INV-100250,2026-07-29,Europe,EDI,PO,Team D,Day,11,1238.23,None,23.5
+INV-100251,2026-07-29,North America,EDI,Non-PO,Team A,Day,8,2642.3,None,26.9
+INV-100252,2026-07-29,Europe,Supplier Portal,PO,Team C,Day,2,7993.74,None,22.3
+INV-100253,2026-07-29,North America,EDI,Non-PO,Team C,Night,6,1339.03,None,39.1
+INV-100254,2026-07-29,Europe,EDI,Non-PO,Team C,Day,15,1200.81,Duplicate suspected,35.9
+INV-100255,2026-07-29,North America,Email,PO,Team A,Night,3,1313.92,None,35.7
+INV-100256,2026-07-29,APAC,Supplier Portal,PO,Team D,Night,19,139.08,None,22.8
+INV-100257,2026-07-29,LATAM,Supplier Portal,PO,Team D,Night,9,3333.44,None,21.8
+INV-100258,2026-07-30,North America,Email,PO,Team A,Day,12,3033.9,Price mismatch,36.9
+INV-100259,2026-07-30,Europe,Supplier Portal,PO,Team D,Day,2,1974,None,17.4
+INV-100260,2026-07-30,Europe,EDI,PO,Team B,Day,5,2383.92,None,28.9
+INV-100261,2026-07-30,Europe,Supplier Portal,Non-PO,Team D,Day,9,3901.25,None,19.6
+INV-100262,2026-07-30,Europe,Email,Non-PO,Team B,Day,6,1795.81,None,35.2
+INV-100263,2026-07-30,North America,Supplier Portal,PO,Team B,Day,10,899.94,None,16.5
+INV-100264,2026-07-30,LATAM,EDI,Non-PO,Team D,Day,6,1227.8,None,26.2
+INV-100265,2026-07-30,LATAM,Supplier Portal,Non-PO,Team D,Night,16,605.55,None,54.6
+INV-100266,2026-07-30,Europe,Email,Non-PO,Team C,Day,7,648.19,None,48
+INV-100267,2026-07-30,LATAM,EDI,PO,Team A,Day,3,874.24,Missing PO reference,28.1
+INV-100268,2026-07-30,APAC,Supplier Portal,PO,Team B,Day,17,1169.2,None,30.8
+INV-100269,2026-07-30,Europe,Email,PO,Team D,Day,6,3112.51,Price mismatch,41.4
+INV-100270,2026-07-30,Europe,Supplier Portal,PO,Team D,Day,2,4250.91,Vendor master error,19.1
+INV-100271,2026-07-31,APAC,Supplier Portal,Non-PO,Team D,Day,9,4451.9,Missing PO reference,35.7
+INV-100272,2026-07-31,APAC,Supplier Portal,PO,Team D,Day,4,15763.28,None,20.1
+INV-100273,2026-07-31,LATAM,EDI,Non-PO,Team B,Night,7,491.41,None,19.5
+INV-100274,2026-07-31,North America,EDI,PO,Team A,Day,6,2705.14,None,20.8
+INV-100275,2026-07-31,Europe,Email,PO,Team C,Day,2,225.09,None,28.2
+INV-100276,2026-07-31,North America,EDI,PO,Team C,Night,4,3729.05,Duplicate suspected,40.2
+INV-100277,2026-07-31,Europe,EDI,Non-PO,Team B,Day,3,1492.68,None,31
+INV-100278,2026-07-31,LATAM,Email,PO,Team B,Night,3,5095.42,None,33.7
+INV-100279,2026-07-31,Europe,Paper,PO,Team C,Night,4,6781.28,None,37.2
+INV-100280,2026-07-31,Europe,Paper,PO,Team C,Day,2,3411.86,None,52.5
+INV-100281,2026-07-31,Europe,Email,Non-PO,Team C,Night,10,266.03,None,39.8
+INV-100282,2026-07-31,Europe,EDI,PO,Team A,Day,3,198.86,None,14
+INV-100283,2026-07-31,Europe,Supplier Portal,PO,Team C,Day,2,483.17,None,28.2
+INV-100284,2026-08-03,North America,Paper,Non-PO,Team A,Day,7,9323.36,None,35.6
+INV-100285,2026-08-03,APAC,Supplier Portal,PO,Team D,Day,7,2344,None,18.1
+INV-100286,2026-08-03,North America,Email,PO,Team B,Day,2,1374.69,None,16.4
+INV-100287,2026-08-03,Europe,EDI,Non-PO,Team D,Day,3,1055.88,None,26.1
+INV-100288,2026-08-03,LATAM,EDI,PO,Team D,Day,7,361.54,None,13.9
+INV-100289,2026-08-03,LATAM,Supplier Portal,PO,Team C,Day,7,337.01,None,17.4
+INV-100290,2026-08-03,North America,Supplier Portal,PO,Team A,Night,3,3383.33,None,13.2
+INV-100291,2026-08-03,LATAM,EDI,Non-PO,Team D,Day,12,1707.84,None,19
+INV-100292,2026-08-03,North America,Supplier Portal,Non-PO,Team B,Night,13,4591.87,None,19.4
+INV-100293,2026-08-03,North America,EDI,PO,Team C,Day,4,1328.97,None,15.2
+INV-100294,2026-08-04,Europe,Email,PO,Team C,Day,2,1123.89,None,28.3
+INV-100295,2026-08-04,APAC,EDI,Non-PO,Team D,Day,7,2982.16,Price mismatch,30.7
+INV-100296,2026-08-04,LATAM,EDI,PO,Team A,Night,11,3956.6,None,11.9
+INV-100297,2026-08-04,Europe,Email,PO,Team A,Night,3,3979.66,None,19.2
+INV-100298,2026-08-04,Europe,Email,PO,Team D,Day,4,8301.47,None,22.5
+INV-100299,2026-08-04,North America,Supplier Portal,PO,Team B,Day,13,4837.88,None,29.8
+INV-100300,2026-08-04,North America,Supplier Portal,Non-PO,Team C,Night,13,976,None,37.1
+INV-100301,2026-08-04,Europe,Email,PO,Team D,Day,4,998.46,None,22.8
+INV-100302,2026-08-04,North America,EDI,PO,Team B,Night,4,5953.35,None,24.3
+INV-100303,2026-08-04,APAC,Email,Non-PO,Team A,Night,7,1721.02,Price mismatch,62.7
+INV-100304,2026-08-05,APAC,Email,PO,Team B,Night,2,1910.81,None,24.9
+INV-100305,2026-08-05,North America,Supplier Portal,Non-PO,Team A,Day,4,7128.29,None,25.1
+INV-100306,2026-08-05,LATAM,Email,Non-PO,Team A,Night,6,17447.42,None,24.5
+INV-100307,2026-08-05,North America,Supplier Portal,Non-PO,Team A,Night,4,5737.84,Approval delay,54.9
+INV-100308,2026-08-05,LATAM,Supplier Portal,PO,Team A,Day,2,1634.53,None,17.6
+INV-100309,2026-08-05,Europe,Supplier Portal,Non-PO,Team A,Day,7,23334.35,None,20.7
+INV-100310,2026-08-05,Europe,Supplier Portal,PO,Team D,Night,4,1051.36,Missing PO reference,32.7
+INV-100311,2026-08-05,LATAM,Paper,PO,Team C,Day,3,4001.07,None,29.5
+INV-100312,2026-08-05,North America,EDI,Non-PO,Team D,Night,10,355.1,None,25.8
+INV-100313,2026-08-05,LATAM,Email,PO,Team A,Night,5,6511.72,Vendor master error,24.2
+INV-100314,2026-08-05,North America,Email,Non-PO,Team A,Day,4,2982.53,Price mismatch,35.9
+INV-100315,2026-08-05,North America,Email,Non-PO,Team A,Day,2,467.5,None,33.4
+INV-100316,2026-08-05,Europe,Email,PO,Team D,Night,9,324.24,None,23.3
+INV-100317,2026-08-06,North America,Paper,PO,Team C,Day,13,2019.7,None,41.1
+INV-100318,2026-08-06,Europe,Supplier Portal,PO,Team C,Night,5,659.77,None,22.7
+INV-100319,2026-08-06,North America,Supplier Portal,PO,Team C,Night,5,2556.11,None,23.1
+INV-100320,2026-08-06,North America,Email,Non-PO,Team A,Night,7,1772.29,Approval delay,52.4
+INV-100321,2026-08-06,LATAM,Email,PO,Team C,Day,5,1900.99,None,30.9
+INV-100322,2026-08-06,APAC,Supplier Portal,PO,Team B,Night,10,1164.2,None,23.6
+INV-100323,2026-08-06,North America,Email,Non-PO,Team B,Night,4,6298.64,Approval delay,58.8
+INV-100324,2026-08-06,North America,Supplier Portal,PO,Team B,Night,10,6626.8,None,28.1
+INV-100325,2026-08-06,LATAM,Paper,PO,Team C,Day,4,673.38,Price mismatch,59.5
+INV-100326,2026-08-06,APAC,Supplier Portal,PO,Team D,Night,2,2188.67,None,14.3
+INV-100327,2026-08-06,APAC,Paper,PO,Team A,Day,4,1143.08,None,27.9
+INV-100328,2026-08-06,LATAM,EDI,PO,Team C,Day,8,1343.36,Approval delay,50.4
+INV-100329,2026-08-07,LATAM,Paper,PO,Team D,Day,12,659.68,Missing PO reference,47.5
+INV-100330,2026-08-07,Europe,Supplier Portal,PO,Team B,Day,5,1738.06,None,18.4
+INV-100331,2026-08-07,Europe,Email,Non-PO,Team B,Night,11,101.96,None,39.3
+INV-100332,2026-08-07,APAC,Email,PO,Team C,Day,3,3505.06,None,27.7
+INV-100333,2026-08-07,North America,EDI,PO,Team D,Night,18,1648.85,None,18.9
+INV-100334,2026-08-07,LATAM,EDI,Non-PO,Team B,Day,3,433.54,Missing PO reference,62.1
+INV-100335,2026-08-07,North America,Supplier Portal,Non-PO,Team B,Night,2,5954.52,None,36.8
+INV-100336,2026-08-07,Europe,Supplier Portal,PO,Team D,Night,7,2034.98,None,22.7
+INV-100337,2026-08-07,Europe,Supplier Portal,PO,Team D,Night,5,367.62,None,22.3
+INV-100338,2026-08-07,Europe,EDI,PO,Team C,Night,3,2138.14,None,11.6
+INV-100339,2026-08-07,Europe,Supplier Portal,PO,Team D,Day,6,10746.63,None,29.2
+INV-100340,2026-08-10,Europe,Supplier Portal,PO,Team B,Day,14,2123.46,Approval delay,43.5
+INV-100341,2026-08-10,North America,Paper,Non-PO,Team D,Day,8,3853.74,Missing PO reference,54.6
+INV-100342,2026-08-10,LATAM,Email,PO,Team C,Day,4,6857.56,None,27.1
+INV-100343,2026-08-10,Europe,EDI,PO,Team C,Night,4,1225.82,None,16.8
+INV-100344,2026-08-10,North America,Supplier Portal,PO,Team A,Night,9,1194.82,None,18.9
+INV-100345,2026-08-10,North America,Supplier Portal,PO,Team A,Night,13,2083.55,None,20.6
+INV-100346,2026-08-10,North America,Supplier Portal,Non-PO,Team D,Night,8,2321.31,Tax code error,35.3
+INV-100347,2026-08-10,North America,EDI,PO,Team B,Day,18,1440.04,None,26.4
+INV-100348,2026-08-10,LATAM,Paper,Non-PO,Team A,Day,2,3997.48,Price mismatch,37.3
+INV-100349,2026-08-10,LATAM,Email,PO,Team A,Night,11,2037.53,None,24.9
+INV-100350,2026-08-11,Europe,EDI,PO,Team D,Night,2,10608.57,None,14.1
+INV-100351,2026-08-11,North America,Supplier Portal,PO,Team D,Day,4,8875.52,None,23.6
+INV-100352,2026-08-11,Europe,Email,Non-PO,Team A,Night,2,3453.37,None,29.2
+INV-100353,2026-08-11,APAC,EDI,Non-PO,Team D,Night,8,1538.94,Tax code error,47.6
+INV-100354,2026-08-11,Europe,Email,PO,Team B,Night,4,5330.08,None,28.7
+INV-100355,2026-08-11,North America,EDI,PO,Team D,Night,5,1687.07,None,16.3
+INV-100356,2026-08-11,LATAM,Paper,PO,Team D,Day,3,2401.53,None,31.8
+INV-100357,2026-08-11,LATAM,EDI,PO,Team B,Day,8,197.96,None,21.5
+INV-100358,2026-08-11,North America,Supplier Portal,PO,Team D,Day,6,16116.01,None,19.8
+INV-100359,2026-08-11,LATAM,EDI,Non-PO,Team A,Day,1,1251.03,None,21
+INV-100360,2026-08-11,North America,Email,Non-PO,Team B,Night,1,483.27,None,26.4
+INV-100361,2026-08-11,Europe,Paper,PO,Team D,Day,6,5501.24,None,32.4
+INV-100362,2026-08-11,North America,EDI,PO,Team D,Day,5,404.74,None,17.7
+INV-100363,2026-08-11,LATAM,Email,PO,Team D,Day,9,1255.15,None,33.7
+INV-100364,2026-08-12,North America,EDI,PO,Team D,Night,6,4226.54,None,16.5
+INV-100365,2026-08-12,Europe,EDI,PO,Team A,Night,12,1970.31,None,15.8
+INV-100366,2026-08-12,LATAM,Supplier Portal,PO,Team A,Day,6,7517.4,None,18.6
+INV-100367,2026-08-12,North America,EDI,PO,Team A,Night,20,3137.52,None,17.1
+INV-100368,2026-08-12,Europe,Email,PO,Team C,Night,3,3636.82,Price mismatch,44.1
+INV-100369,2026-08-12,APAC,EDI,Non-PO,Team D,Night,8,9907.99,None,21.6
+INV-100370,2026-08-12,North America,EDI,Non-PO,Team D,Day,6,2185.43,None,24.5
+INV-100371,2026-08-12,North America,Supplier Portal,Non-PO,Team C,Day,11,4143.99,None,34.2
+INV-100372,2026-08-12,Europe,Email,PO,Team B,Day,8,2918.96,None,33.7
+INV-100373,2026-08-12,LATAM,Email,PO,Team D,Day,7,2032.04,None,36.3
+INV-100374,2026-08-12,North America,EDI,PO,Team C,Night,24,2399.29,None,28.9
+INV-100375,2026-08-12,North America,Email,PO,Team C,Day,17,2521.72,Price mismatch,30.7
+INV-100376,2026-08-13,Europe,EDI,PO,Team A,Night,5,956.06,None,17.1
+INV-100377,2026-08-13,North America,Email,Non-PO,Team A,Night,11,908.58,None,42.5
+INV-100378,2026-08-13,North America,EDI,PO,Team C,Day,6,3307.09,None,16.2
+INV-100379,2026-08-13,North America,EDI,PO,Team A,Night,3,3147.32,None,16.7
+INV-100380,2026-08-13,Europe,Paper,Non-PO,Team C,Day,6,5588.79,None,78.8
+INV-100381,2026-08-13,APAC,EDI,Non-PO,Team B,Night,10,1632.11,Approval delay,58.7
+INV-100382,2026-08-13,Europe,Email,Non-PO,Team D,Night,4,5964.23,None,38.9
+INV-100383,2026-08-13,North America,Supplier Portal,PO,Team B,Night,6,3660.06,None,22.4
+INV-100384,2026-08-13,APAC,Paper,Non-PO,Team D,Day,6,1887.49,None,31.8
+INV-100385,2026-08-13,APAC,EDI,PO,Team A,Day,7,305.51,None,16.3
+INV-100386,2026-08-13,LATAM,EDI,PO,Team C,Night,3,7840.5,None,17.2
+INV-100387,2026-08-13,APAC,Supplier Portal,Non-PO,Team C,Day,1,3694.8,None,30
+INV-100388,2026-08-13,Europe,Email,PO,Team C,Day,8,412.79,None,28.5
+INV-100389,2026-08-14,North America,EDI,Non-PO,Team A,Day,10,3466.8,None,26.1
+INV-100390,2026-08-14,APAC,EDI,PO,Team B,Day,8,6883.2,None,17.2
+INV-100391,2026-08-14,North America,EDI,Non-PO,Team C,Day,3,8377.48,None,21.6
+INV-100392,2026-08-14,North America,Email,PO,Team C,Day,8,889.32,None,35.5
+INV-100393,2026-08-14,North America,Email,PO,Team C,Night,6,202.78,Approval delay,47.2
+INV-100394,2026-08-14,Europe,Supplier Portal,PO,Team C,Night,8,6589.54,None,30.4
+INV-100395,2026-08-14,APAC,Email,PO,Team B,Day,7,922.88,Duplicate suspected,25.1
+INV-100396,2026-08-14,LATAM,Supplier Portal,PO,Team B,Day,1,805.22,None,22.3
+INV-100397,2026-08-14,Europe,Supplier Portal,Non-PO,Team A,Night,6,1976.05,None,30.5
+INV-100398,2026-08-14,APAC,EDI,PO,Team B,Day,2,12867.34,None,22.8
+INV-100399,2026-08-17,LATAM,Paper,Non-PO,Team C,Night,16,699.47,None,48.1
+INV-100400,2026-08-17,Europe,Paper,PO,Team A,Day,2,576.41,None,37.2
+INV-100401,2026-08-17,Europe,EDI,PO,Team A,Day,6,2397.24,None,16.1
+INV-100402,2026-08-17,Europe,Email,PO,Team C,Day,16,4693.46,None,38.2
+INV-100403,2026-08-17,North America,EDI,PO,Team D,Night,19,6304.61,None,22.4
+INV-100404,2026-08-17,North America,Supplier Portal,Non-PO,Team D,Day,3,526.63,Price mismatch,41.7
+INV-100405,2026-08-17,Europe,Paper,PO,Team A,Day,2,2195.55,None,47.1
+INV-100406,2026-08-17,APAC,EDI,PO,Team D,Day,5,1271.27,None,24
+INV-100407,2026-08-17,North America,EDI,Non-PO,Team B,Day,11,1410.09,None,32.5
+INV-100408,2026-08-17,LATAM,Email,Non-PO,Team B,Day,14,1019.56,None,48.9
+INV-100409,2026-08-18,Europe,EDI,PO,Team B,Night,5,3220.9,None,17.5
+INV-100410,2026-08-18,APAC,EDI,PO,Team B,Day,4,4497.49,None,14.1
+INV-100411,2026-08-18,APAC,Email,PO,Team D,Day,6,1674.06,None,27.4
+INV-100412,2026-08-18,North America,Email,PO,Team C,Night,4,3275,Price mismatch,48.3
+INV-100413,2026-08-18,North America,Email,Non-PO,Team A,Night,11,18879.35,None,42
+INV-100414,2026-08-18,North America,EDI,PO,Team C,Day,7,493.77,None,21.4
+INV-100415,2026-08-18,North America,Supplier Portal,Non-PO,Team C,Day,2,1129.98,None,34.1
+INV-100416,2026-08-18,North America,Email,PO,Team A,Day,2,2974.07,None,19
+INV-100417,2026-08-18,APAC,EDI,PO,Team C,Day,6,2121.3,None,16.5
+INV-100418,2026-08-18,Europe,EDI,PO,Team A,Day,6,1603.56,None,12
+INV-100419,2026-08-19,North America,Email,PO,Team C,Night,16,5302.08,Duplicate suspected,50.5
+INV-100420,2026-08-19,North America,Supplier Portal,PO,Team A,Night,6,1805.57,Approval delay,67.8
+INV-100421,2026-08-19,LATAM,Supplier Portal,PO,Team A,Night,1,8425.62,None,25
+INV-100422,2026-08-19,North America,Supplier Portal,Non-PO,Team C,Day,19,15169.08,Tax code error,54.7
+INV-100423,2026-08-19,LATAM,EDI,PO,Team B,Day,18,19024.7,None,13.4
+INV-100424,2026-08-19,Europe,Supplier Portal,Non-PO,Team B,Night,3,18338.6,Price mismatch,38.4
+INV-100425,2026-08-19,APAC,EDI,Non-PO,Team C,Day,5,2330.66,None,28.5
+INV-100426,2026-08-19,North America,Email,Non-PO,Team B,Day,4,916.34,None,42.1
+INV-100427,2026-08-19,Europe,Email,PO,Team C,Day,3,467.86,None,26.4
+INV-100428,2026-08-19,North America,Email,Non-PO,Team B,Night,5,1976.51,None,54.4
+INV-100429,2026-08-19,APAC,Supplier Portal,Non-PO,Team A,Day,12,3958.72,None,43.5
+INV-100430,2026-08-19,North America,EDI,PO,Team B,Day,2,945.48,None,12.8
+INV-100431,2026-08-19,North America,Email,Non-PO,Team D,Day,7,2462.9,Approval delay,64.2
+INV-100432,2026-08-19,North America,Paper,PO,Team D,Day,14,216.21,None,40.6
+INV-100433,2026-08-20,APAC,Supplier Portal,PO,Team B,Day,6,652.61,None,22.1
+INV-100434,2026-08-20,APAC,Paper,Non-PO,Team A,Day,4,1908.26,Price mismatch,49.1
+INV-100435,2026-08-20,APAC,EDI,PO,Team A,Day,10,4485.16,None,15
+INV-100436,2026-08-20,APAC,EDI,Non-PO,Team A,Day,1,3090.98,None,19.5
+INV-100437,2026-08-20,Europe,Paper,Non-PO,Team A,Night,2,1780.52,None,63.8
+INV-100438,2026-08-20,Europe,Email,PO,Team C,Day,3,1775.3,None,35.8
+INV-100439,2026-08-20,North America,EDI,PO,Team C,Night,11,571.07,None,28.2
+INV-100440,2026-08-20,North America,Supplier Portal,PO,Team D,Night,3,9566.52,None,27.3
+INV-100441,2026-08-20,North America,Email,Non-PO,Team B,Day,2,294.65,Missing PO reference,57.2
+INV-100442,2026-08-20,North America,Email,PO,Team D,Day,5,3431.96,None,24.6
+INV-100443,2026-08-21,Europe,Email,PO,Team A,Day,5,13678.69,None,36.6
+INV-100444,2026-08-21,North America,Paper,PO,Team D,Night,12,8818.24,None,37.4
+INV-100445,2026-08-21,North America,Supplier Portal,PO,Team D,Night,14,744.82,None,27.1
+INV-100446,2026-08-21,LATAM,Supplier Portal,PO,Team B,Night,11,6975.97,None,21.5
+INV-100447,2026-08-21,LATAM,EDI,PO,Team A,Night,1,1685.83,None,13
+INV-100448,2026-08-21,North America,Email,Non-PO,Team C,Day,1,2065.5,None,30.1
+INV-100449,2026-08-21,North America,Supplier Portal,PO,Team C,Day,15,1258.51,None,26.7
+INV-100450,2026-08-21,North America,Email,PO,Team D,Night,5,887.63,Tax code error,43.5
+INV-100451,2026-08-21,APAC,Email,PO,Team D,Day,5,3769.92,None,23.2
+INV-100452,2026-08-21,LATAM,Email,PO,Team B,Day,8,6285.21,None,29.8
+INV-100453,2026-08-21,Europe,Email,PO,Team D,Day,6,2624.36,None,36.5
+INV-100454,2026-08-21,Europe,Supplier Portal,PO,Team B,Day,8,540.61,None,16.9
+INV-100455,2026-08-24,Europe,EDI,PO,Team B,Day,5,1279.7,None,15
+INV-100456,2026-08-24,Europe,EDI,PO,Team C,Night,7,1234.92,None,23.7
+INV-100457,2026-08-24,North America,Supplier Portal,PO,Team A,Day,9,3729.49,Price mismatch,40.9
+INV-100458,2026-08-24,North America,Email,PO,Team B,Night,6,1402.69,None,26.1
+INV-100459,2026-08-24,North America,Email,PO,Team C,Day,5,1524.88,Price mismatch,34.7
+INV-100460,2026-08-24,Europe,Email,PO,Team C,Day,6,2261.7,None,41.4
+INV-100461,2026-08-24,North America,Email,Non-PO,Team C,Night,7,2040.3,None,54.9
+INV-100462,2026-08-24,North America,Supplier Portal,Non-PO,Team C,Night,6,6669.11,None,36.1
+INV-100463,2026-08-24,Europe,EDI,PO,Team D,Day,3,1282.07,None,16.6
+INV-100464,2026-08-24,Europe,EDI,PO,Team B,Day,8,2419.47,None,16.2
+INV-100465,2026-08-25,North America,EDI,PO,Team D,Day,12,1603.05,None,21.6
+INV-100466,2026-08-25,Europe,EDI,PO,Team B,Night,6,1310.81,None,13.8
+INV-100467,2026-08-25,Europe,Supplier Portal,Non-PO,Team D,Night,3,265.03,None,49
+INV-100468,2026-08-25,LATAM,EDI,PO,Team D,Day,5,2650.65,None,17.3
+INV-100469,2026-08-25,APAC,Email,PO,Team B,Day,5,1226.57,None,39.3
+INV-100470,2026-08-25,North America,Supplier Portal,PO,Team C,Day,2,1075.57,None,33.1
+INV-100471,2026-08-25,North America,EDI,Non-PO,Team A,Night,7,623.22,None,29.5
+INV-100472,2026-08-25,North America,Email,PO,Team B,Day,2,1909.97,Missing PO reference,41.4
+INV-100473,2026-08-25,APAC,Paper,Non-PO,Team D,Day,1,1453.27,Price mismatch,61.2
+INV-100474,2026-08-25,APAC,Supplier Portal,PO,Team C,Day,4,23598.97,None,31.3
+INV-100475,2026-08-25,LATAM,Email,PO,Team A,Day,2,13493.18,Price mismatch,48.5
+INV-100476,2026-08-25,North America,Supplier Portal,Non-PO,Team C,Night,10,3827.05,Missing PO reference,28
+INV-100477,2026-08-25,Europe,Email,Non-PO,Team D,Night,3,956.96,None,25.8
+INV-100478,2026-08-26,LATAM,EDI,PO,Team A,Day,6,5508.12,Vendor master error,27.3
+INV-100479,2026-08-26,Europe,Email,PO,Team B,Day,7,3981.64,None,29.2
+INV-100480,2026-08-26,LATAM,Email,PO,Team D,Day,5,316.66,None,20.6
+INV-100481,2026-08-26,Europe,EDI,Non-PO,Team C,Night,7,4371.01,None,40.6
+INV-100482,2026-08-26,North America,EDI,PO,Team B,Day,21,5456.48,None,17.3
+INV-100483,2026-08-26,Europe,Paper,PO,Team D,Night,6,6907.21,Duplicate suspected,40.6
+INV-100484,2026-08-26,North America,EDI,PO,Team A,Night,6,2885.97,Tax code error,23.2
+INV-100485,2026-08-26,North America,EDI,Non-PO,Team D,Day,36,3381.66,None,44.8
+INV-100486,2026-08-26,North America,Email,Non-PO,Team C,Night,4,319.09,Tax code error,49.5
+INV-100487,2026-08-26,APAC,Email,PO,Team D,Night,12,1228.89,None,30.7
+INV-100488,2026-08-27,North America,Supplier Portal,PO,Team A,Day,1,28965.4,None,22.5
+INV-100489,2026-08-27,Europe,Paper,PO,Team C,Day,3,8996.29,None,46.3
+INV-100490,2026-08-27,APAC,EDI,Non-PO,Team C,Day,14,1630.05,None,29.1
+INV-100491,2026-08-27,Europe,Supplier Portal,Non-PO,Team B,Night,7,3915.14,None,26.8
+INV-100492,2026-08-27,LATAM,Paper,PO,Team D,Day,11,1783.44,Vendor master error,64.7
+INV-100493,2026-08-27,LATAM,EDI,PO,Team D,Night,11,25601.53,None,20.7
+INV-100494,2026-08-27,APAC,EDI,Non-PO,Team C,Night,4,2021,Price mismatch,59.6
+INV-100495,2026-08-27,APAC,EDI,PO,Team B,Day,2,792,None,10.9
+INV-100496,2026-08-27,Europe,Supplier Portal,PO,Team B,Night,11,1667.39,None,21.9
+INV-100497,2026-08-27,Europe,Email,Non-PO,Team D,Day,7,3816.3,None,33.5
+INV-100498,2026-08-27,North America,Email,PO,Team D,Night,15,1316.08,None,24.9
+INV-100499,2026-08-27,Europe,Paper,PO,Team B,Day,3,2371,None,30.1
+INV-100500,2026-08-27,APAC,EDI,PO,Team C,Night,12,5204.41,None,24.3
+INV-100501,2026-08-28,Europe,Supplier Portal,PO,Team B,Night,6,1312.84,None,18.6
+INV-100502,2026-08-28,LATAM,Email,PO,Team A,Night,8,561.97,None,28.8
+INV-100503,2026-08-28,LATAM,EDI,PO,Team C,Night,9,253.5,None,19.2
+INV-100504,2026-08-28,North America,EDI,PO,Team D,Night,6,1939.13,Missing PO reference,20.2
+INV-100505,2026-08-28,North America,Supplier Portal,PO,Team D,Day,14,1380.51,Price mismatch,30.7
+INV-100506,2026-08-28,North America,Supplier Portal,PO,Team A,Night,3,4275.18,None,9
+INV-100507,2026-08-28,LATAM,Email,PO,Team C,Day,5,2156.65,None,41.4
+INV-100508,2026-08-28,North America,Supplier Portal,PO,Team B,Night,2,5359.48,None,14.5
+INV-100509,2026-08-28,North America,Supplier Portal,PO,Team A,Day,3,95.25,None,16.4
+INV-100510,2026-08-28,LATAM,Supplier Portal,Non-PO,Team A,Night,3,7039.85,None,24.5
+INV-100511,2026-08-28,Europe,EDI,PO,Team A,Night,10,786.46,None,13.2
+INV-100512,2026-08-31,LATAM,Email,PO,Team A,Night,4,3301.44,None,17.5
+INV-100513,2026-08-31,Europe,EDI,PO,Team B,Day,9,712.51,None,23.1
+INV-100514,2026-08-31,Europe,Email,Non-PO,Team C,Night,2,1472.6,None,36.6
+INV-100515,2026-08-31,Europe,Supplier Portal,PO,Team D,Day,25,310.74,None,22.3
+INV-100516,2026-08-31,North America,Email,Non-PO,Team A,Day,2,6545.13,None,35.6
+INV-100517,2026-08-31,Europe,EDI,PO,Team A,Day,6,950.58,None,19.6
+INV-100518,2026-08-31,Europe,EDI,Non-PO,Team D,Day,6,711.76,Vendor master error,33.8
+INV-100519,2026-08-31,North America,Email,PO,Team C,Day,4,714.1,None,43.8
+INV-100520,2026-08-31,North America,Supplier Portal,PO,Team B,Night,11,1303.29,None,22.6
+INV-100521,2026-08-31,North America,Supplier Portal,Non-PO,Team B,Day,8,2857.69,None,20.2
+INV-100522,2026-08-31,Europe,Email,Non-PO,Team A,Night,13,2056.64,Missing PO reference,54.4
+INV-100523,2026-08-31,APAC,Supplier Portal,PO,Team D,Night,5,5121.09,None,19.2
+INV-100524,2026-08-31,LATAM,Paper,Non-PO,Team A,Day,7,2149,Approval delay,104.4
+INV-100525,2026-09-01,Europe,Supplier Portal,Non-PO,Team A,Day,5,1659.71,Vendor master error,46.3
+INV-100526,2026-09-01,Europe,Email,PO,Team D,Day,8,375.25,None,32.5
+INV-100527,2026-09-01,North America,Email,Non-PO,Team B,Day,12,18150.96,Price mismatch,61.3
+INV-100528,2026-09-01,Europe,Supplier Portal,PO,Team B,Night,8,4289.5,None,29.7
+INV-100529,2026-09-01,North America,Email,PO,Team A,Day,2,396.69,None,24.1
+INV-100530,2026-09-01,North America,EDI,Non-PO,Team B,Night,4,3042.18,Price mismatch,38.9
+INV-100531,2026-09-01,Europe,Email,PO,Team A,Day,4,813.56,Approval delay,51.7
+INV-100532,2026-09-01,Europe,Email,Non-PO,Team A,Day,14,3092.49,None,42.7
+INV-100533,2026-09-01,APAC,Email,PO,Team A,Day,10,1096.19,None,34.6
+INV-100534,2026-09-01,Europe,Email,Non-PO,Team C,Night,2,22548.1,None,24.9
+INV-100535,2026-09-01,APAC,EDI,PO,Team C,Night,6,3412.19,None,20.1
+INV-100536,2026-09-01,North America,Supplier Portal,PO,Team B,Day,1,1409.13,None,20.9
+INV-100537,2026-09-01,Europe,Email,PO,Team B,Day,9,1615.07,None,29
+INV-100538,2026-09-02,North America,Email,PO,Team C,Night,4,2267.41,None,33.9
+INV-100539,2026-09-02,Europe,Email,PO,Team B,Day,3,4754.4,None,31.7
+INV-100540,2026-09-02,LATAM,Supplier Portal,PO,Team B,Night,9,3429.44,None,28.2
+INV-100541,2026-09-02,APAC,EDI,PO,Team B,Night,2,2200.63,None,18.5
+INV-100542,2026-09-02,Europe,Email,PO,Team C,Day,3,1102.23,None,50.1
+INV-100543,2026-09-02,Europe,EDI,PO,Team C,Day,6,3194.72,None,29.4
+INV-100544,2026-09-02,LATAM,EDI,PO,Team B,Night,2,1114.1,Vendor master error,26.2
+INV-100545,2026-09-02,LATAM,Email,PO,Team C,Night,3,519.67,None,32.8
+INV-100546,2026-09-02,Europe,Paper,PO,Team C,Night,7,1630.72,None,55.6
+INV-100547,2026-09-02,North America,Email,PO,Team D,Day,10,1011.46,None,24.4
+INV-100548,2026-09-02,North America,EDI,PO,Team D,Day,10,1501.81,None,15.8
+INV-100549,2026-09-02,APAC,Email,PO,Team D,Night,3,593.36,Missing PO reference,39.7
+INV-100550,2026-09-03,Europe,EDI,PO,Team B,Day,4,4368.12,Price mismatch,60.6
+INV-100551,2026-09-03,Europe,Email,PO,Team C,Day,3,4201.27,None,28.1
+INV-100552,2026-09-03,LATAM,EDI,PO,Team C,Day,13,1261.46,Missing PO reference,60.2
+INV-100553,2026-09-03,North America,Supplier Portal,PO,Team D,Day,22,12536.38,None,43.5
+INV-100554,2026-09-03,North America,Email,Non-PO,Team A,Day,4,705.54,Tax code error,45.6
+INV-100555,2026-09-03,LATAM,Email,Non-PO,Team B,Day,7,10549.39,None,57.8
+INV-100556,2026-09-03,North America,Email,Non-PO,Team C,Day,3,5071.02,None,49.9
+INV-100557,2026-09-03,APAC,Supplier Portal,Non-PO,Team D,Day,8,1524.15,None,40.6
+INV-100558,2026-09-03,North America,Supplier Portal,PO,Team A,Night,7,4309.63,Missing PO reference,60.3
+INV-100559,2026-09-03,North America,Email,PO,Team A,Day,10,1656.93,Vendor master error,49.6
+INV-100560,2026-09-03,Europe,EDI,PO,Team D,Day,3,603.39,None,33.6
+INV-100561,2026-09-03,North America,EDI,Non-PO,Team A,Night,3,413.6,Missing PO reference,64.3
+INV-100562,2026-09-03,Europe,EDI,Non-PO,Team C,Day,6,1327.16,None,61.7
+INV-100563,2026-09-03,APAC,EDI,PO,Team A,Night,26,1811.58,None,42.9
+INV-100564,2026-09-04,Europe,Email,PO,Team B,Day,18,1047.52,None,44.9
+INV-100565,2026-09-04,North America,Supplier Portal,PO,Team D,Day,5,26733.61,None,30.1
+INV-100566,2026-09-04,Europe,EDI,PO,Team C,Night,21,566.49,None,39
+INV-100567,2026-09-04,APAC,EDI,PO,Team D,Night,7,1859.65,None,28.1
+INV-100568,2026-09-04,North America,EDI,PO,Team B,Day,6,1013.77,None,33.7
+INV-100569,2026-09-04,Europe,Email,PO,Team A,Day,10,1650.06,Approval delay,64.1
+INV-100570,2026-09-04,Europe,EDI,PO,Team A,Day,3,1920.12,None,22.5
+INV-100571,2026-09-04,APAC,Email,PO,Team C,Night,4,460.67,Missing PO reference,55
+INV-100572,2026-09-04,North America,Supplier Portal,PO,Team D,Day,3,4799.72,None,23.8
+INV-100573,2026-09-04,LATAM,EDI,Non-PO,Team D,Day,5,4456.44,None,29.3
+INV-100574,2026-09-04,APAC,EDI,PO,Team B,Day,6,2495.74,None,23.9
+INV-100575,2026-09-04,LATAM,Paper,PO,Team D,Day,4,5633.88,None,47.6
+INV-100576,2026-09-07,Europe,Email,PO,Team A,Night,2,995.37,Approval delay,78.8
+INV-100577,2026-09-07,North America,Email,PO,Team B,Night,9,1810.17,None,44.8
+INV-100578,2026-09-07,LATAM,EDI,PO,Team D,Day,15,2046.12,None,31.6
+INV-100579,2026-09-07,North America,EDI,PO,Team C,Night,7,37229.24,Tax code error,36.5
+INV-100580,2026-09-07,LATAM,EDI,PO,Team A,Night,19,1106.71,None,46
+INV-100581,2026-09-07,APAC,Supplier Portal,PO,Team B,Day,9,749.35,None,43.7
+INV-100582,2026-09-07,North America,EDI,Non-PO,Team D,Day,3,3812.71,Missing PO reference,55.7
+INV-100583,2026-09-07,LATAM,EDI,PO,Team A,Day,6,2106.47,None,29.4
+INV-100584,2026-09-07,Europe,Supplier Portal,Non-PO,Team A,Day,5,7218.41,None,33.6
+INV-100585,2026-09-07,Europe,EDI,Non-PO,Team D,Day,7,272.89,Approval delay,108.1
+INV-100586,2026-09-08,LATAM,Supplier Portal,PO,Team B,Day,3,1184.21,None,24
+INV-100587,2026-09-08,LATAM,EDI,PO,Team A,Night,6,3960.63,None,42.1
+INV-100588,2026-09-08,Europe,Supplier Portal,PO,Team B,Day,13,2030.08,None,35.2
+INV-100589,2026-09-08,APAC,Supplier Portal,Non-PO,Team A,Day,11,1843.39,None,28
+INV-100590,2026-09-08,LATAM,Supplier Portal,PO,Team D,Night,10,1025.41,Price mismatch,40
+INV-100591,2026-09-08,Europe,EDI,Non-PO,Team B,Day,2,2880.81,None,44.5
+INV-100592,2026-09-08,North America,EDI,Non-PO,Team C,Day,2,126.85,None,63.1
+INV-100593,2026-09-08,LATAM,Supplier Portal,PO,Team B,Night,27,43012.13,None,37.6
+INV-100594,2026-09-08,North America,Paper,PO,Team A,Day,13,4266.52,None,59.3
+INV-100595,2026-09-08,North America,Email,PO,Team C,Day,4,5367.38,Price mismatch,47.6
+INV-100596,2026-09-08,APAC,Email,Non-PO,Team D,Day,5,1015.21,None,44.2
+INV-100597,2026-09-08,North America,Paper,PO,Team A,Day,12,275.08,Approval delay,62.6
+INV-100598,2026-09-08,APAC,EDI,Non-PO,Team D,Night,12,3506.47,None,47.1
+INV-100599,2026-09-08,Europe,EDI,Non-PO,Team C,Day,6,1750.97,None,36.7
+INV-100600,2026-09-09,North America,Supplier Portal,PO,Team A,Night,3,1365.27,None,12.5
+INV-100601,2026-09-09,Europe,Email,Non-PO,Team D,Night,3,2843.26,None,27.6
+INV-100602,2026-09-09,Europe,Paper,PO,Team D,Day,8,2240.31,Vendor master error,71.7
+INV-100603,2026-09-09,Europe,EDI,PO,Team D,Night,11,747.17,Tax code error,20.4
+INV-100604,2026-09-09,Europe,Paper,Non-PO,Team C,Day,11,1834.72,Duplicate suspected,46.3
+INV-100605,2026-09-09,APAC,EDI,PO,Team D,Day,2,11874.72,None,23
+INV-100606,2026-09-09,Europe,Supplier Portal,Non-PO,Team B,Day,3,4685.49,None,26.4
+INV-100607,2026-09-09,LATAM,EDI,PO,Team C,Day,9,2935.68,None,21.8
+INV-100608,2026-09-09,APAC,Supplier Portal,Non-PO,Team B,Night,4,977.8,None,28.9
+INV-100609,2026-09-09,LATAM,EDI,PO,Team D,Day,4,1270.44,None,18.2
+INV-100610,2026-09-10,APAC,Email,Non-PO,Team B,Day,8,5910.01,None,46.2
+INV-100611,2026-09-10,Europe,Email,PO,Team D,Night,3,1891.16,Missing PO reference,26.8
+INV-100612,2026-09-10,North America,Email,PO,Team B,Day,3,2350.98,Missing PO reference,46.3
+INV-100613,2026-09-10,North America,Paper,PO,Team B,Day,6,1126.95,Approval delay,49.1
+INV-100614,2026-09-10,LATAM,Email,Non-PO,Team D,Day,3,990.7,None,28.8
+INV-100615,2026-09-10,LATAM,Supplier Portal,PO,Team D,Day,4,1108.03,None,12.9
+INV-100616,2026-09-10,North America,EDI,PO,Team C,Night,10,754.33,None,17.4
+INV-100617,2026-09-10,North America,Email,PO,Team C,Day,4,1025.63,None,36.8
+INV-100618,2026-09-10,Europe,Email,PO,Team B,Night,7,1460.55,Price mismatch,57.5
+INV-100619,2026-09-10,Europe,Supplier Portal,PO,Team A,Day,10,1407.16,None,20.9
+INV-100620,2026-09-10,Europe,Email,PO,Team D,Day,2,3077.27,None,34.7
+INV-100621,2026-09-10,North America,Email,Non-PO,Team A,Day,10,803.97,None,48.7
+INV-100622,2026-09-10,LATAM,EDI,PO,Team C,Day,9,2189.81,None,22.7
+INV-100623,2026-09-10,APAC,Paper,PO,Team C,Night,15,1437.97,Missing PO reference,50.4
+INV-100624,2026-09-11,APAC,Supplier Portal,PO,Team C,Day,5,3191.66,None,26.6
+INV-100625,2026-09-11,North America,EDI,PO,Team A,Night,8,4543.05,None,12.7
+INV-100626,2026-09-11,Europe,Supplier Portal,PO,Team A,Night,7,895.24,None,23.8
+INV-100627,2026-09-11,Europe,Email,PO,Team B,Day,12,2000.46,None,25.2
+INV-100628,2026-09-11,Europe,Email,Non-PO,Team A,Day,7,1047.67,None,32.8
+INV-100629,2026-09-11,North America,Email,PO,Team A,Day,5,181.94,None,31.3
+INV-100630,2026-09-11,APAC,EDI,PO,Team A,Day,3,1302.39,None,15.8
+INV-100631,2026-09-11,APAC,Paper,PO,Team D,Day,6,4498.34,None,33.9
+INV-100632,2026-09-11,Europe,EDI,PO,Team C,Day,1,2928.55,None,22.9
+INV-100633,2026-09-11,LATAM,Supplier Portal,PO,Team D,Day,10,3005.98,None,23.3
+INV-100634,2026-09-11,North America,Email,Non-PO,Team C,Day,6,2434.02,None,33.6
+INV-100635,2026-09-11,Europe,Supplier Portal,PO,Team C,Night,3,2179.05,None,27.5
+INV-100636,2026-09-14,Europe,Email,PO,Team C,Night,13,42754.23,None,29.3
+INV-100637,2026-09-14,LATAM,Supplier Portal,PO,Team A,Night,6,1104.54,None,18.4
+INV-100638,2026-09-14,North America,EDI,Non-PO,Team D,Night,5,163.05,None,21.5
+INV-100639,2026-09-14,North America,Paper,PO,Team A,Day,12,1591.04,None,32.5
+INV-100640,2026-09-14,North America,Supplier Portal,PO,Team B,Night,14,1018.7,Price mismatch,34.7
+INV-100641,2026-09-14,APAC,EDI,PO,Team C,Day,1,835.59,None,20.3
+INV-100642,2026-09-14,Europe,EDI,PO,Team D,Day,3,1114.79,None,11.4
+INV-100643,2026-09-14,Europe,EDI,PO,Team C,Night,2,4241.53,None,20.1
+INV-100644,2026-09-14,APAC,Email,PO,Team C,Day,9,2650.83,None,40.6
+INV-100645,2026-09-14,LATAM,EDI,Non-PO,Team D,Day,6,8030.35,Tax code error,33
+INV-100646,2026-09-14,North America,Email,PO,Team D,Day,8,6412.63,None,33.9
+INV-100647,2026-09-14,North America,Email,Non-PO,Team A,Day,16,737.46,Vendor master error,46.9
+INV-100648,2026-09-15,Europe,Email,Non-PO,Team B,Night,19,1147.94,None,38.7
+INV-100649,2026-09-15,APAC,Supplier Portal,Non-PO,Team D,Day,7,422.52,None,27.1
+INV-100650,2026-09-15,Europe,EDI,Non-PO,Team C,Day,11,11971.52,None,22.7
+INV-100651,2026-09-15,LATAM,Email,Non-PO,Team B,Night,11,10376.83,None,42.1
+INV-100652,2026-09-15,LATAM,EDI,Non-PO,Team A,Day,7,2124.03,None,16.3
+INV-100653,2026-09-15,LATAM,EDI,Non-PO,Team B,Day,9,1747.08,None,23.5
+INV-100654,2026-09-15,North America,EDI,PO,Team B,Day,6,79.68,None,17.4
+INV-100655,2026-09-15,North America,Email,PO,Team A,Day,10,9772.86,None,29.6
+INV-100656,2026-09-15,APAC,Supplier Portal,PO,Team C,Day,10,16260.11,Price mismatch,45.2
+INV-100657,2026-09-15,North America,Paper,PO,Team B,Night,4,11882.75,None,31.6
+INV-100658,2026-09-15,North America,EDI,PO,Team B,Day,11,326.77,None,24.8
+INV-100659,2026-09-16,LATAM,Supplier Portal,PO,Team C,Day,12,8147.26,None,29.4
+INV-100660,2026-09-16,North America,EDI,Non-PO,Team C,Night,15,1340.19,None,31.6
+INV-100661,2026-09-16,APAC,EDI,PO,Team A,Night,12,4035.72,None,20.4
+INV-100662,2026-09-16,LATAM,EDI,PO,Team C,Day,18,4037.85,Approval delay,77.8
+INV-100663,2026-09-16,LATAM,Supplier Portal,PO,Team B,Day,7,1891.93,Missing PO reference,30.3
+INV-100664,2026-09-16,North America,EDI,Non-PO,Team A,Day,5,3979.46,None,20.3
+INV-100665,2026-09-16,North America,Supplier Portal,Non-PO,Team D,Night,2,275.53,None,23.4
+INV-100666,2026-09-16,North America,Email,PO,Team C,Night,6,3341.77,Approval delay,59.3
+INV-100667,2026-09-16,North America,EDI,PO,Team C,Day,6,3505.33,None,19.3
+INV-100668,2026-09-16,North America,EDI,PO,Team A,Night,2,4083.27,None,12.9
+INV-100669,2026-09-16,APAC,Email,Non-PO,Team A,Day,3,453.63,Price mismatch,45.9
+INV-100670,2026-09-17,LATAM,Supplier Portal,Non-PO,Team A,Night,5,1564.33,None,19.1
+INV-100671,2026-09-17,APAC,Supplier Portal,PO,Team B,Night,14,810.77,None,26.9
+INV-100672,2026-09-17,LATAM,EDI,Non-PO,Team D,Day,9,889,Approval delay,46.7
+INV-100673,2026-09-17,North America,Supplier Portal,PO,Team D,Night,7,1329.26,None,22.2
+INV-100674,2026-09-17,North America,EDI,Non-PO,Team C,Night,10,6478.63,Price mismatch,60.7
+INV-100675,2026-09-17,North America,EDI,PO,Team D,Day,3,2835.8,None,18.5
+INV-100676,2026-09-17,Europe,EDI,PO,Team D,Night,4,554.56,None,16.3
+INV-100677,2026-09-17,LATAM,EDI,PO,Team B,Night,3,7037.24,None,17.8
+INV-100678,2026-09-17,North America,Email,PO,Team C,Day,13,616.55,None,31.9
+INV-100679,2026-09-17,North America,Email,Non-PO,Team B,Day,12,2981.31,None,37.8
+INV-100680,2026-09-18,North America,EDI,PO,Team C,Night,6,2066.23,None,26
+INV-100681,2026-09-18,APAC,Supplier Portal,PO,Team C,Day,5,690.26,None,36.3
+INV-100682,2026-09-18,LATAM,Email,PO,Team D,Night,4,2113.81,Vendor master error,33.6
+INV-100683,2026-09-18,North America,Email,PO,Team B,Day,9,7874.55,Tax code error,25.7
+INV-100684,2026-09-18,Europe,Supplier Portal,PO,Team C,Night,36,1327.97,None,21.8
+INV-100685,2026-09-18,North America,EDI,PO,Team B,Day,9,2819.8,None,16.4
+INV-100686,2026-09-18,APAC,Supplier Portal,PO,Team D,Night,15,7395.81,Missing PO reference,27.6
+INV-100687,2026-09-18,North America,Supplier Portal,PO,Team B,Night,4,9157.28,None,19
+INV-100688,2026-09-18,North America,EDI,PO,Team A,Night,5,898.94,None,14.1
+INV-100689,2026-09-18,Europe,Supplier Portal,PO,Team A,Night,9,1076.14,Price mismatch,30.9
+INV-100690,2026-09-21,LATAM,EDI,Non-PO,Team D,Night,4,2826.74,None,23.1
+INV-100691,2026-09-21,Europe,Paper,PO,Team D,Day,4,7873.46,None,31.3
+INV-100692,2026-09-21,Europe,Paper,Non-PO,Team B,Night,7,3248.67,Vendor master error,33.8
+INV-100693,2026-09-21,North America,Paper,PO,Team C,Day,4,600.84,Price mismatch,59
+INV-100694,2026-09-21,LATAM,Email,PO,Team A,Night,9,1170.41,None,23.5
+INV-100695,2026-09-21,North America,Supplier Portal,Non-PO,Team D,Night,2,976.32,None,30.6
+INV-100696,2026-09-21,Europe,EDI,PO,Team C,Night,3,1614.74,None,16.2
+INV-100697,2026-09-21,Europe,EDI,PO,Team B,Night,5,5973.05,None,13.6
+INV-100698,2026-09-21,Europe,Supplier Portal,PO,Team C,Day,2,1899.67,None,24.3
+INV-100699,2026-09-21,LATAM,Email,PO,Team D,Night,8,484.56,None,29.1
+INV-100700,2026-09-21,LATAM,Email,PO,Team B,Day,7,292.11,None,23
+INV-100701,2026-09-21,Europe,EDI,PO,Team A,Day,4,6898.59,None,18.8
+INV-100702,2026-09-21,North America,Paper,PO,Team C,Night,6,3337.95,Price mismatch,59.5
+INV-100703,2026-09-21,North America,Email,PO,Team C,Day,2,1648.47,None,40.3
+INV-100704,2026-09-22,Europe,EDI,PO,Team A,Day,1,721.43,None,9.2
+INV-100705,2026-09-22,Europe,Email,Non-PO,Team B,Day,9,1014.77,None,54.1
+INV-100706,2026-09-22,APAC,Email,PO,Team B,Day,6,4063.07,None,31.1
+INV-100707,2026-09-22,Europe,EDI,Non-PO,Team D,Day,7,6582.14,None,29.4
+INV-100708,2026-09-22,North America,Paper,PO,Team A,Day,3,691.09,None,28.6
+INV-100709,2026-09-22,Europe,EDI,Non-PO,Team D,Day,2,5615.31,None,22.6
+INV-100710,2026-09-22,Europe,Supplier Portal,Non-PO,Team A,Day,4,827.96,Missing PO reference,55.8
+INV-100711,2026-09-22,North America,EDI,Non-PO,Team A,Night,2,21321.96,None,32.5
+INV-100712,2026-09-22,North America,EDI,PO,Team D,Night,2,8003.53,None,11.8
+INV-100713,2026-09-22,Europe,EDI,PO,Team C,Night,16,1292.24,None,23.3
+INV-100714,2026-09-22,North America,EDI,Non-PO,Team B,Day,2,5678.39,None,15.7
+INV-100715,2026-09-22,Europe,Paper,Non-PO,Team C,Night,2,3279.34,None,51.7
+INV-100716,2026-09-22,LATAM,EDI,PO,Team B,Night,3,9496.32,None,13.4
+INV-100717,2026-09-23,Europe,Paper,PO,Team A,Day,3,7353.09,None,32.8
+INV-100718,2026-09-23,APAC,EDI,PO,Team A,Day,8,3312.6,None,19.7
+INV-100719,2026-09-23,North America,EDI,PO,Team D,Night,3,394.98,None,12.4
+INV-100720,2026-09-23,APAC,Paper,PO,Team C,Day,4,10212.97,None,46.1
+INV-100721,2026-09-23,Europe,EDI,PO,Team C,Day,6,1808.67,None,25.3
+INV-100722,2026-09-23,Europe,Email,PO,Team D,Night,12,488.75,None,32.6
+INV-100723,2026-09-23,Europe,Email,PO,Team B,Night,2,1340.02,None,29.2
+INV-100724,2026-09-23,North America,Email,PO,Team A,Night,3,2458.75,None,22.6
+INV-100725,2026-09-23,North America,Supplier Portal,PO,Team A,Day,8,390.46,None,20.4
+INV-100726,2026-09-23,Europe,EDI,PO,Team A,Day,14,1544.81,Price mismatch,38.4
+INV-100727,2026-09-23,APAC,Email,Non-PO,Team C,Day,11,4022.77,None,40
+INV-100728,2026-09-23,APAC,EDI,PO,Team A,Day,16,533.21,None,20
+INV-100729,2026-09-24,LATAM,EDI,PO,Team C,Day,8,13642.51,None,19.3
+INV-100730,2026-09-24,LATAM,EDI,PO,Team A,Night,7,4604.62,None,13.4
+INV-100731,2026-09-24,Europe,Supplier Portal,Non-PO,Team D,Night,3,7369.06,None,35.3
+INV-100732,2026-09-24,North America,Paper,PO,Team D,Day,4,1683.31,None,41.7
+INV-100733,2026-09-24,Europe,Paper,PO,Team B,Day,17,1033.85,Price mismatch,40.5
+INV-100734,2026-09-24,LATAM,Supplier Portal,PO,Team D,Night,4,347.04,None,15.4
+INV-100735,2026-09-24,North America,Paper,PO,Team A,Day,10,6185.96,None,28.5
+INV-100736,2026-09-24,LATAM,EDI,PO,Team A,Day,2,878.09,None,14.7
+INV-100737,2026-09-24,Europe,Email,PO,Team A,Night,45,1485.14,None,33
+INV-100738,2026-09-24,LATAM,Supplier Portal,PO,Team A,Day,6,1068.11,None,18.1
+INV-100739,2026-09-24,Europe,Email,PO,Team A,Day,10,3578.71,None,33.6
+INV-100740,2026-09-24,Europe,EDI,PO,Team D,Night,7,953.34,None,17.9
+INV-100741,2026-09-24,LATAM,Email,PO,Team D,Day,3,1010.24,None,19.3
+INV-100742,2026-09-24,North America,Email,PO,Team B,Day,5,576.47,Tax code error,35
+INV-100743,2026-09-25,Europe,Supplier Portal,Non-PO,Team C,Day,11,1621.02,None,37.2
+INV-100744,2026-09-25,Europe,Paper,PO,Team C,Night,4,2690.14,None,43.8
+INV-100745,2026-09-25,North America,Email,PO,Team A,Day,5,538.79,None,26.1
+INV-100746,2026-09-25,Europe,EDI,PO,Team A,Night,2,2543.79,None,18.1
+INV-100747,2026-09-25,LATAM,Supplier Portal,PO,Team D,Day,10,1514.71,None,22.8
+INV-100748,2026-09-25,North America,Email,Non-PO,Team A,Day,5,1202.93,None,49.1
+INV-100749,2026-09-25,Europe,EDI,PO,Team A,Day,7,2998.63,Price mismatch,27.3
+INV-100750,2026-09-25,North America,EDI,PO,Team A,Day,3,4659.96,None,15
+INV-100751,2026-09-25,North America,Email,PO,Team D,Day,10,373.24,Price mismatch,35.5
+INV-100752,2026-09-25,APAC,Supplier Portal,PO,Team B,Day,3,567.7,None,16.5
+INV-100753,2026-09-25,North America,EDI,PO,Team C,Day,2,12083.6,None,21.5
+INV-100754,2026-09-25,North America,Supplier Portal,Non-PO,Team D,Night,7,1545.49,Approval delay,88.5
+INV-100755,2026-09-28,LATAM,EDI,PO,Team D,Day,6,884.79,None,23.8
+INV-100756,2026-09-28,North America,EDI,PO,Team B,Day,2,2620.12,Missing PO reference,26.8
+INV-100757,2026-09-28,APAC,Email,Non-PO,Team B,Day,4,5148.53,Vendor master error,39.1
+INV-100758,2026-09-28,Europe,Email,Non-PO,Team B,Day,3,4548.2,None,25.8
+INV-100759,2026-09-28,Europe,Supplier Portal,PO,Team C,Day,7,2063.11,None,26.8
+INV-100760,2026-09-28,North America,Supplier Portal,PO,Team B,Day,6,1273.72,None,20.4
+INV-100761,2026-09-28,Europe,Email,Non-PO,Team D,Day,3,4098.46,None,47.9
+INV-100762,2026-09-28,LATAM,EDI,PO,Team A,Night,7,666.63,None,21
+INV-100763,2026-09-28,LATAM,Email,PO,Team C,Night,2,11024.01,None,48.9
+INV-100764,2026-09-28,Europe,Paper,PO,Team D,Night,17,2992.91,None,25.1
+INV-100765,2026-09-28,Europe,Supplier Portal,PO,Team D,Night,7,1897.71,None,15.5
+INV-100766,2026-09-28,LATAM,Supplier Portal,PO,Team B,Night,5,5695.1,None,18.8
+INV-100767,2026-09-29,North America,Paper,PO,Team B,Day,11,370.17,None,38.5
+INV-100768,2026-09-29,North America,EDI,Non-PO,Team D,Day,26,1409.78,None,28.4
+INV-100769,2026-09-29,LATAM,Supplier Portal,PO,Team D,Night,4,5727.69,None,22.9
+INV-100770,2026-09-29,APAC,EDI,PO,Team D,Night,7,1406.35,Price mismatch,24.7
+INV-100771,2026-09-29,Europe,Paper,PO,Team A,Day,20,610.92,None,65.5
+INV-100772,2026-09-29,North America,Email,PO,Team C,Day,17,1564.86,None,41.6
+INV-100773,2026-09-29,LATAM,Paper,PO,Team A,Night,9,2780.55,None,48.8
+INV-100774,2026-09-29,North America,Supplier Portal,PO,Team B,Day,2,14658.48,Approval delay,48.2
+INV-100775,2026-09-29,LATAM,Supplier Portal,PO,Team A,Day,2,2201.36,None,19.8
+INV-100776,2026-09-29,LATAM,EDI,PO,Team D,Day,18,1369.45,None,21.3
+INV-100777,2026-09-29,North America,Email,Non-PO,Team C,Day,5,2445.49,Price mismatch,69.1
+INV-100778,2026-09-29,Europe,Email,PO,Team A,Day,5,2523.35,None,30.2
+INV-100779,2026-09-29,Europe,EDI,PO,Team A,Night,7,5790.66,None,11.2
+INV-100780,2026-09-30,APAC,Email,PO,Team B,Night,5,2846.38,None,26.5
+INV-100781,2026-09-30,LATAM,Email,Non-PO,Team D,Day,12,7537.92,None,43.8
+INV-100782,2026-09-30,North America,Email,PO,Team A,Night,4,40640.19,None,28.2
+INV-100783,2026-09-30,Europe,Email,PO,Team A,Day,6,2639.15,None,21.7
+INV-100784,2026-09-30,Europe,EDI,Non-PO,Team A,Day,4,697.45,Missing PO reference,48.6
+INV-100785,2026-09-30,Europe,Email,PO,Team A,Day,3,643.86,Missing PO reference,52.8
+INV-100786,2026-09-30,Europe,Email,PO,Team A,Night,10,991.64,None,32.7
+INV-100787,2026-09-30,LATAM,Supplier Portal,PO,Team A,Night,5,2570.88,None,15.1
+INV-100788,2026-09-30,Europe,EDI,PO,Team C,Day,6,4836.85,None,23
+INV-100789,2026-09-30,LATAM,EDI,Non-PO,Team B,Night,4,4530.61,None,20.4
+INV-100790,2026-09-30,North America,Supplier Portal,PO,Team B,Day,2,2163.68,None,15.3
