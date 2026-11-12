@@ -84,7 +84,7 @@ const Mon = (() => {
         if (z > 4 && rel > 0 && (!local || z > local.z)) local = { x, lvl: l.lvl, z, m: mean(l.a), base: l.b.mean, n: l.a.length, rel };
       });
     });
-    if (local) signals.push({ kind: "local", x: local.x, lvl: local.lvl, text: `${local.x} = ${local.lvl} has averaged ${f(local.m, 1)}${st.cfg.unit || ""} over the last 5 days against ${f(local.base, 1)}${st.cfg.unit || ""} in its baseline (${f(local.rel, 1)} worse than its peers moved, z = ${f(local.z, 1)}).` });
+    if (local) signals.push({ kind: "local", x: local.x, lvl: local.lvl, text: `${String(local.lvl).toLowerCase().startsWith(local.x.toLowerCase()) ? local.lvl : local.x + " " + local.lvl} has averaged ${f(local.m, 1)}${st.cfg.unit || ""} over the last 5 days against ${f(local.base, 1)}${st.cfg.unit || ""} in its baseline (${f(local.rel, 1)} worse than its peers moved, z = ${f(local.z, 1)}).` });
 
     const events = [];
     if (signals.length && !st.open) { st.open = openIncident(st, day, signals, local); st.quiet = 0; events.push({ type: "incident", incident: st.open }); }
@@ -115,11 +115,12 @@ const Mon = (() => {
       const med = others[Math.floor(others.length / 2)];
       return { x, top, concentration: top.c / tot, ratio: top.shift / Math.max(1, med), levels: contrib };
     }).filter(Boolean);
+    const name = (x, lvl) => String(lvl).toLowerCase().startsWith(String(x).toLowerCase()) ? lvl : `${x} ${lvl}`;
     let where;
     const loc = local ? diag.find(d => d.x === local.x) : [...diag].sort((a, b) => b.concentration - a.concentration).find(d => d.concentration > 0.5 && d.ratio > 2.5);
     if (local || loc) {
       const x = local ? local.x : loc.x, lvl = local ? local.lvl : loc.top.k, d = diag.find(q => q.x === x), lvlInfo = d && d.levels.find(l => l.k === lvl);
-      where = { type: "local", x, lvl, text: `Localised to <b>${x} = ${lvl}</b>: it is running ${f(lvlInfo ? lvlInfo.shift : local.m - local.base, 1)}${st.cfg.unit || ""} worse than its own baseline, while the other ${x === "Team" ? "teams" : "groups"} are close to normal.` };
+      where = { type: "local", x, lvl, text: `Localised to <b>${name(x, lvl)}</b>: it is running ${f(lvlInfo ? lvlInfo.shift : local.m - local.base, 1)}${st.cfg.unit || ""} worse than its own baseline, while the other ${x === "Team" ? "teams" : "groups"} are close to normal.` };
     } else {
       const spread = diag.map(d => `${d.x}`).slice(0, 3).join(", ");
       where = { type: "system", text: `<b>System-wide</b>: every group (${spread}) slowed by a similar amount, so the cause is something they all share, such as a system, an upstream feed or staffing across the whole operation.` };

@@ -48,7 +48,7 @@
     let hold = false;
     r.events.forEach(e => { if (e.type === "incident") { hold = true; addIncident(e.incident); } else markRecovered(e.incident); });
     renderAll();
-    if (hold) { stop(); setTimeout(() => { if ($("mPause").textContent === "Pause" && m.st) resume(); }, 4500); }   // pause so the alert can be read
+    if (hold) { stop(); m.held = true; setTimeout(() => { if (m.held && m.st) { m.held = false; resume(); } }, 4500); }   // pause so the alert can be read
   }
 
   function renderAll(finished) {
@@ -89,8 +89,8 @@
   }
 
   $("mFile").onchange = e => e.target.files[0] && load(e.target.files[0]);
-  $("mStart").onclick = () => { if (m.st) { ["mY", "mDate", "mLsl", "mUsl", "mBase"].forEach(id => $(id).disabled = false); m.st = null; } start(); };
-  $("mPause").onclick = () => { if (m.running) { stop(); $("mPause").textContent = "Resume"; } else { $("mPause").textContent = "Pause"; resume(); } };
+  $("mStart").onclick = () => { m.held = false; if (m.st) { ["mY", "mDate", "mLsl", "mUsl", "mBase"].forEach(id => $(id).disabled = false); m.st = null; } start(); };
+  $("mPause").onclick = () => { if (m.running || m.held) { m.held = false; stop(); $("mPause").textContent = "Resume"; } else { $("mPause").textContent = "Pause"; resume(); } };
   $("mSpeed").onchange = () => { if (m.running) resume(); };
   ["mUsl", "mLsl"].forEach(id => $(id).addEventListener("keydown", e => { if (e.key === "Enter") start(); }));
   window.MonitorUI = { load };
