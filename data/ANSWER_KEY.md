@@ -20,3 +20,17 @@ All five datasets are synthetic, generated with known ("planted") root causes. T
 ## Live demo tip
 
 Upload `filling_line_weight.csv`, set LSL 495 and USL 505, and run. It shows the two-sided logic: the tool switches from "make it faster" to "hold it on target and cut the spread".
+
+## Live Monitor feed: `live_feed_invoices.csv`
+
+Open **Live Monitor**, choose this file, set **USL 48**, start. 120 working days; the first 30 are the baseline.
+
+| Days | Planted event | What the monitor should do |
+|---|---|---|
+| 55–57 (15–17 Sep) | ERP outage: every invoice +18 h | Deviation #1, diagnosed as **system-wide** |
+| 80–86 (20–28 Oct) | Team C new joiners: Team C +16 h | Deviation #2, diagnosed as **localised to Team C** |
+| 87–102 | Team C coached below its old level | Team tracker turns **Improving** |
+| 60–110 | Paper and Email volume moves to EDI and Portal | Channel tracker turns **Improving** |
+| all | No change in PO type | PO_Type tracker stays **Stable** |
+
+Expected: exactly two deviations, no false alarms.

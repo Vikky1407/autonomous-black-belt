@@ -102,5 +102,33 @@ const Charts = (() => {
     return wrap(W, H, s, title || "Pareto chart");
   }
 
-  return { histogram, control, interval, scatter, pareto, esc };
+  // live control chart: fixed x-range for the whole feed, shaded baseline, incident markers
+  function live(seen, { cl, ucl, lcl }, total, baseN, incidents = [], spec = {}) {
+    const W = 760, H = 260, L = 44, R = 64, T = 22, B = 30, v = seen.map(p => p.v);
+    let lo = Math.min(...v, lcl), hi = Math.max(...v, ucl);
+    if (Number.isFinite(spec.usl) && spec.usl < hi * 1.4) hi = Math.max(hi, spec.usl);
+    const pad = (hi - lo) * 0.08; lo -= pad; hi += pad;
+    const xs = i => L + i / Math.max(1, total - 1) * (W - L - R), ys = y => T + (hi - y) / (hi - lo) * (H - T - B);
+    let s = `<rect class="base-zone" x="${L}" y="${T}" width="${xs(baseN - 1) - L}" height="${H - T - B}"/><text class="tick" x="${L + 6}" y="${T + 12}">baseline</text>`;
+    nice(lo, hi, 4).filter(t => t >= lo && t <= hi).forEach(t => { s += `<line class="grid" x1="${L}" x2="${W - R}" y1="${ys(t)}" y2="${ys(t)}"/><text class="tick" x="${L - 6}" y="${ys(t) + 4}" text-anchor="end">${fmt(t)}</text>`; });
+    incidents.forEach(inc => { const i = seen.findIndex(p => p.date === inc.opened); if (i >= 0) s += `<line class="inc-line" x1="${xs(i)}" x2="${xs(i)}" y1="${T}" y2="${H - B}"/><text class="inc-label" x="${xs(i) + 4}" y="${T + 12}">#${inc.id}</text>`; });
+    [[ucl, "UCL", "limit"], [cl, "CL", "centre"], [lcl, "LCL", "limit"]].forEach(([y, n, c]) => { if (y > lo && y < hi) s += `<line class="${c}" x1="${L}" x2="${W - R}" y1="${ys(y)}" y2="${ys(y)}"/><text class="${c}-label" x="${W - R + 4}" y="${ys(y) + 4}">${n} ${fmt(y)}</text>`; });
+    if (Number.isFinite(spec.usl) && spec.usl > lo && spec.usl < hi) s += `<line class="spec" x1="${L}" x2="${W - R}" y1="${ys(spec.usl)}" y2="${ys(spec.usl)}"/><text class="spec-label" x="${W - R + 4}" y="${ys(spec.usl) + 4}">USL ${fmt(spec.usl)}</text>`;
+    s += `<path class="series" d="${seen.map((p, i) => (i ? "L" : "M") + xs(i).toFixed(1) + " " + ys(p.v).toFixed(1)).join("")}"/>`;
+    seen.forEach((p, i) => { const bad = p.flags && p.flags.length; if (bad || i === seen.length - 1) s += `<circle class="${bad ? "pt-bad" : "pt-now"}" cx="${xs(i)}" cy="${ys(p.v)}" r="${bad ? 4.5 : 4}"><title>${esc(p.date)}: ${fmt(p.v)}</title></circle>`; });
+    s += `<text class="tick" x="${L}" y="${H - 8}">${esc(seen[0].date)}</text><text class="tick" x="${xs(seen.length - 1)}" y="${H - 8}" text-anchor="middle">${esc(seen[seen.length - 1].date)}</text>`;
+    return wrap(W, H, s, "Live control chart");
+  }
+
+  function spark(points, base, status) {
+    const W = 260, H = 64, L = 4, R = 4, T = 8, B = 8, vals = points.map(p => p.v).concat(base);
+    const lo = Math.min(...vals, 0), hi = Math.max(...vals) * 1.15 || 1;
+    const xs = i => L + i / Math.max(1, points.length - 1) * (W - L - R), ys = y => T + (hi - y) / (hi - lo) * (H - T - B);
+    let s = `<line class="centre" x1="${L}" x2="${W - R}" y1="${ys(base)}" y2="${ys(base)}"/>`;
+    if (points.length > 1) s += `<path class="spark-area ${status}" d="M${xs(0)} ${ys(lo)}${points.map((p, i) => "L" + xs(i).toFixed(1) + " " + ys(p.v).toFixed(1)).join("")}L${xs(points.length - 1)} ${ys(lo)}Z"/><path class="spark ${status}" d="${points.map((p, i) => (i ? "L" : "M") + xs(i).toFixed(1) + " " + ys(p.v).toFixed(1)).join("")}"/>`;
+    if (points.length) s += `<circle class="spark-end ${status}" cx="${xs(points.length - 1)}" cy="${ys(points[points.length - 1].v)}" r="3.5"/>`;
+    return `<svg viewBox="0 0 ${W} ${H}" class="chart spark-svg" role="img" aria-label="Trend">${s}</svg>`;
+  }
+
+  return { histogram, control, interval, scatter, pareto, live, spark, esc };
 })();

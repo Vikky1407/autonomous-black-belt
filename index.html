@@ -19,6 +19,13 @@
     <div class="sigma-badge" id="badge" aria-live="polite"></div>
   </header>
 
+  <nav class="modes" aria-label="Mode">
+    <a href="#" id="modeAnalyse" class="on">Analyse data</a>
+    <a href="#monitor" id="modeMonitor">Live Monitor</a>
+  </nav>
+
+  <div id="analysisView">
+
   <section class="dropzone" id="drop" aria-label="Upload process data">
     <div class="drop-inner">
       <h2>Start with your process data</h2>
@@ -63,6 +70,47 @@
   </nav>
 
   <main id="out"></main>
+  </div>
+
+  <div id="monitorView" hidden>
+    <section class="dropzone" id="mDrop" aria-label="Connect a data feed">
+      <div class="drop-inner">
+        <h2>Connect a live data feed</h2>
+        <p class="muted">In a live deployment the monitor reads your database or data warehouse on a schedule, checks every new day against the fixed customer spec, and re-runs the analysis the moment the process deviates. In this prototype, a CSV is replayed one day at a time to simulate that feed.</p>
+        <label class="btn primary file-btn big">Choose feed file<input type="file" id="mFile" accept=".csv,.txt,text/csv"></label>
+        <span class="drop-hint">needs a date column and at least 40 days of data</span>
+      </div>
+    </section>
+
+    <section class="setup" id="mSetup" aria-label="Monitor setup" hidden>
+      <div class="setup-row"><span class="source" id="mSource"></span><span class="feed-tag">Simulated feed</span></div>
+      <div class="setup-row">
+        <div class="field f-y"><label for="mY">Output to monitor (Y)</label><select id="mY"></select></div>
+        <div class="field f-s"><label for="mDate">Date column</label><select id="mDate"></select></div>
+        <div class="field f-s"><label for="mLsl">LSL (fixed)</label><input type="number" id="mLsl" step="any" placeholder="none"></div>
+        <div class="field f-s"><label for="mUsl">USL (fixed)</label><input type="number" id="mUsl" step="any" placeholder="none"></div>
+        <div class="field f-s"><label for="mBase">Baseline days</label><input type="number" id="mBase" value="30" min="15" max="90"></div>
+      </div>
+      <div class="setup-row">
+        <div class="field f-y"><label for="mNotify">Send action plans to</label><input type="text" id="mNotify" value="Process owner, Tower lead, Operations head"></div>
+        <div class="field f-s"><label for="mSpeed">Replay speed</label><select id="mSpeed"><option value="900">Slow</option><option value="450" selected>Normal</option><option value="150">Fast</option></select></div>
+        <button class="btn primary" id="mStart" type="button">Start monitoring</button>
+        <button class="btn" id="mPause" type="button" hidden>Pause</button>
+      </div>
+      <div class="err" id="mErr" hidden></div>
+    </section>
+
+    <section id="mLive" class="mlive" hidden>
+      <div class="status" id="mStatus" aria-live="polite"></div>
+      <div class="tiles" id="mTiles"></div>
+      <div class="card"><h3>Live control chart: daily average</h3><div id="mChart"></div>
+        <p class="chart-cap">Limits are learned from the baseline and stay fixed. Red points break a rule. Numbered lines mark each deviation the monitor caught.</p></div>
+      <div class="mgrid">
+        <div class="mcol"><h3 class="col-h">Deviations and action plans</h3><div id="mIncidents"><p class="muted">No deviations yet. The monitor checks the total and every group within each critical input, every day.</p></div></div>
+        <div class="mcol"><h3 class="col-h">Critical X tracker</h3><p class="muted small">Extra time each critical input adds per case, compared with the best group. Lower is better; the dashed line is the baseline. A change only counts when it is bigger than the noise (2 standard errors).</p><div id="mTracker"></div></div>
+      </div>
+    </section>
+  </div>
 
   <footer>
     <span>Statistics engine validated against SciPy and statsmodels. AI writes the narrative only; it never computes the numbers.</span>
@@ -73,5 +121,7 @@
 <script src="src/engine.js"></script>
 <script src="src/charts.js"></script>
 <script src="src/app.js"></script>
+<script src="src/monitor.js"></script>
+<script src="src/monitor-ui.js"></script>
 </body>
 </html>

@@ -112,5 +112,35 @@ def claims():
     write("claims_accuracy.csv", rows)
 
 
+# 5) Live feed for the Live Monitor: 120 working days of invoices with planted events
+#    days 1-30   baseline (used to set control limits and the critical Xs)
+#    days 55-57  ERP outage: every invoice +18 h (system-wide special cause)
+#    days 80-86  Team C new joiners: Team C +16 h (local special cause)
+#    days 87-102 Team C coached: its extra time falls below its old baseline (improvement)
+#    days 60-110 Paper share falls from 10% to 1% and Email from 30% to 18% (channel migration, improvement)
+def live_feed():
+    r = random.Random(55); rows = []
+    days = workdays(dt.date(2026, 7, 1), 120)
+    for di, day in enumerate(days, start=1):
+        mig = 0 if di < 60 else min(1, (di - 60) / 50)          # channel migration progress
+        paper, email = 10 - 9 * mig, 30 - 12 * mig
+        team_c = 8.0
+        if 80 <= di <= 86: team_c = 8 + 16
+        elif 87 <= di <= 102: team_c = 8 - 7 * (di - 86) / 16
+        elif di > 102: team_c = 1.0
+        for _ in range(r.randint(10, 14)):
+            channel = pick(r, {"EDI": 34 + 11 * mig, "Supplier Portal": 26 + 6 * mig, "Email": email, "Paper": paper})
+            po = pick(r, {"PO": 70, "Non-PO": 30})
+            team = pick(r, {"Team A": 27, "Team B": 25, "Team C": 24, "Team D": 24})
+            lines = max(1, round(math.exp(1.7 + 0.7 * r.gauss(0, 1))))
+            ct = 14 + {"EDI": 0, "Supplier Portal": 3, "Email": 11, "Paper": 19}[channel] + (9 if po == "Non-PO" else 0)
+            ct += {"Team A": 0, "Team B": 1.5, "Team C": team_c, "Team D": 0.5}[team] + 0.32 * lines
+            if 55 <= di <= 57: ct += 18
+            ct = max(2, ct * math.exp(r.gauss(0, 0.22)))
+            rows.append({"Invoice_ID": f"INV-{300000 + len(rows)}", "Received_Date": day.isoformat(), "Region": pick(r, {"North America": 35, "Europe": 30, "LATAM": 20, "APAC": 15}),
+                         "Channel": channel, "PO_Type": po, "Team": team, "Shift": pick(r, {"Day": 62, "Night": 38}), "Line_Items": lines, "Cycle_Time_Hrs": round(ct, 1)})
+    write("live_feed_invoices.csv", rows)
+
+
 if __name__ == "__main__":
-    call_centre(); fill_line(); it_tickets(); claims()
+    call_centre(); fill_line(); it_tickets(); claims(); live_feed()

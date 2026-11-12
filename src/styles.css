@@ -190,3 +190,51 @@ footer { padding-block: 20px 40px; border-top: 1px solid var(--line); font-size:
 .drop-inner h2 { font-size: 26px }
 .btn.big { padding: 13px 26px; font-size: 16px }
 body.dragging .dropzone, body.dragging .setup { border-color: var(--accent); background: var(--accent-soft) }
+
+/* modes */
+.modes { display: flex; gap: 4px; padding: 4px; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; width: max-content; max-width: 100%; margin-bottom: 18px }
+.modes a { text-decoration: none; color: var(--muted); font-weight: 600; font-size: 14px; padding: 7px 16px; border-radius: 999px; white-space: nowrap }
+.modes a.on { background: var(--accent); color: var(--accent-ink) }
+#analysisView, #monitorView { display: grid; gap: 0 }
+#monitorView { gap: 18px }
+
+/* live monitor */
+.feed-tag { font: 600 11px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--warn); background: var(--warn-soft); padding: 5px 9px; border-radius: 999px }
+.mlive { display: grid; gap: 16px }
+.status { border-radius: var(--r); padding: 14px 18px; font-size: 15.5px; display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline }
+.status.ok { background: var(--good-soft); color: var(--ink) } .status.ok b { color: var(--good) }
+.status.alert { background: var(--bad-soft) } .status.alert b { color: var(--bad) }
+.status.done { background: var(--accent-soft) } .status.done b { color: var(--accent) }
+.status::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: currentColor; align-self: center }
+.status.ok::before { background: var(--good) } .status.alert::before { background: var(--bad) } .status.done::before { background: var(--accent) }
+@media (prefers-reduced-motion: no-preference) { .status.ok::before, .status.alert::before { animation: pulse 1.6s ease-in-out infinite } @keyframes pulse { 50% { opacity: .35 } } }
+.mgrid { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 16px; align-items: start }
+@media (max-width: 860px) { .mgrid { grid-template-columns: 1fr } }
+.mcol { display: grid; gap: 12px; min-width: 0 }
+.col-h { font-size: 16px }
+.small { font-size: 12.5px }
+.incident { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: grid; gap: 12px; min-width: 0 }
+.incident.open { border-color: var(--bad); box-shadow: 0 0 0 3px var(--bad-soft) }
+.inc-h { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center }
+.inc-h b { font: 700 16px var(--display) }
+.inc-h .pill { margin-left: auto }
+.sig { margin: 0; padding-left: 18px; font-size: 14px; display: grid; gap: 4px }
+.inc-sec { display: grid; gap: 4px }
+.inc-sec p { font-size: 14.5px }
+.incident table { font-size: 13px }
+.sent { display: flex; flex-wrap: wrap; gap: 6px; align-items: center }
+.chip-sent { font: 500 12px var(--mono); background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 3px 10px }
+.trk { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px; display: grid; gap: 6px }
+.trk-h { display: flex; justify-content: space-between; align-items: center; gap: 8px }
+.spark-svg { max-width: 100% }
+.chart .spark { fill: none; stroke-width: 2 } .chart .spark.good { stroke: var(--good) } .chart .spark.bad { stroke: var(--bad) } .chart .spark.flat { stroke: var(--accent) }
+.chart .spark-area { opacity: .12 } .chart .spark-area.good { fill: var(--good) } .chart .spark-area.bad { fill: var(--bad) } .chart .spark-area.flat { fill: var(--accent) }
+.chart .spark-end.good { fill: var(--good) } .chart .spark-end.bad { fill: var(--bad) } .chart .spark-end.flat { fill: var(--accent) }
+.chart .base-zone { fill: var(--sunk) }
+.chart .inc-line { stroke: var(--bad); stroke-width: 1.5; stroke-dasharray: 3 3 }
+.chart .inc-label { font-size: 11px; fill: var(--bad); font-weight: 600 }
+.chart .spec { stroke: var(--limit); stroke-width: 1.5 } .chart .spec-label { font-size: 11px; fill: var(--limit); font-weight: 600 }
+.chart .pt-now { fill: var(--accent); stroke: var(--panel); stroke-width: 2 }
+.mlive > *, #monitorView > * { min-width: 0 }
+.card, .incident, .trk { grid-template-columns: minmax(0, 1fr) }
+#analysisView > * { min-width: 0 }

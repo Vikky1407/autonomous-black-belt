@@ -27,6 +27,18 @@ Six Sigma analysis takes weeks, depends on scarce Black Belts, and often ends in
 - **Thinks like a Master Black Belt.** It switches tests when assumptions fail, cross-checks with non-parametric tests, separates symptoms from levers, and for two-sided specs tests spread as well as the average, after removing known effects.
 - **Private by design.** All statistics run in the browser. Raw data is never uploaded.
 
+## Live Monitor
+
+Connect a data feed and fix the customer spec (USL/LSL). The monitor then works on its own:
+
+1. **Learns a baseline** from the first weeks: control limits, critical Xs, and each group's normal performance.
+2. **Checks every new day**, on the total (control-chart rules) and on every group within each input, so a problem in one team is caught even when the total looks fine.
+3. **When the process deviates**, it diagnoses where the problem comes from (one group, or system-wide), re-runs the full analysis on recent data, and writes an action plan with owners and due dates, sent to the people you name.
+4. **Closes the incident** once the process is back within limits for three days.
+5. **Tracks every critical X** and reports whether it is improving, stable or worse, only when the change is bigger than the noise.
+
+In this prototype the feed is simulated by replaying a CSV one day at a time (`data/live_feed_invoices.csv`), and notifications are shown, not sent. A live deployment would read the organisation's database or data warehouse on a schedule and post to Teams or email.
+
 ## Run it
 
 In VS Code: open **Run and Debug** and click **Run Autonomous Black Belt**. It opens the app in Chrome.
@@ -52,7 +64,9 @@ npm run build      # bundles everything into dist/autonomous-black-belt.html
 index.html            App shell
 src/stats.js          Statistics engine (distributions, tests, capability, SPC, regression)
 src/engine.js         DMAIC decision logic: test selection, verdicts, scenarios, control plan inputs
-src/charts.js         SVG charts: histogram, control chart, interval plot, scatter, Pareto
+src/charts.js         SVG charts: histogram, control chart, interval plot, scatter, Pareto, live chart
+src/monitor.js        Live Monitor engine: baseline, detection, diagnosis, action plans, critical X tracker
+src/monitor-ui.js     Live Monitor interface
 src/app.js            Interface and AI storyboard
 src/styles.css        Design system (light and dark themes)
 src/data.js           Invoice test-dataset generator (used by tests)
@@ -67,6 +81,6 @@ Plain JavaScript with no dependencies. Statistics engine written from first prin
 
 ## Status
 
-Prototype (v1). Supports a continuous output (Y). Next: attribute data (defect counts, pass/fail), DOE analysis, and live data connectors.
+Prototype (v1). Supports a continuous output (Y). Next: attribute data (defect counts, pass/fail), DOE analysis, and real database connectors for the Live Monitor.
 
 © 2026 Vikas Choudhary. All rights reserved.

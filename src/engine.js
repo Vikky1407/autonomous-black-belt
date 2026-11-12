@@ -281,4 +281,4 @@ const BB = (() => {
   function fp(p) { return p < 0.0001 ? "< 0.0001" : "= " + (p < 0.01 ? p.toFixed(4) : p.toFixed(3)); }
   return { parseCSV, profile, suggestY, run, f, fp, effectLabel, NO_DEFECT_RE };
 })();
-if (typeof module !== "undefined") module.exports = BB;
+if (typeof module !== "undefined") module.exports = BB; else window.BB = BB;

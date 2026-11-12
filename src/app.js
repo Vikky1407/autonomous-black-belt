@@ -39,7 +39,7 @@
   document.addEventListener("dragenter", e => { e.preventDefault(); dragDepth++; document.body.classList.add("dragging"); });
   document.addEventListener("dragleave", () => { if (--dragDepth <= 0) { dragDepth = 0; document.body.classList.remove("dragging"); } });
   document.addEventListener("dragover", e => e.preventDefault());
-  document.addEventListener("drop", e => { e.preventDefault(); dragDepth = 0; document.body.classList.remove("dragging"); const fl = e.dataTransfer.files[0]; if (fl) readFile(fl); });
+  document.addEventListener("drop", e => { e.preventDefault(); dragDepth = 0; document.body.classList.remove("dragging"); const fl = e.dataTransfer.files[0]; if (!fl) return; if (location.hash === "#monitor") window.MonitorUI && window.MonitorUI.load(fl); else readFile(fl); });
   ["usl", "lsl", "unit"].forEach(id => $(id).addEventListener("keydown", e => { if (e.key === "Enter") run(); }));
   function readFile(file) {
     if (!file) return;
@@ -335,11 +335,18 @@
 
   // ---------- one phase per page, routed by the address hash ----------
   function show(initial) {
+    const mon = location.hash === "#monitor";
+    $("analysisView").hidden = mon; $("monitorView").hidden = !mon;
+    $("modeMonitor").classList.toggle("on", mon); $("modeAnalyse").classList.toggle("on", !mon);
+    $("badge").hidden = mon;
+    if (mon) return;
     const id = ORDER.includes(location.hash.slice(1)) ? location.hash.slice(1) : "define";
     document.querySelectorAll("section.phase").forEach(sec => sec.hidden = sec.id !== id);
     document.querySelectorAll(".rail a").forEach(a => { a.classList.toggle("on", a.dataset.p === id); a.classList.toggle("done", ORDER.indexOf(a.dataset.p) < ORDER.indexOf(id)); a.setAttribute("aria-current", a.dataset.p === id ? "page" : "false"); });
     if (!initial) { const rail = document.querySelector("nav.rail"); if (rail.getBoundingClientRect().top < 0) rail.scrollIntoView({ block: "start" }); }
   }
   addEventListener("hashchange", () => show(false));
+  $("modeAnalyse").onclick = e => { e.preventDefault(); location.hash = st.res ? "define" : ""; if (!st.res) show(true); };
+  show(true);
 
 })();
