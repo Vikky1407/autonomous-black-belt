@@ -247,6 +247,11 @@ body.dragging .dropzone, body.dragging .setup { border-color: var(--accent); bac
 .mlive > *, #monitorView > * { min-width: 0 }
 .card, .incident, .trk { grid-template-columns: minmax(0, 1fr) }
 #analysisView > * { min-width: 0 }
+
+.fmt { text-align: left; font-size: 14px; max-width: 460px; width: 100% }
+.fmt summary { cursor: pointer; color: var(--accent); font-weight: 600; text-align: center }
+.fmt ul { margin: 10px 0; padding-left: 20px; display: grid; gap: 4px; color: var(--muted) }
+.fmt a { color: var(--accent); font-weight: 600 }
 </style>
 </head>
 <body>
@@ -273,6 +278,17 @@ body.dragging .dropzone, body.dragging .setup { border-color: var(--accent); bac
       <p class="muted">A CSV file with one row per case: a measured output (cycle time, weight, accuracy), plus any inputs you want tested (team, channel, shift, machine) and, ideally, a date.</p>
       <label class="btn primary file-btn big">Upload CSV<input type="file" id="fileIn" accept=".csv,.txt,text/csv"></label>
       <span class="drop-hint">or drag a file anywhere onto this page · your data stays on this device</span>
+      <details class="fmt">
+        <summary>What format does my file need?</summary>
+        <ul>
+          <li>A header row, then one row per case (an invoice, a ticket, a batch)</li>
+          <li>One numeric output to improve: cycle time, weight, accuracy</li>
+          <li>The inputs you want tested: team, channel, shift, machine</li>
+          <li>A date column (YYYY-MM-DD) for the control chart</li>
+          <li>At least 20 rows; ID columns are ignored automatically</li>
+        </ul>
+        <a href="data/TEMPLATE.csv" download>Download a blank template</a>
+      </details>
     </div>
   </section>
 

@@ -32,6 +32,17 @@
       <p class="muted">A CSV file with one row per case: a measured output (cycle time, weight, accuracy), plus any inputs you want tested (team, channel, shift, machine) and, ideally, a date.</p>
       <label class="btn primary file-btn big">Upload CSV<input type="file" id="fileIn" accept=".csv,.txt,text/csv"></label>
       <span class="drop-hint">or drag a file anywhere onto this page · your data stays on this device</span>
+      <details class="fmt">
+        <summary>What format does my file need?</summary>
+        <ul>
+          <li>A header row, then one row per case (an invoice, a ticket, a batch)</li>
+          <li>One numeric output to improve: cycle time, weight, accuracy</li>
+          <li>The inputs you want tested: team, channel, shift, machine</li>
+          <li>A date column (YYYY-MM-DD) for the control chart</li>
+          <li>At least 20 rows; ID columns are ignored automatically</li>
+        </ul>
+        <a href="data/TEMPLATE.csv" download>Download a blank template</a>
+      </details>
     </div>
   </section>
 

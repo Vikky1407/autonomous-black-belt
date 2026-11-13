@@ -1,5 +1,7 @@
 # Autonomous Black Belt
 
+> © 2026 Vikas Choudhary. All rights reserved. Source shared for viewing only; see [LICENSE](LICENSE).
+
 **Explainable Six Sigma.** Upload process data and get a complete, statistically proven DMAIC, with the logic behind every conclusion shown step by step.
 
 Part 1 of *The Autonomous Enterprise*, a series of AI tools for operational excellence by Vikas Choudhary, Lean Six Sigma Master Black Belt.
@@ -54,6 +56,17 @@ npm run validate   # cross-checks the stats engine against SciPy (needs Python w
 npm run build      # bundles everything into dist/autonomous-black-belt.html
 ```
 
+## Your own data
+
+A CSV file (comma, semicolon or tab separated) with:
+
+1. A header row and one row per case (an invoice, a ticket, a batch).
+2. One numeric output to improve, such as cycle time, weight or accuracy.
+3. The inputs you want tested, such as team, channel, shift or machine (text or numbers).
+4. A date column in `YYYY-MM-DD` format, for the control chart. The Live Monitor needs at least 40 days.
+
+At least 20 rows. ID columns are detected and ignored. `data/TEMPLATE.csv` shows the shape.
+
 ## Test data
 
 `data/` holds five synthetic datasets (finance, contact centre, manufacturing, IT service desk, insurance) with planted root causes. `data/ANSWER_KEY.md` lists the truth for each, so you can confirm the tool finds it.
@@ -83,4 +96,4 @@ Plain JavaScript with no dependencies. Statistics engine written from first prin
 
 Prototype (v1). Supports a continuous output (Y). Next: attribute data (defect counts, pass/fail), DOE analysis, and real database connectors for the Live Monitor.
 
-© 2026 Vikas Choudhary. All rights reserved.
+© 2026 Vikas Choudhary. All rights reserved. See [LICENSE](LICENSE).
