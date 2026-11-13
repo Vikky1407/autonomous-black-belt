@@ -63,7 +63,7 @@
     try {
       st.res = BB.run(st.rows, { y: $("ySel").value, xs: [...st.xs], spec, dateCol: $("dSel").value || null, types });
     } catch (err) { return showErr(err.message); }
-    st.unit = $("unit").value.trim();
+    st.unit = $("unit").value.trim(); st.opDef = $("opDef").value.trim();
     $("rail").hidden = false; $("readyNote").hidden = true;
     if (location.hash !== "#define") location.hash = "define";
     render();
@@ -147,8 +147,21 @@
     return phase("define", "D", "Define", "The problem, in numbers", `${tiles}
       <div class="card"><span class="lbl">Problem statement</span><p class="statement">${prob}</p>
       <span class="lbl">Goal statement</span><p class="statement">${goal}</p>
-      <span class="lbl">Scope</span><p class="muted">Output (Y): ${y}. Inputs tested: ${R.results.length} (${esc(R.results.map(r => r.x).join(", "))}). Source: ${esc(st.source)}.</p></div>
+      <span class="lbl">Scope</span><p class="muted">Output (Y): ${y}${st.opDef ? ", measured as: " + esc(st.opDef) : ""}. Inputs tested: ${R.results.length} (${esc(R.results.map(r => r.x).join(", "))}). Source: ${esc(st.source)}.</p></div>
       ${R.warnings.length ? `<div class="callout warn">${R.warnings.map(w => `<span>${esc(w)}</span>`).join("")}</div>` : ""}`);
+  }
+
+  // MSA gate: check the measurement before trusting anything built on it
+  function msaCard(R) {
+    const m = MSA.check(st.rows.filter(r => r[R.y] !== undefined), R.y, { usl: R.spec.usl, lsl: R.spec.lsl, definition: st.opDef });
+    const pill = s => `<span class="pill ${s === "ok" ? "good" : s === "warn" ? "contrib" : "vital"}">${s === "ok" ? "Pass" : s === "warn" ? "Check" : "Fail"}</span>`;
+    const head = m.verdict === "ok" ? "The measurement is fit for analysis." : m.verdict === "warn" ? "Usable, with points to confirm before acting on the results." : "Fix the measurement before trusting the analysis.";
+    return `<div class="card msa"><h3>Measurement system check (MSA)</h3>
+      <p class="muted">The analysis is only as good as the gage. These checks run before any conclusion is drawn. <b>${head}</b></p>
+      <div class="tbl-wrap"><table><thead><tr><th>Check</th><th>Result</th><th>Status</th><th>What it means</th></tr></thead><tbody>
+      ${m.items.map(i => `<tr><td><b>${esc(i.name)}</b></td><td class="num" style="text-align:left">${esc(i.value)}</td><td>${pill(i.status)}</td><td>${esc(i.detail)}</td></tr>`).join("")}
+      </tbody></table></div>
+      <p class="chart-cap">For system-generated data these replace a classic gage study. Repeatability, known-standard checks (seeded test transactions) and coder agreement for categorised fields need controlled test data and are planned for the pilot version.</p></div>`;
   }
 
   function measure(R) {
@@ -168,6 +181,7 @@
           <p class="chart-cap">n ${d.n} · mean ${f(d.mean, 1)} · median ${f(d.median, 1)} · SD ${f(d.sd, 1)} · 10th–90th percentile ${f(d.p10, 1)}–${f(d.p90, 1)}</p></div>
         <div class="card"><h3>Capability</h3>${c ? `<div class="tbl-wrap"><table><tbody>${capRows.map(([k, v]) => `<tr><td>${k}</td><td class="num">${v}</td></tr>`).join("")}</tbody></table></div>` : `<p class="muted">Add a USL or LSL above to compute capability and sigma level.</p>`}</div>
       </div>
+      ${msaCard(R)}
       <div class="card"><h3>How the baseline was measured</h3>${trailHTML(normalTrail)}</div>
       <div class="card"><h3>Stability: ${R.dates ? "daily average" : "individuals"} control chart (I-MR)</h3>
         ${Charts.control(R.series, ch, "I-MR chart")}

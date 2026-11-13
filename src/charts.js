@@ -115,7 +115,9 @@ const Charts = (() => {
     [[ucl, "UCL", "limit"], [cl, "CL", "centre"], [lcl, "LCL", "limit"]].forEach(([y, n, c]) => { if (y > lo && y < hi) s += `<line class="${c}" x1="${L}" x2="${W - R}" y1="${ys(y)}" y2="${ys(y)}"/><text class="${c}-label" x="${W - R + 4}" y="${ys(y) + 4}">${n} ${fmt(y)}</text>`; });
     if (Number.isFinite(spec.usl) && spec.usl > lo && spec.usl < hi) s += `<line class="spec" x1="${L}" x2="${W - R}" y1="${ys(spec.usl)}" y2="${ys(spec.usl)}"/><text class="spec-label" x="${W - R + 4}" y="${ys(spec.usl) + 4}">USL ${fmt(spec.usl)}</text>`;
     s += `<path class="series" d="${seen.map((p, i) => (i ? "L" : "M") + xs(i).toFixed(1) + " " + ys(p.v).toFixed(1)).join("")}"/>`;
-    seen.forEach((p, i) => { const bad = p.flags && p.flags.length; if (bad || i === seen.length - 1) s += `<circle class="${bad ? "pt-bad" : "pt-now"}" cx="${xs(i)}" cy="${ys(p.v)}" r="${bad ? 4.5 : 4}"><title>${esc(p.date)}: ${fmt(p.v)}</title></circle>`; });
+    seen.forEach((p, i) => {
+      if (p.msa && p.msa.length) { const x = xs(i), y = ys(p.v); s += `<path class="pt-msa" d="M${x} ${y - 6}L${x + 6} ${y}L${x} ${y + 6}L${x - 6} ${y}Z"><title>${esc(p.date)}: measurement check failed</title></path>`; return; }
+      const bad = p.flags && p.flags.length; if (bad || i === seen.length - 1) s += `<circle class="${bad ? "pt-bad" : "pt-now"}" cx="${xs(i)}" cy="${ys(p.v)}" r="${bad ? 4.5 : 4}"><title>${esc(p.date)}: ${fmt(p.v)}</title></circle>`; });
     s += `<text class="tick" x="${L}" y="${H - 8}">${esc(seen[0].date)}</text><text class="tick" x="${xs(seen.length - 1)}" y="${H - 8}" text-anchor="middle">${esc(seen[seen.length - 1].date)}</text>`;
     return wrap(W, H, s, "Live control chart");
   }

@@ -34,3 +34,9 @@ Open **Live Monitor**, choose this file, set **USL 48**, start. 120 working days
 | all | No change in PO type | PO_Type tracker stays **Stable** |
 
 Expected: exactly two deviations, no false alarms.
+
+## Measurement event feed: `live_feed_measurement.csv`
+
+Same process as above, but on 2026-11-10 an ERP upgrade changed how cycle time is recorded: the close event moved to payment posting (+10 h) and values are now rounded to whole hours. Nothing changed in the work itself.
+
+Open **Live Monitor**, choose this file, set **USL 48**, and paste `change_log_example.txt` into the change log. Expected: deviations #1 and #2 as above, then **Measurement alert #3 on 2026-11-10**, classified as a **possible measurement event, not a process event** (resolution changed: 0% of values with decimals against about 88% in the baseline, and a logged change on the same day). The action plan starts with verifying the data and holds process actions.

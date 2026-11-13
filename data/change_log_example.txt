@@ -1,0 +1,1 @@
+2026-11-10 ERP upgrade: invoice close event moved to payment posting

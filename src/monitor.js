@@ -5,6 +5,8 @@
 const Mon = (() => {
   const S = typeof module !== "undefined" ? require("./stats.js") : window.S;
   const BB = typeof module !== "undefined" ? require("./engine.js") : window.BB;
+  const MSA = typeof module !== "undefined" ? require("./msa.js") : window.MSA;
+  const dayDiff = (a, b) => (Date.parse(a) - Date.parse(b)) / 864e5;
   const f = BB.f, mean = S.mean, sd = a => a.length > 1 ? S.sd(a) : 0;
 
   function create(rowsIn, cfg) {
@@ -12,7 +14,9 @@ const Mon = (() => {
     const rows = rowsIn.filter(r => r[y] !== "" && Number.isFinite(+r[y]) && r[dateCol]);
     const byDay = new Map();
     rows.forEach(r => { const d = String(r[dateCol]).slice(0, 10); if (!byDay.has(d)) byDay.set(d, []); byDay.get(d).push(r); });
-    const days = [...byDay.keys()].sort().map(d => ({ date: d, rows: byDay.get(d) }));
+    const rawByDay = new Map();
+    rowsIn.forEach(r => { if (!r[dateCol]) return; const d = String(r[dateCol]).slice(0, 10); if (!rawByDay.has(d)) rawByDay.set(d, []); rawByDay.get(d).push(r); });
+    const days = [...byDay.keys()].sort().map(d => ({ date: d, rows: byDay.get(d), raw: rawByDay.get(d) || byDay.get(d) }));
     if (days.length < baselineDays + 10) throw new Error(`The feed needs at least ${baselineDays + 10} days of data (found ${days.length}).`);
     const goal = Number.isFinite(spec.usl) && Number.isFinite(spec.lsl) ? "target" : Number.isFinite(spec.lsl) ? "higher" : "lower";
     const isDefect = v => (Number.isFinite(spec.usl) && v > spec.usl) || (Number.isFinite(spec.lsl) && v < spec.lsl);
@@ -37,7 +41,8 @@ const Mon = (() => {
       cfg: { ...cfg, baselineDays }, y, dateCol, spec, goal, isDefect, bad, days, idx: baselineDays, limits, xs, levelBase, baseRun, critical, baseRows,
       baseMean: mean(baseVals), basePct: baseCap.observedPct, baseSigma: baseCap.sigmaLevel,
       seen: base.map((d, i) => ({ date: d.date, v: series[i], n: d.rows.length, pOut: d.rows.filter(r => isDefect(+r[y])).length / d.rows.length, flags: [], base: true })),
-      incidents: [], open: null, quiet: 0, tracker: [], log: [], explained: new Set()
+      incidents: [], open: null, quiet: 0, tracker: [], log: [], explained: new Set(),
+      msaBase: MSA.baseline(base, y), changes: MSA.parseChanges(cfg.changes), msaLast: null, msaAlertDays: 0
     };
     st.tracker = critical.map((c, i) => { const b = impact(baseRows, c.x, y, goal); return { x: c.x, base: b.v, best: b.best, baseSE: impactSE(baseRows, c.x, y, goal, b.best, 11 + i), points: [], status: "Watching" }; });
     return st;
@@ -68,6 +73,10 @@ const Mon = (() => {
     const point = { date: day.date, v: mean(vals), n: vals.length, pOut: vals.filter(st.isDefect).length / vals.length, flags: [] };
     st.seen.push(point);
     const L = st.limits, signals = [];
+    // MSA gate: check the measurement itself before judging the process
+    const mc = MSA.dayCheck(day.raw, y, st.msaBase);
+    st.msaLast = mc; point.msa = mc.alerts;
+    if (mc.alerts.length) { st.explained.add(day.date); st.msaAlertDays++; signals.push({ kind: "measurement", text: `Measurement check failed: ${mc.alerts.map(a => a.text).join("; ")}.` }); }
     if (point.v > L.ucl || point.v < L.lcl) { point.flags.push(1); if (st.bad(point.v - L.cl) > 0) signals.push({ kind: "total", text: `Daily average ${f(point.v, 1)}${st.cfg.unit || ""} is beyond the control limit (${f(point.v > L.ucl ? L.ucl : L.lcl, 1)}).` }); }
     const last9 = st.seen.slice(-9);
     if (last9.length === 9 && !last9.some(p => p.base) && (last9.every(p => p.v > L.cl) || last9.every(p => p.v < L.cl)) && st.bad(point.v - L.cl) > 0) { point.flags.push(2); signals.push({ kind: "shift", text: `Nine days in a row on the bad side of the centre line: the average has shifted.` }); }
@@ -105,6 +114,8 @@ const Mon = (() => {
   }
 
   function openIncident(st, day, signals, local) {
+    const nearChanges = st.changes.filter(c => { const d = dayDiff(day.date, c.date); return d >= 0 && d <= 3; });
+    const msaSig = signals.filter(s => s.kind === "measurement");
     const y = st.y, win = signals.some(s => s.kind === "total") ? day.rows : st.days.slice(Math.max(st.cfg.baselineDays, st.idx - 5), st.idx).flatMap(d => d.rows);
     // where did it come from? compare every input's levels in the deviation window with the baseline
     const diag = st.xs.map(x => {
@@ -125,13 +136,23 @@ const Mon = (() => {
       const spread = diag.map(d => `${d.x}`).slice(0, 3).join(", ");
       where = { type: "system", text: `<b>System-wide</b>: every group (${spread}) slowed by a similar amount, so the cause is something they all share, such as a system, an upstream feed or staffing across the whole operation.` };
     }
+    // MSA gate: a measurement problem or a recent system change is a candidate cause before any process cause
+    if (msaSig.length || nearChanges.length) {
+      const reasons = [...(st.msaLast ? st.msaLast.alerts.map(a => a.text) : []), ...nearChanges.map(c => `a logged change on ${c.date}: "${c.text}"`)];
+      where = { type: "measurement", processView: where, changes: nearChanges, text: `<b>Possible measurement event, not a process event.</b> ${reasons.length ? "Evidence: " + reasons.join("; ") + "." : ""} The data may have changed rather than the work. Verify the measurement before acting on the process.` };
+    }
     // re-run the full analysis on the most recent 30 days
     const recentRows = st.days.slice(Math.max(0, st.idx - 30), st.idx).flatMap(d => d.rows);
     let rerun = null; try { rerun = BB.run(recentRows, { y, xs: st.cfg.xs, spec: st.spec, dateCol: st.dateCol, types: st.cfg.types }); } catch (e) { }
     const vital = rerun ? rerun.levers.filter(l => l.verdict === "Vital X").map(l => l.x) : [];
     const newX = vital.filter(x => !st.critical.some(c => c.x === x));
     const owners = st.cfg.owners || ["Process owner", "Tower lead", "Operations head"];
-    const plan = where.type === "local" ? [
+    const plan = where.type === "measurement" ? [
+      ["Verify the data", `Check how ${y.replace(/_/g, " ")} was recorded on ${day.date}: start and end events, rounding, missing or duplicated records.`, "Data / system owner", "Today"],
+      ...(where.changes.length ? [["Check the change", `Confirm whether "${where.changes[0].text}" (${where.changes[0].date}) changed what is measured.`, "IT application owner", "24 hours"]] : []),
+      ["Hold process actions", `Don't change the process until the measurement is confirmed. ${where.processView.type === "local" ? "If the data is right, the problem sits in " + where.processView.lvl + "." : "If the data is right, treat it as a system-wide process issue."}`, owners[0], "Until verified"],
+      ["Correct or re-baseline", `If the measurement changed, correct the history or re-learn the baseline from the new definition, and record it in the change log.`, owners[1], "1 week"]
+    ] : where.type === "local" ? [
       ["Contain", `Move new work from ${where.lvl} to the best-performing ${where.x.toLowerCase()} until it recovers.`, owners[0], "Today"],
       ["Find the cause", `Go to ${where.lvl}: what changed since ${day.date}? People, method, system or volume mix.`, owners[1], "24 hours"],
       ["Fix and standardise", `Coach ${where.lvl} to the standard work of the best performer; close any training gap.`, owners[1], "1 week"],

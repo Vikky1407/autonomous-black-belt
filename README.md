@@ -29,6 +29,18 @@ Six Sigma analysis takes weeks, depends on scarce Black Belts, and often ends in
 - **Thinks like a Master Black Belt.** It switches tests when assumptions fail, cross-checks with non-parametric tests, separates symptoms from levers, and for two-sided specs tests spread as well as the average, after removing known effects.
 - **Private by design.** All statistics run in the browser. Raw data is never uploaded.
 
+## Measurement first (MSA gate)
+
+The analysis is only as good as the gage. Before any conclusion is drawn, the tool checks the measurement itself:
+
+- **Operational definition:** what exactly starts and stops the measurement, recorded with the analysis.
+- **Resolution (10:1 rule):** the tolerance or process spread must cover at least 10 measurement steps.
+- **Completeness, valid range, stuck or default values:** missing records, impossible values and values copied from a default.
+
+In the Live Monitor these checks run every day against the baseline. A **change log** (system upgrades, new data sources, definition changes) is matched against alerts, so a shift caused by how the data is recorded is reported as a **measurement event**, with "verify the data" actions, instead of sending a team to fix a process that did not change.
+
+For system-generated data these checks replace a classic gage study. Repeatability, known-standard checks (seeded test transactions) and coder agreement for categorised fields need controlled test data and are planned for the pilot version.
+
 ## Live Monitor
 
 Connect a data feed and fix the customer spec (USL/LSL). The monitor then works on its own:
@@ -78,6 +90,7 @@ index.html            App shell
 src/stats.js          Statistics engine (distributions, tests, capability, SPC, regression)
 src/engine.js         DMAIC decision logic: test selection, verdicts, scenarios, control plan inputs
 src/charts.js         SVG charts: histogram, control chart, interval plot, scatter, Pareto, live chart
+src/msa.js            Measurement system checks (MSA gate)
 src/monitor.js        Live Monitor engine: baseline, detection, diagnosis, action plans, critical X tracker
 src/monitor-ui.js     Live Monitor interface
 src/app.js            Interface and AI storyboard
@@ -94,6 +107,6 @@ Plain JavaScript with no dependencies. Statistics engine written from first prin
 
 ## Status
 
-Prototype (v1). Supports a continuous output (Y). Next: attribute data (defect counts, pass/fail), DOE analysis, and real database connectors for the Live Monitor.
+Prototype (v1). Supports a continuous output (Y). Next: known-standard (seeded transaction) checks and coder agreement for categorised fields, attribute data (defect counts, pass/fail), DOE analysis, and real database connectors for the Live Monitor.
 
 © 2026 Vikas Choudhary. All rights reserved. See [LICENSE](LICENSE).

@@ -142,5 +142,19 @@ def live_feed():
     write("live_feed_invoices.csv", rows)
 
 
+# 6) Measurement event for the MSA gate: same live feed, but from day 95 an ERP upgrade moves the
+#    "invoice closed" timestamp to payment posting (+10 h) and records whole hours only.
+#    Nothing changed in the work itself. The monitor should call it a measurement event, not a process one.
+def live_feed_measurement():
+    src = list(csv.DictReader(open(OUT / "live_feed_invoices.csv", newline="")))
+    days = sorted({r["Received_Date"] for r in src}); change_day = days[94]
+    for r in src:
+        if r["Received_Date"] >= change_day:
+            r["Cycle_Time_Hrs"] = str(int(round(float(r["Cycle_Time_Hrs"]) + 10)))
+    write("live_feed_measurement.csv", src)
+    (OUT / "change_log_example.txt").write_text(f"{change_day} ERP upgrade: invoice close event moved to payment posting\n")
+    print("change logged on", change_day)
+
+
 if __name__ == "__main__":
-    call_centre(); fill_line(); it_tickets(); claims(); live_feed()
+    call_centre(); fill_line(); it_tickets(); claims(); live_feed(); live_feed_measurement()

@@ -1,0 +1,1435 @@
+Invoice_ID,Received_Date,Region,Channel,PO_Type,Team,Shift,Line_Items,Cycle_Time_Hrs
+INV-300000,2026-07-01,North America,Paper,PO,Team D,Day,5,38.2
+INV-300001,2026-07-01,Europe,Paper,Non-PO,Team D,Day,3,45.1
+INV-300002,2026-07-01,APAC,Paper,Non-PO,Team D,Day,9,47.4
+INV-300003,2026-07-01,Europe,EDI,PO,Team A,Day,4,16.3
+INV-300004,2026-07-01,LATAM,EDI,PO,Team A,Day,5,16.0
+INV-300005,2026-07-01,North America,EDI,PO,Team A,Day,7,18.3
+INV-300006,2026-07-01,Europe,EDI,PO,Team D,Night,4,10.5
+INV-300007,2026-07-01,North America,Supplier Portal,PO,Team A,Day,15,24.5
+INV-300008,2026-07-01,North America,EDI,PO,Team D,Day,4,15.8
+INV-300009,2026-07-01,North America,EDI,PO,Team B,Day,2,13.6
+INV-300010,2026-07-02,Europe,Email,PO,Team B,Night,6,28.1
+INV-300011,2026-07-02,Europe,Supplier Portal,PO,Team B,Night,3,18.9
+INV-300012,2026-07-02,Europe,Email,PO,Team A,Day,10,27.9
+INV-300013,2026-07-02,North America,Email,PO,Team A,Night,4,26.2
+INV-300014,2026-07-02,North America,Paper,PO,Team B,Night,12,28.5
+INV-300015,2026-07-02,North America,Supplier Portal,PO,Team C,Day,6,18.4
+INV-300016,2026-07-02,North America,EDI,PO,Team C,Night,20,27.9
+INV-300017,2026-07-02,LATAM,EDI,PO,Team A,Night,4,15.0
+INV-300018,2026-07-02,North America,Email,Non-PO,Team A,Day,3,27.3
+INV-300019,2026-07-02,LATAM,EDI,PO,Team B,Night,11,20.1
+INV-300020,2026-07-02,LATAM,Supplier Portal,Non-PO,Team A,Night,12,42.2
+INV-300021,2026-07-02,Europe,Supplier Portal,PO,Team B,Day,5,28.1
+INV-300022,2026-07-03,LATAM,Paper,PO,Team C,Night,5,40.2
+INV-300023,2026-07-03,APAC,EDI,Non-PO,Team D,Night,7,25.6
+INV-300024,2026-07-03,LATAM,EDI,PO,Team C,Day,12,28.7
+INV-300025,2026-07-03,LATAM,EDI,PO,Team A,Night,13,20.2
+INV-300026,2026-07-03,APAC,EDI,PO,Team D,Night,4,22.7
+INV-300027,2026-07-03,LATAM,Email,Non-PO,Team D,Day,8,43.2
+INV-300028,2026-07-03,APAC,Email,Non-PO,Team C,Day,2,35.3
+INV-300029,2026-07-03,North America,EDI,Non-PO,Team D,Night,4,20.2
+INV-300030,2026-07-03,LATAM,Email,Non-PO,Team C,Day,7,39.0
+INV-300031,2026-07-03,North America,EDI,PO,Team C,Night,15,26.5
+INV-300032,2026-07-03,LATAM,Email,Non-PO,Team D,Day,6,28.1
+INV-300033,2026-07-03,North America,Supplier Portal,PO,Team C,Day,8,29.2
+INV-300034,2026-07-06,APAC,Supplier Portal,PO,Team B,Day,3,18.2
+INV-300035,2026-07-06,North America,Email,PO,Team C,Day,5,41.3
+INV-300036,2026-07-06,APAC,Email,Non-PO,Team C,Day,6,36.7
+INV-300037,2026-07-06,LATAM,EDI,PO,Team A,Day,3,14.6
+INV-300038,2026-07-06,LATAM,Supplier Portal,PO,Team B,Night,10,17.8
+INV-300039,2026-07-06,APAC,EDI,PO,Team C,Night,11,26.9
+INV-300040,2026-07-06,Europe,EDI,Non-PO,Team C,Night,4,36.9
+INV-300041,2026-07-06,North America,Email,PO,Team B,Night,4,31.4
+INV-300042,2026-07-06,North America,EDI,PO,Team A,Day,6,13.7
+INV-300043,2026-07-06,LATAM,Paper,Non-PO,Team B,Day,3,39.2
+INV-300044,2026-07-06,North America,Supplier Portal,PO,Team B,Night,6,14.3
+INV-300045,2026-07-06,Europe,EDI,PO,Team B,Day,4,23.0
+INV-300046,2026-07-06,North America,EDI,PO,Team D,Night,4,14.9
+INV-300047,2026-07-07,Europe,Email,Non-PO,Team B,Day,2,33.7
+INV-300048,2026-07-07,Europe,EDI,Non-PO,Team D,Day,5,27.3
+INV-300049,2026-07-07,LATAM,EDI,Non-PO,Team D,Day,13,25.4
+INV-300050,2026-07-07,North America,Email,PO,Team A,Night,3,20.5
+INV-300051,2026-07-07,North America,EDI,Non-PO,Team B,Day,13,22.6
+INV-300052,2026-07-07,North America,Supplier Portal,PO,Team C,Day,5,26.7
+INV-300053,2026-07-07,Europe,Email,PO,Team C,Day,8,50.3
+INV-300054,2026-07-07,North America,EDI,Non-PO,Team A,Day,4,23.1
+INV-300055,2026-07-07,North America,Email,PO,Team A,Night,14,31.7
+INV-300056,2026-07-07,APAC,Email,PO,Team A,Day,7,39.8
+INV-300057,2026-07-07,North America,Supplier Portal,PO,Team A,Day,6,20.6
+INV-300058,2026-07-08,APAC,EDI,PO,Team A,Night,9,22.5
+INV-300059,2026-07-08,LATAM,Supplier Portal,PO,Team D,Day,5,22.3
+INV-300060,2026-07-08,North America,EDI,PO,Team C,Night,12,45.3
+INV-300061,2026-07-08,Europe,Supplier Portal,PO,Team D,Day,3,20.5
+INV-300062,2026-07-08,Europe,Email,PO,Team D,Night,3,25.3
+INV-300063,2026-07-08,Europe,Email,Non-PO,Team D,Day,2,40.2
+INV-300064,2026-07-08,North America,Paper,PO,Team B,Day,3,48.8
+INV-300065,2026-07-08,North America,Email,Non-PO,Team B,Day,5,31.1
+INV-300066,2026-07-08,APAC,Supplier Portal,PO,Team A,Night,1,14.7
+INV-300067,2026-07-08,North America,EDI,PO,Team B,Day,4,21.6
+INV-300068,2026-07-08,LATAM,EDI,PO,Team A,Night,3,13.6
+INV-300069,2026-07-09,North America,Supplier Portal,Non-PO,Team A,Night,4,33.1
+INV-300070,2026-07-09,LATAM,Email,PO,Team B,Day,15,23.7
+INV-300071,2026-07-09,APAC,EDI,PO,Team C,Day,2,21.7
+INV-300072,2026-07-09,Europe,Paper,PO,Team C,Day,2,37.5
+INV-300073,2026-07-09,Europe,Email,PO,Team B,Night,27,41.9
+INV-300074,2026-07-09,APAC,Email,Non-PO,Team A,Night,9,34.2
+INV-300075,2026-07-09,Europe,Paper,Non-PO,Team C,Night,8,48.3
+INV-300076,2026-07-09,North America,Supplier Portal,PO,Team C,Day,3,25.7
+INV-300077,2026-07-09,North America,Paper,PO,Team A,Night,6,29.4
+INV-300078,2026-07-09,Europe,Email,Non-PO,Team A,Day,4,37.9
+INV-300079,2026-07-09,North America,Supplier Portal,PO,Team A,Day,8,33.7
+INV-300080,2026-07-09,Europe,Supplier Portal,PO,Team D,Day,14,33.9
+INV-300081,2026-07-09,Europe,EDI,PO,Team A,Day,15,16.0
+INV-300082,2026-07-09,North America,Email,PO,Team C,Night,8,56.4
+INV-300083,2026-07-10,Europe,Supplier Portal,PO,Team A,Day,2,14.8
+INV-300084,2026-07-10,LATAM,Paper,PO,Team B,Day,6,25.7
+INV-300085,2026-07-10,Europe,Supplier Portal,PO,Team A,Day,20,20.0
+INV-300086,2026-07-10,Europe,Email,PO,Team A,Night,4,43.8
+INV-300087,2026-07-10,North America,EDI,PO,Team D,Day,13,18.1
+INV-300088,2026-07-10,APAC,Email,PO,Team A,Day,8,31.2
+INV-300089,2026-07-10,Europe,Paper,PO,Team B,Night,3,30.8
+INV-300090,2026-07-10,North America,Email,PO,Team C,Night,14,52.3
+INV-300091,2026-07-10,North America,Email,PO,Team A,Night,6,33.9
+INV-300092,2026-07-10,North America,Paper,Non-PO,Team A,Day,7,29.4
+INV-300093,2026-07-13,APAC,Paper,PO,Team C,Day,31,62.7
+INV-300094,2026-07-13,Europe,EDI,Non-PO,Team B,Night,11,22.4
+INV-300095,2026-07-13,Europe,Supplier Portal,PO,Team A,Day,6,23.6
+INV-300096,2026-07-13,APAC,Email,PO,Team D,Night,3,21.8
+INV-300097,2026-07-13,North America,Paper,PO,Team B,Day,3,38.7
+INV-300098,2026-07-13,North America,EDI,Non-PO,Team D,Night,2,25.1
+INV-300099,2026-07-13,LATAM,Paper,PO,Team C,Day,17,42.0
+INV-300100,2026-07-13,Europe,Supplier Portal,PO,Team A,Day,4,18.5
+INV-300101,2026-07-13,Europe,Supplier Portal,PO,Team A,Day,2,24.2
+INV-300102,2026-07-13,APAC,Supplier Portal,Non-PO,Team B,Day,1,25.9
+INV-300103,2026-07-13,Europe,EDI,PO,Team B,Night,2,16.7
+INV-300104,2026-07-14,LATAM,EDI,PO,Team D,Day,8,15.6
+INV-300105,2026-07-14,Europe,Email,PO,Team D,Day,1,28.3
+INV-300106,2026-07-14,LATAM,Supplier Portal,Non-PO,Team D,Day,3,19.9
+INV-300107,2026-07-14,North America,Paper,PO,Team B,Day,3,45.5
+INV-300108,2026-07-14,Europe,Supplier Portal,PO,Team A,Night,6,20.3
+INV-300109,2026-07-14,Europe,EDI,PO,Team C,Day,7,22.5
+INV-300110,2026-07-14,APAC,EDI,Non-PO,Team A,Day,14,26.0
+INV-300111,2026-07-14,North America,Paper,PO,Team B,Day,4,26.2
+INV-300112,2026-07-14,Europe,EDI,PO,Team B,Day,6,10.4
+INV-300113,2026-07-14,North America,Paper,PO,Team D,Night,7,45.6
+INV-300114,2026-07-15,LATAM,EDI,Non-PO,Team B,Night,6,48.2
+INV-300115,2026-07-15,North America,Supplier Portal,PO,Team D,Day,8,17.4
+INV-300116,2026-07-15,North America,EDI,PO,Team C,Day,5,20.0
+INV-300117,2026-07-15,North America,EDI,PO,Team B,Night,5,18.3
+INV-300118,2026-07-15,North America,Email,PO,Team A,Day,5,23.0
+INV-300119,2026-07-15,LATAM,Email,Non-PO,Team B,Night,6,37.6
+INV-300120,2026-07-15,LATAM,EDI,PO,Team A,Night,3,12.1
+INV-300121,2026-07-15,North America,Email,Non-PO,Team A,Day,10,31.3
+INV-300122,2026-07-15,LATAM,Supplier Portal,PO,Team B,Night,3,15.1
+INV-300123,2026-07-15,North America,EDI,PO,Team C,Day,4,21.5
+INV-300124,2026-07-15,North America,EDI,PO,Team D,Night,8,14.5
+INV-300125,2026-07-15,Europe,Paper,PO,Team B,Day,11,46.8
+INV-300126,2026-07-15,North America,Email,Non-PO,Team D,Night,9,40.1
+INV-300127,2026-07-16,North America,Paper,Non-PO,Team A,Day,10,73.9
+INV-300128,2026-07-16,Europe,Email,Non-PO,Team D,Day,6,43.5
+INV-300129,2026-07-16,North America,Supplier Portal,PO,Team A,Night,10,18.7
+INV-300130,2026-07-16,Europe,EDI,PO,Team D,Night,5,12.4
+INV-300131,2026-07-16,Europe,Email,PO,Team C,Night,7,28.9
+INV-300132,2026-07-16,Europe,EDI,PO,Team A,Night,8,15.7
+INV-300133,2026-07-16,LATAM,EDI,Non-PO,Team D,Night,18,51.0
+INV-300134,2026-07-16,Europe,Paper,Non-PO,Team D,Day,6,30.5
+INV-300135,2026-07-16,LATAM,Email,PO,Team D,Night,4,29.1
+INV-300136,2026-07-16,North America,EDI,PO,Team C,Day,2,31.1
+INV-300137,2026-07-17,Europe,EDI,PO,Team C,Night,5,19.3
+INV-300138,2026-07-17,LATAM,EDI,PO,Team D,Day,2,21.5
+INV-300139,2026-07-17,Europe,Email,PO,Team B,Night,5,26.5
+INV-300140,2026-07-17,APAC,Email,Non-PO,Team C,Night,3,35.2
+INV-300141,2026-07-17,LATAM,Supplier Portal,Non-PO,Team C,Day,11,52.4
+INV-300142,2026-07-17,Europe,EDI,PO,Team D,Day,7,15.2
+INV-300143,2026-07-17,LATAM,Supplier Portal,PO,Team B,Day,15,29.2
+INV-300144,2026-07-17,North America,Supplier Portal,Non-PO,Team D,Day,8,30.1
+INV-300145,2026-07-17,APAC,EDI,PO,Team A,Day,3,18.3
+INV-300146,2026-07-17,Europe,Email,PO,Team D,Day,2,24.9
+INV-300147,2026-07-17,Europe,Supplier Portal,PO,Team D,Night,8,38.0
+INV-300148,2026-07-17,North America,Email,PO,Team D,Night,1,20.3
+INV-300149,2026-07-17,APAC,Supplier Portal,PO,Team C,Day,8,40.0
+INV-300150,2026-07-17,North America,Supplier Portal,PO,Team D,Day,8,13.8
+INV-300151,2026-07-20,APAC,Email,Non-PO,Team A,Night,5,36.6
+INV-300152,2026-07-20,North America,EDI,Non-PO,Team A,Day,3,32.1
+INV-300153,2026-07-20,Europe,Email,PO,Team B,Day,9,33.3
+INV-300154,2026-07-20,Europe,Supplier Portal,PO,Team A,Night,1,20.4
+INV-300155,2026-07-20,LATAM,Email,Non-PO,Team A,Night,2,28.1
+INV-300156,2026-07-20,North America,EDI,PO,Team D,Day,6,17.8
+INV-300157,2026-07-20,Europe,Email,PO,Team B,Day,1,35.7
+INV-300158,2026-07-20,Europe,EDI,PO,Team C,Night,4,22.8
+INV-300159,2026-07-20,North America,EDI,PO,Team D,Day,1,16.2
+INV-300160,2026-07-20,Europe,Supplier Portal,PO,Team D,Day,6,18.5
+INV-300161,2026-07-20,LATAM,Paper,PO,Team C,Day,6,33.0
+INV-300162,2026-07-20,Europe,Supplier Portal,PO,Team D,Night,3,19.2
+INV-300163,2026-07-20,Europe,Paper,PO,Team C,Day,7,35.8
+INV-300164,2026-07-21,APAC,Supplier Portal,PO,Team B,Day,10,24.7
+INV-300165,2026-07-21,North America,EDI,PO,Team B,Night,14,16.6
+INV-300166,2026-07-21,North America,Email,PO,Team B,Night,3,30.7
+INV-300167,2026-07-21,Europe,Supplier Portal,Non-PO,Team A,Night,11,24.2
+INV-300168,2026-07-21,North America,Email,PO,Team D,Day,2,40.0
+INV-300169,2026-07-21,Europe,Paper,PO,Team B,Day,7,19.8
+INV-300170,2026-07-21,North America,EDI,PO,Team C,Night,9,19.3
+INV-300171,2026-07-21,North America,EDI,PO,Team B,Day,8,20.0
+INV-300172,2026-07-21,Europe,Paper,PO,Team C,Day,2,31.6
+INV-300173,2026-07-21,North America,EDI,PO,Team A,Day,5,12.5
+INV-300174,2026-07-21,North America,Email,PO,Team A,Day,3,16.8
+INV-300175,2026-07-22,APAC,Supplier Portal,PO,Team B,Night,18,25.0
+INV-300176,2026-07-22,LATAM,Email,PO,Team A,Day,4,23.5
+INV-300177,2026-07-22,APAC,Paper,PO,Team B,Day,24,52.3
+INV-300178,2026-07-22,Europe,EDI,PO,Team C,Day,4,20.0
+INV-300179,2026-07-22,Europe,Paper,Non-PO,Team C,Day,3,46.0
+INV-300180,2026-07-22,Europe,Email,PO,Team D,Day,3,24.2
+INV-300181,2026-07-22,APAC,EDI,PO,Team D,Night,14,23.6
+INV-300182,2026-07-22,North America,Email,PO,Team C,Day,4,23.4
+INV-300183,2026-07-22,APAC,Email,PO,Team A,Day,2,22.0
+INV-300184,2026-07-22,Europe,EDI,PO,Team C,Day,9,22.4
+INV-300185,2026-07-22,North America,EDI,Non-PO,Team A,Day,11,20.6
+INV-300186,2026-07-22,LATAM,Email,PO,Team D,Night,9,26.3
+INV-300187,2026-07-22,Europe,EDI,PO,Team D,Day,4,12.4
+INV-300188,2026-07-23,North America,EDI,Non-PO,Team C,Night,17,31.7
+INV-300189,2026-07-23,Europe,Supplier Portal,PO,Team B,Night,15,24.4
+INV-300190,2026-07-23,Europe,Email,PO,Team C,Day,2,45.6
+INV-300191,2026-07-23,Europe,Supplier Portal,PO,Team A,Night,18,31.8
+INV-300192,2026-07-23,APAC,EDI,Non-PO,Team B,Day,5,21.9
+INV-300193,2026-07-23,LATAM,EDI,Non-PO,Team D,Day,7,35.4
+INV-300194,2026-07-23,North America,Email,PO,Team A,Day,16,24.6
+INV-300195,2026-07-23,LATAM,Paper,PO,Team D,Day,3,38.7
+INV-300196,2026-07-23,North America,EDI,PO,Team A,Day,6,14.9
+INV-300197,2026-07-23,APAC,Supplier Portal,PO,Team D,Day,16,28.8
+INV-300198,2026-07-23,Europe,Email,PO,Team A,Day,5,29.1
+INV-300199,2026-07-24,Europe,Supplier Portal,Non-PO,Team A,Day,4,27.4
+INV-300200,2026-07-24,LATAM,Supplier Portal,PO,Team A,Day,3,16.6
+INV-300201,2026-07-24,North America,EDI,Non-PO,Team D,Night,6,30.6
+INV-300202,2026-07-24,APAC,Supplier Portal,PO,Team D,Day,18,22.3
+INV-300203,2026-07-24,LATAM,Email,PO,Team A,Day,3,39.3
+INV-300204,2026-07-24,APAC,Supplier Portal,Non-PO,Team A,Night,11,28.4
+INV-300205,2026-07-24,LATAM,Supplier Portal,PO,Team C,Day,8,21.5
+INV-300206,2026-07-24,Europe,Paper,Non-PO,Team A,Day,10,54.9
+INV-300207,2026-07-24,Europe,Supplier Portal,PO,Team C,Night,16,33.0
+INV-300208,2026-07-24,North America,EDI,PO,Team C,Night,2,14.0
+INV-300209,2026-07-27,North America,Supplier Portal,PO,Team C,Day,10,30.7
+INV-300210,2026-07-27,Europe,EDI,Non-PO,Team A,Day,2,16.6
+INV-300211,2026-07-27,Europe,Email,PO,Team C,Night,2,33.9
+INV-300212,2026-07-27,North America,Supplier Portal,PO,Team B,Night,11,16.9
+INV-300213,2026-07-27,North America,Supplier Portal,PO,Team C,Day,12,25.3
+INV-300214,2026-07-27,North America,EDI,PO,Team D,Night,5,11.9
+INV-300215,2026-07-27,North America,Supplier Portal,Non-PO,Team B,Day,16,35.5
+INV-300216,2026-07-27,Europe,Email,PO,Team A,Day,4,19.5
+INV-300217,2026-07-27,Europe,Email,PO,Team A,Day,4,20.4
+INV-300218,2026-07-27,North America,Email,PO,Team D,Day,7,15.0
+INV-300219,2026-07-27,Europe,Supplier Portal,PO,Team C,Day,5,30.8
+INV-300220,2026-07-27,Europe,Email,Non-PO,Team A,Day,9,50.4
+INV-300221,2026-07-27,Europe,EDI,PO,Team B,Day,3,13.7
+INV-300222,2026-07-27,North America,Paper,PO,Team B,Day,2,37.2
+INV-300223,2026-07-28,North America,Supplier Portal,PO,Team B,Night,4,23.7
+INV-300224,2026-07-28,North America,Supplier Portal,PO,Team A,Day,6,15.9
+INV-300225,2026-07-28,North America,Supplier Portal,Non-PO,Team C,Night,2,34.0
+INV-300226,2026-07-28,LATAM,Supplier Portal,PO,Team A,Day,6,17.6
+INV-300227,2026-07-28,APAC,EDI,PO,Team C,Day,4,23.7
+INV-300228,2026-07-28,LATAM,EDI,PO,Team C,Night,6,25.2
+INV-300229,2026-07-28,Europe,Email,PO,Team C,Day,1,29.1
+INV-300230,2026-07-28,North America,EDI,Non-PO,Team C,Day,3,22.9
+INV-300231,2026-07-28,Europe,EDI,PO,Team C,Day,7,17.7
+INV-300232,2026-07-28,Europe,EDI,PO,Team D,Day,2,10.9
+INV-300233,2026-07-28,Europe,EDI,PO,Team D,Day,3,11.0
+INV-300234,2026-07-28,LATAM,EDI,Non-PO,Team C,Day,8,31.0
+INV-300235,2026-07-28,APAC,Paper,Non-PO,Team C,Night,22,55.5
+INV-300236,2026-07-29,Europe,EDI,PO,Team C,Night,3,20.8
+INV-300237,2026-07-29,North America,EDI,Non-PO,Team A,Night,2,10.6
+INV-300238,2026-07-29,North America,EDI,PO,Team D,Day,4,15.3
+INV-300239,2026-07-29,North America,EDI,Non-PO,Team B,Day,10,37.8
+INV-300240,2026-07-29,North America,EDI,Non-PO,Team C,Night,9,37.1
+INV-300241,2026-07-29,LATAM,EDI,Non-PO,Team B,Day,5,36.2
+INV-300242,2026-07-29,LATAM,Supplier Portal,PO,Team D,Day,12,18.0
+INV-300243,2026-07-29,LATAM,Supplier Portal,PO,Team C,Day,2,20.0
+INV-300244,2026-07-29,North America,Email,PO,Team B,Day,4,31.6
+INV-300245,2026-07-29,LATAM,EDI,Non-PO,Team A,Night,6,26.7
+INV-300246,2026-07-29,LATAM,EDI,PO,Team A,Day,6,14.8
+INV-300247,2026-07-29,North America,EDI,PO,Team C,Day,1,20.6
+INV-300248,2026-07-30,LATAM,EDI,PO,Team A,Night,3,12.3
+INV-300249,2026-07-30,North America,Email,PO,Team B,Day,3,28.8
+INV-300250,2026-07-30,Europe,Supplier Portal,PO,Team D,Day,8,18.8
+INV-300251,2026-07-30,North America,Email,PO,Team B,Day,6,25.5
+INV-300252,2026-07-30,APAC,Supplier Portal,Non-PO,Team A,Day,6,29.0
+INV-300253,2026-07-30,Europe,Supplier Portal,PO,Team C,Day,8,26.6
+INV-300254,2026-07-30,LATAM,EDI,PO,Team B,Day,6,18.0
+INV-300255,2026-07-30,APAC,EDI,PO,Team A,Day,5,13.3
+INV-300256,2026-07-30,Europe,Email,PO,Team A,Day,11,22.6
+INV-300257,2026-07-30,North America,EDI,Non-PO,Team A,Night,6,26.1
+INV-300258,2026-07-31,Europe,EDI,Non-PO,Team D,Day,5,26.2
+INV-300259,2026-07-31,APAC,EDI,PO,Team B,Day,3,12.0
+INV-300260,2026-07-31,Europe,Email,PO,Team C,Day,2,34.8
+INV-300261,2026-07-31,LATAM,EDI,PO,Team B,Day,3,16.8
+INV-300262,2026-07-31,North America,EDI,PO,Team C,Day,6,50.0
+INV-300263,2026-07-31,LATAM,Email,PO,Team D,Day,18,21.4
+INV-300264,2026-07-31,Europe,Email,PO,Team D,Day,4,17.4
+INV-300265,2026-07-31,Europe,Paper,PO,Team B,Day,1,38.7
+INV-300266,2026-07-31,APAC,Supplier Portal,PO,Team C,Night,5,32.0
+INV-300267,2026-07-31,LATAM,Email,PO,Team A,Day,14,28.5
+INV-300268,2026-07-31,North America,EDI,PO,Team D,Day,15,19.5
+INV-300269,2026-07-31,LATAM,Supplier Portal,PO,Team D,Night,5,17.5
+INV-300270,2026-08-03,LATAM,Email,Non-PO,Team A,Day,3,31.3
+INV-300271,2026-08-03,LATAM,Supplier Portal,PO,Team D,Night,4,15.1
+INV-300272,2026-08-03,Europe,EDI,PO,Team D,Night,12,25.7
+INV-300273,2026-08-03,APAC,EDI,PO,Team D,Day,2,14.5
+INV-300274,2026-08-03,LATAM,Email,PO,Team D,Day,6,25.7
+INV-300275,2026-08-03,North America,EDI,PO,Team B,Day,9,17.3
+INV-300276,2026-08-03,North America,EDI,PO,Team B,Day,1,14.3
+INV-300277,2026-08-03,North America,Paper,Non-PO,Team D,Night,4,37.6
+INV-300278,2026-08-03,LATAM,Paper,Non-PO,Team A,Day,8,56.7
+INV-300279,2026-08-03,North America,Email,PO,Team D,Day,6,20.6
+INV-300280,2026-08-03,Europe,EDI,PO,Team B,Day,11,15.8
+INV-300281,2026-08-03,North America,EDI,PO,Team C,Night,3,27.6
+INV-300282,2026-08-03,Europe,EDI,PO,Team C,Night,5,21.1
+INV-300283,2026-08-03,Europe,Paper,PO,Team A,Day,3,31.0
+INV-300284,2026-08-04,Europe,Email,PO,Team A,Day,3,30.7
+INV-300285,2026-08-04,Europe,Email,PO,Team A,Day,24,25.6
+INV-300286,2026-08-04,Europe,EDI,PO,Team A,Day,10,24.7
+INV-300287,2026-08-04,LATAM,EDI,PO,Team B,Day,11,18.9
+INV-300288,2026-08-04,LATAM,Email,PO,Team A,Night,2,30.1
+INV-300289,2026-08-04,North America,EDI,PO,Team B,Night,10,19.4
+INV-300290,2026-08-04,Europe,EDI,PO,Team D,Day,16,15.0
+INV-300291,2026-08-04,Europe,Paper,Non-PO,Team B,Night,3,40.9
+INV-300292,2026-08-04,LATAM,Email,PO,Team C,Day,7,35.2
+INV-300293,2026-08-04,North America,Supplier Portal,Non-PO,Team A,Night,5,17.7
+INV-300294,2026-08-04,APAC,Email,PO,Team D,Day,3,32.1
+INV-300295,2026-08-04,Europe,EDI,PO,Team D,Day,8,16.5
+INV-300296,2026-08-05,APAC,Paper,Non-PO,Team B,Night,12,58.5
+INV-300297,2026-08-05,North America,Email,PO,Team A,Night,13,21.6
+INV-300298,2026-08-05,Europe,Paper,PO,Team A,Night,6,40.5
+INV-300299,2026-08-05,North America,Supplier Portal,PO,Team B,Day,2,21.6
+INV-300300,2026-08-05,North America,Email,PO,Team D,Night,3,29.0
+INV-300301,2026-08-05,Europe,EDI,PO,Team B,Day,10,15.5
+INV-300302,2026-08-05,LATAM,Email,PO,Team B,Night,5,49.2
+INV-300303,2026-08-05,Europe,EDI,PO,Team D,Day,5,19.0
+INV-300304,2026-08-05,Europe,Supplier Portal,Non-PO,Team B,Day,2,26.6
+INV-300305,2026-08-05,North America,EDI,PO,Team B,Night,2,17.5
+INV-300306,2026-08-05,North America,EDI,Non-PO,Team C,Night,7,28.6
+INV-300307,2026-08-06,Europe,Paper,PO,Team D,Day,10,38.0
+INV-300308,2026-08-06,North America,EDI,PO,Team B,Night,7,16.6
+INV-300309,2026-08-06,LATAM,Email,PO,Team C,Day,3,47.2
+INV-300310,2026-08-06,LATAM,Email,Non-PO,Team B,Night,5,43.4
+INV-300311,2026-08-06,LATAM,Supplier Portal,Non-PO,Team C,Day,2,31.4
+INV-300312,2026-08-06,Europe,Email,Non-PO,Team B,Night,23,56.6
+INV-300313,2026-08-06,North America,Supplier Portal,PO,Team A,Day,14,32.3
+INV-300314,2026-08-06,North America,Supplier Portal,PO,Team B,Day,22,21.6
+INV-300315,2026-08-06,North America,Supplier Portal,Non-PO,Team C,Day,7,37.0
+INV-300316,2026-08-06,Europe,Supplier Portal,PO,Team B,Night,12,26.2
+INV-300317,2026-08-06,Europe,Paper,Non-PO,Team B,Day,14,45.6
+INV-300318,2026-08-06,North America,Email,PO,Team D,Day,3,24.3
+INV-300319,2026-08-07,APAC,Paper,Non-PO,Team C,Day,5,60.7
+INV-300320,2026-08-07,Europe,Email,PO,Team B,Night,2,23.9
+INV-300321,2026-08-07,North America,EDI,Non-PO,Team D,Day,17,19.4
+INV-300322,2026-08-07,APAC,Supplier Portal,PO,Team B,Night,4,18.2
+INV-300323,2026-08-07,LATAM,Supplier Portal,PO,Team A,Day,4,22.4
+INV-300324,2026-08-07,APAC,Email,PO,Team A,Day,6,33.0
+INV-300325,2026-08-07,North America,Paper,PO,Team B,Day,2,29.6
+INV-300326,2026-08-07,Europe,Supplier Portal,Non-PO,Team B,Day,3,30.6
+INV-300327,2026-08-07,LATAM,Email,PO,Team A,Day,6,36.1
+INV-300328,2026-08-07,APAC,Email,PO,Team D,Night,9,16.4
+INV-300329,2026-08-07,LATAM,EDI,PO,Team B,Day,6,21.7
+INV-300330,2026-08-10,APAC,Paper,PO,Team D,Day,13,36.1
+INV-300331,2026-08-10,APAC,EDI,Non-PO,Team D,Night,3,18.4
+INV-300332,2026-08-10,North America,EDI,PO,Team B,Day,2,25.6
+INV-300333,2026-08-10,North America,EDI,PO,Team C,Day,6,20.9
+INV-300334,2026-08-10,Europe,Supplier Portal,PO,Team B,Day,3,27.0
+INV-300335,2026-08-10,Europe,EDI,PO,Team B,Day,7,22.0
+INV-300336,2026-08-10,North America,Supplier Portal,PO,Team A,Day,6,15.7
+INV-300337,2026-08-10,APAC,Supplier Portal,PO,Team D,Night,2,20.7
+INV-300338,2026-08-10,North America,EDI,Non-PO,Team A,Day,3,16.1
+INV-300339,2026-08-10,Europe,Supplier Portal,Non-PO,Team A,Day,4,29.6
+INV-300340,2026-08-10,LATAM,Email,PO,Team B,Night,10,22.6
+INV-300341,2026-08-10,North America,EDI,PO,Team A,Day,7,19.7
+INV-300342,2026-08-11,North America,EDI,PO,Team A,Day,3,12.2
+INV-300343,2026-08-11,Europe,Paper,Non-PO,Team C,Night,10,46.1
+INV-300344,2026-08-11,North America,Paper,Non-PO,Team A,Day,3,45.1
+INV-300345,2026-08-11,LATAM,EDI,Non-PO,Team B,Night,2,24.2
+INV-300346,2026-08-11,Europe,Email,PO,Team D,Day,3,13.5
+INV-300347,2026-08-11,North America,Email,Non-PO,Team A,Day,5,33.5
+INV-300348,2026-08-11,Europe,EDI,PO,Team C,Day,4,14.7
+INV-300349,2026-08-11,North America,Paper,PO,Team B,Day,4,36.3
+INV-300350,2026-08-11,APAC,Email,PO,Team A,Day,6,29.7
+INV-300351,2026-08-11,APAC,EDI,Non-PO,Team A,Day,5,32.1
+INV-300352,2026-08-12,Europe,Paper,PO,Team A,Day,4,32.1
+INV-300353,2026-08-12,North America,Email,PO,Team C,Day,13,38.5
+INV-300354,2026-08-12,Europe,Email,PO,Team A,Night,8,26.9
+INV-300355,2026-08-12,Europe,Supplier Portal,PO,Team D,Night,4,22.7
+INV-300356,2026-08-12,LATAM,Supplier Portal,PO,Team B,Night,3,13.8
+INV-300357,2026-08-12,APAC,Supplier Portal,Non-PO,Team B,Night,12,27.1
+INV-300358,2026-08-12,North America,EDI,PO,Team A,Day,3,11.4
+INV-300359,2026-08-12,APAC,Supplier Portal,Non-PO,Team D,Night,11,27.1
+INV-300360,2026-08-12,LATAM,Supplier Portal,PO,Team A,Day,5,20.8
+INV-300361,2026-08-12,LATAM,EDI,Non-PO,Team B,Night,1,32.8
+INV-300362,2026-08-12,Europe,Supplier Portal,Non-PO,Team A,Day,17,32.7
+INV-300363,2026-08-13,North America,EDI,PO,Team D,Day,6,18.7
+INV-300364,2026-08-13,Europe,Email,PO,Team A,Day,29,25.5
+INV-300365,2026-08-13,Europe,EDI,Non-PO,Team B,Day,6,23.0
+INV-300366,2026-08-13,North America,Paper,PO,Team A,Day,5,39.1
+INV-300367,2026-08-13,APAC,EDI,PO,Team D,Day,6,18.8
+INV-300368,2026-08-13,Europe,EDI,PO,Team B,Night,6,18.2
+INV-300369,2026-08-13,Europe,Paper,PO,Team B,Day,3,36.2
+INV-300370,2026-08-13,North America,Supplier Portal,PO,Team B,Day,4,18.9
+INV-300371,2026-08-13,North America,EDI,PO,Team A,Night,6,14.6
+INV-300372,2026-08-13,North America,Paper,PO,Team B,Night,8,30.9
+INV-300373,2026-08-13,Europe,Email,PO,Team C,Day,10,31.7
+INV-300374,2026-08-13,North America,EDI,PO,Team B,Night,4,19.8
+INV-300375,2026-08-14,LATAM,Paper,PO,Team C,Night,7,51.5
+INV-300376,2026-08-14,Europe,Supplier Portal,PO,Team B,Day,4,13.2
+INV-300377,2026-08-14,North America,Supplier Portal,PO,Team C,Day,3,22.0
+INV-300378,2026-08-14,Europe,EDI,PO,Team D,Night,4,21.6
+INV-300379,2026-08-14,North America,Email,Non-PO,Team B,Day,15,41.6
+INV-300380,2026-08-14,Europe,Supplier Portal,PO,Team A,Night,11,16.5
+INV-300381,2026-08-14,Europe,Email,Non-PO,Team D,Day,7,30.7
+INV-300382,2026-08-14,LATAM,EDI,PO,Team C,Day,8,19.2
+INV-300383,2026-08-14,LATAM,EDI,Non-PO,Team A,Day,9,29.0
+INV-300384,2026-08-14,LATAM,EDI,PO,Team D,Night,5,14.5
+INV-300385,2026-08-17,Europe,Email,PO,Team A,Day,5,28.7
+INV-300386,2026-08-17,APAC,EDI,PO,Team B,Day,15,25.0
+INV-300387,2026-08-17,APAC,EDI,Non-PO,Team A,Day,6,33.4
+INV-300388,2026-08-17,North America,EDI,PO,Team D,Night,5,22.3
+INV-300389,2026-08-17,Europe,Email,PO,Team D,Day,9,25.8
+INV-300390,2026-08-17,APAC,Supplier Portal,PO,Team B,Day,7,16.9
+INV-300391,2026-08-17,APAC,EDI,PO,Team A,Day,23,23.4
+INV-300392,2026-08-17,LATAM,Supplier Portal,Non-PO,Team B,Night,3,47.8
+INV-300393,2026-08-17,APAC,Email,PO,Team D,Day,6,33.5
+INV-300394,2026-08-17,Europe,Supplier Portal,Non-PO,Team B,Night,6,26.9
+INV-300395,2026-08-17,North America,EDI,Non-PO,Team A,Night,5,24.2
+INV-300396,2026-08-17,LATAM,Supplier Portal,PO,Team D,Day,17,27.7
+INV-300397,2026-08-18,North America,EDI,PO,Team D,Day,7,21.2
+INV-300398,2026-08-18,North America,Email,PO,Team C,Day,12,22.0
+INV-300399,2026-08-18,LATAM,EDI,PO,Team C,Night,9,21.6
+INV-300400,2026-08-18,North America,Supplier Portal,Non-PO,Team B,Night,16,35.5
+INV-300401,2026-08-18,Europe,EDI,PO,Team B,Night,16,22.5
+INV-300402,2026-08-18,Europe,EDI,PO,Team C,Day,4,21.1
+INV-300403,2026-08-18,LATAM,Email,Non-PO,Team B,Day,1,34.7
+INV-300404,2026-08-18,Europe,Email,PO,Team B,Day,16,27.5
+INV-300405,2026-08-18,Europe,Supplier Portal,Non-PO,Team B,Day,3,24.3
+INV-300406,2026-08-18,North America,Email,PO,Team B,Day,5,28.0
+INV-300407,2026-08-19,North America,Paper,PO,Team D,Day,5,30.3
+INV-300408,2026-08-19,North America,Supplier Portal,PO,Team B,Day,10,18.6
+INV-300409,2026-08-19,North America,EDI,PO,Team C,Day,5,20.1
+INV-300410,2026-08-19,LATAM,Email,Non-PO,Team B,Day,5,36.1
+INV-300411,2026-08-19,North America,Email,Non-PO,Team D,Day,5,28.0
+INV-300412,2026-08-19,North America,Email,Non-PO,Team D,Day,5,42.9
+INV-300413,2026-08-19,North America,Supplier Portal,Non-PO,Team C,Day,3,45.4
+INV-300414,2026-08-19,North America,Supplier Portal,PO,Team D,Night,3,20.7
+INV-300415,2026-08-19,North America,EDI,PO,Team A,Night,5,14.1
+INV-300416,2026-08-19,Europe,Email,PO,Team D,Day,3,24.5
+INV-300417,2026-08-19,North America,Email,PO,Team C,Night,2,33.2
+INV-300418,2026-08-19,Europe,Email,PO,Team A,Day,7,21.4
+INV-300419,2026-08-19,LATAM,Paper,PO,Team C,Night,4,46.5
+INV-300420,2026-08-19,Europe,Email,PO,Team D,Day,4,31.5
+INV-300421,2026-08-20,LATAM,Supplier Portal,PO,Team A,Day,9,11.6
+INV-300422,2026-08-20,LATAM,Supplier Portal,PO,Team D,Day,2,18.0
+INV-300423,2026-08-20,APAC,Supplier Portal,Non-PO,Team C,Night,3,28.8
+INV-300424,2026-08-20,Europe,Supplier Portal,PO,Team B,Day,4,18.6
+INV-300425,2026-08-20,Europe,Paper,PO,Team C,Night,28,52.7
+INV-300426,2026-08-20,LATAM,Email,PO,Team A,Day,7,30.8
+INV-300427,2026-08-20,LATAM,Supplier Portal,Non-PO,Team C,Night,9,34.2
+INV-300428,2026-08-20,LATAM,Email,Non-PO,Team B,Day,8,36.5
+INV-300429,2026-08-20,North America,Email,PO,Team C,Day,7,33.8
+INV-300430,2026-08-20,Europe,Email,PO,Team D,Day,4,24.4
+INV-300431,2026-08-20,North America,EDI,Non-PO,Team C,Day,6,29.6
+INV-300432,2026-08-20,Europe,EDI,PO,Team D,Night,2,13.6
+INV-300433,2026-08-20,LATAM,EDI,Non-PO,Team B,Night,6,22.5
+INV-300434,2026-08-20,Europe,EDI,PO,Team D,Day,7,23.7
+INV-300435,2026-08-21,Europe,Email,Non-PO,Team A,Night,2,28.3
+INV-300436,2026-08-21,Europe,Email,PO,Team A,Night,4,25.1
+INV-300437,2026-08-21,APAC,Email,PO,Team A,Day,13,42.7
+INV-300438,2026-08-21,APAC,EDI,PO,Team B,Day,6,12.5
+INV-300439,2026-08-21,LATAM,Email,PO,Team C,Night,3,34.5
+INV-300440,2026-08-21,LATAM,Email,PO,Team B,Night,10,17.8
+INV-300441,2026-08-21,LATAM,Email,PO,Team A,Night,9,25.2
+INV-300442,2026-08-21,North America,EDI,PO,Team C,Day,5,26.5
+INV-300443,2026-08-21,North America,EDI,PO,Team D,Day,5,13.7
+INV-300444,2026-08-21,North America,Supplier Portal,PO,Team C,Night,9,33.0
+INV-300445,2026-08-24,North America,Paper,PO,Team A,Night,3,46.1
+INV-300446,2026-08-24,LATAM,EDI,PO,Team C,Day,4,28.6
+INV-300447,2026-08-24,North America,EDI,PO,Team B,Night,5,26.2
+INV-300448,2026-08-24,LATAM,Supplier Portal,Non-PO,Team C,Day,3,27.1
+INV-300449,2026-08-24,LATAM,Email,PO,Team B,Night,31,32.8
+INV-300450,2026-08-24,APAC,Supplier Portal,PO,Team A,Day,4,13.6
+INV-300451,2026-08-24,North America,Email,PO,Team B,Night,7,19.7
+INV-300452,2026-08-24,APAC,Supplier Portal,Non-PO,Team B,Day,10,37.6
+INV-300453,2026-08-24,Europe,EDI,PO,Team C,Day,19,38.7
+INV-300454,2026-08-24,North America,Supplier Portal,PO,Team C,Night,9,37.4
+INV-300455,2026-08-24,North America,Email,PO,Team C,Day,6,45.8
+INV-300456,2026-08-25,North America,Email,PO,Team A,Day,3,28.2
+INV-300457,2026-08-25,LATAM,Supplier Portal,PO,Team A,Day,9,26.0
+INV-300458,2026-08-25,North America,EDI,Non-PO,Team B,Day,3,25.0
+INV-300459,2026-08-25,LATAM,Email,Non-PO,Team D,Night,5,39.3
+INV-300460,2026-08-25,Europe,EDI,Non-PO,Team C,Night,5,19.5
+INV-300461,2026-08-25,Europe,Supplier Portal,Non-PO,Team C,Day,3,25.2
+INV-300462,2026-08-25,Europe,Supplier Portal,PO,Team B,Night,4,17.7
+INV-300463,2026-08-25,APAC,Paper,Non-PO,Team C,Day,11,83.1
+INV-300464,2026-08-25,LATAM,Email,Non-PO,Team A,Day,17,25.7
+INV-300465,2026-08-25,Europe,Email,Non-PO,Team D,Day,2,34.1
+INV-300466,2026-08-25,LATAM,EDI,PO,Team B,Day,3,13.3
+INV-300467,2026-08-25,Europe,Supplier Portal,PO,Team D,Night,4,17.3
+INV-300468,2026-08-25,LATAM,Paper,PO,Team D,Day,7,32.8
+INV-300469,2026-08-26,North America,Email,PO,Team B,Day,7,24.1
+INV-300470,2026-08-26,APAC,Supplier Portal,PO,Team C,Night,11,35.7
+INV-300471,2026-08-26,North America,Email,PO,Team C,Day,5,34.8
+INV-300472,2026-08-26,North America,EDI,Non-PO,Team B,Night,5,40.9
+INV-300473,2026-08-26,North America,Supplier Portal,Non-PO,Team B,Night,13,32.7
+INV-300474,2026-08-26,North America,Email,PO,Team D,Day,2,28.0
+INV-300475,2026-08-26,North America,Paper,PO,Team B,Day,2,35.5
+INV-300476,2026-08-26,APAC,EDI,Non-PO,Team A,Day,2,21.8
+INV-300477,2026-08-26,LATAM,Email,PO,Team C,Day,3,40.4
+INV-300478,2026-08-26,North America,Email,PO,Team C,Night,1,32.0
+INV-300479,2026-08-26,North America,EDI,PO,Team A,Night,3,12.4
+INV-300480,2026-08-26,APAC,EDI,PO,Team A,Night,15,26.2
+INV-300481,2026-08-27,North America,Email,PO,Team B,Day,5,35.2
+INV-300482,2026-08-27,LATAM,EDI,PO,Team C,Day,4,29.5
+INV-300483,2026-08-27,LATAM,Email,Non-PO,Team B,Day,3,35.0
+INV-300484,2026-08-27,North America,Supplier Portal,PO,Team A,Night,6,18.6
+INV-300485,2026-08-27,Europe,Paper,PO,Team D,Night,3,27.5
+INV-300486,2026-08-27,North America,Email,PO,Team A,Day,3,32.4
+INV-300487,2026-08-27,North America,EDI,Non-PO,Team A,Night,13,33.3
+INV-300488,2026-08-27,APAC,EDI,Non-PO,Team A,Day,3,23.2
+INV-300489,2026-08-27,North America,Paper,Non-PO,Team B,Day,11,42.4
+INV-300490,2026-08-27,North America,Email,PO,Team D,Night,5,25.7
+INV-300491,2026-08-27,North America,Email,PO,Team A,Day,6,24.8
+INV-300492,2026-08-27,Europe,Supplier Portal,PO,Team D,Day,3,22.8
+INV-300493,2026-08-28,Europe,Supplier Portal,Non-PO,Team B,Night,5,23.1
+INV-300494,2026-08-28,Europe,Supplier Portal,PO,Team C,Day,14,29.4
+INV-300495,2026-08-28,North America,EDI,Non-PO,Team A,Night,10,37.8
+INV-300496,2026-08-28,North America,EDI,PO,Team C,Day,9,22.5
+INV-300497,2026-08-28,APAC,Email,PO,Team C,Day,4,26.4
+INV-300498,2026-08-28,Europe,Supplier Portal,PO,Team B,Night,10,30.6
+INV-300499,2026-08-28,North America,Email,PO,Team D,Day,4,26.3
+INV-300500,2026-08-28,Europe,Email,PO,Team B,Day,10,27.0
+INV-300501,2026-08-28,LATAM,EDI,PO,Team D,Night,4,16.4
+INV-300502,2026-08-28,Europe,EDI,PO,Team B,Day,11,22.5
+INV-300503,2026-08-28,North America,Supplier Portal,Non-PO,Team A,Day,3,25.9
+INV-300504,2026-08-28,APAC,Email,PO,Team D,Day,2,13.2
+INV-300505,2026-08-28,North America,EDI,PO,Team B,Day,1,17.3
+INV-300506,2026-08-31,Europe,Supplier Portal,Non-PO,Team B,Night,4,25.8
+INV-300507,2026-08-31,North America,Supplier Portal,Non-PO,Team B,Day,10,27.7
+INV-300508,2026-08-31,Europe,Supplier Portal,PO,Team A,Day,1,18.4
+INV-300509,2026-08-31,North America,Supplier Portal,PO,Team D,Day,6,11.4
+INV-300510,2026-08-31,North America,Email,PO,Team D,Day,4,20.4
+INV-300511,2026-08-31,APAC,Supplier Portal,PO,Team A,Day,4,30.4
+INV-300512,2026-08-31,Europe,EDI,Non-PO,Team D,Day,2,31.5
+INV-300513,2026-08-31,North America,Paper,Non-PO,Team A,Day,15,45.6
+INV-300514,2026-08-31,LATAM,Email,PO,Team B,Day,3,26.2
+INV-300515,2026-08-31,North America,Supplier Portal,PO,Team A,Day,5,16.9
+INV-300516,2026-08-31,North America,Email,PO,Team D,Night,8,24.4
+INV-300517,2026-09-01,Europe,Paper,Non-PO,Team A,Day,11,50.8
+INV-300518,2026-09-01,Europe,Email,PO,Team B,Day,5,25.8
+INV-300519,2026-09-01,Europe,Paper,PO,Team D,Night,3,29.3
+INV-300520,2026-09-01,North America,EDI,PO,Team A,Day,5,12.8
+INV-300521,2026-09-01,Europe,Paper,PO,Team D,Day,14,47.8
+INV-300522,2026-09-01,North America,EDI,PO,Team C,Day,6,24.6
+INV-300523,2026-09-01,North America,EDI,PO,Team A,Day,5,18.2
+INV-300524,2026-09-01,Europe,EDI,PO,Team D,Day,5,12.8
+INV-300525,2026-09-01,APAC,Paper,PO,Team D,Day,6,30.5
+INV-300526,2026-09-01,APAC,Supplier Portal,PO,Team C,Day,13,50.2
+INV-300527,2026-09-01,APAC,Paper,PO,Team D,Day,4,35.1
+INV-300528,2026-09-01,Europe,Supplier Portal,PO,Team C,Day,9,26.3
+INV-300529,2026-09-01,North America,Email,PO,Team B,Night,8,32.7
+INV-300530,2026-09-02,North America,EDI,PO,Team B,Night,1,13.0
+INV-300531,2026-09-02,Europe,EDI,Non-PO,Team C,Day,5,38.9
+INV-300532,2026-09-02,Europe,Email,PO,Team B,Night,6,25.9
+INV-300533,2026-09-02,Europe,Supplier Portal,Non-PO,Team A,Day,6,24.2
+INV-300534,2026-09-02,Europe,Supplier Portal,Non-PO,Team A,Night,31,35.3
+INV-300535,2026-09-02,Europe,EDI,PO,Team D,Night,2,20.7
+INV-300536,2026-09-02,Europe,EDI,PO,Team B,Night,4,12.8
+INV-300537,2026-09-02,APAC,Email,PO,Team A,Night,4,40.2
+INV-300538,2026-09-02,Europe,EDI,Non-PO,Team A,Day,4,31.5
+INV-300539,2026-09-02,LATAM,Supplier Portal,PO,Team A,Day,2,17.8
+INV-300540,2026-09-02,Europe,Email,PO,Team B,Night,16,25.2
+INV-300541,2026-09-02,North America,Paper,PO,Team A,Day,9,29.5
+INV-300542,2026-09-02,APAC,Email,PO,Team B,Day,26,36.2
+INV-300543,2026-09-03,Europe,Supplier Portal,Non-PO,Team B,Night,14,34.2
+INV-300544,2026-09-03,North America,EDI,PO,Team C,Day,6,23.8
+INV-300545,2026-09-03,Europe,Email,PO,Team A,Day,3,36.1
+INV-300546,2026-09-03,North America,Email,Non-PO,Team A,Day,23,54.0
+INV-300547,2026-09-03,North America,EDI,PO,Team D,Night,6,11.5
+INV-300548,2026-09-03,LATAM,EDI,PO,Team D,Night,13,23.4
+INV-300549,2026-09-03,Europe,EDI,PO,Team B,Day,3,7.7
+INV-300550,2026-09-03,North America,Email,PO,Team A,Night,5,43.5
+INV-300551,2026-09-03,Europe,Supplier Portal,PO,Team D,Night,7,17.4
+INV-300552,2026-09-03,North America,Supplier Portal,Non-PO,Team C,Night,4,26.9
+INV-300553,2026-09-03,LATAM,Supplier Portal,PO,Team A,Night,7,14.9
+INV-300554,2026-09-03,Europe,Email,Non-PO,Team B,Day,9,37.4
+INV-300555,2026-09-03,Europe,Supplier Portal,PO,Team D,Night,4,17.8
+INV-300556,2026-09-04,North America,Supplier Portal,Non-PO,Team C,Night,1,28.1
+INV-300557,2026-09-04,North America,Paper,PO,Team B,Night,3,40.9
+INV-300558,2026-09-04,Europe,EDI,PO,Team C,Day,12,32.8
+INV-300559,2026-09-04,Europe,Email,PO,Team B,Night,11,38.9
+INV-300560,2026-09-04,Europe,EDI,PO,Team C,Night,4,34.4
+INV-300561,2026-09-04,North America,Email,PO,Team A,Day,10,36.6
+INV-300562,2026-09-04,North America,EDI,Non-PO,Team B,Day,2,17.0
+INV-300563,2026-09-04,Europe,Supplier Portal,PO,Team B,Day,10,22.7
+INV-300564,2026-09-04,North America,Supplier Portal,PO,Team C,Day,2,17.5
+INV-300565,2026-09-04,LATAM,Email,Non-PO,Team B,Night,2,39.8
+INV-300566,2026-09-04,North America,Supplier Portal,PO,Team C,Day,9,30.8
+INV-300567,2026-09-04,APAC,EDI,PO,Team C,Day,18,19.9
+INV-300568,2026-09-04,Europe,Supplier Portal,PO,Team A,Day,7,36.2
+INV-300569,2026-09-07,LATAM,Email,Non-PO,Team D,Day,5,29.1
+INV-300570,2026-09-07,LATAM,EDI,PO,Team D,Day,18,19.6
+INV-300571,2026-09-07,North America,Email,Non-PO,Team B,Night,9,42.7
+INV-300572,2026-09-07,Europe,Email,PO,Team B,Day,8,26.2
+INV-300573,2026-09-07,Europe,Email,Non-PO,Team A,Night,11,37.8
+INV-300574,2026-09-07,LATAM,EDI,PO,Team B,Day,3,15.0
+INV-300575,2026-09-07,LATAM,EDI,PO,Team D,Day,6,20.3
+INV-300576,2026-09-07,LATAM,EDI,Non-PO,Team A,Night,7,26.8
+INV-300577,2026-09-07,Europe,Supplier Portal,PO,Team A,Day,1,16.5
+INV-300578,2026-09-07,North America,Supplier Portal,PO,Team D,Night,4,23.6
+INV-300579,2026-09-07,APAC,Supplier Portal,PO,Team B,Day,3,19.4
+INV-300580,2026-09-07,North America,Supplier Portal,PO,Team B,Day,15,24.4
+INV-300581,2026-09-07,Europe,Paper,PO,Team B,Day,3,32.3
+INV-300582,2026-09-08,North America,EDI,PO,Team C,Day,9,27.7
+INV-300583,2026-09-08,Europe,Email,Non-PO,Team B,Day,10,41.0
+INV-300584,2026-09-08,APAC,EDI,PO,Team A,Day,10,10.9
+INV-300585,2026-09-08,LATAM,EDI,PO,Team D,Day,4,17.6
+INV-300586,2026-09-08,LATAM,Paper,PO,Team C,Night,5,49.1
+INV-300587,2026-09-08,LATAM,EDI,PO,Team B,Night,4,18.2
+INV-300588,2026-09-08,Europe,Email,Non-PO,Team C,Night,13,47.3
+INV-300589,2026-09-08,North America,Supplier Portal,PO,Team A,Day,8,15.1
+INV-300590,2026-09-08,North America,Supplier Portal,PO,Team D,Day,5,14.7
+INV-300591,2026-09-08,Europe,EDI,PO,Team A,Night,3,16.1
+INV-300592,2026-09-08,North America,EDI,PO,Team C,Night,4,17.8
+INV-300593,2026-09-09,LATAM,Email,Non-PO,Team C,Day,6,38.3
+INV-300594,2026-09-09,APAC,EDI,PO,Team A,Day,16,17.9
+INV-300595,2026-09-09,LATAM,Email,PO,Team B,Night,5,34.1
+INV-300596,2026-09-09,APAC,Paper,PO,Team D,Night,2,35.5
+INV-300597,2026-09-09,APAC,Email,PO,Team B,Day,5,24.8
+INV-300598,2026-09-09,LATAM,Paper,Non-PO,Team C,Day,14,45.4
+INV-300599,2026-09-09,Europe,Supplier Portal,PO,Team B,Day,6,14.0
+INV-300600,2026-09-09,North America,Email,PO,Team A,Day,8,24.8
+INV-300601,2026-09-09,LATAM,Email,Non-PO,Team D,Day,5,43.1
+INV-300602,2026-09-09,North America,Email,PO,Team B,Night,11,28.9
+INV-300603,2026-09-09,Europe,Supplier Portal,PO,Team C,Day,10,27.3
+INV-300604,2026-09-09,North America,EDI,Non-PO,Team C,Day,11,24.8
+INV-300605,2026-09-09,LATAM,EDI,PO,Team B,Day,4,25.2
+INV-300606,2026-09-10,Europe,Paper,PO,Team A,Night,2,33.8
+INV-300607,2026-09-10,North America,Email,PO,Team C,Night,8,38.4
+INV-300608,2026-09-10,LATAM,Paper,PO,Team B,Day,6,33.7
+INV-300609,2026-09-10,Europe,EDI,PO,Team B,Day,5,17.3
+INV-300610,2026-09-10,Europe,Email,PO,Team D,Day,7,34.1
+INV-300611,2026-09-10,North America,Email,Non-PO,Team A,Night,5,37.8
+INV-300612,2026-09-10,North America,Email,PO,Team A,Day,6,19.8
+INV-300613,2026-09-10,LATAM,EDI,PO,Team B,Day,7,18.0
+INV-300614,2026-09-10,Europe,Paper,PO,Team D,Day,5,41.5
+INV-300615,2026-09-10,North America,Supplier Portal,Non-PO,Team C,Day,6,32.2
+INV-300616,2026-09-10,APAC,EDI,Non-PO,Team B,Night,5,27.3
+INV-300617,2026-09-10,North America,Paper,PO,Team D,Day,2,36.4
+INV-300618,2026-09-10,North America,Paper,PO,Team B,Day,13,45.5
+INV-300619,2026-09-11,North America,EDI,PO,Team B,Day,13,15.1
+INV-300620,2026-09-11,Europe,EDI,PO,Team A,Day,9,15.1
+INV-300621,2026-09-11,APAC,Email,PO,Team C,Day,13,31.4
+INV-300622,2026-09-11,Europe,Supplier Portal,Non-PO,Team C,Day,13,31.7
+INV-300623,2026-09-11,North America,Email,PO,Team A,Day,5,18.7
+INV-300624,2026-09-11,North America,EDI,PO,Team D,Night,9,20.1
+INV-300625,2026-09-11,LATAM,EDI,PO,Team A,Night,4,16.4
+INV-300626,2026-09-11,North America,EDI,PO,Team B,Night,2,13.1
+INV-300627,2026-09-11,APAC,EDI,Non-PO,Team C,Day,5,56.3
+INV-300628,2026-09-11,APAC,EDI,PO,Team A,Day,5,20.0
+INV-300629,2026-09-11,North America,Email,PO,Team B,Night,5,26.9
+INV-300630,2026-09-11,Europe,Email,PO,Team D,Night,2,23.5
+INV-300631,2026-09-11,Europe,Supplier Portal,PO,Team B,Day,6,29.8
+INV-300632,2026-09-14,North America,Supplier Portal,PO,Team A,Night,6,19.7
+INV-300633,2026-09-14,Europe,EDI,Non-PO,Team B,Night,1,30.1
+INV-300634,2026-09-14,North America,Email,PO,Team D,Day,7,35.3
+INV-300635,2026-09-14,LATAM,EDI,Non-PO,Team D,Day,15,32.8
+INV-300636,2026-09-14,North America,Supplier Portal,PO,Team B,Day,8,18.0
+INV-300637,2026-09-14,North America,EDI,Non-PO,Team D,Day,18,25.2
+INV-300638,2026-09-14,North America,Supplier Portal,PO,Team A,Night,3,16.2
+INV-300639,2026-09-14,North America,Email,Non-PO,Team B,Day,6,32.9
+INV-300640,2026-09-14,Europe,Supplier Portal,PO,Team B,Day,15,29.9
+INV-300641,2026-09-14,APAC,Paper,PO,Team C,Day,5,30.7
+INV-300642,2026-09-15,Europe,EDI,Non-PO,Team C,Day,7,72.4
+INV-300643,2026-09-15,Europe,EDI,Non-PO,Team D,Day,17,56.2
+INV-300644,2026-09-15,North America,Paper,Non-PO,Team B,Day,7,103.1
+INV-300645,2026-09-15,Europe,Email,PO,Team A,Day,18,48.8
+INV-300646,2026-09-15,APAC,Paper,PO,Team C,Day,14,92.3
+INV-300647,2026-09-15,LATAM,EDI,PO,Team B,Day,21,26.9
+INV-300648,2026-09-15,North America,Supplier Portal,PO,Team B,Day,7,32.2
+INV-300649,2026-09-15,LATAM,EDI,PO,Team B,Night,7,33.0
+INV-300650,2026-09-15,Europe,Supplier Portal,PO,Team D,Day,20,26.8
+INV-300651,2026-09-15,LATAM,Supplier Portal,Non-PO,Team A,Night,3,53.5
+INV-300652,2026-09-15,APAC,Supplier Portal,PO,Team D,Day,8,37.6
+INV-300653,2026-09-15,LATAM,EDI,PO,Team C,Night,9,57.5
+INV-300654,2026-09-15,Europe,Supplier Portal,PO,Team D,Day,2,28.7
+INV-300655,2026-09-16,LATAM,EDI,PO,Team B,Night,1,31.9
+INV-300656,2026-09-16,Europe,Email,Non-PO,Team D,Day,2,39.3
+INV-300657,2026-09-16,APAC,Email,Non-PO,Team D,Day,6,58.5
+INV-300658,2026-09-16,Europe,Supplier Portal,Non-PO,Team B,Night,16,41.9
+INV-300659,2026-09-16,LATAM,Supplier Portal,PO,Team B,Day,3,42.9
+INV-300660,2026-09-16,North America,Email,Non-PO,Team D,Day,4,39.5
+INV-300661,2026-09-16,APAC,Email,Non-PO,Team B,Night,7,64.2
+INV-300662,2026-09-16,Europe,EDI,Non-PO,Team C,Day,8,38.0
+INV-300663,2026-09-16,North America,Email,PO,Team B,Night,5,48.2
+INV-300664,2026-09-16,APAC,EDI,PO,Team C,Night,5,69.8
+INV-300665,2026-09-17,Europe,Email,Non-PO,Team D,Day,3,43.6
+INV-300666,2026-09-17,LATAM,EDI,PO,Team C,Night,6,40.4
+INV-300667,2026-09-17,North America,Paper,Non-PO,Team C,Day,3,83.8
+INV-300668,2026-09-17,North America,Email,Non-PO,Team D,Day,8,63.5
+INV-300669,2026-09-17,LATAM,Email,PO,Team D,Day,5,47.6
+INV-300670,2026-09-17,Europe,EDI,PO,Team D,Night,4,33.9
+INV-300671,2026-09-17,North America,Supplier Portal,Non-PO,Team B,Day,2,44.2
+INV-300672,2026-09-17,LATAM,EDI,PO,Team A,Day,12,41.4
+INV-300673,2026-09-17,North America,Supplier Portal,PO,Team B,Night,3,31.1
+INV-300674,2026-09-17,North America,Supplier Portal,PO,Team C,Day,3,26.5
+INV-300675,2026-09-17,North America,Supplier Portal,Non-PO,Team A,Day,7,55.2
+INV-300676,2026-09-17,North America,Email,PO,Team B,Day,5,32.9
+INV-300677,2026-09-18,APAC,Paper,PO,Team C,Day,6,42.1
+INV-300678,2026-09-18,Europe,Email,PO,Team C,Day,3,50.9
+INV-300679,2026-09-18,Europe,EDI,PO,Team A,Day,11,16.4
+INV-300680,2026-09-18,North America,Supplier Portal,Non-PO,Team B,Night,13,31.9
+INV-300681,2026-09-18,APAC,EDI,Non-PO,Team D,Day,3,21.0
+INV-300682,2026-09-18,North America,Paper,PO,Team A,Night,19,48.7
+INV-300683,2026-09-18,Europe,EDI,PO,Team A,Day,4,15.6
+INV-300684,2026-09-18,North America,Paper,PO,Team A,Day,5,37.0
+INV-300685,2026-09-18,North America,Supplier Portal,Non-PO,Team D,Day,6,29.8
+INV-300686,2026-09-18,Europe,Email,PO,Team D,Day,16,42.1
+INV-300687,2026-09-18,Europe,EDI,PO,Team A,Night,2,16.1
+INV-300688,2026-09-18,North America,EDI,PO,Team B,Day,4,19.6
+INV-300689,2026-09-21,North America,Email,PO,Team A,Day,20,26.2
+INV-300690,2026-09-21,North America,EDI,PO,Team A,Night,12,27.4
+INV-300691,2026-09-21,LATAM,EDI,PO,Team C,Day,14,27.9
+INV-300692,2026-09-21,LATAM,Supplier Portal,PO,Team D,Night,6,22.5
+INV-300693,2026-09-21,North America,Email,Non-PO,Team A,Night,8,53.7
+INV-300694,2026-09-21,North America,Email,Non-PO,Team D,Night,9,39.2
+INV-300695,2026-09-21,North America,EDI,PO,Team C,Day,7,23.5
+INV-300696,2026-09-21,Europe,EDI,PO,Team B,Night,4,21.4
+INV-300697,2026-09-21,Europe,Email,PO,Team A,Day,7,22.1
+INV-300698,2026-09-21,APAC,Email,PO,Team D,Day,4,24.9
+INV-300699,2026-09-22,APAC,EDI,PO,Team D,Day,5,15.0
+INV-300700,2026-09-22,North America,Supplier Portal,PO,Team B,Day,5,18.0
+INV-300701,2026-09-22,Europe,Supplier Portal,Non-PO,Team D,Day,1,27.7
+INV-300702,2026-09-22,APAC,EDI,PO,Team B,Day,9,14.8
+INV-300703,2026-09-22,North America,Paper,PO,Team B,Day,6,36.1
+INV-300704,2026-09-22,Europe,Supplier Portal,PO,Team B,Day,6,25.9
+INV-300705,2026-09-22,Europe,EDI,PO,Team D,Night,2,14.3
+INV-300706,2026-09-22,APAC,Supplier Portal,PO,Team C,Day,2,23.1
+INV-300707,2026-09-22,APAC,EDI,PO,Team B,Night,18,13.8
+INV-300708,2026-09-22,North America,Supplier Portal,Non-PO,Team D,Night,6,26.2
+INV-300709,2026-09-22,North America,EDI,PO,Team A,Night,2,16.2
+INV-300710,2026-09-23,LATAM,Supplier Portal,Non-PO,Team A,Day,6,26.1
+INV-300711,2026-09-23,North America,Email,PO,Team C,Day,7,47.9
+INV-300712,2026-09-23,Europe,EDI,PO,Team D,Day,7,26.5
+INV-300713,2026-09-23,Europe,EDI,PO,Team B,Day,3,17.9
+INV-300714,2026-09-23,North America,Email,PO,Team D,Day,7,45.8
+INV-300715,2026-09-23,LATAM,Supplier Portal,PO,Team D,Day,5,23.3
+INV-300716,2026-09-23,Europe,EDI,PO,Team D,Day,3,14.8
+INV-300717,2026-09-23,LATAM,Supplier Portal,Non-PO,Team B,Day,2,27.3
+INV-300718,2026-09-23,APAC,Email,Non-PO,Team B,Night,4,24.6
+INV-300719,2026-09-23,Europe,Supplier Portal,PO,Team B,Night,10,21.4
+INV-300720,2026-09-24,North America,Email,PO,Team D,Day,6,21.3
+INV-300721,2026-09-24,Europe,EDI,PO,Team B,Night,3,16.0
+INV-300722,2026-09-24,North America,Paper,Non-PO,Team B,Night,5,31.2
+INV-300723,2026-09-24,North America,EDI,PO,Team B,Night,8,15.7
+INV-300724,2026-09-24,Europe,EDI,Non-PO,Team C,Day,18,33.5
+INV-300725,2026-09-24,LATAM,Email,PO,Team A,Day,6,24.5
+INV-300726,2026-09-24,LATAM,Supplier Portal,PO,Team D,Day,6,28.4
+INV-300727,2026-09-24,Europe,Supplier Portal,Non-PO,Team B,Day,12,21.4
+INV-300728,2026-09-24,LATAM,EDI,PO,Team C,Day,4,25.0
+INV-300729,2026-09-24,Europe,Email,PO,Team D,Day,3,20.7
+INV-300730,2026-09-24,North America,Email,Non-PO,Team D,Night,9,49.0
+INV-300731,2026-09-24,Europe,Email,PO,Team A,Night,1,27.2
+INV-300732,2026-09-24,Europe,Email,PO,Team C,Night,13,43.5
+INV-300733,2026-09-24,LATAM,Email,Non-PO,Team C,Day,3,43.7
+INV-300734,2026-09-25,APAC,Email,PO,Team D,Night,6,34.0
+INV-300735,2026-09-25,Europe,EDI,PO,Team B,Night,5,11.7
+INV-300736,2026-09-25,Europe,Supplier Portal,PO,Team A,Day,6,22.6
+INV-300737,2026-09-25,APAC,Email,PO,Team A,Day,8,22.2
+INV-300738,2026-09-25,Europe,Email,Non-PO,Team D,Day,4,30.5
+INV-300739,2026-09-25,Europe,Email,PO,Team D,Night,7,28.6
+INV-300740,2026-09-25,Europe,EDI,PO,Team D,Day,1,16.2
+INV-300741,2026-09-25,LATAM,Supplier Portal,PO,Team D,Night,9,18.1
+INV-300742,2026-09-25,APAC,Email,PO,Team D,Day,7,38.9
+INV-300743,2026-09-25,LATAM,Email,PO,Team C,Night,9,25.8
+INV-300744,2026-09-28,Europe,Email,Non-PO,Team A,Day,35,47.0
+INV-300745,2026-09-28,Europe,EDI,Non-PO,Team B,Day,3,22.2
+INV-300746,2026-09-28,LATAM,Email,PO,Team B,Day,6,24.3
+INV-300747,2026-09-28,North America,Supplier Portal,PO,Team C,Night,3,28.2
+INV-300748,2026-09-28,LATAM,Email,PO,Team D,Night,8,31.6
+INV-300749,2026-09-28,North America,Email,Non-PO,Team C,Night,3,27.4
+INV-300750,2026-09-28,Europe,EDI,PO,Team B,Day,4,19.5
+INV-300751,2026-09-28,LATAM,Supplier Portal,PO,Team C,Day,5,38.6
+INV-300752,2026-09-28,Europe,Supplier Portal,Non-PO,Team C,Night,3,35.1
+INV-300753,2026-09-28,North America,Paper,Non-PO,Team B,Night,6,57.6
+INV-300754,2026-09-29,Europe,EDI,PO,Team A,Day,11,19.6
+INV-300755,2026-09-29,North America,Supplier Portal,Non-PO,Team C,Night,5,36.9
+INV-300756,2026-09-29,Europe,EDI,PO,Team A,Day,6,12.1
+INV-300757,2026-09-29,North America,Email,PO,Team D,Night,11,28.5
+INV-300758,2026-09-29,LATAM,EDI,PO,Team A,Day,15,20.9
+INV-300759,2026-09-29,Europe,Email,PO,Team B,Night,11,26.8
+INV-300760,2026-09-29,Europe,Email,PO,Team C,Night,10,50.8
+INV-300761,2026-09-29,LATAM,EDI,Non-PO,Team A,Night,8,23.3
+INV-300762,2026-09-29,North America,EDI,PO,Team D,Night,8,19.3
+INV-300763,2026-09-29,North America,Supplier Portal,PO,Team D,Day,1,19.2
+INV-300764,2026-09-29,APAC,Supplier Portal,PO,Team D,Night,27,26.1
+INV-300765,2026-09-30,LATAM,Email,PO,Team D,Day,1,21.3
+INV-300766,2026-09-30,North America,Supplier Portal,PO,Team D,Night,8,28.0
+INV-300767,2026-09-30,LATAM,Email,PO,Team A,Day,9,21.1
+INV-300768,2026-09-30,Europe,Email,PO,Team C,Night,4,45.3
+INV-300769,2026-09-30,Europe,Email,PO,Team B,Day,4,20.6
+INV-300770,2026-09-30,Europe,EDI,PO,Team A,Night,6,15.9
+INV-300771,2026-09-30,Europe,Email,Non-PO,Team B,Day,6,29.1
+INV-300772,2026-09-30,Europe,EDI,PO,Team D,Day,11,16.9
+INV-300773,2026-09-30,North America,Supplier Portal,PO,Team C,Night,4,32.9
+INV-300774,2026-09-30,Europe,Supplier Portal,PO,Team C,Day,8,22.0
+INV-300775,2026-09-30,Europe,Email,Non-PO,Team B,Day,11,29.9
+INV-300776,2026-09-30,North America,EDI,PO,Team A,Day,7,12.5
+INV-300777,2026-09-30,Europe,Email,Non-PO,Team C,Day,11,46.2
+INV-300778,2026-09-30,APAC,Email,Non-PO,Team D,Night,10,37.2
+INV-300779,2026-10-01,North America,Paper,PO,Team C,Night,15,40.5
+INV-300780,2026-10-01,Europe,Email,Non-PO,Team C,Day,4,50.9
+INV-300781,2026-10-01,North America,Email,Non-PO,Team B,Day,6,55.2
+INV-300782,2026-10-01,Europe,Paper,Non-PO,Team B,Night,7,41.8
+INV-300783,2026-10-01,LATAM,EDI,PO,Team D,Night,2,18.4
+INV-300784,2026-10-01,APAC,Supplier Portal,PO,Team A,Night,7,21.6
+INV-300785,2026-10-01,APAC,Email,PO,Team D,Night,6,23.8
+INV-300786,2026-10-01,Europe,EDI,PO,Team A,Night,4,15.8
+INV-300787,2026-10-01,North America,Email,PO,Team A,Day,5,26.6
+INV-300788,2026-10-01,LATAM,Email,PO,Team C,Night,1,35.9
+INV-300789,2026-10-02,Europe,EDI,PO,Team D,Night,25,21.7
+INV-300790,2026-10-02,Europe,EDI,Non-PO,Team D,Day,3,23.5
+INV-300791,2026-10-02,North America,EDI,PO,Team D,Day,8,15.5
+INV-300792,2026-10-02,North America,Email,Non-PO,Team B,Night,23,35.1
+INV-300793,2026-10-02,LATAM,Supplier Portal,PO,Team D,Night,7,15.9
+INV-300794,2026-10-02,Europe,Email,PO,Team A,Day,7,26.7
+INV-300795,2026-10-02,APAC,EDI,Non-PO,Team C,Day,3,41.0
+INV-300796,2026-10-02,North America,Supplier Portal,PO,Team A,Day,6,22.2
+INV-300797,2026-10-02,LATAM,Supplier Portal,PO,Team A,Day,5,13.2
+INV-300798,2026-10-02,North America,Supplier Portal,PO,Team B,Day,30,28.6
+INV-300799,2026-10-02,LATAM,Email,PO,Team D,Night,2,26.1
+INV-300800,2026-10-02,Europe,Supplier Portal,PO,Team C,Night,16,34.7
+INV-300801,2026-10-05,North America,EDI,PO,Team D,Night,6,17.6
+INV-300802,2026-10-05,North America,Paper,PO,Team D,Day,10,38.6
+INV-300803,2026-10-05,North America,Email,Non-PO,Team D,Night,2,24.0
+INV-300804,2026-10-05,Europe,Email,PO,Team D,Day,2,22.3
+INV-300805,2026-10-05,APAC,Paper,PO,Team D,Day,6,42.5
+INV-300806,2026-10-05,Europe,Email,Non-PO,Team B,Night,2,41.2
+INV-300807,2026-10-05,LATAM,Email,PO,Team A,Night,10,33.7
+INV-300808,2026-10-05,APAC,Email,PO,Team D,Day,4,33.9
+INV-300809,2026-10-05,LATAM,Email,PO,Team D,Night,9,40.1
+INV-300810,2026-10-05,Europe,EDI,Non-PO,Team B,Day,3,22.3
+INV-300811,2026-10-05,North America,EDI,PO,Team C,Day,5,19.6
+INV-300812,2026-10-05,APAC,Paper,PO,Team D,Day,7,40.4
+INV-300813,2026-10-05,Europe,EDI,PO,Team A,Night,21,20.0
+INV-300814,2026-10-06,LATAM,Supplier Portal,PO,Team A,Night,9,21.6
+INV-300815,2026-10-06,Europe,Supplier Portal,Non-PO,Team C,Night,10,26.6
+INV-300816,2026-10-06,Europe,EDI,PO,Team C,Day,13,26.6
+INV-300817,2026-10-06,Europe,EDI,PO,Team A,Night,4,17.7
+INV-300818,2026-10-06,APAC,Supplier Portal,Non-PO,Team C,Day,7,38.9
+INV-300819,2026-10-06,North America,Email,PO,Team B,Day,2,22.4
+INV-300820,2026-10-06,North America,Email,PO,Team D,Day,3,28.7
+INV-300821,2026-10-06,Europe,EDI,Non-PO,Team C,Day,15,34.0
+INV-300822,2026-10-06,Europe,EDI,PO,Team A,Day,17,11.6
+INV-300823,2026-10-06,APAC,Email,Non-PO,Team A,Night,7,28.7
+INV-300824,2026-10-06,Europe,Paper,PO,Team B,Day,2,28.6
+INV-300825,2026-10-07,APAC,Supplier Portal,PO,Team A,Day,8,17.8
+INV-300826,2026-10-07,Europe,EDI,PO,Team C,Day,7,24.4
+INV-300827,2026-10-07,Europe,Supplier Portal,PO,Team D,Night,9,25.6
+INV-300828,2026-10-07,Europe,Email,PO,Team A,Day,3,31.3
+INV-300829,2026-10-07,North America,Supplier Portal,Non-PO,Team D,Day,7,36.1
+INV-300830,2026-10-07,Europe,EDI,Non-PO,Team B,Night,43,38.1
+INV-300831,2026-10-07,North America,Supplier Portal,Non-PO,Team C,Day,5,48.0
+INV-300832,2026-10-07,LATAM,EDI,PO,Team C,Day,5,29.7
+INV-300833,2026-10-07,LATAM,EDI,Non-PO,Team C,Day,4,35.0
+INV-300834,2026-10-07,LATAM,Supplier Portal,PO,Team B,Day,4,14.2
+INV-300835,2026-10-07,APAC,EDI,Non-PO,Team D,Night,11,23.1
+INV-300836,2026-10-08,LATAM,EDI,Non-PO,Team D,Night,4,16.8
+INV-300837,2026-10-08,Europe,Supplier Portal,PO,Team D,Night,2,23.6
+INV-300838,2026-10-08,Europe,EDI,PO,Team A,Day,6,16.2
+INV-300839,2026-10-08,LATAM,Paper,PO,Team A,Day,4,30.7
+INV-300840,2026-10-08,Europe,Paper,Non-PO,Team C,Night,11,50.7
+INV-300841,2026-10-08,LATAM,Supplier Portal,PO,Team B,Day,3,17.0
+INV-300842,2026-10-08,APAC,Email,PO,Team C,Day,4,31.5
+INV-300843,2026-10-08,LATAM,Supplier Portal,Non-PO,Team C,Day,8,51.5
+INV-300844,2026-10-08,North America,Supplier Portal,PO,Team A,Day,3,16.5
+INV-300845,2026-10-08,North America,EDI,Non-PO,Team D,Day,8,19.9
+INV-300846,2026-10-08,LATAM,Email,Non-PO,Team D,Day,1,54.0
+INV-300847,2026-10-09,APAC,Email,PO,Team A,Day,4,29.3
+INV-300848,2026-10-09,LATAM,EDI,PO,Team C,Day,1,25.4
+INV-300849,2026-10-09,North America,EDI,PO,Team D,Day,12,14.1
+INV-300850,2026-10-09,LATAM,EDI,PO,Team B,Night,5,21.4
+INV-300851,2026-10-09,North America,Email,PO,Team B,Day,7,21.4
+INV-300852,2026-10-09,Europe,Email,PO,Team C,Night,22,56.1
+INV-300853,2026-10-09,APAC,EDI,PO,Team B,Day,4,15.5
+INV-300854,2026-10-09,Europe,Supplier Portal,PO,Team C,Day,4,21.3
+INV-300855,2026-10-09,Europe,Supplier Portal,PO,Team A,Night,5,15.6
+INV-300856,2026-10-09,Europe,Email,PO,Team A,Day,3,25.2
+INV-300857,2026-10-09,North America,Email,PO,Team B,Day,2,31.3
+INV-300858,2026-10-09,LATAM,EDI,PO,Team D,Day,6,18.5
+INV-300859,2026-10-09,Europe,Email,PO,Team A,Day,13,26.3
+INV-300860,2026-10-12,LATAM,Email,PO,Team A,Day,3,30.8
+INV-300861,2026-10-12,North America,EDI,Non-PO,Team D,Night,10,21.7
+INV-300862,2026-10-12,North America,Email,PO,Team B,Day,14,24.5
+INV-300863,2026-10-12,APAC,Email,Non-PO,Team D,Night,20,44.2
+INV-300864,2026-10-12,LATAM,Email,PO,Team D,Day,2,23.4
+INV-300865,2026-10-12,LATAM,Supplier Portal,PO,Team B,Night,7,26.7
+INV-300866,2026-10-12,Europe,Supplier Portal,Non-PO,Team C,Night,2,45.2
+INV-300867,2026-10-12,APAC,Email,PO,Team C,Day,13,28.9
+INV-300868,2026-10-12,North America,Email,Non-PO,Team C,Day,9,45.8
+INV-300869,2026-10-12,North America,Paper,Non-PO,Team D,Night,11,52.4
+INV-300870,2026-10-12,North America,EDI,PO,Team C,Day,1,27.1
+INV-300871,2026-10-13,LATAM,EDI,PO,Team C,Day,4,25.3
+INV-300872,2026-10-13,Europe,Email,PO,Team A,Day,2,17.8
+INV-300873,2026-10-13,APAC,Email,PO,Team C,Day,4,35.5
+INV-300874,2026-10-13,North America,Email,PO,Team B,Day,3,34.8
+INV-300875,2026-10-13,Europe,EDI,Non-PO,Team B,Night,6,32.9
+INV-300876,2026-10-13,APAC,Supplier Portal,PO,Team C,Day,5,30.7
+INV-300877,2026-10-13,LATAM,Supplier Portal,PO,Team B,Night,5,20.3
+INV-300878,2026-10-13,North America,EDI,Non-PO,Team D,Night,36,42.8
+INV-300879,2026-10-13,APAC,Email,Non-PO,Team C,Day,8,33.9
+INV-300880,2026-10-13,LATAM,Email,PO,Team A,Day,7,34.9
+INV-300881,2026-10-13,North America,Supplier Portal,Non-PO,Team D,Night,4,44.3
+INV-300882,2026-10-13,APAC,Email,PO,Team C,Day,9,62.6
+INV-300883,2026-10-13,Europe,Supplier Portal,Non-PO,Team A,Night,4,15.2
+INV-300884,2026-10-13,North America,Supplier Portal,PO,Team C,Day,14,17.7
+INV-300885,2026-10-14,APAC,Email,Non-PO,Team B,Day,5,39.6
+INV-300886,2026-10-14,North America,Email,PO,Team A,Day,9,31.3
+INV-300887,2026-10-14,Europe,EDI,PO,Team A,Day,8,19.7
+INV-300888,2026-10-14,North America,EDI,Non-PO,Team D,Night,15,30.9
+INV-300889,2026-10-14,North America,EDI,PO,Team A,Day,2,14.0
+INV-300890,2026-10-14,LATAM,Supplier Portal,PO,Team C,Day,5,17.4
+INV-300891,2026-10-14,LATAM,EDI,PO,Team B,Day,1,10.4
+INV-300892,2026-10-14,North America,Supplier Portal,Non-PO,Team A,Day,8,43.0
+INV-300893,2026-10-14,Europe,Supplier Portal,PO,Team A,Day,1,15.4
+INV-300894,2026-10-14,North America,Email,PO,Team D,Day,7,17.4
+INV-300895,2026-10-14,APAC,EDI,PO,Team B,Day,9,19.1
+INV-300896,2026-10-14,North America,Supplier Portal,PO,Team A,Day,16,30.9
+INV-300897,2026-10-15,North America,EDI,Non-PO,Team B,Day,6,34.3
+INV-300898,2026-10-15,North America,Supplier Portal,PO,Team D,Day,3,23.0
+INV-300899,2026-10-15,LATAM,EDI,PO,Team D,Night,12,14.5
+INV-300900,2026-10-15,LATAM,Paper,PO,Team C,Night,4,46.2
+INV-300901,2026-10-15,LATAM,EDI,PO,Team C,Day,4,22.3
+INV-300902,2026-10-15,North America,Supplier Portal,Non-PO,Team C,Night,7,27.5
+INV-300903,2026-10-15,North America,EDI,Non-PO,Team D,Night,4,18.3
+INV-300904,2026-10-15,North America,EDI,PO,Team C,Day,10,35.2
+INV-300905,2026-10-15,North America,EDI,PO,Team C,Night,9,20.6
+INV-300906,2026-10-15,North America,EDI,PO,Team A,Night,2,13.4
+INV-300907,2026-10-15,North America,Supplier Portal,Non-PO,Team C,Day,3,34.8
+INV-300908,2026-10-15,LATAM,Supplier Portal,Non-PO,Team C,Day,1,60.5
+INV-300909,2026-10-15,APAC,Email,PO,Team A,Night,2,26.9
+INV-300910,2026-10-16,North America,Supplier Portal,Non-PO,Team C,Day,6,28.6
+INV-300911,2026-10-16,Europe,EDI,Non-PO,Team D,Day,5,25.1
+INV-300912,2026-10-16,North America,Supplier Portal,PO,Team D,Day,3,31.9
+INV-300913,2026-10-16,APAC,Email,PO,Team D,Day,5,23.7
+INV-300914,2026-10-16,North America,EDI,PO,Team A,Night,7,13.1
+INV-300915,2026-10-16,Europe,Email,Non-PO,Team C,Day,13,48.0
+INV-300916,2026-10-16,North America,Email,PO,Team A,Day,7,42.3
+INV-300917,2026-10-16,North America,Email,PO,Team D,Day,5,23.1
+INV-300918,2026-10-16,Europe,EDI,Non-PO,Team A,Night,5,21.9
+INV-300919,2026-10-16,LATAM,Email,Non-PO,Team D,Day,4,56.7
+INV-300920,2026-10-16,Europe,Email,Non-PO,Team A,Night,2,28.4
+INV-300921,2026-10-16,North America,Paper,PO,Team B,Day,7,32.9
+INV-300922,2026-10-16,APAC,Paper,PO,Team B,Day,4,38.5
+INV-300923,2026-10-19,LATAM,Email,PO,Team B,Night,7,29.3
+INV-300924,2026-10-19,APAC,EDI,PO,Team C,Day,1,30.9
+INV-300925,2026-10-19,North America,EDI,PO,Team C,Day,15,25.1
+INV-300926,2026-10-19,North America,EDI,Non-PO,Team C,Day,4,37.4
+INV-300927,2026-10-19,LATAM,Supplier Portal,PO,Team D,Day,4,12.4
+INV-300928,2026-10-19,APAC,Email,PO,Team A,Day,11,28.4
+INV-300929,2026-10-19,North America,Email,Non-PO,Team A,Night,3,30.7
+INV-300930,2026-10-19,APAC,Supplier Portal,PO,Team A,Day,16,21.9
+INV-300931,2026-10-19,Europe,Email,Non-PO,Team C,Night,11,33.6
+INV-300932,2026-10-19,North America,Email,PO,Team C,Day,10,23.5
+INV-300933,2026-10-19,LATAM,Supplier Portal,PO,Team C,Day,3,24.2
+INV-300934,2026-10-19,LATAM,EDI,Non-PO,Team C,Day,6,35.1
+INV-300935,2026-10-20,North America,Email,PO,Team D,Night,5,26.8
+INV-300936,2026-10-20,Europe,Supplier Portal,Non-PO,Team B,Night,3,30.5
+INV-300937,2026-10-20,North America,Supplier Portal,Non-PO,Team D,Day,3,33.9
+INV-300938,2026-10-20,LATAM,Supplier Portal,PO,Team B,Day,2,19.4
+INV-300939,2026-10-20,North America,Supplier Portal,PO,Team D,Night,6,21.8
+INV-300940,2026-10-20,LATAM,EDI,Non-PO,Team A,Day,12,22.7
+INV-300941,2026-10-20,APAC,Supplier Portal,PO,Team D,Day,5,17.8
+INV-300942,2026-10-20,Europe,Email,PO,Team D,Night,4,14.7
+INV-300943,2026-10-20,North America,EDI,PO,Team A,Day,6,17.3
+INV-300944,2026-10-20,LATAM,Email,Non-PO,Team D,Day,27,59.8
+INV-300945,2026-10-20,Europe,Email,PO,Team A,Day,1,34.2
+INV-300946,2026-10-21,North America,EDI,PO,Team D,Night,8,16.2
+INV-300947,2026-10-21,APAC,Email,PO,Team A,Day,6,20.0
+INV-300948,2026-10-21,Europe,Email,PO,Team D,Day,9,38.0
+INV-300949,2026-10-21,Europe,Supplier Portal,PO,Team A,Day,4,28.7
+INV-300950,2026-10-21,Europe,Supplier Portal,PO,Team B,Day,5,23.3
+INV-300951,2026-10-21,North America,Supplier Portal,Non-PO,Team A,Day,6,28.2
+INV-300952,2026-10-21,North America,Supplier Portal,PO,Team B,Night,5,14.4
+INV-300953,2026-10-21,North America,Email,PO,Team D,Day,1,26.6
+INV-300954,2026-10-21,Europe,EDI,Non-PO,Team A,Day,3,19.7
+INV-300955,2026-10-21,North America,Paper,PO,Team B,Day,7,40.9
+INV-300956,2026-10-21,North America,EDI,PO,Team D,Night,4,14.6
+INV-300957,2026-10-21,Europe,Paper,Non-PO,Team A,Night,6,43.9
+INV-300958,2026-10-21,Europe,EDI,PO,Team C,Day,4,45.2
+INV-300959,2026-10-21,North America,Supplier Portal,PO,Team C,Day,8,54.0
+INV-300960,2026-10-22,Europe,EDI,PO,Team D,Day,6,20.7
+INV-300961,2026-10-22,North America,EDI,PO,Team C,Day,2,35.1
+INV-300962,2026-10-22,LATAM,EDI,Non-PO,Team A,Night,10,29.5
+INV-300963,2026-10-22,Europe,EDI,PO,Team A,Night,4,16.7
+INV-300964,2026-10-22,APAC,Paper,PO,Team A,Day,2,43.4
+INV-300965,2026-10-22,Europe,Supplier Portal,Non-PO,Team D,Day,7,20.9
+INV-300966,2026-10-22,Europe,Supplier Portal,PO,Team B,Day,3,16.8
+INV-300967,2026-10-22,LATAM,EDI,PO,Team D,Night,7,18.1
+INV-300968,2026-10-22,North America,EDI,PO,Team C,Night,2,47.0
+INV-300969,2026-10-22,Europe,Supplier Portal,PO,Team A,Day,4,11.7
+INV-300970,2026-10-22,APAC,Email,PO,Team A,Day,5,28.3
+INV-300971,2026-10-22,North America,EDI,PO,Team A,Day,9,17.5
+INV-300972,2026-10-22,North America,EDI,PO,Team C,Day,5,57.4
+INV-300973,2026-10-23,North America,Paper,PO,Team C,Night,14,57.6
+INV-300974,2026-10-23,North America,Supplier Portal,Non-PO,Team D,Night,1,24.4
+INV-300975,2026-10-23,North America,Email,PO,Team B,Day,7,29.5
+INV-300976,2026-10-23,North America,EDI,PO,Team A,Day,17,14.4
+INV-300977,2026-10-23,LATAM,Paper,PO,Team D,Day,4,47.0
+INV-300978,2026-10-23,LATAM,EDI,PO,Team A,Day,9,18.9
+INV-300979,2026-10-23,LATAM,EDI,Non-PO,Team C,Day,12,69.3
+INV-300980,2026-10-23,North America,Email,PO,Team C,Night,5,56.4
+INV-300981,2026-10-23,North America,EDI,PO,Team B,Day,15,23.2
+INV-300982,2026-10-23,LATAM,EDI,PO,Team C,Day,6,23.7
+INV-300983,2026-10-26,Europe,EDI,PO,Team A,Night,6,13.1
+INV-300984,2026-10-26,Europe,EDI,PO,Team D,Night,4,16.8
+INV-300985,2026-10-26,Europe,Supplier Portal,Non-PO,Team D,Night,5,20.9
+INV-300986,2026-10-26,LATAM,EDI,PO,Team D,Night,5,16.6
+INV-300987,2026-10-26,APAC,EDI,Non-PO,Team B,Night,24,23.1
+INV-300988,2026-10-26,LATAM,EDI,PO,Team B,Night,3,23.5
+INV-300989,2026-10-26,APAC,EDI,PO,Team B,Day,4,12.9
+INV-300990,2026-10-26,Europe,Email,PO,Team D,Day,5,25.7
+INV-300991,2026-10-26,LATAM,Supplier Portal,PO,Team B,Night,4,26.4
+INV-300992,2026-10-26,LATAM,EDI,PO,Team D,Day,10,19.5
+INV-300993,2026-10-26,North America,Email,Non-PO,Team A,Day,6,43.2
+INV-300994,2026-10-26,LATAM,Supplier Portal,Non-PO,Team A,Night,11,34.4
+INV-300995,2026-10-27,LATAM,Supplier Portal,Non-PO,Team B,Day,8,36.4
+INV-300996,2026-10-27,North America,Email,PO,Team A,Day,5,20.6
+INV-300997,2026-10-27,North America,Supplier Portal,PO,Team D,Day,6,18.9
+INV-300998,2026-10-27,Europe,EDI,PO,Team C,Day,1,47.9
+INV-300999,2026-10-27,Europe,Email,PO,Team A,Night,32,42.9
+INV-301000,2026-10-27,North America,Email,PO,Team D,Night,3,35.6
+INV-301001,2026-10-27,Europe,EDI,PO,Team B,Night,4,18.3
+INV-301002,2026-10-27,North America,EDI,PO,Team C,Day,8,32.2
+INV-301003,2026-10-27,LATAM,Supplier Portal,PO,Team C,Night,1,40.5
+INV-301004,2026-10-27,North America,Supplier Portal,PO,Team D,Day,15,20.6
+INV-301005,2026-10-27,Europe,Email,PO,Team B,Day,10,21.1
+INV-301006,2026-10-28,Europe,EDI,PO,Team C,Day,10,39.9
+INV-301007,2026-10-28,APAC,EDI,PO,Team A,Day,5,10.1
+INV-301008,2026-10-28,North America,EDI,PO,Team B,Day,8,23.5
+INV-301009,2026-10-28,Europe,Supplier Portal,Non-PO,Team B,Night,8,49.8
+INV-301010,2026-10-28,Europe,Email,PO,Team C,Day,3,44.3
+INV-301011,2026-10-28,Europe,Email,Non-PO,Team C,Day,5,57.9
+INV-301012,2026-10-28,North America,EDI,PO,Team A,Day,5,16.6
+INV-301013,2026-10-28,Europe,Supplier Portal,PO,Team D,Night,4,15.9
+INV-301014,2026-10-28,North America,Supplier Portal,Non-PO,Team D,Night,7,19.9
+INV-301015,2026-10-28,North America,EDI,PO,Team B,Day,3,21.7
+INV-301016,2026-10-28,Europe,Supplier Portal,PO,Team B,Night,10,31.9
+INV-301017,2026-10-28,LATAM,EDI,Non-PO,Team C,Day,2,32.2
+INV-301018,2026-10-28,North America,Supplier Portal,PO,Team D,Night,16,20.0
+INV-301019,2026-10-28,North America,Supplier Portal,PO,Team C,Day,17,34.1
+INV-301020,2026-10-29,Europe,Email,PO,Team A,Day,13,41.3
+INV-301021,2026-10-29,North America,Email,PO,Team D,Day,5,15.9
+INV-301022,2026-10-29,North America,Supplier Portal,PO,Team A,Night,4,17.8
+INV-301023,2026-10-29,LATAM,Supplier Portal,Non-PO,Team A,Day,6,20.6
+INV-301024,2026-10-29,North America,Supplier Portal,Non-PO,Team A,Day,14,26.5
+INV-301025,2026-10-29,APAC,Email,PO,Team A,Day,4,25.2
+INV-301026,2026-10-29,LATAM,Supplier Portal,PO,Team A,Day,7,14.1
+INV-301027,2026-10-29,North America,Email,PO,Team A,Night,5,38.4
+INV-301028,2026-10-29,LATAM,Email,Non-PO,Team A,Night,4,36.7
+INV-301029,2026-10-29,LATAM,Paper,Non-PO,Team B,Day,26,50.3
+INV-301030,2026-10-29,North America,Supplier Portal,PO,Team B,Night,6,21.3
+INV-301031,2026-10-30,North America,Supplier Portal,PO,Team C,Day,9,28.9
+INV-301032,2026-10-30,North America,Supplier Portal,Non-PO,Team D,Day,2,24.1
+INV-301033,2026-10-30,North America,Supplier Portal,Non-PO,Team C,Day,11,35.2
+INV-301034,2026-10-30,LATAM,Email,PO,Team B,Night,5,21.9
+INV-301035,2026-10-30,APAC,Supplier Portal,PO,Team B,Night,1,24.9
+INV-301036,2026-10-30,LATAM,EDI,Non-PO,Team A,Day,5,19.8
+INV-301037,2026-10-30,APAC,EDI,PO,Team C,Day,27,34.7
+INV-301038,2026-10-30,North America,EDI,PO,Team C,Night,6,18.8
+INV-301039,2026-10-30,Europe,Supplier Portal,Non-PO,Team C,Day,19,37.4
+INV-301040,2026-10-30,Europe,EDI,PO,Team D,Night,2,15.8
+INV-301041,2026-10-30,LATAM,EDI,PO,Team A,Day,3,13.9
+INV-301042,2026-10-30,North America,Supplier Portal,PO,Team B,Night,2,28.0
+INV-301043,2026-11-02,Europe,EDI,PO,Team A,Day,19,19.3
+INV-301044,2026-11-02,North America,Supplier Portal,PO,Team D,Night,10,26.9
+INV-301045,2026-11-02,Europe,Supplier Portal,Non-PO,Team D,Day,7,26.3
+INV-301046,2026-11-02,North America,EDI,PO,Team C,Night,5,15.2
+INV-301047,2026-11-02,North America,Supplier Portal,PO,Team B,Night,6,21.2
+INV-301048,2026-11-02,LATAM,Supplier Portal,PO,Team C,Night,12,30.7
+INV-301049,2026-11-02,APAC,Supplier Portal,PO,Team D,Night,3,15.9
+INV-301050,2026-11-02,North America,EDI,PO,Team A,Day,22,23.7
+INV-301051,2026-11-02,North America,EDI,PO,Team D,Day,3,16.3
+INV-301052,2026-11-02,North America,Supplier Portal,PO,Team D,Day,38,26.6
+INV-301053,2026-11-02,North America,Supplier Portal,PO,Team A,Night,8,15.7
+INV-301054,2026-11-03,LATAM,Supplier Portal,PO,Team B,Night,7,24.3
+INV-301055,2026-11-03,North America,Supplier Portal,Non-PO,Team A,Day,6,18.1
+INV-301056,2026-11-03,LATAM,Supplier Portal,PO,Team D,Night,5,17.7
+INV-301057,2026-11-03,LATAM,Supplier Portal,PO,Team C,Night,8,29.5
+INV-301058,2026-11-03,LATAM,Email,Non-PO,Team D,Night,6,37.5
+INV-301059,2026-11-03,LATAM,Supplier Portal,PO,Team A,Day,5,20.7
+INV-301060,2026-11-03,APAC,Supplier Portal,PO,Team D,Day,3,24.5
+INV-301061,2026-11-03,North America,EDI,Non-PO,Team D,Day,2,22.9
+INV-301062,2026-11-03,APAC,Supplier Portal,Non-PO,Team C,Night,18,33.2
+INV-301063,2026-11-03,Europe,EDI,PO,Team C,Day,2,16.4
+INV-301064,2026-11-03,Europe,Supplier Portal,PO,Team B,Day,4,28.0
+INV-301065,2026-11-03,APAC,EDI,PO,Team B,Day,4,22.8
+INV-301066,2026-11-03,APAC,Supplier Portal,Non-PO,Team A,Night,5,27.8
+INV-301067,2026-11-03,Europe,EDI,Non-PO,Team D,Day,20,24.8
+INV-301068,2026-11-04,APAC,Email,PO,Team B,Day,2,22.0
+INV-301069,2026-11-04,Europe,EDI,PO,Team C,Day,10,16.8
+INV-301070,2026-11-04,Europe,EDI,PO,Team A,Night,20,16.3
+INV-301071,2026-11-04,APAC,Supplier Portal,PO,Team A,Day,27,22.3
+INV-301072,2026-11-04,APAC,EDI,PO,Team C,Day,3,20.7
+INV-301073,2026-11-04,LATAM,Supplier Portal,PO,Team B,Day,7,27.3
+INV-301074,2026-11-04,North America,Email,PO,Team B,Night,4,39.3
+INV-301075,2026-11-04,Europe,EDI,PO,Team B,Day,34,19.8
+INV-301076,2026-11-04,Europe,EDI,PO,Team A,Day,1,15.5
+INV-301077,2026-11-04,Europe,Email,PO,Team B,Day,2,27.3
+INV-301078,2026-11-04,North America,Supplier Portal,PO,Team C,Day,3,25.8
+INV-301079,2026-11-04,North America,Email,PO,Team C,Day,6,33.6
+INV-301080,2026-11-05,LATAM,Email,PO,Team C,Day,3,31.3
+INV-301081,2026-11-05,North America,EDI,PO,Team B,Night,11,25.5
+INV-301082,2026-11-05,APAC,EDI,PO,Team D,Night,5,16.4
+INV-301083,2026-11-05,North America,EDI,Non-PO,Team B,Day,2,25.9
+INV-301084,2026-11-05,North America,Supplier Portal,PO,Team D,Night,39,31.0
+INV-301085,2026-11-05,North America,Supplier Portal,PO,Team B,Night,5,18.1
+INV-301086,2026-11-05,North America,Supplier Portal,Non-PO,Team A,Day,14,26.3
+INV-301087,2026-11-05,North America,Supplier Portal,Non-PO,Team A,Day,16,25.7
+INV-301088,2026-11-05,APAC,EDI,PO,Team C,Day,3,17.6
+INV-301089,2026-11-05,LATAM,EDI,Non-PO,Team B,Day,8,25.8
+INV-301090,2026-11-06,North America,Supplier Portal,Non-PO,Team A,Day,9,27.9
+INV-301091,2026-11-06,LATAM,Email,PO,Team B,Day,2,29.1
+INV-301092,2026-11-06,LATAM,Email,PO,Team C,Day,4,23.1
+INV-301093,2026-11-06,Europe,EDI,PO,Team A,Day,23,23.6
+INV-301094,2026-11-06,North America,EDI,PO,Team C,Night,8,17.7
+INV-301095,2026-11-06,LATAM,EDI,PO,Team A,Day,4,17.7
+INV-301096,2026-11-06,LATAM,EDI,PO,Team B,Night,7,12.8
+INV-301097,2026-11-06,Europe,Email,PO,Team C,Night,2,22.7
+INV-301098,2026-11-06,North America,Supplier Portal,PO,Team B,Day,9,18.1
+INV-301099,2026-11-06,Europe,Email,PO,Team A,Day,4,18.7
+INV-301100,2026-11-06,LATAM,Email,Non-PO,Team A,Night,7,36.8
+INV-301101,2026-11-06,APAC,Supplier Portal,Non-PO,Team C,Day,4,35.7
+INV-301102,2026-11-09,LATAM,Supplier Portal,PO,Team A,Day,12,24.1
+INV-301103,2026-11-09,LATAM,Supplier Portal,PO,Team B,Day,5,24.9
+INV-301104,2026-11-09,Europe,Supplier Portal,PO,Team D,Night,5,22.2
+INV-301105,2026-11-09,North America,Paper,PO,Team B,Day,6,26.8
+INV-301106,2026-11-09,LATAM,Email,PO,Team B,Night,11,18.5
+INV-301107,2026-11-09,APAC,EDI,PO,Team A,Day,7,12.1
+INV-301108,2026-11-09,North America,EDI,PO,Team D,Day,24,21.7
+INV-301109,2026-11-09,Europe,EDI,PO,Team C,Day,25,20.8
+INV-301110,2026-11-09,Europe,Supplier Portal,PO,Team D,Night,1,11.6
+INV-301111,2026-11-09,LATAM,EDI,Non-PO,Team B,Day,3,36.7
+INV-301112,2026-11-09,LATAM,EDI,PO,Team A,Day,4,15.9
+INV-301113,2026-11-09,Europe,Supplier Portal,PO,Team D,Day,4,15.9
+INV-301114,2026-11-09,Europe,Email,PO,Team A,Night,4,21.5
+INV-301115,2026-11-10,North America,EDI,Non-PO,Team A,Day,4,36
+INV-301116,2026-11-10,Europe,EDI,Non-PO,Team A,Night,2,30
+INV-301117,2026-11-10,Europe,Supplier Portal,PO,Team A,Night,12,37
+INV-301118,2026-11-10,Europe,Supplier Portal,Non-PO,Team C,Day,7,65
+INV-301119,2026-11-10,North America,Email,PO,Team C,Day,7,29
+INV-301120,2026-11-10,APAC,Supplier Portal,PO,Team D,Night,9,33
+INV-301121,2026-11-10,Europe,Supplier Portal,PO,Team C,Night,12,41
+INV-301122,2026-11-10,Europe,Supplier Portal,PO,Team D,Night,9,29
+INV-301123,2026-11-10,North America,Supplier Portal,PO,Team D,Day,3,30
+INV-301124,2026-11-10,APAC,EDI,PO,Team C,Night,9,24
+INV-301125,2026-11-10,LATAM,EDI,Non-PO,Team A,Night,7,35
+INV-301126,2026-11-10,Europe,Supplier Portal,PO,Team B,Day,3,25
+INV-301127,2026-11-11,LATAM,EDI,Non-PO,Team A,Day,5,32
+INV-301128,2026-11-11,North America,EDI,PO,Team B,Night,11,24
+INV-301129,2026-11-11,North America,EDI,PO,Team A,Day,6,27
+INV-301130,2026-11-11,North America,EDI,PO,Team A,Night,5,35
+INV-301131,2026-11-11,North America,EDI,PO,Team B,Night,6,28
+INV-301132,2026-11-11,North America,Email,PO,Team D,Day,4,30
+INV-301133,2026-11-11,LATAM,Supplier Portal,PO,Team B,Day,4,32
+INV-301134,2026-11-11,Europe,Supplier Portal,Non-PO,Team C,Day,1,35
+INV-301135,2026-11-11,North America,Supplier Portal,PO,Team A,Night,4,28
+INV-301136,2026-11-11,LATAM,Email,Non-PO,Team A,Night,3,40
+INV-301137,2026-11-12,LATAM,Supplier Portal,PO,Team A,Day,13,29
+INV-301138,2026-11-12,North America,Email,PO,Team C,Day,6,44
+INV-301139,2026-11-12,APAC,Supplier Portal,PO,Team B,Day,5,33
+INV-301140,2026-11-12,North America,EDI,PO,Team C,Day,9,34
+INV-301141,2026-11-12,North America,EDI,PO,Team C,Night,2,24
+INV-301142,2026-11-12,Europe,EDI,PO,Team A,Night,8,22
+INV-301143,2026-11-12,APAC,Email,Non-PO,Team D,Day,3,41
+INV-301144,2026-11-12,North America,EDI,PO,Team B,Day,6,30
+INV-301145,2026-11-12,North America,Email,PO,Team C,Day,7,47
+INV-301146,2026-11-12,APAC,Supplier Portal,PO,Team A,Day,14,34
+INV-301147,2026-11-12,LATAM,EDI,PO,Team A,Night,4,31
+INV-301148,2026-11-12,North America,EDI,PO,Team B,Night,3,27
+INV-301149,2026-11-12,North America,EDI,PO,Team D,Night,5,23
+INV-301150,2026-11-12,North America,EDI,Non-PO,Team A,Day,6,40
+INV-301151,2026-11-13,North America,EDI,PO,Team C,Day,20,28
+INV-301152,2026-11-13,LATAM,Email,Non-PO,Team C,Day,13,52
+INV-301153,2026-11-13,LATAM,EDI,Non-PO,Team C,Day,2,33
+INV-301154,2026-11-13,Europe,Email,Non-PO,Team D,Day,3,48
+INV-301155,2026-11-13,North America,Email,PO,Team A,Day,2,32
+INV-301156,2026-11-13,North America,EDI,PO,Team C,Night,11,32
+INV-301157,2026-11-13,APAC,Supplier Portal,Non-PO,Team C,Day,4,36
+INV-301158,2026-11-13,Europe,Supplier Portal,PO,Team A,Day,7,33
+INV-301159,2026-11-13,Europe,Email,PO,Team C,Night,7,42
+INV-301160,2026-11-13,North America,Supplier Portal,PO,Team A,Night,6,31
+INV-301161,2026-11-13,North America,Supplier Portal,PO,Team A,Night,5,33
+INV-301162,2026-11-13,Europe,EDI,PO,Team C,Night,5,24
+INV-301163,2026-11-13,North America,Supplier Portal,PO,Team B,Night,25,33
+INV-301164,2026-11-16,North America,Supplier Portal,PO,Team A,Night,6,27
+INV-301165,2026-11-16,North America,Supplier Portal,Non-PO,Team B,Day,8,36
+INV-301166,2026-11-16,North America,EDI,Non-PO,Team D,Night,3,36
+INV-301167,2026-11-16,LATAM,EDI,PO,Team C,Night,5,27
+INV-301168,2026-11-16,LATAM,Email,PO,Team B,Night,6,40
+INV-301169,2026-11-16,North America,Email,PO,Team A,Day,4,42
+INV-301170,2026-11-16,Europe,Paper,Non-PO,Team B,Night,4,54
+INV-301171,2026-11-16,North America,EDI,PO,Team D,Day,11,37
+INV-301172,2026-11-16,LATAM,Email,PO,Team B,Night,10,36
+INV-301173,2026-11-16,Europe,Supplier Portal,PO,Team B,Day,4,29
+INV-301174,2026-11-16,North America,EDI,PO,Team C,Night,3,28
+INV-301175,2026-11-17,North America,EDI,PO,Team A,Day,18,27
+INV-301176,2026-11-17,APAC,EDI,Non-PO,Team C,Day,4,42
+INV-301177,2026-11-17,North America,Email,PO,Team D,Night,4,41
+INV-301178,2026-11-17,Europe,Supplier Portal,PO,Team B,Day,3,32
+INV-301179,2026-11-17,Europe,Email,PO,Team C,Day,7,42
+INV-301180,2026-11-17,Europe,Supplier Portal,PO,Team C,Day,4,30
+INV-301181,2026-11-17,LATAM,Email,PO,Team B,Night,3,61
+INV-301182,2026-11-17,North America,EDI,PO,Team D,Day,10,28
+INV-301183,2026-11-17,Europe,Supplier Portal,PO,Team D,Night,6,36
+INV-301184,2026-11-17,North America,Supplier Portal,PO,Team C,Night,5,30
+INV-301185,2026-11-17,LATAM,EDI,PO,Team D,Day,7,23
+INV-301186,2026-11-18,Europe,Supplier Portal,PO,Team D,Night,2,24
+INV-301187,2026-11-18,APAC,Email,PO,Team A,Day,1,36
+INV-301188,2026-11-18,Europe,EDI,PO,Team C,Day,8,28
+INV-301189,2026-11-18,North America,EDI,PO,Team B,Night,14,32
+INV-301190,2026-11-18,North America,Supplier Portal,PO,Team B,Day,2,27
+INV-301191,2026-11-18,Europe,Email,PO,Team B,Night,5,45
+INV-301192,2026-11-18,North America,Email,PO,Team D,Day,5,32
+INV-301193,2026-11-18,LATAM,Supplier Portal,PO,Team C,Day,10,29
+INV-301194,2026-11-18,Europe,Supplier Portal,PO,Team B,Night,8,32
+INV-301195,2026-11-18,Europe,Email,Non-PO,Team A,Day,6,56
+INV-301196,2026-11-18,Europe,Supplier Portal,Non-PO,Team B,Night,5,52
+INV-301197,2026-11-18,Europe,Paper,Non-PO,Team A,Night,9,60
+INV-301198,2026-11-19,North America,EDI,Non-PO,Team C,Day,15,31
+INV-301199,2026-11-19,North America,EDI,Non-PO,Team B,Night,9,42
+INV-301200,2026-11-19,Europe,Email,PO,Team B,Day,5,43
+INV-301201,2026-11-19,APAC,EDI,PO,Team D,Day,11,33
+INV-301202,2026-11-19,North America,EDI,PO,Team D,Day,7,21
+INV-301203,2026-11-19,LATAM,Supplier Portal,Non-PO,Team C,Night,1,35
+INV-301204,2026-11-19,North America,EDI,PO,Team A,Night,17,28
+INV-301205,2026-11-19,Europe,EDI,Non-PO,Team B,Night,15,29
+INV-301206,2026-11-19,North America,Email,Non-PO,Team C,Day,9,48
+INV-301207,2026-11-19,North America,Supplier Portal,Non-PO,Team D,Day,9,37
+INV-301208,2026-11-20,LATAM,EDI,Non-PO,Team C,Day,1,38
+INV-301209,2026-11-20,North America,EDI,PO,Team A,Day,8,23
+INV-301210,2026-11-20,APAC,Email,PO,Team B,Night,6,29
+INV-301211,2026-11-20,Europe,EDI,Non-PO,Team D,Day,2,36
+INV-301212,2026-11-20,Europe,EDI,Non-PO,Team C,Night,7,39
+INV-301213,2026-11-20,Europe,Supplier Portal,PO,Team C,Day,5,31
+INV-301214,2026-11-20,North America,Email,PO,Team A,Day,6,38
+INV-301215,2026-11-20,Europe,EDI,PO,Team D,Day,21,34
+INV-301216,2026-11-20,Europe,Supplier Portal,Non-PO,Team A,Day,6,45
+INV-301217,2026-11-20,Europe,Email,PO,Team C,Night,3,49
+INV-301218,2026-11-20,Europe,EDI,PO,Team C,Day,10,26
+INV-301219,2026-11-20,LATAM,EDI,PO,Team A,Day,7,32
+INV-301220,2026-11-20,Europe,Supplier Portal,PO,Team A,Night,11,27
+INV-301221,2026-11-23,APAC,EDI,PO,Team B,Night,4,27
+INV-301222,2026-11-23,Europe,Supplier Portal,PO,Team C,Day,2,32
+INV-301223,2026-11-23,APAC,EDI,PO,Team D,Day,3,26
+INV-301224,2026-11-23,Europe,EDI,PO,Team C,Night,2,28
+INV-301225,2026-11-23,North America,Email,PO,Team B,Night,12,39
+INV-301226,2026-11-23,Europe,EDI,PO,Team C,Day,11,35
+INV-301227,2026-11-23,North America,Supplier Portal,PO,Team B,Night,6,27
+INV-301228,2026-11-23,North America,Email,Non-PO,Team A,Night,4,61
+INV-301229,2026-11-23,Europe,EDI,PO,Team B,Day,5,21
+INV-301230,2026-11-23,Europe,EDI,PO,Team A,Day,20,29
+INV-301231,2026-11-24,Europe,Paper,Non-PO,Team C,Day,7,49
+INV-301232,2026-11-24,North America,Supplier Portal,Non-PO,Team B,Night,2,34
+INV-301233,2026-11-24,Europe,Supplier Portal,Non-PO,Team D,Day,5,39
+INV-301234,2026-11-24,North America,EDI,PO,Team B,Night,10,38
+INV-301235,2026-11-24,APAC,Email,PO,Team A,Day,3,35
+INV-301236,2026-11-24,Europe,EDI,PO,Team C,Day,5,26
+INV-301237,2026-11-24,APAC,Supplier Portal,PO,Team A,Day,3,34
+INV-301238,2026-11-24,North America,EDI,Non-PO,Team B,Day,5,34
+INV-301239,2026-11-24,Europe,Supplier Portal,PO,Team D,Night,8,35
+INV-301240,2026-11-24,North America,Supplier Portal,PO,Team B,Day,4,33
+INV-301241,2026-11-24,Europe,EDI,PO,Team D,Day,3,28
+INV-301242,2026-11-24,LATAM,EDI,PO,Team D,Day,3,40
+INV-301243,2026-11-24,North America,Supplier Portal,Non-PO,Team B,Day,9,30
+INV-301244,2026-11-24,North America,Supplier Portal,PO,Team B,Day,8,32
+INV-301245,2026-11-25,LATAM,Supplier Portal,PO,Team A,Night,6,34
+INV-301246,2026-11-25,Europe,Supplier Portal,PO,Team B,Day,7,32
+INV-301247,2026-11-25,Europe,EDI,PO,Team A,Day,1,22
+INV-301248,2026-11-25,LATAM,EDI,Non-PO,Team C,Night,2,34
+INV-301249,2026-11-25,North America,Email,PO,Team D,Day,10,40
+INV-301250,2026-11-25,APAC,EDI,PO,Team D,Day,6,31
+INV-301251,2026-11-25,Europe,Supplier Portal,PO,Team D,Day,4,30
+INV-301252,2026-11-25,Europe,Email,PO,Team C,Night,7,33
+INV-301253,2026-11-25,APAC,EDI,Non-PO,Team B,Day,4,28
+INV-301254,2026-11-25,Europe,Supplier Portal,Non-PO,Team D,Day,22,44
+INV-301255,2026-11-25,Europe,EDI,Non-PO,Team A,Day,6,37
+INV-301256,2026-11-26,North America,Supplier Portal,Non-PO,Team A,Day,6,33
+INV-301257,2026-11-26,North America,Supplier Portal,PO,Team B,Day,3,26
+INV-301258,2026-11-26,North America,Supplier Portal,Non-PO,Team A,Night,5,45
+INV-301259,2026-11-26,Europe,Supplier Portal,Non-PO,Team D,Day,19,42
+INV-301260,2026-11-26,North America,EDI,Non-PO,Team C,Day,3,36
+INV-301261,2026-11-26,Europe,Supplier Portal,PO,Team D,Night,6,31
+INV-301262,2026-11-26,APAC,Supplier Portal,PO,Team B,Day,8,37
+INV-301263,2026-11-26,North America,Supplier Portal,PO,Team D,Night,2,22
+INV-301264,2026-11-26,Europe,EDI,PO,Team A,Day,14,31
+INV-301265,2026-11-26,Europe,Email,PO,Team C,Night,5,38
+INV-301266,2026-11-26,Europe,Supplier Portal,PO,Team B,Night,9,33
+INV-301267,2026-11-26,Europe,EDI,Non-PO,Team C,Day,11,32
+INV-301268,2026-11-26,APAC,Email,PO,Team C,Day,5,33
+INV-301269,2026-11-26,Europe,Supplier Portal,PO,Team A,Night,6,30
+INV-301270,2026-11-27,North America,EDI,Non-PO,Team B,Day,3,33
+INV-301271,2026-11-27,North America,EDI,PO,Team A,Day,3,25
+INV-301272,2026-11-27,North America,EDI,PO,Team A,Night,2,28
+INV-301273,2026-11-27,Europe,Supplier Portal,PO,Team B,Day,4,28
+INV-301274,2026-11-27,Europe,Email,Non-PO,Team D,Night,10,51
+INV-301275,2026-11-27,Europe,EDI,Non-PO,Team C,Day,20,38
+INV-301276,2026-11-27,North America,Email,PO,Team B,Day,6,46
+INV-301277,2026-11-27,LATAM,Supplier Portal,PO,Team A,Day,2,32
+INV-301278,2026-11-27,North America,EDI,Non-PO,Team C,Night,20,40
+INV-301279,2026-11-27,Europe,EDI,PO,Team D,Day,3,24
+INV-301280,2026-11-27,APAC,EDI,Non-PO,Team D,Night,3,34
+INV-301281,2026-11-27,North America,Supplier Portal,PO,Team C,Day,2,26
+INV-301282,2026-11-27,APAC,Email,Non-PO,Team A,Night,4,49
+INV-301283,2026-11-30,Europe,Supplier Portal,Non-PO,Team A,Night,14,38
+INV-301284,2026-11-30,Europe,EDI,PO,Team B,Day,2,26
+INV-301285,2026-11-30,Europe,EDI,PO,Team C,Day,2,24
+INV-301286,2026-11-30,North America,Supplier Portal,PO,Team A,Night,3,27
+INV-301287,2026-11-30,North America,Supplier Portal,PO,Team A,Night,4,27
+INV-301288,2026-11-30,APAC,EDI,PO,Team B,Night,3,27
+INV-301289,2026-11-30,APAC,EDI,PO,Team D,Day,20,25
+INV-301290,2026-11-30,Europe,Supplier Portal,PO,Team A,Night,12,29
+INV-301291,2026-11-30,North America,EDI,PO,Team B,Day,22,42
+INV-301292,2026-11-30,North America,Supplier Portal,PO,Team B,Day,7,30
+INV-301293,2026-11-30,Europe,Supplier Portal,PO,Team D,Day,5,27
+INV-301294,2026-11-30,APAC,EDI,PO,Team A,Night,5,34
+INV-301295,2026-11-30,LATAM,Supplier Portal,PO,Team C,Day,12,38
+INV-301296,2026-11-30,North America,EDI,Non-PO,Team C,Day,7,26
+INV-301297,2026-12-01,LATAM,Email,PO,Team D,Day,5,51
+INV-301298,2026-12-01,APAC,Email,PO,Team D,Day,5,37
+INV-301299,2026-12-01,APAC,Email,PO,Team C,Day,10,53
+INV-301300,2026-12-01,LATAM,EDI,PO,Team A,Day,4,31
+INV-301301,2026-12-01,Europe,EDI,PO,Team C,Night,13,28
+INV-301302,2026-12-01,North America,Supplier Portal,Non-PO,Team A,Day,4,36
+INV-301303,2026-12-01,North America,Supplier Portal,PO,Team B,Day,8,31
+INV-301304,2026-12-01,Europe,Email,Non-PO,Team C,Day,6,50
+INV-301305,2026-12-01,North America,Supplier Portal,Non-PO,Team B,Day,3,47
+INV-301306,2026-12-01,North America,Email,PO,Team A,Day,13,47
+INV-301307,2026-12-01,North America,Supplier Portal,Non-PO,Team C,Day,18,41
+INV-301308,2026-12-01,Europe,EDI,PO,Team C,Night,6,26
+INV-301309,2026-12-02,Europe,EDI,PO,Team D,Night,11,29
+INV-301310,2026-12-02,North America,Email,Non-PO,Team A,Day,3,43
+INV-301311,2026-12-02,APAC,Supplier Portal,PO,Team A,Day,14,32
+INV-301312,2026-12-02,Europe,Supplier Portal,Non-PO,Team A,Night,10,35
+INV-301313,2026-12-02,Europe,EDI,Non-PO,Team C,Day,8,35
+INV-301314,2026-12-02,Europe,Supplier Portal,Non-PO,Team C,Day,3,32
+INV-301315,2026-12-02,Europe,EDI,PO,Team B,Night,9,25
+INV-301316,2026-12-02,North America,Supplier Portal,PO,Team C,Day,4,30
+INV-301317,2026-12-02,Europe,EDI,PO,Team C,Night,6,25
+INV-301318,2026-12-02,Europe,EDI,PO,Team B,Day,5,27
+INV-301319,2026-12-02,Europe,Supplier Portal,PO,Team D,Day,5,34
+INV-301320,2026-12-02,LATAM,Supplier Portal,PO,Team B,Day,7,31
+INV-301321,2026-12-03,APAC,EDI,PO,Team B,Day,5,33
+INV-301322,2026-12-03,Europe,EDI,Non-PO,Team A,Day,11,25
+INV-301323,2026-12-03,Europe,EDI,PO,Team D,Day,4,28
+INV-301324,2026-12-03,Europe,Supplier Portal,Non-PO,Team D,Night,21,41
+INV-301325,2026-12-03,APAC,Email,Non-PO,Team B,Day,5,51
+INV-301326,2026-12-03,LATAM,Email,PO,Team D,Day,4,46
+INV-301327,2026-12-03,North America,Supplier Portal,Non-PO,Team D,Night,1,41
+INV-301328,2026-12-03,North America,Email,PO,Team A,Day,3,39
+INV-301329,2026-12-03,North America,EDI,PO,Team A,Day,4,23
+INV-301330,2026-12-03,LATAM,EDI,Non-PO,Team A,Night,6,30
+INV-301331,2026-12-04,LATAM,EDI,PO,Team D,Night,15,27
+INV-301332,2026-12-04,APAC,EDI,PO,Team B,Night,6,24
+INV-301333,2026-12-04,Europe,Supplier Portal,PO,Team D,Night,9,35
+INV-301334,2026-12-04,North America,EDI,PO,Team C,Day,4,30
+INV-301335,2026-12-04,North America,EDI,Non-PO,Team B,Day,3,36
+INV-301336,2026-12-04,LATAM,Email,PO,Team C,Night,5,36
+INV-301337,2026-12-04,LATAM,Supplier Portal,Non-PO,Team B,Day,22,48
+INV-301338,2026-12-04,North America,EDI,PO,Team B,Day,5,22
+INV-301339,2026-12-04,North America,EDI,PO,Team B,Day,1,28
+INV-301340,2026-12-04,Europe,Supplier Portal,Non-PO,Team C,Day,3,32
+INV-301341,2026-12-04,North America,EDI,PO,Team D,Day,10,26
+INV-301342,2026-12-04,North America,Supplier Portal,PO,Team C,Night,9,30
+INV-301343,2026-12-04,APAC,EDI,PO,Team D,Night,3,21
+INV-301344,2026-12-04,North America,EDI,PO,Team C,Day,2,26
+INV-301345,2026-12-07,Europe,EDI,PO,Team B,Night,12,24
+INV-301346,2026-12-07,North America,EDI,PO,Team A,Day,5,23
+INV-301347,2026-12-07,Europe,Email,Non-PO,Team B,Day,4,45
+INV-301348,2026-12-07,Europe,Email,PO,Team B,Day,3,32
+INV-301349,2026-12-07,North America,Email,PO,Team A,Night,2,38
+INV-301350,2026-12-07,Europe,Email,Non-PO,Team C,Day,14,38
+INV-301351,2026-12-07,LATAM,EDI,Non-PO,Team C,Day,1,38
+INV-301352,2026-12-07,Europe,Supplier Portal,PO,Team D,Night,2,25
+INV-301353,2026-12-07,LATAM,EDI,Non-PO,Team B,Day,6,35
+INV-301354,2026-12-07,Europe,Supplier Portal,PO,Team D,Day,9,30
+INV-301355,2026-12-07,North America,Supplier Portal,Non-PO,Team B,Night,3,42
+INV-301356,2026-12-07,Europe,Supplier Portal,Non-PO,Team D,Night,3,37
+INV-301357,2026-12-07,APAC,Supplier Portal,PO,Team A,Night,4,34
+INV-301358,2026-12-08,North America,Supplier Portal,PO,Team A,Day,2,26
+INV-301359,2026-12-08,Europe,EDI,PO,Team A,Day,6,22
+INV-301360,2026-12-08,LATAM,EDI,PO,Team B,Night,13,30
+INV-301361,2026-12-08,APAC,EDI,Non-PO,Team B,Night,8,33
+INV-301362,2026-12-08,Europe,EDI,Non-PO,Team A,Night,16,32
+INV-301363,2026-12-08,North America,EDI,PO,Team D,Day,2,31
+INV-301364,2026-12-08,Europe,Email,Non-PO,Team A,Day,9,41
+INV-301365,2026-12-08,Europe,EDI,Non-PO,Team B,Night,4,30
+INV-301366,2026-12-08,APAC,EDI,PO,Team B,Night,4,26
+INV-301367,2026-12-08,Europe,Supplier Portal,PO,Team C,Day,2,31
+INV-301368,2026-12-08,APAC,EDI,PO,Team A,Night,10,30
+INV-301369,2026-12-08,Europe,EDI,Non-PO,Team B,Day,9,32
+INV-301370,2026-12-08,North America,EDI,PO,Team A,Day,6,24
+INV-301371,2026-12-08,LATAM,EDI,PO,Team A,Night,3,24
+INV-301372,2026-12-09,North America,EDI,PO,Team B,Day,8,26
+INV-301373,2026-12-09,APAC,Email,PO,Team B,Day,6,46
+INV-301374,2026-12-09,North America,EDI,Non-PO,Team A,Day,5,27
+INV-301375,2026-12-09,North America,EDI,PO,Team C,Day,3,26
+INV-301376,2026-12-09,Europe,EDI,PO,Team D,Day,10,33
+INV-301377,2026-12-09,APAC,Email,PO,Team D,Night,3,46
+INV-301378,2026-12-09,North America,EDI,PO,Team C,Night,3,28
+INV-301379,2026-12-09,North America,Supplier Portal,Non-PO,Team A,Day,2,43
+INV-301380,2026-12-09,North America,EDI,PO,Team A,Day,2,25
+INV-301381,2026-12-09,North America,Email,PO,Team A,Night,4,36
+INV-301382,2026-12-09,North America,EDI,PO,Team C,Day,21,36
+INV-301383,2026-12-09,APAC,Supplier Portal,PO,Team C,Day,8,28
+INV-301384,2026-12-09,Europe,EDI,PO,Team B,Day,7,30
+INV-301385,2026-12-10,Europe,Supplier Portal,PO,Team B,Day,6,22
+INV-301386,2026-12-10,North America,EDI,PO,Team B,Day,6,26
+INV-301387,2026-12-10,LATAM,Email,PO,Team B,Day,3,35
+INV-301388,2026-12-10,Europe,Supplier Portal,PO,Team C,Night,5,29
+INV-301389,2026-12-10,APAC,Supplier Portal,Non-PO,Team D,Night,14,37
+INV-301390,2026-12-10,Europe,Supplier Portal,PO,Team B,Day,2,26
+INV-301391,2026-12-10,North America,Email,PO,Team A,Day,5,41
+INV-301392,2026-12-10,Europe,EDI,PO,Team D,Night,5,23
+INV-301393,2026-12-10,North America,EDI,PO,Team B,Day,3,31
+INV-301394,2026-12-10,APAC,Supplier Portal,Non-PO,Team B,Day,3,40
+INV-301395,2026-12-10,North America,Supplier Portal,Non-PO,Team A,Night,4,42
+INV-301396,2026-12-10,North America,EDI,PO,Team A,Day,3,20
+INV-301397,2026-12-10,North America,Email,Non-PO,Team D,Night,12,46
+INV-301398,2026-12-11,Europe,Email,PO,Team A,Day,3,34
+INV-301399,2026-12-11,Europe,EDI,PO,Team C,Night,5,30
+INV-301400,2026-12-11,North America,EDI,PO,Team D,Day,5,31
+INV-301401,2026-12-11,LATAM,Supplier Portal,PO,Team D,Day,4,28
+INV-301402,2026-12-11,North America,EDI,Non-PO,Team B,Night,8,28
+INV-301403,2026-12-11,North America,Paper,Non-PO,Team A,Day,11,48
+INV-301404,2026-12-11,North America,EDI,PO,Team A,Day,7,29
+INV-301405,2026-12-11,North America,Supplier Portal,PO,Team A,Day,4,21
+INV-301406,2026-12-11,APAC,EDI,PO,Team B,Night,27,33
+INV-301407,2026-12-11,LATAM,EDI,PO,Team A,Day,6,24
+INV-301408,2026-12-14,APAC,Supplier Portal,PO,Team B,Day,3,31
+INV-301409,2026-12-14,North America,EDI,Non-PO,Team B,Day,4,34
+INV-301410,2026-12-14,Europe,Supplier Portal,PO,Team B,Day,7,32
+INV-301411,2026-12-14,Europe,EDI,Non-PO,Team B,Night,3,32
+INV-301412,2026-12-14,North America,EDI,PO,Team B,Night,9,26
+INV-301413,2026-12-14,North America,Supplier Portal,PO,Team C,Night,6,34
+INV-301414,2026-12-14,APAC,EDI,Non-PO,Team C,Night,10,34
+INV-301415,2026-12-14,LATAM,EDI,PO,Team C,Day,2,26
+INV-301416,2026-12-14,Europe,EDI,PO,Team A,Day,2,28
+INV-301417,2026-12-14,North America,EDI,PO,Team D,Day,16,32
+INV-301418,2026-12-14,APAC,Supplier Portal,PO,Team B,Night,5,28
+INV-301419,2026-12-14,North America,EDI,PO,Team C,Day,8,28
+INV-301420,2026-12-14,North America,Supplier Portal,PO,Team C,Night,6,36
+INV-301421,2026-12-15,LATAM,Email,PO,Team B,Day,8,41
+INV-301422,2026-12-15,North America,EDI,Non-PO,Team A,Day,13,44
+INV-301423,2026-12-15,APAC,EDI,PO,Team A,Day,6,28
+INV-301424,2026-12-15,APAC,Email,PO,Team C,Day,16,35
+INV-301425,2026-12-15,North America,EDI,PO,Team B,Day,6,31
+INV-301426,2026-12-15,North America,EDI,Non-PO,Team A,Day,3,31
+INV-301427,2026-12-15,Europe,EDI,Non-PO,Team C,Day,4,31
+INV-301428,2026-12-15,Europe,EDI,PO,Team C,Night,10,26
+INV-301429,2026-12-15,North America,EDI,PO,Team B,Day,5,35
+INV-301430,2026-12-15,North America,Supplier Portal,Non-PO,Team C,Night,11,34
+INV-301431,2026-12-15,North America,Supplier Portal,PO,Team B,Day,12,24
+INV-301432,2026-12-15,North America,EDI,Non-PO,Team B,Night,6,22
+INV-301433,2026-12-15,APAC,Supplier Portal,PO,Team B,Day,12,33
